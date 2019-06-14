@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic
+namespace Data.Models
 {
-    public class Class1
+    public class Retirement
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
