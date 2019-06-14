@@ -36,8 +36,8 @@ namespace Data.Models
         public bool? RetirementInsuranceCompanyException { get; set; }
 
         //číselníky
-        public int State { get; set; }
-        public int HealthInsuranceCompany { get; set; }
+        public int IdState { get; set; }
+        public int IdHealthInsuranceCompany { get; set; }
         public int? IdRetirement { get; set; }
 
         //FK
