@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic
+namespace Data.Registers
 {
-    public class Class1
+    public class WorkHours
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

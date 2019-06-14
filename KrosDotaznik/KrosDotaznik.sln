@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrosDotaznik", "KrosDotazni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{49D579A4-1415-467B-928E-D20E6500F6E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{A9C5D643-3698-485E-B66F-DA8D8539E14B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49D579A4-1415-467B-928E-D20E6500F6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D579A4-1415-467B-928E-D20E6500F6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D579A4-1415-467B-928E-D20E6500F6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C5D643-3698-485E-B66F-DA8D8539E14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C5D643-3698-485E-B66F-DA8D8539E14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C5D643-3698-485E-B66F-DA8D8539E14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C5D643-3698-485E-B66F-DA8D8539E14B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
