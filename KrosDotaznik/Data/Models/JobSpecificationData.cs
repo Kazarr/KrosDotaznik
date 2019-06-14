@@ -15,10 +15,10 @@ namespace Data.Models
         public DateTime EndOfTrial { get; set; }
         public string WorkPlace { get; set; }
 
-        public int WorkExpiration { get; set; }
-        public int Department { get; set; }
-        public int WorkType { get; set; }
-        public int WorkHours { get; set; }
-        public int WorkPosition { get; set; }
+        public int IdWorkExpiration { get; set; }
+        public int IdDepartment { get; set; }
+        public int IdWorkType { get; set; }
+        public int IdWorkHours { get; set; }
+        public int IdWorkPosition { get; set; }
     }
 }
