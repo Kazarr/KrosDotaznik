@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class AccessData
+    public class Access
     {
         public int Id { get; set; }
         public string PayPassword { get; set; }

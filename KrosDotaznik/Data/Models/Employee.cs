@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Registers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class EmployeeData
+    public class Employee
     {
-        //PK
         public int Id { get; set; }
 
         //Properties
@@ -35,18 +35,18 @@ namespace Data.Models
         public DateTime? RetiredSince { get; set; }
         public bool? RetirementInsuranceCompanyException { get; set; }
 
-        //číselníky
-        public int IdState { get; set; }
-        public int IdHealthInsuranceCompany { get; set; }
-        public int? IdRetirement { get; set; }
+        public State State { get; set; }
+        public HealthInsurance HealthInsuranceCompany { get; set; }
+        public Retirement Retirement { get; set; }
 
-        //FK
-        public int IdAddressData { get; set; }
-        public int? IdTemporaryAdressDdata { get; set; }
-        public int IdAccessData { get; set; }
-        public int IdHighEducationData { get; set; }
-        public int? IdCurrentEducationData { get; set; }
-        public int? IdPreviousJobData { get; set; }
-        public int IdJobSpecificationData { get; set; }
+        public Address AddressData { get; set; }
+        public Address TemporaryAdressDdata { get; set; }
+        public Access AccessData { get; set; }
+        public Education HighEducationData { get; set; }
+        public Education CurrentEducationData { get; set; }
+        public PreviousJob PreviousJobData { get; set; }
+        public JobSpecification JobSpecificationData { get; set; }
+        public List<Child> Children { get; set; }
+
     }
 }
