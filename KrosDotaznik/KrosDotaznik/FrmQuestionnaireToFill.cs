@@ -48,7 +48,7 @@ namespace KrosDotaznik
         }
         private void Jahoda()
         {
-            groupBox1.Visible = false;
+            //grBoxContactsAndAddress.Visible = false;
         }
     }
 }
