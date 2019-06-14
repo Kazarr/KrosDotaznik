@@ -14,6 +14,6 @@ namespace Data.Models
         public string Major { get; set; }
         public DateTime EndYear { get; set; }
 
-        public int EducationLevel { get; set; }
+        public int IdEducationLevel { get; set; }
     }
 }
