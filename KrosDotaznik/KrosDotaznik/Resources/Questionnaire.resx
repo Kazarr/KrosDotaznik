@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAddressCity" xml:space="preserve">
+    <value>Obec/Mesto</value>
+  </data>
+  <data name="lblAddressPostalCode" xml:space="preserve">
+    <value>PSČ</value>
+  </data>
+  <data name="lblAddressStreet" xml:space="preserve">
+    <value>Ulica, číslo</value>
+  </data>
+  <data name="lblAlarmPin" xml:space="preserve">
+    <value>PIN na alarm</value>
+  </data>
+  <data name="lblBankAcc" xml:space="preserve">
+    <value>Číslo bankového účtu</value>
+  </data>
+  <data name="lblBirthDate" xml:space="preserve">
+    <value>Dátum narodenia</value>
+  </data>
+  <data name="lblChildBirthDate" xml:space="preserve">
+    <value>Dátum narodenia </value>
+  </data>
+  <data name="lblChildFullName" xml:space="preserve">
+    <value>Meno a priezvisko dieťaťa</value>
+  </data>
+  <data name="lblChildInfo" xml:space="preserve">
+    <value>ÚDAJE O DEŤOCH</value>
+  </data>
+  <data name="lblCitizenShip" xml:space="preserve">
+    <value>Štátna príslušnosť</value>
+  </data>
+  <data name="lblContactAddress" xml:space="preserve">
+    <value>KONTAKTY, ADRESY</value>
+  </data>
+  <data name="lblCurrentStudy" xml:space="preserve">
+    <value>Súčasné štúdium</value>
+  </data>
+  <data name="lblEducation" xml:space="preserve">
+    <value>ÚDAJE O VZDELANÍ</value>
+  </data>
+  <data name="lblEmployer" xml:space="preserve">
+    <value>Zamestnávateľ</value>
+  </data>
+  <data name="lblException" xml:space="preserve">
+    <value>Len dohody: výnimka z dôchodkového poistenia</value>
+  </data>
+  <data name="lblGender" xml:space="preserve">
+    <value>Pohlavie</value>
+  </data>
+  <data name="lblHandicap" xml:space="preserve">
+    <value>ZŤP</value>
+  </data>
+  <data name="lblHandicapInPercentage" xml:space="preserve">
+    <value>Miera postihnutia v %</value>
+  </data>
+  <data name="lblHealthInsurance" xml:space="preserve">
+    <value>Zdravotná poisťovňa</value>
+  </data>
+  <data name="lblHighestEducation" xml:space="preserve">
+    <value>Najvyššie dosiahnuté vzdelanie</value>
+  </data>
+  <data name="lblIBAN" xml:space="preserve">
+    <value>IBAN</value>
+  </data>
+  <data name="lblIdentityCard" xml:space="preserve">
+    <value>Číslo OP</value>
+  </data>
+  <data name="lblJobFrom" xml:space="preserve">
+    <value>Od</value>
+  </data>
+  <data name="lblJobPosition" xml:space="preserve">
+    <value>Pozícia</value>
+  </data>
+  <data name="lblJobTo" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="lblMaidenName" xml:space="preserve">
+    <value>Rodné priezvisko</value>
+  </data>
+  <data name="lblMail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Meno</value>
+  </data>
+  <data name="lblNationality" xml:space="preserve">
+    <value>Národnosť</value>
+  </data>
+  <data name="lblNo" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="lblPansionRecipient" xml:space="preserve">
+    <value>Poberateľ dôchodku</value>
+  </data>
+  <data name="lblPassAndApproaches" xml:space="preserve">
+    <value>HESLÁ A PRÍSTUPY</value>
+  </data>
+  <data name="lblPaycheckPass" xml:space="preserve">
+    <value>Heslo k výplatnej páske</value>
+  </data>
+  <data name="lblPensionDiasbled" xml:space="preserve">
+    <value>Invalidný</value>
+  </data>
+  <data name="lblPensionOldAge" xml:space="preserve">
+    <value>Starobný</value>
+  </data>
+  <data name="lblPensionRetirement" xml:space="preserve">
+    <value>Výsluhový</value>
+  </data>
+  <data name="lblPermanentResidence" xml:space="preserve">
+    <value>Trvalé bydlisko</value>
+  </data>
+  <data name="lblPersonalInfo" xml:space="preserve">
+    <value>OSOBNÉ ÚDAJE</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Telefón</value>
+  </data>
+  <data name="lblPlaceOfBirth" xml:space="preserve">
+    <value>Miesto narodenia</value>
+  </data>
+  <data name="lblPreviousJob" xml:space="preserve">
+    <value>PREDCHÁDZAJÚCE ZAMESTNANIE</value>
+  </data>
+  <data name="lblPreviousSurname" xml:space="preserve">
+    <value>Predošlé priezvisko</value>
+  </data>
+  <data name="lblRecievingAPensionFrom" xml:space="preserve">
+    <value>Poberanie dôchodku od</value>
+  </data>
+  <data name="lblRegionOfBirth" xml:space="preserve">
+    <value>Okres narodenia</value>
+  </data>
+  <data name="lblSchool" xml:space="preserve">
+    <value>Škola</value>
+  </data>
+  <data name="lblSecondPillar" xml:space="preserve">
+    <value>Zúčastnený v 2. piliery DSS</value>
+  </data>
+  <data name="lblSection" xml:space="preserve">
+    <value>Odbor</value>
+  </data>
+  <data name="lblState" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="lblSurname" xml:space="preserve">
+    <value>Priezvisko</value>
+  </data>
+  <data name="lblTaxBonus" xml:space="preserve">
+    <value>Uplatňovanie daňového bonusu</value>
+  </data>
+  <data name="lblTemporaryResidence" xml:space="preserve">
+    <value>Prechodné bydlisko</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Titul</value>
+  </data>
+  <data name="lblYearOfEnd" xml:space="preserve">
+    <value>Rok ukončenia</value>
+  </data>
+  <data name="lblYes" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+</root>
