@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class AddressData
+    public class Address
     {
         public int Id { get; set; }
         public string HouseNumber { get; set; }

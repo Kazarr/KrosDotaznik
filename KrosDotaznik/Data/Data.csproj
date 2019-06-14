@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\AccessData.cs" />
-    <Compile Include="Models\ChildData.cs" />
-    <Compile Include="Models\AddressData.cs" />
-    <Compile Include="Models\EducationData.cs" />
-    <Compile Include="Models\EmployeeData.cs" />
-    <Compile Include="Models\PreviousJobData.cs" />
+    <Compile Include="Models\Access.cs" />
+    <Compile Include="Models\Child.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Education.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\PreviousJob.cs" />
     <Compile Include="Registers\Department.cs" />
     <Compile Include="Registers\EducationalLevel.cs" />
     <Compile Include="Registers\HealthInsurance.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="Registers\WageCategory.cs" />
     <Compile Include="Registers\WorkExpiration.cs" />
     <Compile Include="Registers\WorkHours.cs" />
-    <Compile Include="Models\JobSpecificationData.cs" />
+    <Compile Include="Models\JobSpecification.cs" />
     <Compile Include="Registers\WorkPosition.cs" />
     <Compile Include="Registers\WorkType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class JobSpecificationData
+    public class JobSpecification
     {
         public int Id { get; set; }
         public DateTime HireDate { get; set; }

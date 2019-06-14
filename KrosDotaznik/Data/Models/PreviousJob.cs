@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class PreviousJobData
+    public class PreviousJob
     {
         public int Id { get; set; }
         public DateTime StartDate { get; set; }
