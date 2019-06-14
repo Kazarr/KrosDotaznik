@@ -11,6 +11,6 @@ namespace Data.Registers
         public int Id { get; set; }
         public string Position { get; set; }
 
-        public int WageCategory { get; set; }
+        public int IdWageCategory { get; set; }
     }
 }
