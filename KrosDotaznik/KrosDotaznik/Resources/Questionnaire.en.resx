@@ -117,7 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblChildInfo" xml:space="preserve">
+    <value>Child's info</value>
+  </data>
+  <data name="lblContactAddress" xml:space="preserve">
+    <value>Contact, addresses</value>
+  </data>
+  <data name="lblEducation" xml:space="preserve">
+    <value>Education data</value>
+  </data>
+  <data name="lblPassAndApproaches" xml:space="preserve">
+    <value>Passwords and access</value>
+  </data>
   <data name="lblPersonalInfo" xml:space="preserve">
-    <value>EMPLOYEE DATA</value>
+    <value>Personal info</value>
+  </data>
+  <data name="lblPreviousJob" xml:space="preserve">
+    <value>Previous Job</value>
   </data>
 </root>
