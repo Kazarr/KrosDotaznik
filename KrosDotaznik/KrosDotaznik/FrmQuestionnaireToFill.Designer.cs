@@ -82,7 +82,6 @@
             this.radioBtnSecondPilarYes = new System.Windows.Forms.RadioButton();
             this.radioBtnExceptionNo = new System.Windows.Forms.RadioButton();
             this.radioBtnExceptionYes = new System.Windows.Forms.RadioButton();
-            this.txtRetiredSince = new System.Windows.Forms.TextBox();
             this.radioBtnRetirment = new System.Windows.Forms.RadioButton();
             this.radioBtnDisabled = new System.Windows.Forms.RadioButton();
             this.radioBtnOldAge = new System.Windows.Forms.RadioButton();
@@ -118,6 +117,7 @@
             this.lblJobTo = new System.Windows.Forms.Label();
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
+            this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -403,12 +403,12 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.datePickerRetiredSince);
             this.panel1.Controls.Add(this.txtHndcpInPercentage);
             this.panel1.Controls.Add(this.radioBtnSecondPilarNo);
             this.panel1.Controls.Add(this.radioBtnSecondPilarYes);
             this.panel1.Controls.Add(this.radioBtnExceptionNo);
             this.panel1.Controls.Add(this.radioBtnExceptionYes);
-            this.panel1.Controls.Add(this.txtRetiredSince);
             this.panel1.Controls.Add(this.radioBtnRetirment);
             this.panel1.Controls.Add(this.radioBtnDisabled);
             this.panel1.Controls.Add(this.radioBtnOldAge);
@@ -457,11 +457,6 @@
             this.radioBtnExceptionYes.Name = "radioBtnExceptionYes";
             this.radioBtnExceptionYes.TabStop = true;
             this.radioBtnExceptionYes.UseVisualStyleBackColor = true;
-            // 
-            // txtRetiredSince
-            // 
-            resources.ApplyResources(this.txtRetiredSince, "txtRetiredSince");
-            this.txtRetiredSince.Name = "txtRetiredSince";
             // 
             // radioBtnRetirment
             // 
@@ -707,6 +702,11 @@
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
             // 
+            // datePickerRetiredSince
+            // 
+            resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
+            this.datePickerRetiredSince.Name = "datePickerRetiredSince";
+            // 
             // FrmQuestionnaireToFill
             // 
             resources.ApplyResources(this, "$this");
@@ -828,9 +828,9 @@
         private System.Windows.Forms.TextBox txtHealtInsurance;
         private System.Windows.Forms.RadioButton radioBtnExceptionNo;
         private System.Windows.Forms.RadioButton radioBtnExceptionYes;
-        private System.Windows.Forms.TextBox txtRetiredSince;
         private System.Windows.Forms.RadioButton radioBtnSecondPilarNo;
         private System.Windows.Forms.RadioButton radioBtnSecondPilarYes;
         private System.Windows.Forms.TextBox txtHndcpInPercentage;
+        private System.Windows.Forms.DateTimePicker datePickerRetiredSince;
     }
 }

@@ -60,7 +60,7 @@ namespace KrosDotaznik
                         },
                         Children = new List<Child>() { new Child() { Name = "Jozko", Surname = "Mrkvicka", Bonus = true, BirthDate = new DateTime(2000, 4, 1) }, new Child() { Name = "Ferko", Surname = "Mrkvicka", Bonus = true, BirthDate = new DateTime(2005, 7, 5) } }
                     }
-                }, @"c:\Users\kardos\source\repos\KrosDotaznik\KrosDotaznik\KrosDotaznik\bin\Debug\test.json");
+                }, "test.json");
         }
     }
 }
