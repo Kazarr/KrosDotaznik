@@ -27,6 +27,7 @@ namespace KrosDotaznik
         public void SaveTest()
         {
             FileService fs = new FileService();
+            fs.Encrypt("Heslo123`{}|:");
             fs.SaveJson(
                 new Questionare()
                 {
