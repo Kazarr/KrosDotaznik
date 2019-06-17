@@ -77,6 +77,7 @@
             this.tabCntrl = new System.Windows.Forms.TabControl();
             this.tPagePersonalInfo = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
             this.txtHndcpInPercentage = new System.Windows.Forms.TextBox();
             this.radioBtnSecondPilarNo = new System.Windows.Forms.RadioButton();
             this.radioBtnSecondPilarYes = new System.Windows.Forms.RadioButton();
@@ -117,7 +118,6 @@
             this.lblJobTo = new System.Windows.Forms.Label();
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
-            this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -424,6 +424,11 @@
             this.panel1.Controls.Add(this.lblRetiredSince);
             this.panel1.Name = "panel1";
             // 
+            // datePickerRetiredSince
+            // 
+            resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
+            this.datePickerRetiredSince.Name = "datePickerRetiredSince";
+            // 
             // txtHndcpInPercentage
             // 
             resources.ApplyResources(this.txtHndcpInPercentage, "txtHndcpInPercentage");
@@ -701,11 +706,6 @@
             resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
-            // 
-            // datePickerRetiredSince
-            // 
-            resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
-            this.datePickerRetiredSince.Name = "datePickerRetiredSince";
             // 
             // FrmQuestionnaireToFill
             // 
