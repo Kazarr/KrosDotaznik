@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class Access
+    public class Credentials
     {
         public int Id { get; set; }
-        public string PayPassword { get; set; }
+        public string PaycheckPassword { get; set; }
         public int PinAlarm { get; set; }
     }
 }

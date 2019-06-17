@@ -41,23 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Access.cs" />
+    <Compile Include="Models\Credentials.cs" />
     <Compile Include="Models\Child.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\PreviousJob.cs" />
-    <Compile Include="Registers\Department.cs" />
-    <Compile Include="Registers\EducationalLevel.cs" />
-    <Compile Include="Registers\HealthInsurance.cs" />
-    <Compile Include="Registers\Retirement.cs" />
-    <Compile Include="Registers\State.cs" />
-    <Compile Include="Registers\WageCategory.cs" />
-    <Compile Include="Registers\WorkExpiration.cs" />
-    <Compile Include="Registers\WorkHours.cs" />
+    <Compile Include="Models\Registers\Country.cs" />
+    <Compile Include="Models\Registers\Department.cs" />
+    <Compile Include="Models\Registers\EducationLevel.cs" />
+    <Compile Include="Models\Registers\HealthInsurance.cs" />
+    <Compile Include="Models\Registers\Retirement.cs" />
+    <Compile Include="Models\Registers\RetirementData.cs" />
+    <Compile Include="Models\Registers\State.cs" />
+    <Compile Include="Models\Registers\WageCategory.cs" />
+    <Compile Include="Models\Registers\WorkExpiration.cs" />
+    <Compile Include="Models\Registers\WorkHours.cs" />
     <Compile Include="Models\JobSpecification.cs" />
-    <Compile Include="Registers\WorkPosition.cs" />
-    <Compile Include="Registers\WorkType.cs" />
+    <Compile Include="Models\Registers\WorkPosition.cs" />
+    <Compile Include="Models\Registers\WorkType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

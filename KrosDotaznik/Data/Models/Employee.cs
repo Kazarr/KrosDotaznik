@@ -1,4 +1,4 @@
-﻿using Data.Registers;
+﻿using Data.Models.Registers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,28 +21,40 @@ namespace Data.Models
         public DateTime BirthDate { get; set; }
         public string BirthNumber { get; set; }
         public string PlaceOfBirth { get; set; }
+        /// <summary>
+        /// County/region of your birth
+        /// </summary>
         public string CountyOfBirth { get; set; }
         public string Nationality { get; set; }
         public string Citizenship { get; set; }
+        /// <summary>
+        /// True for man, false for woman
+        /// </summary>
         public bool Gender { get; set; }
         public int BankAccountNumber { get; set; }
         public string IBAN { get; set; }
-        public bool ParticipatingInRetiremenSaving { get; set; }
         public bool Disabled { get; set; }
-        public int? DisablitiyRate { get; set; }
+        public int? DisabilityRate { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
-        public DateTime? RetiredSince { get; set; }
-        public bool? RetirementInsuranceCompanyException { get; set; }
 
+        /// <summary>
+        /// Data of retired employees
+        /// </summary>
+        public RetirementData RetirementData { get; set; }
+        /// <summary>
+        /// Married, divorced, single...
+        /// </summary>
         public State State { get; set; }
         public HealthInsurance HealthInsuranceCompany { get; set; }
-        public Retirement Retirement { get; set; }
 
         public Address AddressData { get; set; }
         public Address TemporaryAdressDdata { get; set; }
-        public Access AccessData { get; set; }
-        public Education HighEducationData { get; set; }
+        public Credentials Credentials { get; set; }
+        /// <summary>
+        /// Highest educational attainment
+        /// </summary>
+        public Education HighestEducationData { get; set; }
         public Education CurrentEducationData { get; set; }
         public PreviousJob PreviousJobData { get; set; }
         public JobSpecification JobSpecificationData { get; set; }
