@@ -18,6 +18,7 @@ namespace KrosDotaznik
         {
             InitializeComponent();
             SetComponentsByLanguage();
+            _mainViewModel.SaveTest();
         }
 
         private void SetComponentsByLanguage() {
