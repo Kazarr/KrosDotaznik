@@ -10,7 +10,7 @@ namespace Logic
 {
     public class FileService
     {
-        private void SaveJson(object objectToSerialize, string filePath)
+        public void SaveJson(object objectToSerialize, string filePath)
         {
             string json = JsonConvert.SerializeObject(
                         objectToSerialize,
@@ -20,14 +20,13 @@ namespace Logic
                             ContractResolver = new
                             Newtonsoft.Json.Serialization
                             .CamelCasePropertyNamesContractResolver()
-                        }
-                        );
+                        });
             using (TextWriter writer = new StreamWriter(filePath))
             {
                 writer.Write(json);
             }
         }
-        private T LoadJson<T>(string path)
+        public T LoadJson<T>(string path)
         {
             string json = File.ReadAllText(path);
             return JsonConvert.DeserializeObject<T>(json);
