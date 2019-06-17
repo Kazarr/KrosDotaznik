@@ -12,6 +12,6 @@ namespace Data.Models.Registers
         /// <summary>
         /// Unlimited, or will expire
         /// </summary>
-        public string JobExipre { get; set; }
+        public string JobExpire { get; set; }
     }
 }
