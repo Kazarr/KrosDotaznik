@@ -162,6 +162,9 @@
   <data name="lblException" xml:space="preserve">
     <value>Len dohody: výnimka z dôchodkového poistenia</value>
   </data>
+  <data name="lblFemale" xml:space="preserve">
+    <value>Žena</value>
+  </data>
   <data name="lblGender" xml:space="preserve">
     <value>Pohlavie</value>
   </data>
@@ -198,6 +201,9 @@
   <data name="lblMail" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="lblMale" xml:space="preserve">
+    <value>Muž</value>
+  </data>
   <data name="lblName" xml:space="preserve">
     <value>Meno</value>
   </data>
@@ -206,9 +212,6 @@
   </data>
   <data name="lblNo" xml:space="preserve">
     <value>Nie</value>
-  </data>
-  <data name="lblPansionRecipient" xml:space="preserve">
-    <value>Poberateľ dôchodku</value>
   </data>
   <data name="lblPassAndApproaches" xml:space="preserve">
     <value>HESLÁ A PRÍSTUPY</value>
@@ -222,11 +225,17 @@
   <data name="lblPensionOldAge" xml:space="preserve">
     <value>Starobný</value>
   </data>
+  <data name="lblPensionRecipient" xml:space="preserve">
+    <value>Poberateľ dôchodku</value>
+  </data>
   <data name="lblPensionRetirement" xml:space="preserve">
     <value>Výsluhový</value>
   </data>
   <data name="lblPermanentResidence" xml:space="preserve">
     <value>Trvalé bydlisko</value>
+  </data>
+  <data name="lblPersonalId" xml:space="preserve">
+    <value>Rodné číslo</value>
   </data>
   <data name="lblPersonalInfo" xml:space="preserve">
     <value>OSOBNÉ ÚDAJE</value>
