@@ -31,7 +31,7 @@ namespace Data.Models
         /// True for man, false for woman
         /// </summary>
         public bool Gender { get; set; }
-        public int BankAccountNumber { get; set; }
+        public string BankAccountNumber { get; set; }
         public string IBAN { get; set; }
         public bool Disabled { get; set; }
         public int? DisabilityRate { get; set; }
