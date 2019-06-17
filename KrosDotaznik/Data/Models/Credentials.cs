@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Registers
+namespace Data.Models
 {
-    public class WorkPosition
+    public class Credentials
     {
         public int Id { get; set; }
-        public string Position { get; set; }
-
-        public int IdWageCategory { get; set; }
+        public string PaycheckPassword { get; set; }
+        public int PinAlarm { get; set; }
     }
 }

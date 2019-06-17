@@ -1,4 +1,4 @@
-﻿using Data.Registers;
+﻿using Data.Models.Registers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +14,6 @@ namespace Data.Models
         public string Major { get; set; }
         public DateTime EndYear { get; set; }
 
-        public EducationalLevel EducationLevel { get; set; }
+        public EducationLevel EducationLevel { get; set; }
     }
 }

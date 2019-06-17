@@ -12,6 +12,9 @@ namespace Data.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public DateTime BirthDate { get; set; }
+        /// <summary>
+        /// Apllying tax bonus on child
+        /// </summary>
         public bool Bonus { get; set; }
 
         public int IdEmployeeData { get; set; }
