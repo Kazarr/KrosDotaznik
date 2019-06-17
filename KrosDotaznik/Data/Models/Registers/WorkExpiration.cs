@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Registers
+namespace Data.Models.Registers
 {
     public class WorkExpiration
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        /// <summary>
+        /// Unlimited, or will expire
+        /// </summary>
+        public string JobExpire { get; set; }
     }
 }

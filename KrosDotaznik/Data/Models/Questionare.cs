@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class Access
+    public class Questionare
     {
-        public int Id { get; set; }
-        public string PayPassword { get; set; }
-        public int PinAlarm { get; set; }
+        public bool[] ShowQuestionGroups { get; set; }
+        public Employee Employee { get; set; }
     }
 }

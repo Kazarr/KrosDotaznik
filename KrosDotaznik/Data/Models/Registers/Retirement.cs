@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Registers
+namespace Data.Models.Registers
 {
-    public class WorkHours
+    public class Retirement
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string PensionName { get; set; }
     }
 }

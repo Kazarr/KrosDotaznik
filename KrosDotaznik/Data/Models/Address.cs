@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Models.Registers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,6 @@ namespace Data.Models
         public string Street { get; set; }
         public string City { get; set; }
         public int PostalCode { get; set; }
+        public Country Country { get; set; }
     }
 }

@@ -13,11 +13,15 @@ namespace KrosDotaznik
     public partial class FrmMain : Form
     {
         private MainViewModel _mainViewModel = new MainViewModel();
-
-        public FrmMain()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args">Argumets for starting app for edit questionare</param>
+        public FrmMain(string[] args)
         {
             InitializeComponent();
             SetComponentsByLanguage();
+            _mainViewModel.SaveTest();
         }
 
         private void SetComponentsByLanguage() {
