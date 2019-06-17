@@ -19,7 +19,7 @@ namespace KrosDotaznik.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Questionnaire {
@@ -57,6 +57,15 @@ namespace KrosDotaznik.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adresa trvalého bydliska.
+        /// </summary>
+        internal static string lblAddress {
+            get {
+                return ResourceManager.GetString("lblAddress", resourceCulture);
             }
         }
         
@@ -178,6 +187,15 @@ namespace KrosDotaznik.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Úroveň vzdelanie.
+        /// </summary>
+        internal static string lblEducationLevel {
+            get {
+                return ResourceManager.GetString("lblEducationLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Zamestnávateľ.
         /// </summary>
         internal static string lblEmployer {
@@ -277,15 +295,6 @@ namespace KrosDotaznik.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pozícia.
-        /// </summary>
-        internal static string lblJobPosition {
-            get {
-                return ResourceManager.GetString("lblJobPosition", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Do.
         /// </summary>
         internal static string lblJobTo {
@@ -309,6 +318,15 @@ namespace KrosDotaznik.Resources {
         internal static string lblMail {
             get {
                 return ResourceManager.GetString("lblMail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Odbor.
+        /// </summary>
+        internal static string lblMajor {
+            get {
+                return ResourceManager.GetString("lblMajor", resourceCulture);
             }
         }
         
@@ -369,9 +387,9 @@ namespace KrosDotaznik.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Invalidný.
         /// </summary>
-        internal static string lblPensionDiasbled {
+        internal static string lblPensionDisabled {
             get {
-                return ResourceManager.GetString("lblPensionDiasbled", resourceCulture);
+                return ResourceManager.GetString("lblPensionDisabled", resourceCulture);
             }
         }
         
@@ -502,15 +520,6 @@ namespace KrosDotaznik.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Odbor.
-        /// </summary>
-        internal static string lblSection {
-            get {
-                return ResourceManager.GetString("lblSection", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Stav.
         /// </summary>
         internal static string lblState {
@@ -540,6 +549,15 @@ namespace KrosDotaznik.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Prechodné bydlisko.
         /// </summary>
+        internal static string lblTemporaryAddress {
+            get {
+                return ResourceManager.GetString("lblTemporaryAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prechodné bydlisko.
+        /// </summary>
         internal static string lblTemporaryResidence {
             get {
                 return ResourceManager.GetString("lblTemporaryResidence", resourceCulture);
@@ -552,6 +570,15 @@ namespace KrosDotaznik.Resources {
         internal static string lblTitle {
             get {
                 return ResourceManager.GetString("lblTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pozícia.
+        /// </summary>
+        internal static string lblWorkPosition {
+            get {
+                return ResourceManager.GetString("lblWorkPosition", resourceCulture);
             }
         }
         

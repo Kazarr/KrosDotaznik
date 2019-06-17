@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Adresa trvalého bydliska</value>
+  </data>
   <data name="lblAddressCity" xml:space="preserve">
     <value>Obec/Mesto</value>
   </data>
@@ -156,6 +159,9 @@
   <data name="lblEducation" xml:space="preserve">
     <value>ÚDAJE O VZDELANÍ</value>
   </data>
+  <data name="lblEducationLevel" xml:space="preserve">
+    <value>Úroveň vzdelanie</value>
+  </data>
   <data name="lblEmployer" xml:space="preserve">
     <value>Zamestnávateľ</value>
   </data>
@@ -189,9 +195,6 @@
   <data name="lblJobFrom" xml:space="preserve">
     <value>Od</value>
   </data>
-  <data name="lblJobPosition" xml:space="preserve">
-    <value>Pozícia</value>
-  </data>
   <data name="lblJobTo" xml:space="preserve">
     <value>Do</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="lblMail" xml:space="preserve">
     <value>Email</value>
+  </data>
+  <data name="lblMajor" xml:space="preserve">
+    <value>Odbor</value>
   </data>
   <data name="lblMale" xml:space="preserve">
     <value>Muž</value>
@@ -219,7 +225,7 @@
   <data name="lblPaycheckPass" xml:space="preserve">
     <value>Heslo k výplatnej páske</value>
   </data>
-  <data name="lblPensionDiasbled" xml:space="preserve">
+  <data name="lblPensionDisabled" xml:space="preserve">
     <value>Invalidný</value>
   </data>
   <data name="lblPensionOldAge" xml:space="preserve">
@@ -264,9 +270,6 @@
   <data name="lblSecondPillar" xml:space="preserve">
     <value>Zúčastnený v 2. piliery DSS</value>
   </data>
-  <data name="lblSection" xml:space="preserve">
-    <value>Odbor</value>
-  </data>
   <data name="lblState" xml:space="preserve">
     <value>Stav</value>
   </data>
@@ -276,11 +279,17 @@
   <data name="lblTaxBonus" xml:space="preserve">
     <value>Uplatňovanie daňového bonusu</value>
   </data>
+  <data name="lblTemporaryAddress" xml:space="preserve">
+    <value>Prechodné bydlisko</value>
+  </data>
   <data name="lblTemporaryResidence" xml:space="preserve">
     <value>Prechodné bydlisko</value>
   </data>
   <data name="lblTitle" xml:space="preserve">
     <value>Titul</value>
+  </data>
+  <data name="lblWorkPosition" xml:space="preserve">
+    <value>Pozícia</value>
   </data>
   <data name="lblYearOfEnd" xml:space="preserve">
     <value>Rok ukončenia</value>
