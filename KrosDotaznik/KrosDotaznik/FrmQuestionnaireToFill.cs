@@ -143,5 +143,10 @@ namespace KrosDotaznik
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            _viewModel.Save();
+        }
     }
 }
