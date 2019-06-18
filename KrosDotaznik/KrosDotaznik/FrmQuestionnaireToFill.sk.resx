@@ -430,6 +430,9 @@
   <data name="grBoxHighEducation.Text" xml:space="preserve">
     <value>Najvyššie ukončené vzdelanie</value>
   </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Ulož</value>
+  </data>
   <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>

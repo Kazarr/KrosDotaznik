@@ -90,6 +90,7 @@
             this.lblSchool = new System.Windows.Forms.Label();
             this.tabCntrl = new System.Windows.Forms.TabControl();
             this.tPagePersonalInfo = new System.Windows.Forms.TabPage();
+            this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
             this.txtHndcpInPercentage = new System.Windows.Forms.TextBox();
@@ -503,6 +504,7 @@
             // 
             // tPagePersonalInfo
             // 
+            this.tPagePersonalInfo.Controls.Add(this.btnSave);
             this.tPagePersonalInfo.Controls.Add(this.panel1);
             this.tPagePersonalInfo.Controls.Add(this.panelBank);
             this.tPagePersonalInfo.Controls.Add(this.panelEmloyeeBasicInfo);
@@ -510,6 +512,13 @@
             resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Name = "tPagePersonalInfo";
             this.tPagePersonalInfo.UseVisualStyleBackColor = true;
+            // 
+            // btnSave
+            // 
+            resources.ApplyResources(this.btnSave, "btnSave");
+            this.btnSave.Name = "btnSave";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // panel1
             // 
@@ -881,14 +890,17 @@
             // 
             // colName
             // 
+            resources.ApplyResources(this.colName, "colName");
             this.colName.Name = "colName";
             // 
             // colSurname
             // 
+            resources.ApplyResources(this.colSurname, "colSurname");
             this.colSurname.Name = "colSurname";
             // 
             // colTaxBonus
             // 
+            resources.ApplyResources(this.colTaxBonus, "colTaxBonus");
             this.colTaxBonus.Name = "colTaxBonus";
             // 
             // FrmQuestionnaireToFill
@@ -1044,5 +1056,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTaxBonus;
+        private System.Windows.Forms.Button btnSave;
     }
 }
