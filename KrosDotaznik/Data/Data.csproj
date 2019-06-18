@@ -73,7 +73,16 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>SettingsAccess.settings</DependentUpon>
     </Compile>
+    <Compile Include="Repository\Registers\CountryRepository.cs" />
+    <Compile Include="Repository\Registers\EducationLevelRepository.cs" />
+    <Compile Include="Repository\Registers\HealthInsuranceRepository.cs" />
+    <Compile Include="Repository\Registers\RetirementRepository.cs" />
     <Compile Include="Repository\Registers\StateRepository.cs" />
+    <Compile Include="Repository\Registers\WageCategoryRepository.cs" />
+    <Compile Include="Repository\Registers\WorkExpirationRepository.cs" />
+    <Compile Include="Repository\Registers\WorkHoursRepository.cs" />
+    <Compile Include="Repository\Registers\WorkPositionRepository.cs" />
+    <Compile Include="Repository\Registers\WorkTypeRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

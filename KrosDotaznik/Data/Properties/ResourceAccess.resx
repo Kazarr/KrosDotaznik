@@ -117,7 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CountrySelect" xml:space="preserve">
+    <value>Select  ID, CountryName, CountryNameEN FROM Country</value>
+  </data>
+  <data name="EducationLevelSelect" xml:space="preserve">
+    <value>Select  ID, EducationLevelName, EducationLevelNameEN FROM EducationLevel</value>
+  </data>
+  <data name="HealthInsuranceSelect" xml:space="preserve">
+    <value>Select  ID, CompanyName, CompanyNameEN FROM HealthInsurance</value>
+  </data>
+  <data name="RetirementSelect" xml:space="preserve">
+    <value>Select  ID, PensionType, PensionTypeEN FROM Retirement</value>
+  </data>
   <data name="StateSelect" xml:space="preserve">
-    <value>Select * from State</value>
+    <value>Select  ID, EmployeeState, EmployeeStateEN FROM State</value>
+  </data>
+  <data name="WageCategorySelect" xml:space="preserve">
+    <value>Select  ID, Category, CategoryEN FROM WageCategory</value>
+  </data>
+  <data name="WorkExpirationSelect" xml:space="preserve">
+    <value>Select  ID, JobExpire, JobExpireEN FROM WorkExpiration</value>
+  </data>
+  <data name="WorkHoursSelect" xml:space="preserve">
+    <value>Select  ID, NameOfHoursPerWeek, NameOfHoursPerWeekEN FROM WorkHours</value>
+  </data>
+  <data name="WorkPositionSelect" xml:space="preserve">
+    <value>Select  ID, Position, PositionEN FROM WorkPosition</value>
+  </data>
+  <data name="WorkTypeSelect" xml:space="preserve">
+    <value>Select  ID, Type, TypeEN FROM WorkType</value>
   </data>
 </root>

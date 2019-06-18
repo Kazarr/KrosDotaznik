@@ -10,7 +10,7 @@ namespace Data
 {
     public class ConnectionManager
     {
-        public DataTable GetAllAccessData(string command)
+        public Dictionary<TKey, TValue> GetAllAccessData<TKey, TValue>(string command,string cultureInfo)
         {
             OleDbConnection connection = new OleDbConnection();
             connection.ConnectionString = Properties.SettingsAccess.Default.ConnString;
@@ -21,7 +21,14 @@ namespace Data
             OleDbDataAdapter oleDbData = new OleDbDataAdapter(dbCommand);
             DataSet ds = new DataSet();
             oleDbData.Fill(ds);
-            return ds.Tables[0];
+            if (cultureInfo == "sk")
+            {
+                return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(1));
+            }
+            else
+            {
+                return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(2));
+            }
         }
     }
 }

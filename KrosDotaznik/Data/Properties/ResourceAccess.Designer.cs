@@ -61,11 +61,92 @@ namespace Data.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select * from State.
+        ///   Looks up a localized string similar to Select  ID, CountryName, CountryNameEN FROM Country.
+        /// </summary>
+        internal static string CountrySelect {
+            get {
+                return ResourceManager.GetString("CountrySelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, EducationLevelName, EducationLevelNameEN FROM EducationLevel.
+        /// </summary>
+        internal static string EducationLevelSelect {
+            get {
+                return ResourceManager.GetString("EducationLevelSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, CompanyName, CompanyNameEN FROM HealthInsurance.
+        /// </summary>
+        internal static string HealthInsuranceSelect {
+            get {
+                return ResourceManager.GetString("HealthInsuranceSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, PensionType, PensionTypeEN FROM Retirement.
+        /// </summary>
+        internal static string RetirementSelect {
+            get {
+                return ResourceManager.GetString("RetirementSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, EmployeeState, EmployeeStateEN FROM State.
         /// </summary>
         internal static string StateSelect {
             get {
                 return ResourceManager.GetString("StateSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, Category, CategoryEN FROM WageCategory.
+        /// </summary>
+        internal static string WageCategorySelect {
+            get {
+                return ResourceManager.GetString("WageCategorySelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, JobExpire, JobExpireEN FROM WorkExpiration.
+        /// </summary>
+        internal static string WorkExpirationSelect {
+            get {
+                return ResourceManager.GetString("WorkExpirationSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, NameOfHoursPerWeek, NameOfHoursPerWeekEN FROM WorkHours.
+        /// </summary>
+        internal static string WorkHoursSelect {
+            get {
+                return ResourceManager.GetString("WorkHoursSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, Position, PositionEN FROM WorkPosition.
+        /// </summary>
+        internal static string WorkPositionSelect {
+            get {
+                return ResourceManager.GetString("WorkPositionSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  ID, Type, TypeEN FROM WorkType.
+        /// </summary>
+        internal static string WorkTypeSelect {
+            get {
+                return ResourceManager.GetString("WorkTypeSelect", resourceCulture);
             }
         }
     }

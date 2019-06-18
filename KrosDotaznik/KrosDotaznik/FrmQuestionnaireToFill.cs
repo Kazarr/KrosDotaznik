@@ -17,6 +17,7 @@ namespace KrosDotaznik
         {
             InitializeComponent();
             _viewModel = fillViewModel;
+            //LoadCombo();
             BindingTest();
             //SetComponentsByLanguage();
             //SetTabPagesByLanguage();
@@ -32,6 +33,15 @@ namespace KrosDotaznik
                 false,
                 DataSourceUpdateMode.OnValidation);
         }
+
+        //private void LoadCombo()
+        //{
+        //    string info = System.Globalization.CultureInfo.CurrentCulture.ToString();
+        //    cmbState.DataSource = new BindingSource(_viewModel.StateData, null);
+        //    cmbState.ValueMember = "Key";
+        //    cmbState.DisplayMember = "Value";
+        //}
+
         public void BindingTest()
         {
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));

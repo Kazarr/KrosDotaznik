@@ -9,9 +9,9 @@ namespace Data.Repository.Registers
 {
     public class StateRepository:ConnectionManager
     {
-        public DataTable GetAllState()
-        {            
-            return GetAllAccessData(Properties.ResourceAccess.StateSelect);
+        public Dictionary<TKey, TValue> GetAllState<TKey, TValue>(string cultureInfo)
+        {
+            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.StateSelect, cultureInfo);
         }
     }
 }
