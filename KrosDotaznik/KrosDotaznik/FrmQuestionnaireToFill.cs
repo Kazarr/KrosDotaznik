@@ -21,7 +21,7 @@ namespace KrosDotaznik
             BindingTest();
             CalendarColumn calendarColumn = new CalendarColumn();
             calendarColumn.Name = "colDateOfBirth";
-            calendarColumn.HeaderText = "DateOfBirth";
+            calendarColumn.HeaderText = Resources.GridResources.colDateOfBirth;
             dgvChildren.Columns.Add(calendarColumn);
             foreach(DataGridViewRow row in dgvChildren.Rows)
             {

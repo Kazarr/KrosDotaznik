@@ -67,6 +67,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuestionnaireToFillViewModel.cs" />
+    <Compile Include="Resources\GridResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GridResources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Resources\MainForm.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -95,6 +100,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Resources\GridResources.en.resx" />
+    <EmbeddedResource Include="Resources\GridResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GridResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\MainForm.en.resx">
       <LastGenOutput>MainForm.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
