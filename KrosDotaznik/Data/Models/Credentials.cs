@@ -9,7 +9,7 @@ namespace Data.Models
     public class Credentials
     {
         public int Id { get; set; }
-        public string PaycheckPassword { get; set; }
-        public int PinAlarm { get; set; }
+        public List<byte[]> PaycheckPassword { get; set; }
+        public List<byte[]> PinAlarm { get; set; }
     }
 }
