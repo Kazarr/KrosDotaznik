@@ -12,7 +12,7 @@ namespace KrosDotaznik
     {
         public void OpenQuestionnaireToFill()
         {
-            using (FrmQuestionnaireToFill toFill = new FrmQuestionnaireToFill())
+            using (FrmQuestionnaireToFill toFill = new FrmQuestionnaireToFill(new QuestionnaireToFillViewModel()))
             {
                 toFill.ShowDialog();
             }

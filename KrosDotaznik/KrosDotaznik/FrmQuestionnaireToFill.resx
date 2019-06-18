@@ -134,9 +134,6 @@
   <data name="txtState.Location" type="System.Drawing.Point, System.Drawing">
     <value>712, 85</value>
   </data>
-  <data name="&gt;&gt;grBoxHighEducation.Name" xml:space="preserve">
-    <value>grBoxHighEducation</value>
-  </data>
   <data name="tPageContactAdress.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -188,9 +185,6 @@
   <data name="&gt;&gt;txtSurname.Name" xml:space="preserve">
     <value>txtSurname</value>
   </data>
-  <data name="lblBankAcc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 21</value>
-  </data>
   <data name="&gt;&gt;txtPersonalId.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -218,8 +212,8 @@
   <data name="txtPlaceOfBirth.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 25</value>
+  <data name="grBoxTemporaryAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 53</value>
   </data>
   <data name="&gt;&gt;txtRegionOfBirth.Name" xml:space="preserve">
     <value>txtRegionOfBirth</value>
@@ -233,20 +227,14 @@
   <data name="&gt;&gt;txtMaidenName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblMaidenName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 49</value>
-  </data>
-  <data name="&gt;&gt;lblEducationLevel.Parent" xml:space="preserve">
-    <value>grBoxHighEducation</value>
+  <data name="grBoxHighEducation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold, Underline</value>
   </data>
   <data name="&gt;&gt;lblHandicapInPercentage.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
   <data name="&gt;&gt;lblRetirementInsuranceCompanyException.Parent" xml:space="preserve">
     <value>panel1</value>
-  </data>
-  <data name="lblNationality.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="lblIdentityCard.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -259,6 +247,9 @@
   </data>
   <data name="lblPhoneNumber.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
+  </data>
+  <data name="&gt;&gt;txtIban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblBankAcc.Name" xml:space="preserve">
     <value>lblBankAcc</value>
@@ -287,17 +278,14 @@
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioBtnMale.Name" xml:space="preserve">
-    <value>radioBtnMale</value>
-  </data>
   <data name="lblEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
+  <data name="lblPlaceOfBirth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="txtPersonalId.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
-  </data>
-  <data name="&gt;&gt;txtHndcpInPercentage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;grBoxAddress.Name" xml:space="preserve">
     <value>grBoxAddress</value>
@@ -314,6 +302,9 @@
   <data name="lblSecondPillar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
+  <data name="&gt;&gt;grBoxAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;lblJobFrom.Name" xml:space="preserve">
     <value>lblJobFrom</value>
   </data>
@@ -323,11 +314,11 @@
   <data name="radioBtnSecondPilarNo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;lblCity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;lblCurrSchool.Parent" xml:space="preserve">
     <value>grBoxCurrentEducation</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHandcpYes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblMaidenName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -341,6 +332,9 @@
   <data name="lblStreet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblHealthInsurance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="lblHealthInsurance.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 10</value>
   </data>
@@ -350,14 +344,14 @@
   <data name="lblSchool.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 21</value>
   </data>
-  <data name="radioBtnHndcpNo.Text" xml:space="preserve">
-    <value>no</value>
-  </data>
   <data name="&gt;&gt;radioBtnOldAge.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSecondPillar.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="lblCitizenShip.Text" xml:space="preserve">
     <value>Citizenship :</value>
@@ -377,11 +371,14 @@
   <data name="&gt;&gt;lblMaidenName.Name" xml:space="preserve">
     <value>lblMaidenName</value>
   </data>
+  <data name="&gt;&gt;lblIBAN.Parent" xml:space="preserve">
+    <value>panelBank</value>
+  </data>
   <data name="lblCurrSchool.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
-  <data name="lblRegionOfBirth.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="lblGender.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblIdentityCard.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -389,17 +386,11 @@
   <data name="&gt;&gt;lblPassword.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;lblPersonalId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPageEducation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="lblPreviousName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioBtnDisabled.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="txtMaidenName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
   </data>
   <data name="datePickerRetiredSince.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -412,6 +403,9 @@
   </data>
   <data name="&gt;&gt;lblPersonalId.Name" xml:space="preserve">
     <value>lblPersonalId</value>
+  </data>
+  <data name="&gt;&gt;grBoxCurrentEducation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tPageEducation.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -430,6 +424,9 @@
   </data>
   <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 25</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;lblPassword.Name" xml:space="preserve">
     <value>lblPassword</value>
@@ -476,8 +473,8 @@
   <data name="&gt;&gt;txtMaidenName.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 21</value>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 364</value>
   </data>
   <data name="&gt;&gt;radioBtnOldAge.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -494,9 +491,6 @@
   <data name="&gt;&gt;lblGender.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="lblEndYear.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 21</value>
   </data>
@@ -506,17 +500,14 @@
   <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;txtPreviousName.Name" xml:space="preserve">
-    <value>txtPreviousName</value>
+  <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 21</value>
   </data>
   <data name="lblPostalCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 21</value>
   </data>
-  <data name="lblCity.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="txtSurname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>712, 8</value>
+  <data name="lblPostalCodeTemp.Text" xml:space="preserve">
+    <value>Postal code :</value>
   </data>
   <data name="&gt;&gt;datePickerRetiredSince.Name" xml:space="preserve">
     <value>datePickerRetiredSince</value>
@@ -584,11 +575,11 @@
   <data name="&gt;&gt;txtNationality.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioBtnFemale.Parent" xml:space="preserve">
-    <value>panelEmloyeeBasicInfo</value>
-  </data>
   <data name="grBoxAddress.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
+  </data>
+  <data name="&gt;&gt;lblState.Parent" xml:space="preserve">
+    <value>panelEmloyeeBasicInfo</value>
   </data>
   <data name="lblWorkPosition.Text" xml:space="preserve">
     <value>Work Postion</value>
@@ -605,8 +596,8 @@
   <data name="txtHndcpInPercentage.Location" type="System.Drawing.Point, System.Drawing">
     <value>855, 47</value>
   </data>
-  <data name="&gt;&gt;lblEducationLevel.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;txtIban.Parent" xml:space="preserve">
+    <value>panelBank</value>
   </data>
   <data name="radioBtnExceptionYes.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -623,9 +614,6 @@
   <data name="tPageChildInfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 28</value>
   </data>
-  <data name="&gt;&gt;lblHealthInsurance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;radioBtnExceptionYes.Name" xml:space="preserve">
     <value>radioBtnExceptionYes</value>
   </data>
@@ -634,9 +622,6 @@
   </data>
   <data name="&gt;&gt;lblJobFrom.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtRegionOfBirth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPlaceOfBirth.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -647,8 +632,8 @@
   <data name="radioBtnOldAge.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
-  <data name="lblJobTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 30</value>
+  <data name="&gt;&gt;txtPreviousName.Name" xml:space="preserve">
+    <value>txtPreviousName</value>
   </data>
   <data name="lblCitizenShip.Location" type="System.Drawing.Point, System.Drawing">
     <value>556, 166</value>
@@ -668,9 +653,6 @@
   <data name="&gt;&gt;panelBank.Parent" xml:space="preserve">
     <value>tPagePersonalInfo</value>
   </data>
-  <data name="&gt;&gt;lblPreviousName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="&gt;&gt;lblCitizenShip.Parent" xml:space="preserve">
     <value>panelEmloyeeBasicInfo</value>
   </data>
@@ -680,8 +662,11 @@
   <data name="lblPersonalId.Location" type="System.Drawing.Point, System.Drawing">
     <value>556, 49</value>
   </data>
-  <data name="&gt;&gt;lblEmployeer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panelEmloyeeBasicInfo.Name" xml:space="preserve">
+    <value>panelEmloyeeBasicInfo</value>
+  </data>
+  <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 21</value>
   </data>
   <data name="lblPreviousName.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 49</value>
@@ -689,20 +674,14 @@
   <data name="lblBankAcc.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="radioBtnSecondPilarNo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="&gt;&gt;lblStreet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="lblCurrEndYear.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="&gt;&gt;radioBtnDisabled.Name" xml:space="preserve">
     <value>radioBtnDisabled</value>
   </data>
-  <data name="lblGender.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="&gt;&gt;radioBtnHandcpYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="radioBtnHandcpYes.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -716,8 +695,8 @@
   <data name="radioBtnExceptionYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 25</value>
   </data>
-  <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 27</value>
+  <data name="lblMaidenName.Text" xml:space="preserve">
+    <value>Maiden name :</value>
   </data>
   <data name="lblPassword.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -734,11 +713,14 @@
   <data name="&gt;&gt;txtIdentityCard.Name" xml:space="preserve">
     <value>txtIdentityCard</value>
   </data>
+  <data name="&gt;&gt;panelName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarNo.Name" xml:space="preserve">
+    <value>radioBtnSecondPilarNo</value>
+  </data>
   <data name="lblEmail.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
-  </data>
-  <data name="lblPersonalId.Text" xml:space="preserve">
-    <value>Personal ID :</value>
   </data>
   <data name="lblIdentityCard.Location" type="System.Drawing.Point, System.Drawing">
     <value>556, 10</value>
@@ -758,8 +740,8 @@
   <data name="txtIdentityCard.Location" type="System.Drawing.Point, System.Drawing">
     <value>711, 10</value>
   </data>
-  <data name="panelBank.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1013, 43</value>
+  <data name="lblMaidenName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 49</value>
   </data>
   <data name="&gt;&gt;txtTitle.Parent" xml:space="preserve">
     <value>panelEmloyeeBasicInfo</value>
@@ -785,14 +767,14 @@
   <data name="lblPersonalId.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 21</value>
   </data>
-  <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 21</value>
-  </data>
   <data name="&gt;&gt;radioBtnFemale.Name" xml:space="preserve">
     <value>radioBtnFemale</value>
   </data>
-  <data name="lblEndYear.Text" xml:space="preserve">
-    <value>End year</value>
+  <data name="lblPhoneNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioBtnFemale.Parent" xml:space="preserve">
+    <value>panelEmloyeeBasicInfo</value>
   </data>
   <data name="lblPostalCodeTemp.Location" type="System.Drawing.Point, System.Drawing">
     <value>695, 27</value>
@@ -833,20 +815,17 @@
   <data name="radioBtnRetirment.Location" type="System.Drawing.Point, System.Drawing">
     <value>646, 88</value>
   </data>
-  <data name="&gt;&gt;radioBtnHndcpNo.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
   <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 21</value>
   </data>
   <data name="&gt;&gt;txtPlaceOfBirth.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;datePickerBirth.Name" xml:space="preserve">
+    <value>datePickerBirth</value>
+  </data>
   <data name="&gt;&gt;radioBtnExceptionYes.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblRetiredSince.ZOrder" xml:space="preserve">
-    <value>18</value>
   </data>
   <data name="lblPostalCode.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -908,9 +887,6 @@
   <data name="lblRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 21</value>
   </data>
-  <data name="tPagePersonalInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 28</value>
-  </data>
   <data name="txtHealtInsurance.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
   </data>
@@ -922,9 +898,6 @@
   </data>
   <data name="&gt;&gt;lblCurrMajor.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarYes.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="lblCityTemp.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -938,11 +911,17 @@
   <data name="&gt;&gt;lblSchool.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;lblWorkPosition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;lblPostalCodeTemp.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;txtPreviousName.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
   <data name="&gt;&gt;lblStreet.Parent" xml:space="preserve">
     <value>grBoxAddress</value>
@@ -959,8 +938,8 @@
   <data name="&gt;&gt;lblNationality.Name" xml:space="preserve">
     <value>lblNationality</value>
   </data>
-  <data name="&gt;&gt;txtMaidenName.Name" xml:space="preserve">
-    <value>txtMaidenName</value>
+  <data name="lblPostalCodeTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="tPageChildInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>1026, 668</value>
@@ -971,8 +950,8 @@
   <data name="&gt;&gt;radioBtnDisabled.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;panelName.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1013, 201</value>
   </data>
   <data name="&gt;&gt;lblSurname.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -995,6 +974,9 @@
   <data name="lblHandicap.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
+  <data name="&gt;&gt;tPageEducation.Name" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
   <data name="radioBtnHndcpNo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1013,8 +995,14 @@
   <data name="&gt;&gt;lblCityTemp.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;txtMaidenName.Name" xml:space="preserve">
+    <value>txtMaidenName</value>
+  </data>
   <data name="lblRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 21</value>
+  </data>
+  <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 21</value>
   </data>
   <data name="lblMajor.Text" xml:space="preserve">
     <value>Major :</value>
@@ -1037,8 +1025,8 @@
   <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 25</value>
   </data>
-  <data name="&gt;&gt;lblCurrMajor.Parent" xml:space="preserve">
-    <value>grBoxCurrentEducation</value>
+  <data name="lblEndYear.Text" xml:space="preserve">
+    <value>End year</value>
   </data>
   <data name="&gt;&gt;lblCurrEducationLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1098,9 +1086,6 @@
   <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 21</value>
   </data>
-  <data name="txtState.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
   <data name="&gt;&gt;lblHandicap.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
@@ -1134,32 +1119,26 @@
   <data name="&gt;&gt;txtSurname.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;radioBtnExceptionNo.Name" xml:space="preserve">
-    <value>radioBtnExceptionNo</value>
-  </data>
   <data name="&gt;&gt;lblWorkPosition.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
   </data>
   <data name="&gt;&gt;tPageEducation.Parent" xml:space="preserve">
     <value>tabCntrl</value>
   </data>
-  <data name="lblCurrSchool.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
   <data name="&gt;&gt;lblBankAcc.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 21</value>
+  <data name="tPageEducation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
   </data>
   <data name="&gt;&gt;lblPreviousName.Parent" xml:space="preserve">
     <value>panelName</value>
   </data>
   <data name="grBoxCurrentEducation.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
+  </data>
+  <data name="&gt;&gt;radioBtnRetirment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblPhoneNumber.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -1173,6 +1152,12 @@
   <data name="&gt;&gt;lblCity.Parent" xml:space="preserve">
     <value>grBoxAddress</value>
   </data>
+  <data name="&gt;&gt;lblBirthDate.Name" xml:space="preserve">
+    <value>lblBirthDate</value>
+  </data>
+  <data name="&gt;&gt;txtRegionOfBirth.Parent" xml:space="preserve">
+    <value>panelEmloyeeBasicInfo</value>
+  </data>
   <data name="lblPreviousName.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -1182,8 +1167,8 @@
   <data name="&gt;&gt;lblStreetTemp.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;radioBtnSecondPilarYes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblJobTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 30</value>
   </data>
   <data name="lblStreetTemp.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -1197,8 +1182,8 @@
   <data name="lblSchool.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 23</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1013, 201</value>
+  <data name="&gt;&gt;tPageEducation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblHandicap.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1221,8 +1206,8 @@
   <data name="&gt;&gt;radioBtnRetirment.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="lblSecondPillar.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblBirthDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="txtCitizenShip.Location" type="System.Drawing.Point, System.Drawing">
     <value>712, 164</value>
@@ -1245,8 +1230,8 @@
   <data name="tPagePreviousJob.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="lblSurname.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="lblSchool.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 25</value>
@@ -1260,8 +1245,8 @@
   <data name="&gt;&gt;lblCitizenShip.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 21</value>
+  <data name="lblCity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="&gt;&gt;tabCntrl.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1274,9 +1259,6 @@
   </data>
   <data name="lblIBAN.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 21</value>
-  </data>
-  <data name="grBoxHighEducation.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold, Underline</value>
   </data>
   <data name="&gt;&gt;radioBtnOldAge.Name" xml:space="preserve">
     <value>radioBtnOldAge</value>
@@ -1292,6 +1274,9 @@
   </data>
   <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
     <value>426, 14</value>
+  </data>
+  <data name="&gt;&gt;txtSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblGender.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1356,8 +1341,14 @@
   <data name="&gt;&gt;grBoxCurrentEducation.Name" xml:space="preserve">
     <value>grBoxCurrentEducation</value>
   </data>
-  <data name="&gt;&gt;tPageEducation.Name" xml:space="preserve">
-    <value>tPageEducation</value>
+  <data name="&gt;&gt;lblEmployeer.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="lblState.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="radioBtnRetirment.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1374,8 +1365,11 @@
   <data name="&gt;&gt;txtHealtInsurance.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="radioBtnSecondPilarNo.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+  <data name="&gt;&gt;lblPin.Parent" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblPensionRecipient.Text" xml:space="preserve">
     <value>Pension recepient :</value>
@@ -1440,6 +1434,9 @@
   <data name="&gt;&gt;lblWorkPosition.Name" xml:space="preserve">
     <value>lblWorkPosition</value>
   </data>
+  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 157</value>
+  </data>
   <data name="&gt;&gt;tPagePersonalInfo.Name" xml:space="preserve">
     <value>tPagePersonalInfo</value>
   </data>
@@ -1452,8 +1449,14 @@
   <data name="txtCitizenShip.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
+  <data name="panelBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1013, 43</value>
+  </data>
   <data name="&gt;&gt;lblPreviousName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHandicapInPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 21</value>
   </data>
   <data name="tPagePassword.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1491,9 +1494,6 @@
   <data name="&gt;&gt;lblRetirementInsuranceCompanyException.Name" xml:space="preserve">
     <value>lblRetirementInsuranceCompanyException</value>
   </data>
-  <data name="lblCityTemp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
   <data name="&gt;&gt;tPagePassword.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
@@ -1502,6 +1502,9 @@
   </data>
   <data name="lblEndYear.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblNationality.Text" xml:space="preserve">
+    <value>Nationality :</value>
   </data>
   <data name="&gt;&gt;lblSchool.Parent" xml:space="preserve">
     <value>grBoxHighEducation</value>
@@ -1514,9 +1517,6 @@
   </data>
   <data name="&gt;&gt;datePickerBirth.Type" xml:space="preserve">
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtHealtInsurance.ZOrder" xml:space="preserve">
-    <value>11</value>
   </data>
   <data name="tPagePassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>1026, 668</value>
@@ -1536,17 +1536,11 @@
   <data name="&gt;&gt;lblEndYear.Parent" xml:space="preserve">
     <value>grBoxHighEducation</value>
   </data>
-  <data name="&gt;&gt;radioBtnHndcpNo.Name" xml:space="preserve">
-    <value>radioBtnHndcpNo</value>
-  </data>
   <data name="lblSurname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;lblSecondPillar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioBtnHndcpNo.Parent" xml:space="preserve">
     <value>panel1</value>
-  </data>
-  <data name="lblState.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="lblHandicapInPercentage.Text" xml:space="preserve">
     <value>Handicap in percentage :</value>
@@ -1572,6 +1566,9 @@
   <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="&gt;&gt;tabCntrl.Name" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
   <data name="lblHandicap.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1584,8 +1581,8 @@
   <data name="grBoxHighEducation.Size" type="System.Drawing.Size, System.Drawing">
     <value>944, 73</value>
   </data>
-  <data name="lblCurrEducationLevel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="&gt;&gt;lblHealthInsurance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblRegionOfBirth.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -1602,8 +1599,14 @@
   <data name="txtRegionOfBirth.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
+  <data name="tPagePreviousJob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
   <data name="lblPensionRecipient.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtPersonalId.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="txtPreviousName.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, 45</value>
@@ -1626,6 +1629,9 @@
   <data name="lblCurrEndYear.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 21</value>
   </data>
+  <data name="&gt;&gt;lblSchool.Name" xml:space="preserve">
+    <value>lblSchool</value>
+  </data>
   <data name="tPageContactAdress.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
@@ -1638,11 +1644,11 @@
   <data name="lblHandicapInPercentage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblCityTemp.Text" xml:space="preserve">
-    <value>City :</value>
-  </data>
   <data name="&gt;&gt;lblPlaceOfBirth.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FrmQuestionnaireToFill</value>
   </data>
   <data name="lblSurname.Location" type="System.Drawing.Point, System.Drawing">
     <value>557, 10</value>
@@ -1658,6 +1664,9 @@
   </data>
   <data name="&gt;&gt;lblSurname.Parent" xml:space="preserve">
     <value>panelName</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblSurname.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -1695,8 +1704,8 @@
   <data name="radioBtnDisabled.Location" type="System.Drawing.Point, System.Drawing">
     <value>442, 87</value>
   </data>
-  <data name="lblCurrSchool.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;radioBtnSecondPilarYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tPagePersonalInfo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1706,6 +1715,9 @@
   </data>
   <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
     <value>panelName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
   </data>
   <data name="&gt;&gt;txtHndcpInPercentage.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1743,9 +1755,6 @@
   <data name="&gt;&gt;lblSurname.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="lblPostalCodeTemp.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
   <data name="lblHandicapInPercentage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
@@ -1767,14 +1776,11 @@
   <data name="&gt;&gt;lblCurrEndYear.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtPersonalId.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="lblCurrSchool.Text" xml:space="preserve">
+    <value>School :</value>
   </data>
   <data name="txtNationality.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
-  </data>
-  <data name="lblCurrSchool.Text" xml:space="preserve">
-    <value>School :</value>
   </data>
   <data name="&gt;&gt;radioBtnExceptionNo.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1797,8 +1803,8 @@
   <data name="grBoxAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>944, 53</value>
   </data>
-  <data name="tPageEducation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 28</value>
+  <data name="lblCurrEducationLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="tabCntrl.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -1809,17 +1815,14 @@
   <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
     <value>no</value>
   </data>
-  <data name="tabCntrl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
+  <data name="lblCityTemp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="grBoxAddress.Text" xml:space="preserve">
     <value>Address</value>
   </data>
   <data name="lblCurrEndYear.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 44</value>
-  </data>
-  <data name="grBoxHighEducation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 20</value>
   </data>
   <data name="grBoxTemporaryAddress.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1832,9 +1835,6 @@
   </data>
   <data name="lblSecondPillar.Location" type="System.Drawing.Point, System.Drawing">
     <value>556, 10</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
   </data>
   <data name="lblMajor.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 21</value>
@@ -1854,8 +1854,8 @@
   <data name="&gt;&gt;radioBtnSecondPilarNo.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="radioBtnHndcpNo.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="&gt;&gt;lblCurrMajor.Parent" xml:space="preserve">
+    <value>grBoxCurrentEducation</value>
   </data>
   <data name="lblCurrMajor.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 21</value>
@@ -1869,8 +1869,8 @@
   <data name="lblJobFrom.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
-  <data name="txtRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 27</value>
+  <data name="&gt;&gt;lblEducationLevel.Parent" xml:space="preserve">
+    <value>grBoxHighEducation</value>
   </data>
   <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 10</value>
@@ -1878,20 +1878,23 @@
   <data name="&gt;&gt;panelBank.Name" xml:space="preserve">
     <value>panelBank</value>
   </data>
+  <data name="lblSchool.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;lblEndYear.Name" xml:space="preserve">
     <value>lblEndYear</value>
   </data>
-  <data name="lblPostalCodeTemp.Text" xml:space="preserve">
-    <value>Postal code :</value>
-  </data>
-  <data name="&gt;&gt;lblHandicapInPercentage.Name" xml:space="preserve">
-    <value>lblHandicapInPercentage</value>
-  </data>
-  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="lblRegionOfBirth.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="lblBankAcc.Text" xml:space="preserve">
     <value>Bank account :</value>
+  </data>
+  <data name="radioBtnDisabled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblGender.ZOrder" xml:space="preserve">
+    <value>17</value>
   </data>
   <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1899,8 +1902,8 @@
   <data name="grBoxHighEducation.Text" xml:space="preserve">
     <value>High education</value>
   </data>
-  <data name="&gt;&gt;radioBtnSecondPilarNo.Name" xml:space="preserve">
-    <value>radioBtnSecondPilarNo</value>
+  <data name="tabCntrl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;lblPersonalId.Parent" xml:space="preserve">
     <value>panelEmloyeeBasicInfo</value>
@@ -1908,8 +1911,8 @@
   <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 21</value>
   </data>
-  <data name="&gt;&gt;txtIban.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radioBtnHndcpNo.Text" xml:space="preserve">
+    <value>no</value>
   </data>
   <data name="&gt;&gt;lblEmployeer.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1938,14 +1941,17 @@
   <data name="&gt;&gt;lblCitizenShip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtPlaceOfBirth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 125</value>
+  <data name="txtRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
   </data>
   <data name="lblCurrMajor.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="txtSurname.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
+  </data>
+  <data name="&gt;&gt;lblJobTo.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
   </data>
   <data name="lblIBAN.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -1968,9 +1974,6 @@
   <data name="lblCurrSchool.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 21</value>
   </data>
-  <data name="&gt;&gt;panelBank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tPagePassword.Name" xml:space="preserve">
     <value>tPagePassword</value>
   </data>
@@ -1983,11 +1986,11 @@
   <data name="lblJobTo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblBankAcc.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;tPageContactAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblPhoneNumber.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblNationality.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="lblState.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -2004,9 +2007,6 @@
   <data name="txtPreviousName.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
   </data>
-  <data name="lblIBAN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>556, 10</value>
-  </data>
   <data name="&gt;&gt;datePickerBirth.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
@@ -2015,6 +2015,9 @@
   </data>
   <data name="radioBtnHandcpYes.Text" xml:space="preserve">
     <value>yes</value>
+  </data>
+  <data name="&gt;&gt;lblIdentityCard.Parent" xml:space="preserve">
+    <value>panelEmloyeeBasicInfo</value>
   </data>
   <data name="&gt;&gt;lblPreviousName.Name" xml:space="preserve">
     <value>lblPreviousName</value>
@@ -2043,9 +2046,6 @@
   <data name="&gt;&gt;lblEndYear.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblRetiredSince.Name" xml:space="preserve">
-    <value>lblRetiredSince</value>
-  </data>
   <data name="grBoxCurrentEducation.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 99</value>
   </data>
@@ -2055,11 +2055,11 @@
   <data name="&gt;&gt;txtPreviousName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblState.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="lblSecondPillar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="lblCurrEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 44</value>
+  <data name="&gt;&gt;lblEmployeer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblEducationLevel.Text" xml:space="preserve">
     <value>Education level :</value>
@@ -2094,9 +2094,6 @@
   <data name="lblWorkPosition.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;grBoxAddress.Parent" xml:space="preserve">
-    <value>tPageContactAdress</value>
-  </data>
   <data name="txtIban.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
@@ -2118,8 +2115,11 @@
   <data name="&gt;&gt;txtHealtInsurance.Name" xml:space="preserve">
     <value>txtHealtInsurance</value>
   </data>
-  <data name="&gt;&gt;txtRegionOfBirth.Parent" xml:space="preserve">
-    <value>panelEmloyeeBasicInfo</value>
+  <data name="&gt;&gt;txtRegionOfBirth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnDisabled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtPersonalId.Location" type="System.Drawing.Point, System.Drawing">
     <value>711, 47</value>
@@ -2139,11 +2139,14 @@
   <data name="&gt;&gt;lblPin.Name" xml:space="preserve">
     <value>lblPin</value>
   </data>
-  <data name="lblSchool.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblPersonalId.Text" xml:space="preserve">
+    <value>Personal ID :</value>
   </data>
   <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
     <value>panelEmloyeeBasicInfo</value>
+  </data>
+  <data name="radioBtnOldAge.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
   <data name="&gt;&gt;lblCurrEndYear.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2151,17 +2154,11 @@
   <data name="lblCitizenShip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;radioBtnMale.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
   </data>
-  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
-  </data>
-  <data name="lblPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+  <data name="txtPlaceOfBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 125</value>
   </data>
   <data name="lblPensionRecipient.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -2202,14 +2199,14 @@
   <data name="txtIban.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
   </data>
-  <data name="&gt;&gt;radioBtnDisabled.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblEducationLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lblRegionOfBirth.Location" type="System.Drawing.Point, System.Drawing">
     <value>556, 127</value>
   </data>
-  <data name="&gt;&gt;grBoxAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblBankAcc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;lblHandicapInPercentage.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -2217,17 +2214,20 @@
   <data name="&gt;&gt;radioBtnHndcpNo.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;lblPersonalId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMaidenName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 43</value>
   </data>
   <data name="tPageContactAdress.Text" xml:space="preserve">
     <value>Contacts, address</value>
   </data>
-  <data name="&gt;&gt;lblCity.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="radioBtnSecondPilarYes.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
   </data>
-  <data name="&gt;&gt;lblIBAN.Parent" xml:space="preserve">
-    <value>panelBank</value>
+  <data name="txtSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 8</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2250,11 +2250,11 @@
   <data name="&gt;&gt;lblRetirementInsuranceCompanyException.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblBirthDate.Name" xml:space="preserve">
-    <value>lblBirthDate</value>
+  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 25</value>
   </data>
-  <data name="radioBtnOldAge.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+  <data name="&gt;&gt;radioBtnHndcpNo.Name" xml:space="preserve">
+    <value>radioBtnHndcpNo</value>
   </data>
   <data name="lblHealthInsurance.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -2268,8 +2268,8 @@
   <data name="lblBankAcc.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 10</value>
   </data>
-  <data name="lblBirthDate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="&gt;&gt;grBoxHighEducation.Name" xml:space="preserve">
+    <value>grBoxHighEducation</value>
   </data>
   <data name="&gt;&gt;radioBtnFemale.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2283,14 +2283,17 @@
   <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="lblCurrEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 44</value>
+  </data>
   <data name="lblJobTo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="tPageChildInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="&gt;&gt;lblState.Parent" xml:space="preserve">
-    <value>panelEmloyeeBasicInfo</value>
+  <data name="lblBankAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 21</value>
   </data>
   <data name="lblPin.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 21</value>
@@ -2301,17 +2304,14 @@
   <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 25</value>
   </data>
-  <data name="txtMaidenName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 27</value>
+  <data name="&gt;&gt;lblPreviousName.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;panelEmloyeeBasicInfo.Name" xml:space="preserve">
-    <value>panelEmloyeeBasicInfo</value>
+  <data name="&gt;&gt;lblRetiredSince.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
-  <data name="radioBtnDisabled.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblCurrSchool.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
   </data>
   <data name="&gt;&gt;panelEmloyeeBasicInfo.Parent" xml:space="preserve">
     <value>tPagePersonalInfo</value>
@@ -2319,17 +2319,20 @@
   <data name="lblCurrMajor.Text" xml:space="preserve">
     <value>Major :</value>
   </data>
-  <data name="&gt;&gt;lblWorkPosition.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lblCurrSchool.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grBoxAddress.Parent" xml:space="preserve">
+    <value>tPageContactAdress</value>
+  </data>
+  <data name="radioBtnHndcpNo.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtHealtInsurance.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
-    <value>txtName</value>
-  </data>
-  <data name="&gt;&gt;grBoxCurrentEducation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 14</value>
   </data>
   <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 21</value>
@@ -2349,8 +2352,8 @@
   <data name="&gt;&gt;lblStreet.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;txtSurname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radioBtnSecondPilarNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <data name="tPagePreviousJob.Text" xml:space="preserve">
     <value>Previous job</value>
@@ -2367,8 +2370,8 @@
   <data name="&gt;&gt;tPagePassword.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtIban.Parent" xml:space="preserve">
-    <value>panelBank</value>
+  <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 27</value>
   </data>
   <data name="&gt;&gt;radioBtnHandcpYes.Name" xml:space="preserve">
     <value>radioBtnHandcpYes</value>
@@ -2391,17 +2394,14 @@
   <data name="txtBankAcc.Location" type="System.Drawing.Point, System.Drawing">
     <value>200, 8</value>
   </data>
-  <data name="&gt;&gt;datePickerRetiredSince.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="tPagePreviousJob.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;tPageContactAdress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblCityTemp.Text" xml:space="preserve">
+    <value>City :</value>
   </data>
-  <data name="&gt;&gt;lblGender.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="lblIBAN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 10</value>
   </data>
   <data name="radioBtnExceptionYes.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2412,50 +2412,50 @@
   <data name="txtIdentityCard.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
   </data>
-  <data name="&gt;&gt;lblPin.Parent" xml:space="preserve">
-    <value>tPagePassword</value>
+  <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
   </data>
   <data name="&gt;&gt;panelName.Name" xml:space="preserve">
     <value>panelName</value>
   </data>
-  <data name="lblMaidenName.Text" xml:space="preserve">
-    <value>Maiden name :</value>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
   </data>
   <data name="tPagePersonalInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="&gt;&gt;datePickerBirth.Name" xml:space="preserve">
-    <value>datePickerBirth</value>
+  <data name="&gt;&gt;txtHndcpInPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblHandicapInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 21</value>
+  <data name="&gt;&gt;radioBtnExceptionNo.Name" xml:space="preserve">
+    <value>radioBtnExceptionNo</value>
   </data>
-  <data name="lblHealthInsurance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="&gt;&gt;lblStreet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;tPageChildInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panelBank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblSchool.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+  <data name="&gt;&gt;lblCurrSchool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblJobTo.Parent" xml:space="preserve">
-    <value>tPagePreviousJob</value>
+  <data name="&gt;&gt;datePickerRetiredSince.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;lblEmployeer.Parent" xml:space="preserve">
-    <value>tPagePreviousJob</value>
+  <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="lblPlaceOfBirth.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
+  <data name="&gt;&gt;radioBtnMale.Name" xml:space="preserve">
+    <value>radioBtnMale</value>
   </data>
   <data name="tPagePassword.Text" xml:space="preserve">
     <value>Password and access</value>
   </data>
-  <data name="&gt;&gt;lblSchool.Name" xml:space="preserve">
-    <value>lblSchool</value>
+  <data name="lblState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Password :</value>
@@ -2469,8 +2469,8 @@
   <data name="lblState.Location" type="System.Drawing.Point, System.Drawing">
     <value>556, 88</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>FrmQuestionnaireToFill</value>
+  <data name="&gt;&gt;radioBtnSecondPilarYes.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;lblPhoneNumber.Name" xml:space="preserve">
     <value>lblPhoneNumber</value>
@@ -2478,8 +2478,8 @@
   <data name="lblCurrEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
-  <data name="&gt;&gt;lblIdentityCard.Parent" xml:space="preserve">
-    <value>panelEmloyeeBasicInfo</value>
+  <data name="&gt;&gt;lblHandicapInPercentage.Name" xml:space="preserve">
+    <value>lblHandicapInPercentage</value>
   </data>
   <data name="radioBtnExceptionYes.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -2490,8 +2490,8 @@
   <data name="&gt;&gt;lblJobTo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioBtnRetirment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtState.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="txtHealtInsurance.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -2499,14 +2499,14 @@
   <data name="&gt;&gt;lblMaidenName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 364</value>
+  <data name="lblCurrSchool.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="&gt;&gt;tPageContactAdress.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="lblNationality.Text" xml:space="preserve">
-    <value>Nationality :</value>
+  <data name="grBoxHighEducation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 20</value>
   </data>
   <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 10</value>
@@ -2535,8 +2535,8 @@
   <data name="&gt;&gt;tPageChildInfo.Name" xml:space="preserve">
     <value>tPageChildInfo</value>
   </data>
-  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 157</value>
+  <data name="&gt;&gt;radioBtnMale.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="radioBtnRetirment.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -2544,7 +2544,7 @@
   <data name="&gt;&gt;tPagePersonalInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tPagePreviousJob.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="tPagePersonalInfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 28</value>
   </data>
   <data name="lblStreet.Font" type="System.Drawing.Font, System.Drawing">
@@ -2556,8 +2556,8 @@
   <data name="txtPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 27</value>
   </data>
-  <data name="txtMaidenName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>712, 43</value>
+  <data name="&gt;&gt;lblRetiredSince.Name" xml:space="preserve">
+    <value>lblRetiredSince</value>
   </data>
   <data name="datePickerBirth.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 44</value>
@@ -2568,16 +2568,13 @@
   <data name="&gt;&gt;tPagePassword.Parent" xml:space="preserve">
     <value>tabCntrl</value>
   </data>
-  <data name="&gt;&gt;tabCntrl.Name" xml:space="preserve">
-    <value>tabCntrl</value>
+  <data name="lblSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="grBoxTemporaryAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>944, 53</value>
+  <data name="radioBtnDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sk</value>
   </metadata>
 </root>
