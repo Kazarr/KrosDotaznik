@@ -33,6 +33,8 @@
             this.btnFill = new System.Windows.Forms.Button();
             this.btnSvk = new System.Windows.Forms.Button();
             this.btnEng = new System.Windows.Forms.Button();
+            this.dgwPokus = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwPokus)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCreate
@@ -62,15 +64,26 @@
             this.btnEng.UseVisualStyleBackColor = true;
             this.btnEng.Click += new System.EventHandler(this.btnEng_Click);
             // 
+            // dgwPokus
+            // 
+            this.dgwPokus.AllowUserToAddRows = false;
+            this.dgwPokus.AllowUserToDeleteRows = false;
+            this.dgwPokus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgwPokus, "dgwPokus");
+            this.dgwPokus.Name = "dgwPokus";
+            this.dgwPokus.ReadOnly = true;
+            // 
             // FrmMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.dgwPokus);
             this.Controls.Add(this.btnEng);
             this.Controls.Add(this.btnSvk);
             this.Controls.Add(this.btnFill);
             this.Controls.Add(this.btnCreate);
             this.Name = "FrmMain";
+            ((System.ComponentModel.ISupportInitialize)(this.dgwPokus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -81,6 +94,7 @@
         private System.Windows.Forms.Button btnFill;
         private System.Windows.Forms.Button btnSvk;
         private System.Windows.Forms.Button btnEng;
+        private System.Windows.Forms.DataGridView dgwPokus;
     }
 }
 

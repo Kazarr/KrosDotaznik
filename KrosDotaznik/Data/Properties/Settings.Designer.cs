@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KrosDotaznik.Properties {
+namespace Data.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,8 +25,8 @@ namespace KrosDotaznik.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("\nProvider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\KrosDotaznik.mdb;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\\KrosDotaznik.mdb;Jet" +
+            " OLEDB:System Database=system.mdw;")]
         public string ConnString {
             get {
                 return ((string)(this["ConnString"]));

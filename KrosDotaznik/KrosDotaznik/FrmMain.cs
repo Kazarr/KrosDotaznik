@@ -22,6 +22,7 @@ namespace KrosDotaznik
             InitializeComponent();
             SetComponentsByLanguage();
             _mainViewModel.SaveTest();
+            dgwPokus.DataSource =_mainViewModel.LoadState();
         }
 
         private void SetComponentsByLanguage() {

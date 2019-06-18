@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Logic;
+using Data.Repository.Registers;
+using System.Data;
 
 namespace KrosDotaznik
 {
@@ -61,6 +63,16 @@ namespace KrosDotaznik
                         Children = new List<Child>() { new Child() { Name = "Jozko", Surname = "Mrkvicka", Bonus = true, BirthDate = new DateTime(2000, 4, 1) }, new Child() { Name = "Ferko", Surname = "Mrkvicka", Bonus = true, BirthDate = new DateTime(2005, 7, 5) } }
                     }
                 }, "test.json");
+        }
+
+        public DataTable LoadState()
+        {
+            StateRepository state = new StateRepository();
+            DataTable table = state.GetAllState();
+            Dictionary<int,string> comboSK = table.AsEnumerable().ToDictionary<DataRow,int, string>(r => r.Field<int>(0), r => r.Field<string>(1));
+            Dictionary<int, string> comboEN = table.AsEnumerable().ToDictionary<DataRow, int, string>(r => r.Field<int>(0), r => r.Field<string>(2));
+
+            return state.GetAllState();
         }
     }
 }

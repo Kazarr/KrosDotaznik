@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCreate.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btnFill.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 14.25pt, style=Bold</value>
@@ -171,7 +171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnFill.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnSvk.Location" type="System.Drawing.Point, System.Drawing">
     <value>330, 29</value>
@@ -195,7 +195,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSvk.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnEng.Location" type="System.Drawing.Point, System.Drawing">
     <value>376, 29</value>
@@ -219,6 +219,27 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnEng.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgwPokus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 267</value>
+  </data>
+  <data name="dgwPokus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 150</value>
+  </data>
+  <data name="dgwPokus.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dgwPokus.Name" xml:space="preserve">
+    <value>dgwPokus</value>
+  </data>
+  <data name="&gt;&gt;dgwPokus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgwPokus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgwPokus.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
