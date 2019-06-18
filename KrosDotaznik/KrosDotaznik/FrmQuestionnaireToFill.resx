@@ -810,13 +810,13 @@
     <value>4</value>
   </data>
   <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>810, 20</value>
+    <value>810, 25</value>
   </data>
   <data name="txtTempPostalCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 27</value>
+    <value>100, 27</value>
   </data>
   <data name="txtTempPostalCode.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtTempPostalCode.Name" xml:space="preserve">
     <value>txtTempPostalCode</value>
@@ -831,13 +831,13 @@
     <value>0</value>
   </data>
   <data name="txtTempCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 21</value>
+    <value>479, 25</value>
   </data>
   <data name="txtTempCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>179, 27</value>
   </data>
   <data name="txtTempCity.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtTempCity.Name" xml:space="preserve">
     <value>txtTempCity</value>
@@ -852,13 +852,13 @@
     <value>1</value>
   </data>
   <data name="txtTempStreetHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 20</value>
+    <value>196, 25</value>
   </data>
   <data name="txtTempStreetHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>188, 27</value>
   </data>
   <data name="txtTempStreetHouseNumber.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txtTempStreetHouseNumber.Name" xml:space="preserve">
     <value>txtTempStreetHouseNumber</value>
@@ -969,7 +969,7 @@
     <value>10, 117</value>
   </data>
   <data name="grBoxTemporaryAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1010, 53</value>
+    <value>944, 53</value>
   </data>
   <data name="grBoxTemporaryAddress.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -990,13 +990,13 @@
     <value>2</value>
   </data>
   <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>810, 20</value>
+    <value>810, 25</value>
   </data>
   <data name="txtPostalCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 27</value>
+    <value>100, 27</value>
   </data>
   <data name="txtPostalCode.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtPostalCode.Name" xml:space="preserve">
     <value>txtPostalCode</value>
@@ -1011,13 +1011,13 @@
     <value>0</value>
   </data>
   <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 21</value>
+    <value>479, 25</value>
   </data>
   <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>179, 27</value>
   </data>
   <data name="txtCity.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtCity.Name" xml:space="preserve">
     <value>txtCity</value>
@@ -1032,13 +1032,13 @@
     <value>1</value>
   </data>
   <data name="txtStreetHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 21</value>
+    <value>196, 25</value>
   </data>
   <data name="txtStreetHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>188, 27</value>
   </data>
   <data name="txtStreetHouseNumber.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txtStreetHouseNumber.Name" xml:space="preserve">
     <value>txtStreetHouseNumber</value>
@@ -1149,7 +1149,7 @@
     <value>10, 58</value>
   </data>
   <data name="grBoxAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1010, 53</value>
+    <value>944, 53</value>
   </data>
   <data name="grBoxAddress.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1290,13 +1290,13 @@
     <value>3</value>
   </data>
   <data name="txtCurrentSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 60</value>
+    <value>587, 42</value>
   </data>
   <data name="txtCurrentSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>138, 27</value>
   </data>
   <data name="txtCurrentSchoolEducationLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtCurrentSchoolEducationLevel.Name" xml:space="preserve">
     <value>txtCurrentSchoolEducationLevel</value>
@@ -1311,13 +1311,13 @@
     <value>0</value>
   </data>
   <data name="txtCurrentSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 23</value>
+    <value>587, 17</value>
   </data>
   <data name="txtCurrentSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>138, 27</value>
   </data>
   <data name="txtCurrentSchoolMajor.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtCurrentSchoolMajor.Name" xml:space="preserve">
     <value>txtCurrentSchoolMajor</value>
@@ -1332,13 +1332,13 @@
     <value>1</value>
   </data>
   <data name="txtCurrentSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 62</value>
+    <value>196, 42</value>
   </data>
   <data name="txtCurrentSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>154, 27</value>
   </data>
   <data name="txtCurrentSchoolEndYear.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txtCurrentSchoolEndYear.Name" xml:space="preserve">
     <value>txtCurrentSchoolEndYear</value>
@@ -1353,13 +1353,13 @@
     <value>2</value>
   </data>
   <data name="txtCurrentSchool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 21</value>
+    <value>196, 17</value>
   </data>
   <data name="txtCurrentSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>154, 27</value>
   </data>
   <data name="txtCurrentSchool.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;txtCurrentSchool.Name" xml:space="preserve">
     <value>txtCurrentSchool</value>
@@ -1380,7 +1380,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblCurrEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 62</value>
+    <value>416, 44</value>
   </data>
   <data name="lblCurrEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 21</value>
@@ -1410,7 +1410,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblCurrEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
+    <value>6, 44</value>
   </data>
   <data name="lblCurrEndYear.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 21</value>
@@ -1497,10 +1497,10 @@
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
   </data>
   <data name="grBoxCurrentEducation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 121</value>
+    <value>28, 99</value>
   </data>
   <data name="grBoxCurrentEducation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>944, 95</value>
+    <value>944, 73</value>
   </data>
   <data name="grBoxCurrentEducation.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -1521,13 +1521,13 @@
     <value>0</value>
   </data>
   <data name="txtHighestSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 60</value>
+    <value>587, 42</value>
   </data>
   <data name="txtHighestSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>138, 27</value>
   </data>
   <data name="txtHighestSchoolEducationLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtHighestSchoolEducationLevel.Name" xml:space="preserve">
     <value>txtHighestSchoolEducationLevel</value>
@@ -1542,13 +1542,13 @@
     <value>0</value>
   </data>
   <data name="txtHightestSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 23</value>
+    <value>587, 17</value>
   </data>
   <data name="txtHightestSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>138, 27</value>
   </data>
   <data name="txtHightestSchoolMajor.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtHightestSchoolMajor.Name" xml:space="preserve">
     <value>txtHightestSchoolMajor</value>
@@ -1563,13 +1563,13 @@
     <value>1</value>
   </data>
   <data name="txtHighestSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 62</value>
+    <value>196, 42</value>
   </data>
   <data name="txtHighestSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>154, 27</value>
   </data>
   <data name="txtHighestSchoolEndYear.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txtHighestSchoolEndYear.Name" xml:space="preserve">
     <value>txtHighestSchoolEndYear</value>
@@ -1584,13 +1584,13 @@
     <value>2</value>
   </data>
   <data name="txtHighestSchool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 21</value>
+    <value>196, 17</value>
   </data>
   <data name="txtHighestSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 27</value>
+    <value>154, 27</value>
   </data>
   <data name="txtHighestSchool.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;txtHighestSchool.Name" xml:space="preserve">
     <value>txtHighestSchool</value>
@@ -1611,7 +1611,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 62</value>
+    <value>416, 44</value>
   </data>
   <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 21</value>
@@ -1641,16 +1641,16 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
+    <value>6, 44</value>
   </data>
   <data name="lblEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
+    <value>78, 21</value>
   </data>
   <data name="lblEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
   <data name="lblEndYear.Text" xml:space="preserve">
-    <value>End year :</value>
+    <value>End year</value>
   </data>
   <data name="&gt;&gt;lblEndYear.Name" xml:space="preserve">
     <value>lblEndYear</value>
@@ -1731,7 +1731,7 @@
     <value>28, 20</value>
   </data>
   <data name="grBoxHighEducation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>944, 95</value>
+    <value>944, 73</value>
   </data>
   <data name="grBoxHighEducation.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1750,30 +1750,6 @@
   </data>
   <data name="&gt;&gt;grBoxHighEducation.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>931, 633</value>
-  </data>
-  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 29</value>
-  </data>
-  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
-    <value>btnSave</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 157</value>
@@ -2127,7 +2103,7 @@
     <value>tPagePersonalInfo</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="txtIban.Location" type="System.Drawing.Point, System.Drawing">
     <value>711, 8</value>
@@ -2190,7 +2166,7 @@
     <value>tPagePersonalInfo</value>
   </data>
   <data name="&gt;&gt;panelBank.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="txtState.Location" type="System.Drawing.Point, System.Drawing">
     <value>712, 85</value>
@@ -2463,7 +2439,7 @@
     <value>tPagePersonalInfo</value>
   </data>
   <data name="&gt;&gt;panelEmloyeeBasicInfo.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="txtMaidenName.Location" type="System.Drawing.Point, System.Drawing">
     <value>712, 43</value>
@@ -2568,7 +2544,7 @@
     <value>tPagePersonalInfo</value>
   </data>
   <data name="&gt;&gt;panelName.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="tPagePersonalInfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 28</value>
@@ -2599,13 +2575,13 @@
     <value>0</value>
   </data>
   <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 12</value>
+    <value>531, 12</value>
   </data>
   <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>237, 27</value>
   </data>
   <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
     <value>txtEmail</value>
@@ -2620,13 +2596,13 @@
     <value>0</value>
   </data>
   <data name="txtPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 12</value>
+    <value>154, 12</value>
   </data>
   <data name="txtPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 27</value>
+    <value>240, 27</value>
   </data>
   <data name="txtPhoneNumber.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtPhoneNumber.Name" xml:space="preserve">
     <value>txtPhoneNumber</value>
@@ -2668,13 +2644,13 @@
     <value>1</value>
   </data>
   <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>541, 18</value>
+    <value>570, 18</value>
   </data>
   <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 27</value>
+    <value>174, 27</value>
   </data>
   <data name="txtPinAlarm.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtPinAlarm.Name" xml:space="preserve">
     <value>txtPinAlarm</value>
@@ -2689,13 +2665,13 @@
     <value>0</value>
   </data>
   <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 18</value>
+    <value>140, 18</value>
   </data>
   <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 27</value>
+    <value>160, 27</value>
   </data>
   <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
     <value>txtPassword</value>
@@ -2764,13 +2740,13 @@
     <value>3</value>
   </data>
   <data name="txtWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 54</value>
+    <value>776, 28</value>
   </data>
   <data name="txtWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 27</value>
+    <value>168, 27</value>
   </data>
   <data name="txtWorkPosition.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtWorkPosition.Name" xml:space="preserve">
     <value>txtWorkPosition</value>
@@ -2785,13 +2761,13 @@
     <value>0</value>
   </data>
   <data name="txtEmployeer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 54</value>
+    <value>487, 28</value>
   </data>
   <data name="txtEmployeer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 27</value>
+    <value>145, 27</value>
   </data>
   <data name="txtEmployeer.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtEmployeer.Name" xml:space="preserve">
     <value>txtEmployeer</value>
@@ -2806,13 +2782,13 @@
     <value>1</value>
   </data>
   <data name="dtpTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 121</value>
+    <value>6, 144</value>
   </data>
   <data name="dtpTo.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 27</value>
   </data>
   <data name="dtpTo.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;dtpTo.Name" xml:space="preserve">
     <value>dtpTo</value>
@@ -2827,13 +2803,13 @@
     <value>2</value>
   </data>
   <data name="dtpFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 54</value>
+    <value>6, 54</value>
   </data>
   <data name="dtpFrom.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 27</value>
   </data>
   <data name="dtpFrom.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;dtpFrom.Name" xml:space="preserve">
     <value>dtpFrom</value>
@@ -2854,7 +2830,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>677, 30</value>
+    <value>654, 30</value>
   </data>
   <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 21</value>
@@ -2884,7 +2860,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblEmployeer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 30</value>
+    <value>390, 30</value>
   </data>
   <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 21</value>
@@ -2914,7 +2890,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblJobTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 97</value>
+    <value>11, 120</value>
   </data>
   <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 21</value>
@@ -2944,7 +2920,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblJobFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 30</value>
+    <value>11, 30</value>
   </data>
   <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -2994,29 +2970,11 @@
   <data name="&gt;&gt;tPagePreviousJob.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="colName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colName.HeaderText" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <metadata name="colSurname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colSurname.HeaderText" xml:space="preserve">
-    <value>Surname</value>
-  </data>
-  <metadata name="colTaxBonus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colTaxBonus.HeaderText" xml:space="preserve">
-    <value>Tax bonus</value>
-  </data>
   <data name="dgvChildren.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="dgvChildren.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1030, 235</value>
+    <value>783, 150</value>
   </data>
   <data name="dgvChildren.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
