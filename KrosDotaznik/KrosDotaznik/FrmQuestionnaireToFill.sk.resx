@@ -250,18 +250,164 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>Meno:</value>
   </data>
+  <data name="grBoxTemporaryAddress.Text" xml:space="preserve">
+    <value>Prechodné bydlisko</value>
+  </data>
+  <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="lblPostalCodeTemp.Text" xml:space="preserve">
+    <value>PSČ:</value>
+  </data>
+  <data name="lblCityTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="lblCityTemp.Text" xml:space="preserve">
+    <value>Mesto:</value>
+  </data>
+  <data name="lblStreetTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 21</value>
+  </data>
+  <data name="lblStreetTemp.Text" xml:space="preserve">
+    <value>Ulica, číslo:</value>
+  </data>
+  <data name="grBoxAddress.Text" xml:space="preserve">
+    <value>Adresa trvalého bydliska</value>
+  </data>
+  <data name="lblPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="lblPostalCode.Text" xml:space="preserve">
+    <value>PSČ:</value>
+  </data>
+  <data name="lblCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="lblCity.Text" xml:space="preserve">
+    <value>Mesto:</value>
+  </data>
+  <data name="lblStreet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 21</value>
+  </data>
+  <data name="lblStreet.Text" xml:space="preserve">
+    <value>Ulica, číslo:</value>
+  </data>
+  <data name="lblPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="lblPhoneNumber.Text" xml:space="preserve">
+    <value>Telefón:</value>
+  </data>
+  <data name="lblPin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 21</value>
+  </data>
+  <data name="lblPin.Text" xml:space="preserve">
+    <value>PIN na alarm:</value>
+  </data>
+  <data name="lblPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 21</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>Heslo k výplatnej páske:</value>
+  </data>
+  <data name="grBoxCurrentEducation.Text" xml:space="preserve">
+    <value>Súčasné štúdium</value>
+  </data>
+  <data name="lblCurrEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 21</value>
+  </data>
+  <data name="lblCurrEducationLevel.Text" xml:space="preserve">
+    <value>Úroveň vzdelania:</value>
+  </data>
+  <data name="lblCurrEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 21</value>
+  </data>
+  <data name="lblCurrEndYear.Text" xml:space="preserve">
+    <value>Rok ukončenia:</value>
+  </data>
+  <data name="lblCurrMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="lblCurrMajor.Text" xml:space="preserve">
+    <value>Odbor:</value>
+  </data>
+  <data name="lblCurrSchool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 21</value>
+  </data>
+  <data name="lblCurrSchool.Text" xml:space="preserve">
+    <value>Škola:</value>
+  </data>
+  <data name="grBoxHighEducation.Text" xml:space="preserve">
+    <value>Najvyššie ukončené vzdelanie</value>
+  </data>
+  <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 21</value>
+  </data>
+  <data name="lblEducationLevel.Text" xml:space="preserve">
+    <value>Úroveň vzdelania:</value>
+  </data>
+  <data name="lblEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 21</value>
+  </data>
+  <data name="lblEndYear.Text" xml:space="preserve">
+    <value>Rok ukončenia:</value>
+  </data>
+  <data name="lblMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="lblMajor.Text" xml:space="preserve">
+    <value>Odbor:</value>
+  </data>
+  <data name="lblSchool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 21</value>
+  </data>
+  <data name="lblSchool.Text" xml:space="preserve">
+    <value>Škola:</value>
+  </data>
+  <data name="tPagePersonalInfo.Text" xml:space="preserve">
+    <value>Údaje o zamestnancovi</value>
+  </data>
+  <data name="tPageContactAdress.Text" xml:space="preserve">
+    <value>Kontakty, adresy</value>
+  </data>
+  <data name="tPagePassword.Text" xml:space="preserve">
+    <value>Heslá a prístupy</value>
+  </data>
+  <data name="tPageEducation.Text" xml:space="preserve">
+    <value>Údaje o vzdelaní</value>
+  </data>
+  <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="lblWorkPosition.Text" xml:space="preserve">
+    <value>Pracovná pozícia:</value>
+  </data>
+  <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 21</value>
+  </data>
+  <data name="lblEmployeer.Text" xml:space="preserve">
+    <value>Zamestnávateľ:</value>
+  </data>
+  <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 21</value>
+  </data>
+  <data name="lblJobTo.Text" xml:space="preserve">
+    <value>Do:</value>
+  </data>
+  <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 21</value>
+  </data>
+  <data name="lblJobFrom.Text" xml:space="preserve">
+    <value>Od:</value>
+  </data>
+  <data name="tPagePreviousJob.Text" xml:space="preserve">
+    <value>Predchádzajúce zamestnanie</value>
+  </data>
   <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
   </data>
-  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 157</value>
-  </data>
   <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 27</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="datePickerRetiredSince.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
   </data>
   <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 25</value>
@@ -334,8 +480,5 @@
   </data>
   <data name="radioBtnMale.Text" xml:space="preserve">
     <value>Muž</value>
-  </data>
-  <data name="tPagePersonalInfo.Text" xml:space="preserve">
-    <value>Údaje o zamestnancovi</value>
   </data>
 </root>
