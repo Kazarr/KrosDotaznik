@@ -53,10 +53,16 @@
             this.lblIdentityCard = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.grBoxTemporaryAddress = new System.Windows.Forms.GroupBox();
+            this.txtTempPostalCode = new System.Windows.Forms.TextBox();
+            this.txtTempCity = new System.Windows.Forms.TextBox();
+            this.txtTempStreetHouseNumber = new System.Windows.Forms.TextBox();
             this.lblPostalCodeTemp = new System.Windows.Forms.Label();
             this.lblCityTemp = new System.Windows.Forms.Label();
             this.lblStreetTemp = new System.Windows.Forms.Label();
             this.grBoxAddress = new System.Windows.Forms.GroupBox();
+            this.txtPostalCode = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtStreetHouseNumber = new System.Windows.Forms.TextBox();
             this.lblPostalCode = new System.Windows.Forms.Label();
             this.lblCity = new System.Windows.Forms.Label();
             this.lblStreet = new System.Windows.Forms.Label();
@@ -65,11 +71,19 @@
             this.lblPin = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.grBoxCurrentEducation = new System.Windows.Forms.GroupBox();
+            this.txtCurrentSchoolEducationLevel = new System.Windows.Forms.TextBox();
+            this.txtCurrentSchoolMajor = new System.Windows.Forms.TextBox();
+            this.txtCurrentSchoolEndYear = new System.Windows.Forms.TextBox();
+            this.txtCurrentSchool = new System.Windows.Forms.TextBox();
             this.lblCurrEducationLevel = new System.Windows.Forms.Label();
             this.lblCurrEndYear = new System.Windows.Forms.Label();
             this.lblCurrMajor = new System.Windows.Forms.Label();
             this.lblCurrSchool = new System.Windows.Forms.Label();
             this.grBoxHighEducation = new System.Windows.Forms.GroupBox();
+            this.txtHighestSchoolEducationLevel = new System.Windows.Forms.TextBox();
+            this.txtHightestSchoolMajor = new System.Windows.Forms.TextBox();
+            this.txtHighestSchoolEndYear = new System.Windows.Forms.TextBox();
+            this.txtHighestSchool = new System.Windows.Forms.TextBox();
             this.lblEducationLevel = new System.Windows.Forms.Label();
             this.lblEndYear = new System.Windows.Forms.Label();
             this.lblMajor = new System.Windows.Forms.Label();
@@ -110,14 +124,26 @@
             this.txtPreviousName = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.tPageContactAdress = new System.Windows.Forms.TabPage();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.tPagePassword = new System.Windows.Forms.TabPage();
+            this.txtPinAlarm = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.tPageEducation = new System.Windows.Forms.TabPage();
             this.tPagePreviousJob = new System.Windows.Forms.TabPage();
+            this.txtWorkPosition = new System.Windows.Forms.TextBox();
+            this.txtEmployeer = new System.Windows.Forms.TextBox();
+            this.dtpTo = new System.Windows.Forms.DateTimePicker();
+            this.dtpFrom = new System.Windows.Forms.DateTimePicker();
             this.lblWorkPosition = new System.Windows.Forms.Label();
             this.lblEmployeer = new System.Windows.Forms.Label();
             this.lblJobTo = new System.Windows.Forms.Label();
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
+            this.dgvChildren = new System.Windows.Forms.DataGridView();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTaxBonus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -132,6 +158,8 @@
             this.tPagePassword.SuspendLayout();
             this.tPageEducation.SuspendLayout();
             this.tPagePreviousJob.SuspendLayout();
+            this.tPageChildInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).BeginInit();
             this.SuspendLayout();
             // 
             // lblRetirementInsuranceCompanyException
@@ -252,11 +280,29 @@
             // grBoxTemporaryAddress
             // 
             resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
+            this.grBoxTemporaryAddress.Controls.Add(this.txtTempPostalCode);
+            this.grBoxTemporaryAddress.Controls.Add(this.txtTempCity);
+            this.grBoxTemporaryAddress.Controls.Add(this.txtTempStreetHouseNumber);
             this.grBoxTemporaryAddress.Controls.Add(this.lblPostalCodeTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblCityTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblStreetTemp);
             this.grBoxTemporaryAddress.Name = "grBoxTemporaryAddress";
             this.grBoxTemporaryAddress.TabStop = false;
+            // 
+            // txtTempPostalCode
+            // 
+            resources.ApplyResources(this.txtTempPostalCode, "txtTempPostalCode");
+            this.txtTempPostalCode.Name = "txtTempPostalCode";
+            // 
+            // txtTempCity
+            // 
+            resources.ApplyResources(this.txtTempCity, "txtTempCity");
+            this.txtTempCity.Name = "txtTempCity";
+            // 
+            // txtTempStreetHouseNumber
+            // 
+            resources.ApplyResources(this.txtTempStreetHouseNumber, "txtTempStreetHouseNumber");
+            this.txtTempStreetHouseNumber.Name = "txtTempStreetHouseNumber";
             // 
             // lblPostalCodeTemp
             // 
@@ -276,11 +322,29 @@
             // grBoxAddress
             // 
             resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
+            this.grBoxAddress.Controls.Add(this.txtPostalCode);
+            this.grBoxAddress.Controls.Add(this.txtCity);
+            this.grBoxAddress.Controls.Add(this.txtStreetHouseNumber);
             this.grBoxAddress.Controls.Add(this.lblPostalCode);
             this.grBoxAddress.Controls.Add(this.lblCity);
             this.grBoxAddress.Controls.Add(this.lblStreet);
             this.grBoxAddress.Name = "grBoxAddress";
             this.grBoxAddress.TabStop = false;
+            // 
+            // txtPostalCode
+            // 
+            resources.ApplyResources(this.txtPostalCode, "txtPostalCode");
+            this.txtPostalCode.Name = "txtPostalCode";
+            // 
+            // txtCity
+            // 
+            resources.ApplyResources(this.txtCity, "txtCity");
+            this.txtCity.Name = "txtCity";
+            // 
+            // txtStreetHouseNumber
+            // 
+            resources.ApplyResources(this.txtStreetHouseNumber, "txtStreetHouseNumber");
+            this.txtStreetHouseNumber.Name = "txtStreetHouseNumber";
             // 
             // lblPostalCode
             // 
@@ -320,12 +384,36 @@
             // grBoxCurrentEducation
             // 
             resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
+            this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEducationLevel);
+            this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolMajor);
+            this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEndYear);
+            this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchool);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrEducationLevel);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrEndYear);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrMajor);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrSchool);
             this.grBoxCurrentEducation.Name = "grBoxCurrentEducation";
             this.grBoxCurrentEducation.TabStop = false;
+            // 
+            // txtCurrentSchoolEducationLevel
+            // 
+            resources.ApplyResources(this.txtCurrentSchoolEducationLevel, "txtCurrentSchoolEducationLevel");
+            this.txtCurrentSchoolEducationLevel.Name = "txtCurrentSchoolEducationLevel";
+            // 
+            // txtCurrentSchoolMajor
+            // 
+            resources.ApplyResources(this.txtCurrentSchoolMajor, "txtCurrentSchoolMajor");
+            this.txtCurrentSchoolMajor.Name = "txtCurrentSchoolMajor";
+            // 
+            // txtCurrentSchoolEndYear
+            // 
+            resources.ApplyResources(this.txtCurrentSchoolEndYear, "txtCurrentSchoolEndYear");
+            this.txtCurrentSchoolEndYear.Name = "txtCurrentSchoolEndYear";
+            // 
+            // txtCurrentSchool
+            // 
+            resources.ApplyResources(this.txtCurrentSchool, "txtCurrentSchool");
+            this.txtCurrentSchool.Name = "txtCurrentSchool";
             // 
             // lblCurrEducationLevel
             // 
@@ -350,12 +438,36 @@
             // grBoxHighEducation
             // 
             resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
+            this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEducationLevel);
+            this.grBoxHighEducation.Controls.Add(this.txtHightestSchoolMajor);
+            this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEndYear);
+            this.grBoxHighEducation.Controls.Add(this.txtHighestSchool);
             this.grBoxHighEducation.Controls.Add(this.lblEducationLevel);
             this.grBoxHighEducation.Controls.Add(this.lblEndYear);
             this.grBoxHighEducation.Controls.Add(this.lblMajor);
             this.grBoxHighEducation.Controls.Add(this.lblSchool);
             this.grBoxHighEducation.Name = "grBoxHighEducation";
             this.grBoxHighEducation.TabStop = false;
+            // 
+            // txtHighestSchoolEducationLevel
+            // 
+            resources.ApplyResources(this.txtHighestSchoolEducationLevel, "txtHighestSchoolEducationLevel");
+            this.txtHighestSchoolEducationLevel.Name = "txtHighestSchoolEducationLevel";
+            // 
+            // txtHightestSchoolMajor
+            // 
+            resources.ApplyResources(this.txtHightestSchoolMajor, "txtHightestSchoolMajor");
+            this.txtHightestSchoolMajor.Name = "txtHightestSchoolMajor";
+            // 
+            // txtHighestSchoolEndYear
+            // 
+            resources.ApplyResources(this.txtHighestSchoolEndYear, "txtHighestSchoolEndYear");
+            this.txtHighestSchoolEndYear.Name = "txtHighestSchoolEndYear";
+            // 
+            // txtHighestSchool
+            // 
+            resources.ApplyResources(this.txtHighestSchool, "txtHighestSchool");
+            this.txtHighestSchool.Name = "txtHighestSchool";
             // 
             // lblEducationLevel
             // 
@@ -648,6 +760,8 @@
             // tPageContactAdress
             // 
             resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
+            this.tPageContactAdress.Controls.Add(this.txtEmail);
+            this.tPageContactAdress.Controls.Add(this.txtPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxTemporaryAddress);
             this.tPageContactAdress.Controls.Add(this.lblPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxAddress);
@@ -655,13 +769,35 @@
             this.tPageContactAdress.Name = "tPageContactAdress";
             this.tPageContactAdress.UseVisualStyleBackColor = true;
             // 
+            // txtEmail
+            // 
+            resources.ApplyResources(this.txtEmail, "txtEmail");
+            this.txtEmail.Name = "txtEmail";
+            // 
+            // txtPhoneNumber
+            // 
+            resources.ApplyResources(this.txtPhoneNumber, "txtPhoneNumber");
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            // 
             // tPagePassword
             // 
             resources.ApplyResources(this.tPagePassword, "tPagePassword");
+            this.tPagePassword.Controls.Add(this.txtPinAlarm);
+            this.tPagePassword.Controls.Add(this.txtPassword);
             this.tPagePassword.Controls.Add(this.lblPin);
             this.tPagePassword.Controls.Add(this.lblPassword);
             this.tPagePassword.Name = "tPagePassword";
             this.tPagePassword.UseVisualStyleBackColor = true;
+            // 
+            // txtPinAlarm
+            // 
+            resources.ApplyResources(this.txtPinAlarm, "txtPinAlarm");
+            this.txtPinAlarm.Name = "txtPinAlarm";
+            // 
+            // txtPassword
+            // 
+            resources.ApplyResources(this.txtPassword, "txtPassword");
+            this.txtPassword.Name = "txtPassword";
             // 
             // tPageEducation
             // 
@@ -674,12 +810,36 @@
             // tPagePreviousJob
             // 
             resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
+            this.tPagePreviousJob.Controls.Add(this.txtWorkPosition);
+            this.tPagePreviousJob.Controls.Add(this.txtEmployeer);
+            this.tPagePreviousJob.Controls.Add(this.dtpTo);
+            this.tPagePreviousJob.Controls.Add(this.dtpFrom);
             this.tPagePreviousJob.Controls.Add(this.lblWorkPosition);
             this.tPagePreviousJob.Controls.Add(this.lblEmployeer);
             this.tPagePreviousJob.Controls.Add(this.lblJobTo);
             this.tPagePreviousJob.Controls.Add(this.lblJobFrom);
             this.tPagePreviousJob.Name = "tPagePreviousJob";
             this.tPagePreviousJob.UseVisualStyleBackColor = true;
+            // 
+            // txtWorkPosition
+            // 
+            resources.ApplyResources(this.txtWorkPosition, "txtWorkPosition");
+            this.txtWorkPosition.Name = "txtWorkPosition";
+            // 
+            // txtEmployeer
+            // 
+            resources.ApplyResources(this.txtEmployeer, "txtEmployeer");
+            this.txtEmployeer.Name = "txtEmployeer";
+            // 
+            // dtpTo
+            // 
+            resources.ApplyResources(this.dtpTo, "dtpTo");
+            this.dtpTo.Name = "dtpTo";
+            // 
+            // dtpFrom
+            // 
+            resources.ApplyResources(this.dtpFrom, "dtpFrom");
+            this.dtpFrom.Name = "dtpFrom";
             // 
             // lblWorkPosition
             // 
@@ -704,8 +864,35 @@
             // tPageChildInfo
             // 
             resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
+            this.tPageChildInfo.Controls.Add(this.dgvChildren);
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
+            // 
+            // dgvChildren
+            // 
+            resources.ApplyResources(this.dgvChildren, "dgvChildren");
+            this.dgvChildren.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvChildren.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChildren.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colName,
+            this.colSurname,
+            this.colTaxBonus});
+            this.dgvChildren.Name = "dgvChildren";
+            // 
+            // colName
+            // 
+            resources.ApplyResources(this.colName, "colName");
+            this.colName.Name = "colName";
+            // 
+            // colSurname
+            // 
+            resources.ApplyResources(this.colSurname, "colSurname");
+            this.colSurname.Name = "colSurname";
+            // 
+            // colTaxBonus
+            // 
+            resources.ApplyResources(this.colTaxBonus, "colTaxBonus");
+            this.colTaxBonus.Name = "colTaxBonus";
             // 
             // FrmQuestionnaireToFill
             // 
@@ -738,6 +925,8 @@
             this.tPageEducation.ResumeLayout(false);
             this.tPagePreviousJob.ResumeLayout(false);
             this.tPagePreviousJob.PerformLayout();
+            this.tPageChildInfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -832,5 +1021,31 @@
         private System.Windows.Forms.RadioButton radioBtnSecondPilarYes;
         private System.Windows.Forms.TextBox txtHndcpInPercentage;
         private System.Windows.Forms.DateTimePicker datePickerRetiredSince;
+        private System.Windows.Forms.TextBox txtTempPostalCode;
+        private System.Windows.Forms.TextBox txtTempCity;
+        private System.Windows.Forms.TextBox txtTempStreetHouseNumber;
+        private System.Windows.Forms.TextBox txtPostalCode;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtStreetHouseNumber;
+        private System.Windows.Forms.TextBox txtCurrentSchoolEducationLevel;
+        private System.Windows.Forms.TextBox txtCurrentSchoolMajor;
+        private System.Windows.Forms.TextBox txtCurrentSchoolEndYear;
+        private System.Windows.Forms.TextBox txtCurrentSchool;
+        private System.Windows.Forms.TextBox txtHighestSchoolEducationLevel;
+        private System.Windows.Forms.TextBox txtHightestSchoolMajor;
+        private System.Windows.Forms.TextBox txtHighestSchoolEndYear;
+        private System.Windows.Forms.TextBox txtHighestSchool;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtPhoneNumber;
+        private System.Windows.Forms.TextBox txtPinAlarm;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtWorkPosition;
+        private System.Windows.Forms.TextBox txtEmployeer;
+        private System.Windows.Forms.DateTimePicker dtpTo;
+        private System.Windows.Forms.DateTimePicker dtpFrom;
+        private System.Windows.Forms.DataGridView dgvChildren;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTaxBonus;
     }
 }
