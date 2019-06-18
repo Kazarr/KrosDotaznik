@@ -87,6 +87,8 @@
             this.lblSchool = new System.Windows.Forms.Label();
             this.tabCntrl = new System.Windows.Forms.TabControl();
             this.tPagePersonalInfo = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtHndcpInPercentage = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radioBtnExceptionYes = new System.Windows.Forms.RadioButton();
             this.radioBtnExceptionNo = new System.Windows.Forms.RadioButton();
@@ -96,9 +98,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioBtnHandcpYes = new System.Windows.Forms.RadioButton();
             this.radioBtnHndcpNo = new System.Windows.Forms.RadioButton();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
-            this.txtHndcpInPercentage = new System.Windows.Forms.TextBox();
             this.radioBtnRetirment = new System.Windows.Forms.RadioButton();
             this.radioBtnDisabled = new System.Windows.Forms.RadioButton();
             this.radioBtnOldAge = new System.Windows.Forms.RadioButton();
@@ -144,16 +144,17 @@
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTaxBonus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSave = new System.Windows.Forms.Button();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
             this.grBoxHighEducation.SuspendLayout();
             this.tabCntrl.SuspendLayout();
             this.tPagePersonalInfo.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panelBank.SuspendLayout();
             this.panelEmloyeeBasicInfo.SuspendLayout();
             this.panelName.SuspendLayout();
@@ -267,13 +268,13 @@
             // 
             // grBoxTemporaryAddress
             // 
-            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempPostalCode);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempCity);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempStreetHouseNumber);
             this.grBoxTemporaryAddress.Controls.Add(this.lblPostalCodeTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblCityTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblStreetTemp);
+            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Name = "grBoxTemporaryAddress";
             this.grBoxTemporaryAddress.TabStop = false;
             // 
@@ -309,13 +310,13 @@
             // 
             // grBoxAddress
             // 
-            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Controls.Add(this.txtPostalCode);
             this.grBoxAddress.Controls.Add(this.txtCity);
             this.grBoxAddress.Controls.Add(this.txtStreetHouseNumber);
             this.grBoxAddress.Controls.Add(this.lblPostalCode);
             this.grBoxAddress.Controls.Add(this.lblCity);
             this.grBoxAddress.Controls.Add(this.lblStreet);
+            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Name = "grBoxAddress";
             this.grBoxAddress.TabStop = false;
             // 
@@ -371,7 +372,6 @@
             // 
             // grBoxCurrentEducation
             // 
-            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEducationLevel);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolMajor);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEndYear);
@@ -380,6 +380,7 @@
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrEndYear);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrMajor);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrSchool);
+            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Name = "grBoxCurrentEducation";
             this.grBoxCurrentEducation.TabStop = false;
             // 
@@ -425,7 +426,6 @@
             // 
             // grBoxHighEducation
             // 
-            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEducationLevel);
             this.grBoxHighEducation.Controls.Add(this.txtHightestSchoolMajor);
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEndYear);
@@ -434,6 +434,7 @@
             this.grBoxHighEducation.Controls.Add(this.lblEndYear);
             this.grBoxHighEducation.Controls.Add(this.lblMajor);
             this.grBoxHighEducation.Controls.Add(this.lblSchool);
+            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Name = "grBoxHighEducation";
             this.grBoxHighEducation.TabStop = false;
             // 
@@ -479,31 +480,56 @@
             // 
             // tabCntrl
             // 
-            resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Controls.Add(this.tPagePersonalInfo);
             this.tabCntrl.Controls.Add(this.tPageContactAdress);
             this.tabCntrl.Controls.Add(this.tPagePassword);
             this.tabCntrl.Controls.Add(this.tPageEducation);
             this.tabCntrl.Controls.Add(this.tPagePreviousJob);
             this.tabCntrl.Controls.Add(this.tPageChildInfo);
+            resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Name = "tabCntrl";
             this.tabCntrl.SelectedIndex = 0;
             // 
             // tPagePersonalInfo
             // 
-            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Controls.Add(this.panel1);
             this.tPagePersonalInfo.Controls.Add(this.panelBank);
             this.tPagePersonalInfo.Controls.Add(this.panelEmloyeeBasicInfo);
             this.tPagePersonalInfo.Controls.Add(this.panelName);
+            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Name = "tPagePersonalInfo";
             this.tPagePersonalInfo.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.txtHndcpInPercentage);
+            this.panel1.Controls.Add(this.groupBox3);
+            this.panel1.Controls.Add(this.groupBox2);
+            this.panel1.Controls.Add(this.lblHandicapInPercentage);
+            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.datePickerRetiredSince);
+            this.panel1.Controls.Add(this.radioBtnRetirment);
+            this.panel1.Controls.Add(this.radioBtnDisabled);
+            this.panel1.Controls.Add(this.radioBtnOldAge);
+            this.panel1.Controls.Add(this.txtHealtInsurance);
+            this.panel1.Controls.Add(this.lblHealthInsurance);
+            this.panel1.Controls.Add(this.lblPensionRecipient);
+            this.panel1.Controls.Add(this.lblRetiredSince);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // txtHndcpInPercentage
+            // 
+            resources.ApplyResources(this.txtHndcpInPercentage, "txtHndcpInPercentage");
+            this.txtHndcpInPercentage.Name = "txtHndcpInPercentage";
+            this.txtHndcpInPercentage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHndcpInPercentage_KeyPress);
+            // 
             // groupBox3
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.radioBtnExceptionYes);
             this.groupBox3.Controls.Add(this.radioBtnExceptionNo);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -523,9 +549,9 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.radioBtnSecondPilarYes);
             this.groupBox2.Controls.Add(this.radioBtnSecondPilarNo);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -545,10 +571,10 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.radioBtnHandcpYes);
             this.groupBox1.Controls.Add(this.radioBtnHndcpNo);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -566,35 +592,10 @@
             this.radioBtnHndcpNo.TabStop = true;
             this.radioBtnHndcpNo.UseVisualStyleBackColor = true;
             // 
-            // panel1
-            // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.txtHndcpInPercentage);
-            this.panel1.Controls.Add(this.groupBox3);
-            this.panel1.Controls.Add(this.groupBox2);
-            this.panel1.Controls.Add(this.lblHandicapInPercentage);
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.datePickerRetiredSince);
-            this.panel1.Controls.Add(this.radioBtnRetirment);
-            this.panel1.Controls.Add(this.radioBtnDisabled);
-            this.panel1.Controls.Add(this.radioBtnOldAge);
-            this.panel1.Controls.Add(this.txtHealtInsurance);
-            this.panel1.Controls.Add(this.lblHealthInsurance);
-            this.panel1.Controls.Add(this.lblPensionRecipient);
-            this.panel1.Controls.Add(this.lblRetiredSince);
-            this.panel1.Name = "panel1";
-            // 
             // datePickerRetiredSince
             // 
             resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
             this.datePickerRetiredSince.Name = "datePickerRetiredSince";
-            // 
-            // txtHndcpInPercentage
-            // 
-            resources.ApplyResources(this.txtHndcpInPercentage, "txtHndcpInPercentage");
-            this.txtHndcpInPercentage.Name = "txtHndcpInPercentage";
-            this.txtHndcpInPercentage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHndcpInPercentage_KeyPress);
             // 
             // radioBtnRetirment
             // 
@@ -624,12 +625,12 @@
             // 
             // panelBank
             // 
-            resources.ApplyResources(this.panelBank, "panelBank");
             this.panelBank.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelBank.Controls.Add(this.txtIban);
             this.panelBank.Controls.Add(this.txtBankAcc);
             this.panelBank.Controls.Add(this.lblBankAcc);
             this.panelBank.Controls.Add(this.lblIBAN);
+            resources.ApplyResources(this.panelBank, "panelBank");
             this.panelBank.Name = "panelBank";
             // 
             // txtIban
@@ -644,7 +645,6 @@
             // 
             // panelEmloyeeBasicInfo
             // 
-            resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelEmloyeeBasicInfo.Controls.Add(this.txtState);
             this.panelEmloyeeBasicInfo.Controls.Add(this.radioBtnFemale);
@@ -667,6 +667,7 @@
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblRegionOfBirth);
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblNationality);
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblCitizenShip);
+            resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.Name = "panelEmloyeeBasicInfo";
             // 
             // txtState
@@ -730,7 +731,6 @@
             // 
             // panelName
             // 
-            resources.ApplyResources(this.panelName, "panelName");
             this.panelName.BackColor = System.Drawing.Color.Transparent;
             this.panelName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelName.Controls.Add(this.txtMaidenName);
@@ -742,6 +742,7 @@
             this.panelName.Controls.Add(this.lblPreviousName);
             this.panelName.Controls.Add(this.lblMaidenName);
             this.panelName.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panelName, "panelName");
             this.panelName.Name = "panelName";
             // 
             // txtMaidenName
@@ -766,13 +767,13 @@
             // 
             // tPageContactAdress
             // 
-            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Controls.Add(this.txtEmail);
             this.tPageContactAdress.Controls.Add(this.txtPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxTemporaryAddress);
             this.tPageContactAdress.Controls.Add(this.lblPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxAddress);
             this.tPageContactAdress.Controls.Add(this.lblEmail);
+            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Name = "tPageContactAdress";
             this.tPageContactAdress.UseVisualStyleBackColor = true;
             // 
@@ -788,11 +789,11 @@
             // 
             // tPagePassword
             // 
-            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Controls.Add(this.txtPinAlarm);
             this.tPagePassword.Controls.Add(this.txtPassword);
             this.tPagePassword.Controls.Add(this.lblPin);
             this.tPagePassword.Controls.Add(this.lblPassword);
+            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Name = "tPagePassword";
             this.tPagePassword.UseVisualStyleBackColor = true;
             // 
@@ -808,15 +809,14 @@
             // 
             // tPageEducation
             // 
-            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Controls.Add(this.grBoxCurrentEducation);
             this.tPageEducation.Controls.Add(this.grBoxHighEducation);
+            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Name = "tPageEducation";
             this.tPageEducation.UseVisualStyleBackColor = true;
             // 
             // tPagePreviousJob
             // 
-            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Controls.Add(this.txtWorkPosition);
             this.tPagePreviousJob.Controls.Add(this.txtEmployeer);
             this.tPagePreviousJob.Controls.Add(this.dtpTo);
@@ -825,6 +825,7 @@
             this.tPagePreviousJob.Controls.Add(this.lblEmployeer);
             this.tPagePreviousJob.Controls.Add(this.lblJobTo);
             this.tPagePreviousJob.Controls.Add(this.lblJobFrom);
+            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Name = "tPagePreviousJob";
             this.tPagePreviousJob.UseVisualStyleBackColor = true;
             // 
@@ -870,41 +871,46 @@
             // 
             // tPageChildInfo
             // 
-            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Controls.Add(this.dgvChildren);
+            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
             // 
             // dgvChildren
             // 
-            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChildren.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChildren.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colName,
             this.colSurname,
             this.colTaxBonus});
+            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
             // 
             // colName
             // 
-            resources.ApplyResources(this.colName, "colName");
             this.colName.Name = "colName";
             // 
             // colSurname
             // 
-            resources.ApplyResources(this.colSurname, "colSurname");
             this.colSurname.Name = "colSurname";
             // 
             // colTaxBonus
             // 
-            resources.ApplyResources(this.colTaxBonus, "colTaxBonus");
             this.colTaxBonus.Name = "colTaxBonus";
+            // 
+            // btnSave
+            // 
+            resources.ApplyResources(this.btnSave, "btnSave");
+            this.btnSave.Name = "btnSave";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // FrmQuestionnaireToFill
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tabCntrl);
             this.Name = "FrmQuestionnaireToFill";
             this.grBoxTemporaryAddress.ResumeLayout(false);
@@ -917,14 +923,14 @@
             this.grBoxHighEducation.PerformLayout();
             this.tabCntrl.ResumeLayout(false);
             this.tPagePersonalInfo.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panelBank.ResumeLayout(false);
             this.panelBank.PerformLayout();
             this.panelEmloyeeBasicInfo.ResumeLayout(false);
@@ -1060,5 +1066,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btnSave;
     }
 }
