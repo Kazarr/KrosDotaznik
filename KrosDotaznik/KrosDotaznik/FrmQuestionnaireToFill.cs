@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KrosDotaznik.CalendarColumnPicker;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,14 @@ namespace KrosDotaznik
             InitializeComponent();
             _viewModel = fillViewModel;
             BindingTest();
+            CalendarColumn calendarColumn = new CalendarColumn();
+            calendarColumn.Name = "colDateOfBirth";
+            calendarColumn.HeaderText = Resources.GridResources.colDateOfBirth;
+            dgvChildren.Columns.Add(calendarColumn);
+            foreach(DataGridViewRow row in dgvChildren.Rows)
+            {
+                row.Cells[3].Value = DateTime.Now;
+            }
             //SetComponentsByLanguage();
             //SetTabPagesByLanguage();
         }

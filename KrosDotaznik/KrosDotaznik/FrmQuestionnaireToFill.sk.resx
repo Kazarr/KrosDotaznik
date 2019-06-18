@@ -250,6 +250,15 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>Meno:</value>
   </data>
+  <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 20</value>
+  </data>
+  <data name="txtTempCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 21</value>
+  </data>
+  <data name="txtTempCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 27</value>
+  </data>
   <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
@@ -270,6 +279,15 @@
   </data>
   <data name="grBoxTemporaryAddress.Text" xml:space="preserve">
     <value>Prechodné bydlisko</value>
+  </data>
+  <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 20</value>
+  </data>
+  <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 21</value>
+  </data>
+  <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 27</value>
   </data>
   <data name="lblPostalCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
@@ -310,6 +328,30 @@
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Heslo k výplatnej páske:</value>
   </data>
+  <data name="txtCurrentSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 60</value>
+  </data>
+  <data name="txtCurrentSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 27</value>
+  </data>
+  <data name="txtCurrentSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 23</value>
+  </data>
+  <data name="txtCurrentSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 27</value>
+  </data>
+  <data name="txtCurrentSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 62</value>
+  </data>
+  <data name="txtCurrentSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 27</value>
+  </data>
+  <data name="txtCurrentSchool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="txtCurrentSchool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 27</value>
+  </data>
   <data name="lblCurrEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 21</value>
   </data>
@@ -336,6 +378,30 @@
   </data>
   <data name="grBoxCurrentEducation.Text" xml:space="preserve">
     <value>Súčasné štúdium</value>
+  </data>
+  <data name="txtHighestSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 60</value>
+  </data>
+  <data name="txtHighestSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 27</value>
+  </data>
+  <data name="txtHightestSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 23</value>
+  </data>
+  <data name="txtHightestSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 27</value>
+  </data>
+  <data name="txtHighestSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 62</value>
+  </data>
+  <data name="txtHighestSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 27</value>
+  </data>
+  <data name="txtHighestSchool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="txtHighestSchool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 27</value>
   </data>
   <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 21</value>
@@ -448,6 +514,18 @@
   <data name="tPageContactAdress.Text" xml:space="preserve">
     <value>Kontakty, adresy</value>
   </data>
+  <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 18</value>
+  </data>
+  <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 27</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 18</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 27</value>
+  </data>
   <data name="tPagePassword.Text" xml:space="preserve">
     <value>Heslá a prístupy</value>
   </data>
@@ -480,5 +558,14 @@
   </data>
   <data name="tPagePreviousJob.Text" xml:space="preserve">
     <value>Predchádzajúce zamestnanie</value>
+  </data>
+  <data name="colName.HeaderText" xml:space="preserve">
+    <value>Meno</value>
+  </data>
+  <data name="colSurname.HeaderText" xml:space="preserve">
+    <value>Priezvisko</value>
+  </data>
+  <data name="colTaxBonus.HeaderText" xml:space="preserve">
+    <value>Daňový bonus</value>
   </data>
 </root>
