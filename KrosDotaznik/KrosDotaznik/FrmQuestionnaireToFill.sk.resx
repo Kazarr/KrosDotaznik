@@ -250,8 +250,14 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>Meno:</value>
   </data>
-  <data name="grBoxTemporaryAddress.Text" xml:space="preserve">
-    <value>Prechodné bydlisko</value>
+  <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 20</value>
+  </data>
+  <data name="txtTempCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 21</value>
+  </data>
+  <data name="txtTempCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 27</value>
   </data>
   <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
@@ -271,8 +277,17 @@
   <data name="lblStreetTemp.Text" xml:space="preserve">
     <value>Ulica, číslo:</value>
   </data>
-  <data name="grBoxAddress.Text" xml:space="preserve">
-    <value>Adresa trvalého bydliska</value>
+  <data name="grBoxTemporaryAddress.Text" xml:space="preserve">
+    <value>Prechodné bydlisko</value>
+  </data>
+  <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 20</value>
+  </data>
+  <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 21</value>
+  </data>
+  <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 27</value>
   </data>
   <data name="lblPostalCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
@@ -292,6 +307,9 @@
   <data name="lblStreet.Text" xml:space="preserve">
     <value>Ulica, číslo:</value>
   </data>
+  <data name="grBoxAddress.Text" xml:space="preserve">
+    <value>Adresa trvalého bydliska</value>
+  </data>
   <data name="lblPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 21</value>
   </data>
@@ -309,9 +327,6 @@
   </data>
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Heslo k výplatnej páske:</value>
-  </data>
-  <data name="grBoxCurrentEducation.Text" xml:space="preserve">
-    <value>Súčasné štúdium</value>
   </data>
   <data name="lblCurrEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 21</value>
@@ -337,8 +352,8 @@
   <data name="lblCurrSchool.Text" xml:space="preserve">
     <value>Škola:</value>
   </data>
-  <data name="grBoxHighEducation.Text" xml:space="preserve">
-    <value>Najvyššie ukončené vzdelanie</value>
+  <data name="grBoxCurrentEducation.Text" xml:space="preserve">
+    <value>Súčasné štúdium</value>
   </data>
   <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 21</value>
@@ -364,44 +379,8 @@
   <data name="lblSchool.Text" xml:space="preserve">
     <value>Škola:</value>
   </data>
-  <data name="tPagePersonalInfo.Text" xml:space="preserve">
-    <value>Údaje o zamestnancovi</value>
-  </data>
-  <data name="tPageContactAdress.Text" xml:space="preserve">
-    <value>Kontakty, adresy</value>
-  </data>
-  <data name="tPagePassword.Text" xml:space="preserve">
-    <value>Heslá a prístupy</value>
-  </data>
-  <data name="tPageEducation.Text" xml:space="preserve">
-    <value>Údaje o vzdelaní</value>
-  </data>
-  <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 21</value>
-  </data>
-  <data name="lblWorkPosition.Text" xml:space="preserve">
-    <value>Pracovná pozícia:</value>
-  </data>
-  <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 21</value>
-  </data>
-  <data name="lblEmployeer.Text" xml:space="preserve">
-    <value>Zamestnávateľ:</value>
-  </data>
-  <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 21</value>
-  </data>
-  <data name="lblJobTo.Text" xml:space="preserve">
-    <value>Do:</value>
-  </data>
-  <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 21</value>
-  </data>
-  <data name="lblJobFrom.Text" xml:space="preserve">
-    <value>Od:</value>
-  </data>
-  <data name="tPagePreviousJob.Text" xml:space="preserve">
-    <value>Predchádzajúce zamestnanie</value>
+  <data name="grBoxHighEducation.Text" xml:space="preserve">
+    <value>Najvyššie ukončené vzdelanie</value>
   </data>
   <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt</value>
@@ -480,5 +459,65 @@
   </data>
   <data name="radioBtnMale.Text" xml:space="preserve">
     <value>Muž</value>
+  </data>
+  <data name="tPagePersonalInfo.Text" xml:space="preserve">
+    <value>Údaje o zamestnancovi</value>
+  </data>
+  <data name="tPageContactAdress.Text" xml:space="preserve">
+    <value>Kontakty, adresy</value>
+  </data>
+  <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 18</value>
+  </data>
+  <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 27</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 18</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 27</value>
+  </data>
+  <data name="tPagePassword.Text" xml:space="preserve">
+    <value>Heslá a prístupy</value>
+  </data>
+  <data name="tPageEducation.Text" xml:space="preserve">
+    <value>Údaje o vzdelaní</value>
+  </data>
+  <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="lblWorkPosition.Text" xml:space="preserve">
+    <value>Pracovná pozícia:</value>
+  </data>
+  <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 21</value>
+  </data>
+  <data name="lblEmployeer.Text" xml:space="preserve">
+    <value>Zamestnávateľ:</value>
+  </data>
+  <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 21</value>
+  </data>
+  <data name="lblJobTo.Text" xml:space="preserve">
+    <value>Do:</value>
+  </data>
+  <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 21</value>
+  </data>
+  <data name="lblJobFrom.Text" xml:space="preserve">
+    <value>Od:</value>
+  </data>
+  <data name="tPagePreviousJob.Text" xml:space="preserve">
+    <value>Predchádzajúce zamestnanie</value>
+  </data>
+  <data name="colName.HeaderText" xml:space="preserve">
+    <value>Meno</value>
+  </data>
+  <data name="colSurname.HeaderText" xml:space="preserve">
+    <value>Priezvisko</value>
+  </data>
+  <data name="colTaxBonus.HeaderText" xml:space="preserve">
+    <value>Daňový bonus</value>
   </data>
 </root>
