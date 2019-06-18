@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,7 @@ namespace KrosDotaznik
             InitializeComponent();
             SetComponentsByLanguage();
             _mainViewModel.SaveTest();
+            _mainViewModel.LoadTest();
         }
 
         private void SetComponentsByLanguage() {
