@@ -143,5 +143,6 @@ namespace KrosDotaznik
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
     }
 }
