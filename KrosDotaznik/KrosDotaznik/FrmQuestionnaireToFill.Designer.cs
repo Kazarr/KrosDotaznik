@@ -279,7 +279,6 @@
             // 
             // grBoxTemporaryAddress
             // 
-            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempPostalCode);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempCity);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempStreetHouseNumber);
@@ -322,7 +321,6 @@
             // 
             // grBoxAddress
             // 
-            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Controls.Add(this.txtPostalCode);
             this.grBoxAddress.Controls.Add(this.txtCity);
             this.grBoxAddress.Controls.Add(this.txtStreetHouseNumber);
@@ -385,7 +383,6 @@
             // 
             // grBoxCurrentEducation
             // 
-            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEducationLevel);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolMajor);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEndYear);
@@ -440,7 +437,6 @@
             // 
             // grBoxHighEducation
             // 
-            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEducationLevel);
             this.grBoxHighEducation.Controls.Add(this.txtHightestSchoolMajor);
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEndYear);
@@ -763,7 +759,6 @@
             // 
             // tPageContactAdress
             // 
-            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Controls.Add(this.txtEmail);
             this.tPageContactAdress.Controls.Add(this.txtPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxTemporaryAddress);
@@ -786,7 +781,6 @@
             // 
             // tPagePassword
             // 
-            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Controls.Add(this.txtPinAlarm);
             this.tPagePassword.Controls.Add(this.txtPassword);
             this.tPagePassword.Controls.Add(this.lblPin);
@@ -815,7 +809,6 @@
             // 
             // tPagePreviousJob
             // 
-            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Controls.Add(this.txtWorkPosition);
             this.tPagePreviousJob.Controls.Add(this.txtEmployeer);
             this.tPagePreviousJob.Controls.Add(this.dtpTo);
@@ -870,35 +863,32 @@
             // 
             // tPageChildInfo
             // 
-            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Controls.Add(this.dgvChildren);
+            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
             // 
             // dgvChildren
             // 
-            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChildren.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChildren.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colName,
             this.colSurname,
             this.colTaxBonus});
+            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
             // 
             // colName
             // 
-            resources.ApplyResources(this.colName, "colName");
             this.colName.Name = "colName";
             // 
             // colSurname
             // 
-            resources.ApplyResources(this.colSurname, "colSurname");
             this.colSurname.Name = "colSurname";
             // 
             // colTaxBonus
             // 
-            resources.ApplyResources(this.colTaxBonus, "colTaxBonus");
             this.colTaxBonus.Name = "colTaxBonus";
             // 
             // FrmQuestionnaireToFill

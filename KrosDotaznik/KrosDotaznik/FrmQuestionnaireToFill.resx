@@ -809,6 +809,69 @@
   <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>810, 25</value>
+  </data>
+  <data name="txtTempPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 27</value>
+  </data>
+  <data name="txtTempPostalCode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtTempPostalCode.Name" xml:space="preserve">
+    <value>txtTempPostalCode</value>
+  </data>
+  <data name="&gt;&gt;txtTempPostalCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTempPostalCode.Parent" xml:space="preserve">
+    <value>grBoxTemporaryAddress</value>
+  </data>
+  <data name="&gt;&gt;txtTempPostalCode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTempCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 25</value>
+  </data>
+  <data name="txtTempCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 27</value>
+  </data>
+  <data name="txtTempCity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtTempCity.Name" xml:space="preserve">
+    <value>txtTempCity</value>
+  </data>
+  <data name="&gt;&gt;txtTempCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTempCity.Parent" xml:space="preserve">
+    <value>grBoxTemporaryAddress</value>
+  </data>
+  <data name="&gt;&gt;txtTempCity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtTempStreetHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="txtTempStreetHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 27</value>
+  </data>
+  <data name="txtTempStreetHouseNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtTempStreetHouseNumber.Name" xml:space="preserve">
+    <value>txtTempStreetHouseNumber</value>
+  </data>
+  <data name="&gt;&gt;txtTempStreetHouseNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTempStreetHouseNumber.Parent" xml:space="preserve">
+    <value>grBoxTemporaryAddress</value>
+  </data>
+  <data name="&gt;&gt;txtTempStreetHouseNumber.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="lblPostalCodeTemp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -837,7 +900,7 @@
     <value>grBoxTemporaryAddress</value>
   </data>
   <data name="&gt;&gt;lblPostalCodeTemp.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="lblCityTemp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -867,7 +930,7 @@
     <value>grBoxTemporaryAddress</value>
   </data>
   <data name="&gt;&gt;lblCityTemp.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="lblStreetTemp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -897,7 +960,7 @@
     <value>grBoxTemporaryAddress</value>
   </data>
   <data name="&gt;&gt;lblStreetTemp.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="grBoxTemporaryAddress.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
@@ -924,7 +987,70 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;grBoxTemporaryAddress.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>810, 25</value>
+  </data>
+  <data name="txtPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 27</value>
+  </data>
+  <data name="txtPostalCode.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtPostalCode.Name" xml:space="preserve">
+    <value>txtPostalCode</value>
+  </data>
+  <data name="&gt;&gt;txtPostalCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPostalCode.Parent" xml:space="preserve">
+    <value>grBoxAddress</value>
+  </data>
+  <data name="&gt;&gt;txtPostalCode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 25</value>
+  </data>
+  <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 27</value>
+  </data>
+  <data name="txtCity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCity.Name" xml:space="preserve">
+    <value>txtCity</value>
+  </data>
+  <data name="&gt;&gt;txtCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCity.Parent" xml:space="preserve">
+    <value>grBoxAddress</value>
+  </data>
+  <data name="&gt;&gt;txtCity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtStreetHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="txtStreetHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 27</value>
+  </data>
+  <data name="txtStreetHouseNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtStreetHouseNumber.Name" xml:space="preserve">
+    <value>txtStreetHouseNumber</value>
+  </data>
+  <data name="&gt;&gt;txtStreetHouseNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStreetHouseNumber.Parent" xml:space="preserve">
+    <value>grBoxAddress</value>
+  </data>
+  <data name="&gt;&gt;txtStreetHouseNumber.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblPostalCode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -954,7 +1080,7 @@
     <value>grBoxAddress</value>
   </data>
   <data name="&gt;&gt;lblPostalCode.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="lblCity.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -984,7 +1110,7 @@
     <value>grBoxAddress</value>
   </data>
   <data name="&gt;&gt;lblCity.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="lblStreet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1014,7 +1140,7 @@
     <value>grBoxAddress</value>
   </data>
   <data name="&gt;&gt;lblStreet.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="grBoxAddress.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
@@ -1041,7 +1167,7 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;grBoxAddress.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1071,7 +1197,7 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="lblPhoneNumber.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1101,7 +1227,7 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;lblPhoneNumber.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="lblPin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1131,7 +1257,7 @@
     <value>tPagePassword</value>
   </data>
   <data name="&gt;&gt;lblPin.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="lblPassword.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1161,7 +1287,91 @@
     <value>tPagePassword</value>
   </data>
   <data name="&gt;&gt;lblPassword.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtCurrentSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 42</value>
+  </data>
+  <data name="txtCurrentSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 27</value>
+  </data>
+  <data name="txtCurrentSchoolEducationLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEducationLevel.Name" xml:space="preserve">
+    <value>txtCurrentSchoolEducationLevel</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEducationLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEducationLevel.Parent" xml:space="preserve">
+    <value>grBoxCurrentEducation</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEducationLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCurrentSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 17</value>
+  </data>
+  <data name="txtCurrentSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 27</value>
+  </data>
+  <data name="txtCurrentSchoolMajor.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolMajor.Name" xml:space="preserve">
+    <value>txtCurrentSchoolMajor</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolMajor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolMajor.Parent" xml:space="preserve">
+    <value>grBoxCurrentEducation</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolMajor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCurrentSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 42</value>
+  </data>
+  <data name="txtCurrentSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 27</value>
+  </data>
+  <data name="txtCurrentSchoolEndYear.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEndYear.Name" xml:space="preserve">
+    <value>txtCurrentSchoolEndYear</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEndYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEndYear.Parent" xml:space="preserve">
+    <value>grBoxCurrentEducation</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchoolEndYear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtCurrentSchool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 17</value>
+  </data>
+  <data name="txtCurrentSchool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 27</value>
+  </data>
+  <data name="txtCurrentSchool.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchool.Name" xml:space="preserve">
+    <value>txtCurrentSchool</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchool.Parent" xml:space="preserve">
+    <value>grBoxCurrentEducation</value>
+  </data>
+  <data name="&gt;&gt;txtCurrentSchool.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="lblCurrEducationLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1191,7 +1401,7 @@
     <value>grBoxCurrentEducation</value>
   </data>
   <data name="&gt;&gt;lblCurrEducationLevel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="lblCurrEndYear.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1221,7 +1431,7 @@
     <value>grBoxCurrentEducation</value>
   </data>
   <data name="&gt;&gt;lblCurrEndYear.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="lblCurrMajor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1251,7 +1461,7 @@
     <value>grBoxCurrentEducation</value>
   </data>
   <data name="&gt;&gt;lblCurrMajor.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="lblCurrSchool.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1281,7 +1491,7 @@
     <value>grBoxCurrentEducation</value>
   </data>
   <data name="&gt;&gt;lblCurrSchool.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="grBoxCurrentEducation.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
@@ -1309,6 +1519,90 @@
   </data>
   <data name="&gt;&gt;grBoxCurrentEducation.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="txtHighestSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 42</value>
+  </data>
+  <data name="txtHighestSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 27</value>
+  </data>
+  <data name="txtHighestSchoolEducationLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEducationLevel.Name" xml:space="preserve">
+    <value>txtHighestSchoolEducationLevel</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEducationLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEducationLevel.Parent" xml:space="preserve">
+    <value>grBoxHighEducation</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEducationLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtHightestSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 17</value>
+  </data>
+  <data name="txtHightestSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 27</value>
+  </data>
+  <data name="txtHightestSchoolMajor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtHightestSchoolMajor.Name" xml:space="preserve">
+    <value>txtHightestSchoolMajor</value>
+  </data>
+  <data name="&gt;&gt;txtHightestSchoolMajor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHightestSchoolMajor.Parent" xml:space="preserve">
+    <value>grBoxHighEducation</value>
+  </data>
+  <data name="&gt;&gt;txtHightestSchoolMajor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtHighestSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 42</value>
+  </data>
+  <data name="txtHighestSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 27</value>
+  </data>
+  <data name="txtHighestSchoolEndYear.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEndYear.Name" xml:space="preserve">
+    <value>txtHighestSchoolEndYear</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEndYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEndYear.Parent" xml:space="preserve">
+    <value>grBoxHighEducation</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchoolEndYear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtHighestSchool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 17</value>
+  </data>
+  <data name="txtHighestSchool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 27</value>
+  </data>
+  <data name="txtHighestSchool.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchool.Name" xml:space="preserve">
+    <value>txtHighestSchool</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchool.Parent" xml:space="preserve">
+    <value>grBoxHighEducation</value>
+  </data>
+  <data name="&gt;&gt;txtHighestSchool.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="lblEducationLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1338,7 +1632,7 @@
     <value>grBoxHighEducation</value>
   </data>
   <data name="&gt;&gt;lblEducationLevel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="lblEndYear.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1368,7 +1662,7 @@
     <value>grBoxHighEducation</value>
   </data>
   <data name="&gt;&gt;lblEndYear.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="lblMajor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1398,7 +1692,7 @@
     <value>grBoxHighEducation</value>
   </data>
   <data name="&gt;&gt;lblMajor.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="lblSchool.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1428,7 +1722,7 @@
     <value>grBoxHighEducation</value>
   </data>
   <data name="&gt;&gt;lblSchool.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="grBoxHighEducation.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold, Underline</value>
@@ -2280,6 +2574,48 @@
   <data name="&gt;&gt;tPagePersonalInfo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 12</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 27</value>
+  </data>
+  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
+    <value>txtEmail</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
+    <value>tPageContactAdress</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 12</value>
+  </data>
+  <data name="txtPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 27</value>
+  </data>
+  <data name="txtPhoneNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.Name" xml:space="preserve">
+    <value>txtPhoneNumber</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.Parent" xml:space="preserve">
+    <value>tPageContactAdress</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="tPageContactAdress.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 28</value>
   </data>
@@ -2305,6 +2641,48 @@
     <value>tabCntrl</value>
   </data>
   <data name="&gt;&gt;tPageContactAdress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 18</value>
+  </data>
+  <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 27</value>
+  </data>
+  <data name="txtPinAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtPinAlarm.Name" xml:space="preserve">
+    <value>txtPinAlarm</value>
+  </data>
+  <data name="&gt;&gt;txtPinAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPinAlarm.Parent" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="&gt;&gt;txtPinAlarm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 18</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
+  </data>
+  <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
+    <value>txtPassword</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tPagePassword.Location" type="System.Drawing.Point, System.Drawing">
@@ -2361,6 +2739,90 @@
   <data name="&gt;&gt;tPageEducation.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="txtWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 28</value>
+  </data>
+  <data name="txtWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 27</value>
+  </data>
+  <data name="txtWorkPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtWorkPosition.Name" xml:space="preserve">
+    <value>txtWorkPosition</value>
+  </data>
+  <data name="&gt;&gt;txtWorkPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWorkPosition.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;txtWorkPosition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtEmployeer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 28</value>
+  </data>
+  <data name="txtEmployeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 27</value>
+  </data>
+  <data name="txtEmployeer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtEmployeer.Name" xml:space="preserve">
+    <value>txtEmployeer</value>
+  </data>
+  <data name="&gt;&gt;txtEmployeer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEmployeer.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;txtEmployeer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 144</value>
+  </data>
+  <data name="dtpTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="dtpTo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dtpTo.Name" xml:space="preserve">
+    <value>dtpTo</value>
+  </data>
+  <data name="&gt;&gt;dtpTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpTo.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;dtpTo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dtpFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="dtpFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="dtpFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtpFrom.Name" xml:space="preserve">
+    <value>dtpFrom</value>
+  </data>
+  <data name="&gt;&gt;dtpFrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFrom.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;dtpFrom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="lblWorkPosition.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2389,7 +2851,7 @@
     <value>tPagePreviousJob</value>
   </data>
   <data name="&gt;&gt;lblWorkPosition.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="lblEmployeer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2419,7 +2881,7 @@
     <value>tPagePreviousJob</value>
   </data>
   <data name="&gt;&gt;lblEmployeer.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="lblJobTo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2428,7 +2890,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblJobTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 30</value>
+    <value>11, 120</value>
   </data>
   <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 21</value>
@@ -2449,7 +2911,7 @@
     <value>tPagePreviousJob</value>
   </data>
   <data name="&gt;&gt;lblJobTo.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="lblJobFrom.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2458,7 +2920,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="lblJobFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 30</value>
+    <value>11, 30</value>
   </data>
   <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 21</value>
@@ -2479,7 +2941,7 @@
     <value>tPagePreviousJob</value>
   </data>
   <data name="&gt;&gt;lblJobFrom.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="tPagePreviousJob.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 28</value>
@@ -2507,6 +2969,27 @@
   </data>
   <data name="&gt;&gt;tPagePreviousJob.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="dgvChildren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvChildren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 150</value>
+  </data>
+  <data name="dgvChildren.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.Name" xml:space="preserve">
+    <value>dgvChildren</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.Parent" xml:space="preserve">
+    <value>tPageChildInfo</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="tPageChildInfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 28</value>
@@ -2570,6 +3053,24 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>FrmQuestionnaireToFill</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colSurname.Name" xml:space="preserve">
+    <value>colSurname</value>
+  </data>
+  <data name="&gt;&gt;colSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colTaxBonus.Name" xml:space="preserve">
+    <value>colTaxBonus</value>
+  </data>
+  <data name="&gt;&gt;colTaxBonus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmQuestionnaireToFill</value>
