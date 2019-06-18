@@ -30,6 +30,12 @@ namespace KrosDotaznik
         private string _iban = string.Empty;
         private HealthInsurance _healthInsurance = null;
         private int _handicapInPercentage = default(int);
+        private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
+
+        public QuestionnaireToFillViewModel()
+        {
+            LoadCombos();
+        }
         #endregion
 
         #region Properties
@@ -191,6 +197,22 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+
+
+
+        #endregion
+
+        #region Combo data
+        public Dictionary<int, string> CountryData { get; set; }
+        public Dictionary<int, string> EducationLevelData { get; set; }
+        public Dictionary<int, string> HealthInsuranceData { get; set; }
+        public Dictionary<int, string> RetirementData { get; set; }
+        public Dictionary<int, string> StateData { get; set; }
+        public Dictionary<int, string> WageCategoryData { get; set; }
+        public Dictionary<int, string> WorkExpirationData { get; set; }
+        public Dictionary<int, string> WorkHoursData { get; set; }
+        public Dictionary<int, string> WorkPositionData { get; set; }
+        public Dictionary<int, string> WorkTypeData { get; set; }
         #endregion
 
         #region Inotify Property Change
@@ -200,6 +222,16 @@ namespace KrosDotaznik
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        #endregion
+
+        #region Load Combos
+        private void LoadCombos()
+        {
+            StateRepository state = new StateRepository();
+            StateData = state.GetAllState<int, string>(_cultureInfo);
+            HealthInsuranceRepository health = new HealthInsuranceRepository();
+            HealthInsuranceData = health.GetHealthInsuranceData<int, string>(_cultureInfo);            
+        }
         #endregion
 
         public void Save()
