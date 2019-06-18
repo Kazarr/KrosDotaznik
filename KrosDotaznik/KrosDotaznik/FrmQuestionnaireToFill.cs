@@ -13,9 +13,12 @@ namespace KrosDotaznik
 {
     public partial class FrmQuestionnaireToFill : Form
     {
-        public FrmQuestionnaireToFill()
+        private QuestionnaireToFillViewModel _viewModel;
+        public FrmQuestionnaireToFill(QuestionnaireToFillViewModel fillViewModel)
         {
             InitializeComponent();
+            _viewModel = fillViewModel;
+            BindingTest();
             CalendarColumn calendarColumn = new CalendarColumn();
             calendarColumn.Name = "colDateOfBirth";
             calendarColumn.HeaderText = "DateOfBirth";
@@ -28,6 +31,34 @@ namespace KrosDotaznik
             //SetTabPagesByLanguage();
         }
 
+        private void BindDefaultControlProperty(Control ctrl, string dataMember)
+        {
+            var attribute = ctrl.GetType().GetCustomAttributes(typeof(DefaultBindingPropertyAttribute), true).FirstOrDefault() as DefaultBindingPropertyAttribute;
+            ctrl.DataBindings.Add(
+                attribute.Name,
+                _viewModel,
+                dataMember,
+                false,
+                DataSourceUpdateMode.OnValidation);
+        }
+        public void BindingTest()
+        {
+            BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
+            BindDefaultControlProperty(txtSurname, nameof(_viewModel.Surname));
+            BindDefaultControlProperty(txtPreviousName, nameof(_viewModel.PreviousName));
+            BindDefaultControlProperty(txtMaidenName, nameof(_viewModel.MaidenName));
+            BindDefaultControlProperty(txtTitle, nameof(_viewModel.Title));
+            BindDefaultControlProperty(txtIdentityCard, nameof(_viewModel.IdentityCard));
+            BindDefaultControlProperty(txtPersonalId, nameof(_viewModel.PersonalId));
+            BindDefaultControlProperty(txtPlaceOfBirth, nameof(_viewModel.PlaceOfBirth));
+            BindDefaultControlProperty(txtRegionOfBirth, nameof(_viewModel.RegionOfBirth));
+            BindDefaultControlProperty(txtNationality, nameof(_viewModel.Nationality));
+            BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
+            BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
+            BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
+            BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
+            BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
+        }
         //#region Set components by language
         //private void SetComponentsByLanguage()
         //{
@@ -104,7 +135,7 @@ namespace KrosDotaznik
         //}
 
         /// <summary>
-        /// can only insert a number
+        /// Allows you to enter only a number
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
