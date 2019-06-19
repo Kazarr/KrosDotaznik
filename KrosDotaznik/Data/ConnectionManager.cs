@@ -36,7 +36,6 @@ namespace Data
                     }
                     catch (OleDbException)
                     {
-
                         throw;
                     }
                 }
@@ -44,24 +43,7 @@ namespace Data
             catch (OleDbException)
             {
                 throw;
-            }
-            //OleDbConnection connection1 = new OleDbConnection();
-            //connection.ConnectionString = Properties.SettingsAccess.Default.ConnString;
-            //connection.Open();
-            //OleDbCommand dbCommand = new OleDbCommand();
-            //dbCommand.CommandText = command;
-            //dbCommand.Connection = connection;
-            //OleDbDataAdapter oleDbData = new OleDbDataAdapter(dbCommand);
-            //DataSet ds = new DataSet();
-            //oleDbData.Fill(ds);
-            //if (cultureInfo == "sk")
-            //{
-            //    return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(1));
-            //}
-            //else
-            //{
-            //    return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(2));
-            //}
+            }            
         }
     }
 }
