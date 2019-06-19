@@ -29,12 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            this.lblRetirementInsuranceCompanyException = new System.Windows.Forms.Label();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
-            this.lblHandicap = new System.Windows.Forms.Label();
-            this.lblSecondPillar = new System.Windows.Forms.Label();
             this.lblHealthInsurance = new System.Windows.Forms.Label();
             this.lblIBAN = new System.Windows.Forms.Label();
             this.lblBankAcc = new System.Windows.Forms.Label();
@@ -90,19 +87,21 @@
             this.lblSchool = new System.Windows.Forms.Label();
             this.tabCntrl = new System.Windows.Forms.TabControl();
             this.tPagePersonalInfo = new System.Windows.Forms.TabPage();
-            this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
             this.txtHndcpInPercentage = new System.Windows.Forms.TextBox();
-            this.radioBtnSecondPilarNo = new System.Windows.Forms.RadioButton();
-            this.radioBtnSecondPilarYes = new System.Windows.Forms.RadioButton();
-            this.radioBtnExceptionNo = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radioBtnExceptionYes = new System.Windows.Forms.RadioButton();
+            this.radioBtnExceptionNo = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioBtnSecondPilarYes = new System.Windows.Forms.RadioButton();
+            this.radioBtnSecondPilarNo = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioBtnHandcpYes = new System.Windows.Forms.RadioButton();
+            this.radioBtnHndcpNo = new System.Windows.Forms.RadioButton();
+            this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
             this.radioBtnRetirment = new System.Windows.Forms.RadioButton();
             this.radioBtnDisabled = new System.Windows.Forms.RadioButton();
             this.radioBtnOldAge = new System.Windows.Forms.RadioButton();
-            this.radioBtnHndcpNo = new System.Windows.Forms.RadioButton();
-            this.radioBtnHandcpYes = new System.Windows.Forms.RadioButton();
             this.txtHealtInsurance = new System.Windows.Forms.TextBox();
             this.panelBank = new System.Windows.Forms.Panel();
             this.txtIban = new System.Windows.Forms.TextBox();
@@ -145,6 +144,7 @@
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTaxBonus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSave = new System.Windows.Forms.Button();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -152,6 +152,9 @@
             this.tabCntrl.SuspendLayout();
             this.tPagePersonalInfo.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.panelBank.SuspendLayout();
             this.panelEmloyeeBasicInfo.SuspendLayout();
             this.panelName.SuspendLayout();
@@ -162,11 +165,6 @@
             this.tPageChildInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblRetirementInsuranceCompanyException
-            // 
-            resources.ApplyResources(this.lblRetirementInsuranceCompanyException, "lblRetirementInsuranceCompanyException");
-            this.lblRetirementInsuranceCompanyException.Name = "lblRetirementInsuranceCompanyException";
             // 
             // lblRetiredSince
             // 
@@ -182,16 +180,6 @@
             // 
             resources.ApplyResources(this.lblHandicapInPercentage, "lblHandicapInPercentage");
             this.lblHandicapInPercentage.Name = "lblHandicapInPercentage";
-            // 
-            // lblHandicap
-            // 
-            resources.ApplyResources(this.lblHandicap, "lblHandicap");
-            this.lblHandicap.Name = "lblHandicap";
-            // 
-            // lblSecondPillar
-            // 
-            resources.ApplyResources(this.lblSecondPillar, "lblSecondPillar");
-            this.lblSecondPillar.Name = "lblSecondPillar";
             // 
             // lblHealthInsurance
             // 
@@ -504,7 +492,6 @@
             // 
             // tPagePersonalInfo
             // 
-            this.tPagePersonalInfo.Controls.Add(this.btnSave);
             this.tPagePersonalInfo.Controls.Add(this.panel1);
             this.tPagePersonalInfo.Controls.Add(this.panelBank);
             this.tPagePersonalInfo.Controls.Add(this.panelEmloyeeBasicInfo);
@@ -513,42 +500,24 @@
             this.tPagePersonalInfo.Name = "tPagePersonalInfo";
             this.tPagePersonalInfo.UseVisualStyleBackColor = true;
             // 
-            // btnSave
-            // 
-            resources.ApplyResources(this.btnSave, "btnSave");
-            this.btnSave.Name = "btnSave";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.datePickerRetiredSince);
             this.panel1.Controls.Add(this.txtHndcpInPercentage);
-            this.panel1.Controls.Add(this.radioBtnSecondPilarNo);
-            this.panel1.Controls.Add(this.radioBtnSecondPilarYes);
-            this.panel1.Controls.Add(this.radioBtnExceptionNo);
-            this.panel1.Controls.Add(this.radioBtnExceptionYes);
+            this.panel1.Controls.Add(this.groupBox3);
+            this.panel1.Controls.Add(this.groupBox2);
+            this.panel1.Controls.Add(this.lblHandicapInPercentage);
+            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.datePickerRetiredSince);
             this.panel1.Controls.Add(this.radioBtnRetirment);
             this.panel1.Controls.Add(this.radioBtnDisabled);
             this.panel1.Controls.Add(this.radioBtnOldAge);
-            this.panel1.Controls.Add(this.radioBtnHndcpNo);
-            this.panel1.Controls.Add(this.radioBtnHandcpYes);
             this.panel1.Controls.Add(this.txtHealtInsurance);
             this.panel1.Controls.Add(this.lblHealthInsurance);
-            this.panel1.Controls.Add(this.lblSecondPillar);
-            this.panel1.Controls.Add(this.lblHandicap);
-            this.panel1.Controls.Add(this.lblHandicapInPercentage);
-            this.panel1.Controls.Add(this.lblRetirementInsuranceCompanyException);
             this.panel1.Controls.Add(this.lblPensionRecipient);
             this.panel1.Controls.Add(this.lblRetiredSince);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            // 
-            // datePickerRetiredSince
-            // 
-            resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
-            this.datePickerRetiredSince.Name = "datePickerRetiredSince";
             // 
             // txtHndcpInPercentage
             // 
@@ -556,19 +525,20 @@
             this.txtHndcpInPercentage.Name = "txtHndcpInPercentage";
             this.txtHndcpInPercentage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHndcpInPercentage_KeyPress);
             // 
-            // radioBtnSecondPilarNo
+            // groupBox3
             // 
-            resources.ApplyResources(this.radioBtnSecondPilarNo, "radioBtnSecondPilarNo");
-            this.radioBtnSecondPilarNo.Name = "radioBtnSecondPilarNo";
-            this.radioBtnSecondPilarNo.TabStop = true;
-            this.radioBtnSecondPilarNo.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.radioBtnExceptionYes);
+            this.groupBox3.Controls.Add(this.radioBtnExceptionNo);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
             // 
-            // radioBtnSecondPilarYes
+            // radioBtnExceptionYes
             // 
-            resources.ApplyResources(this.radioBtnSecondPilarYes, "radioBtnSecondPilarYes");
-            this.radioBtnSecondPilarYes.Name = "radioBtnSecondPilarYes";
-            this.radioBtnSecondPilarYes.TabStop = true;
-            this.radioBtnSecondPilarYes.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.radioBtnExceptionYes, "radioBtnExceptionYes");
+            this.radioBtnExceptionYes.Name = "radioBtnExceptionYes";
+            this.radioBtnExceptionYes.TabStop = true;
+            this.radioBtnExceptionYes.UseVisualStyleBackColor = true;
             // 
             // radioBtnExceptionNo
             // 
@@ -577,12 +547,55 @@
             this.radioBtnExceptionNo.TabStop = true;
             this.radioBtnExceptionNo.UseVisualStyleBackColor = true;
             // 
-            // radioBtnExceptionYes
+            // groupBox2
             // 
-            resources.ApplyResources(this.radioBtnExceptionYes, "radioBtnExceptionYes");
-            this.radioBtnExceptionYes.Name = "radioBtnExceptionYes";
-            this.radioBtnExceptionYes.TabStop = true;
-            this.radioBtnExceptionYes.UseVisualStyleBackColor = true;
+            this.groupBox2.Controls.Add(this.radioBtnSecondPilarYes);
+            this.groupBox2.Controls.Add(this.radioBtnSecondPilarNo);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // radioBtnSecondPilarYes
+            // 
+            resources.ApplyResources(this.radioBtnSecondPilarYes, "radioBtnSecondPilarYes");
+            this.radioBtnSecondPilarYes.Name = "radioBtnSecondPilarYes";
+            this.radioBtnSecondPilarYes.TabStop = true;
+            this.radioBtnSecondPilarYes.UseVisualStyleBackColor = true;
+            // 
+            // radioBtnSecondPilarNo
+            // 
+            resources.ApplyResources(this.radioBtnSecondPilarNo, "radioBtnSecondPilarNo");
+            this.radioBtnSecondPilarNo.Name = "radioBtnSecondPilarNo";
+            this.radioBtnSecondPilarNo.TabStop = true;
+            this.radioBtnSecondPilarNo.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioBtnHandcpYes);
+            this.groupBox1.Controls.Add(this.radioBtnHndcpNo);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // radioBtnHandcpYes
+            // 
+            resources.ApplyResources(this.radioBtnHandcpYes, "radioBtnHandcpYes");
+            this.radioBtnHandcpYes.Name = "radioBtnHandcpYes";
+            this.radioBtnHandcpYes.TabStop = true;
+            this.radioBtnHandcpYes.UseVisualStyleBackColor = true;
+            // 
+            // radioBtnHndcpNo
+            // 
+            resources.ApplyResources(this.radioBtnHndcpNo, "radioBtnHndcpNo");
+            this.radioBtnHndcpNo.Name = "radioBtnHndcpNo";
+            this.radioBtnHndcpNo.TabStop = true;
+            this.radioBtnHndcpNo.UseVisualStyleBackColor = true;
+            // 
+            // datePickerRetiredSince
+            // 
+            resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
+            this.datePickerRetiredSince.Name = "datePickerRetiredSince";
             // 
             // radioBtnRetirment
             // 
@@ -604,20 +617,6 @@
             this.radioBtnOldAge.Name = "radioBtnOldAge";
             this.radioBtnOldAge.TabStop = true;
             this.radioBtnOldAge.UseVisualStyleBackColor = true;
-            // 
-            // radioBtnHndcpNo
-            // 
-            resources.ApplyResources(this.radioBtnHndcpNo, "radioBtnHndcpNo");
-            this.radioBtnHndcpNo.Name = "radioBtnHndcpNo";
-            this.radioBtnHndcpNo.TabStop = true;
-            this.radioBtnHndcpNo.UseVisualStyleBackColor = true;
-            // 
-            // radioBtnHandcpYes
-            // 
-            resources.ApplyResources(this.radioBtnHandcpYes, "radioBtnHandcpYes");
-            this.radioBtnHandcpYes.Name = "radioBtnHandcpYes";
-            this.radioBtnHandcpYes.TabStop = true;
-            this.radioBtnHandcpYes.UseVisualStyleBackColor = true;
             // 
             // txtHealtInsurance
             // 
@@ -890,23 +889,28 @@
             // 
             // colName
             // 
-            resources.ApplyResources(this.colName, "colName");
             this.colName.Name = "colName";
             // 
             // colSurname
             // 
-            resources.ApplyResources(this.colSurname, "colSurname");
             this.colSurname.Name = "colSurname";
             // 
             // colTaxBonus
             // 
-            resources.ApplyResources(this.colTaxBonus, "colTaxBonus");
             this.colTaxBonus.Name = "colTaxBonus";
+            // 
+            // btnSave
+            // 
+            resources.ApplyResources(this.btnSave, "btnSave");
+            this.btnSave.Name = "btnSave";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // FrmQuestionnaireToFill
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tabCntrl);
             this.Name = "FrmQuestionnaireToFill";
             this.grBoxTemporaryAddress.ResumeLayout(false);
@@ -921,6 +925,12 @@
             this.tPagePersonalInfo.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.panelBank.ResumeLayout(false);
             this.panelBank.PerformLayout();
             this.panelEmloyeeBasicInfo.ResumeLayout(false);
@@ -957,12 +967,9 @@
         private System.Windows.Forms.Label lblPlaceOfBirth;
         private System.Windows.Forms.Label lblPensionRecipient;
         private System.Windows.Forms.Label lblHandicapInPercentage;
-        private System.Windows.Forms.Label lblHandicap;
-        private System.Windows.Forms.Label lblSecondPillar;
         private System.Windows.Forms.Label lblHealthInsurance;
         private System.Windows.Forms.Label lblIBAN;
         private System.Windows.Forms.Label lblBankAcc;
-        private System.Windows.Forms.Label lblRetirementInsuranceCompanyException;
         private System.Windows.Forms.Label lblRetiredSince;
         private System.Windows.Forms.GroupBox grBoxTemporaryAddress;
         private System.Windows.Forms.Label lblPostalCodeTemp;
@@ -1056,6 +1063,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTaxBonus;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnSave;
     }
 }
