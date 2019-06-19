@@ -16,6 +16,8 @@ namespace KrosDotaznik
     public class QuestionnaireToFillViewModel
     {
         #region  Fields
+        private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
+
         private string _name = string.Empty;
         private string _surname = string.Empty;
         private string _previousName = string.Empty;
@@ -34,7 +36,6 @@ namespace KrosDotaznik
         private HealthInsurance _healthInsurance = null;
         private string _stringHealthInsurance = string.Empty;
         private int _handicapInPercentage = default(int);
-        private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
         private string _phoneNumber = string.Empty;
         private string _email = string.Empty;
@@ -567,6 +568,9 @@ namespace KrosDotaznik
             FileService fs = new FileService();
             Employee employee = new Employee()
             {
+                BirthDate = DateTime.Now,
+                Disabled = default(bool),
+                Gender = default(bool),
                 Name = _name,
                 Surname = _surname,
                 PreviousName = _previousName,
@@ -582,7 +586,61 @@ namespace KrosDotaznik
                 BankAccountNumber = _bankAcc,
                 IBAN = _iban,
                 HealthInsuranceCompany = _healthInsurance,
-                DisabilityRate = _handicapInPercentage
+                DisabilityRate = _handicapInPercentage,
+
+                RetirementData = new RetirementData()
+                    {
+                        ParticipatingInRetirementSaving = false,
+                        RetiredSince = DateTime.Now,
+                        Retirement = null,
+                        RetirementInsuranceCompanyException = false,
+                    },
+
+                AddressData = new Address()
+                    {
+                        HouseNumber = _houseNumber,
+                        Street = _street,
+                        City = _city,
+                        PostalCode = _postalCode
+                    },
+                TemporaryAdressDdata = new Address()
+                    {
+                        HouseNumber = _tempHouseNumber,
+                        Street = _tempStreet,
+                        City = _tempCity,
+                        PostalCode = _tempPostalCode
+                    },
+                PhoneNumber = _phoneNumber,
+                Email = _email,
+
+                Credentials = new Credentials()
+                    {
+                        PaycheckPassword = fs.Encrypt(_payCheckPassword),
+                        PinAlarm = fs.Encrypt(_pinAlarm.ToString())
+                    },
+                
+                HighestEducationData = new Education()
+                    {
+                        School = _highestSchool,
+                        Major = _highestMajor,
+                        EndYear = _highestEndYear,
+                        EducationLevel = _educationLevel
+                    },
+                CurrentEducationData = new Education()
+                    {
+                        School = _currentSchool,
+                        Major = _currentMajor,
+                        EndYear = _currentEndYear,
+                        EducationLevel = _currentEducationLevel
+                    },
+                PreviousJobData = new PreviousJob()
+                    {
+                        StartDate = _startDate,
+                        EndDate = _endDate,
+                        EmployerCompanyName = _employerCompanyName,
+                        Position = _position
+                    },
+                Children = _children.ToList()
             };
             Questionare questionare = new Questionare()
             {
