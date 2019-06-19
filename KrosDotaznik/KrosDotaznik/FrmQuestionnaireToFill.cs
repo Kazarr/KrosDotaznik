@@ -40,7 +40,7 @@ namespace KrosDotaznik
                 _viewModel,
                 dataMember,
                 false,
-                DataSourceUpdateMode.OnPropertyChanged);
+                DataSourceUpdateMode.OnValidation);
         }
 
         private void FillCombo(ComboBox combo, Object dataSource)
