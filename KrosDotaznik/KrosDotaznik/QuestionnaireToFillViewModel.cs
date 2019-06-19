@@ -23,6 +23,8 @@ namespace KrosDotaznik
         private string _identityCard = string.Empty;
         private string _personalId = string.Empty;
         private State _state = null;
+        private string _stringState = string.Empty;
+        private int _intState;
         private string _placeOfBirth = string.Empty;
         private string _regionOfBirth = string.Empty;
         private string _nationality = string.Empty;
@@ -115,10 +117,28 @@ namespace KrosDotaznik
             get => _state;
             set
             {
-                _state = value;
+                _state = SetState();
                 OnPropertyChange();
             }
         }
+        private State SetState()
+        {
+            State query = StateData.Where(s => s.Value == _stringState)
+                .Select(x => new State { Id = x.Key, EmployeeState = x.Value }).FirstOrDefault();
+            return query;
+        }
+
+        public string StringState
+        {
+            get => _stringState;
+            set
+            {
+                _stringState = value;
+                State = SetState();
+                OnPropertyChange();
+            }
+        }
+
 
         public string PlaceOfBirth
         {
@@ -200,7 +220,6 @@ namespace KrosDotaznik
         }
 
 
-
         #endregion
 
         #region Combo data
@@ -231,7 +250,11 @@ namespace KrosDotaznik
             StateRepository state = new StateRepository();
             StateData = state.GetAllState<int, string>(_cultureInfo);
             HealthInsuranceRepository health = new HealthInsuranceRepository();
-            HealthInsuranceData = health.GetHealthInsuranceData<int, string>(_cultureInfo);            
+            HealthInsuranceData = health.GetHealthInsuranceData<int, string>(_cultureInfo);
+            RetirementRepository retirement = new RetirementRepository();
+            RetirementData = retirement.GetRetirementData<int, string>(_cultureInfo);
+            EducationLevelRepository educationLevel = new EducationLevelRepository();
+            EducationLevelData = educationLevel.GetEducationLevelData<int, string>(_cultureInfo);
         }
         #endregion
 
