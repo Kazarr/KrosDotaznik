@@ -42,6 +42,17 @@ namespace KrosDotaznik
                 DataSourceUpdateMode.OnValidation);
         }
 
+        private void BindRadioButtons(Control ctrl, string dataMember)
+        {
+            var attribute = ctrl.GetType().GetCustomAttributes(typeof(DefaultBindingPropertyAttribute), true).FirstOrDefault() as DefaultBindingPropertyAttribute;
+            ctrl.DataBindings.Add(
+                attribute.Name,
+                _viewModel,
+                dataMember,
+                false,
+                DataSourceUpdateMode.OnPropertyChanged);
+        }
+
         private void FillCombo(ComboBox combo, Object dataSource)
         {
             string info = System.Globalization.CultureInfo.CurrentCulture.ToString();
@@ -74,12 +85,17 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
             BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
+            BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
 
             BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
-            
-            //BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
+            BindDefaultControlProperty(cmbRetirement, nameof(_viewModel.StringRetirement));
+            BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
+            BindDefaultControlProperty(cmbHealthInsurance, nameof(_viewModel.StringHealthInsurance));
+
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
-            //BindDefaultControlProperty(txtState, nameof(_viewModel.State));
+
+            //BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Handicap));
+            //BindRadioButtons(radioBtnMale, nameof(_viewModel.Gender));
 
             BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
             BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
@@ -98,11 +114,11 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtHighestSchool, nameof(_viewModel.HighestSchool));
             BindDefaultControlProperty(txtHightestSchoolMajor, nameof(_viewModel.HighestMajor));
             BindDefaultControlProperty(txtHighestSchoolEndYear, nameof(_viewModel.HighestEndYear));
-            //BindDefaultControlProperty(txtHighestSchoolEducationLevel, nameof(_viewModel.EducationLevel));
+            BindDefaultControlProperty(cmbEduLevel, nameof(_viewModel.StringEducationLevel));
             BindDefaultControlProperty(txtCurrentSchool, nameof(_viewModel.CurrentSchool));
             BindDefaultControlProperty(txtCurrentSchoolMajor, nameof(_viewModel.CurrentMajor));
             BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
-            //BindDefaultControlProperty(txtCurrentSchoolEducationLevel, nameof(_viewModel.CurrentEducationLevel));
+            BindDefaultControlProperty(cmbCurrentEduLevel, nameof(_viewModel.StringCurrentEducationLevel));
 
             BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
             BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
@@ -202,9 +218,5 @@ namespace KrosDotaznik
             _viewModel.Save();
         }
 
-        private void cmbState_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            label1.Text = _viewModel.StringState;
-        }
     }
 }

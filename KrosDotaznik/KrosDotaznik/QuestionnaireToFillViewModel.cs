@@ -27,6 +27,7 @@ namespace KrosDotaznik
         private string _personalId = string.Empty;
         private State _state = null;
         private string _stringState = string.Empty;
+        private DateTime _birthDate = DateTime.Now;
         private string _placeOfBirth = string.Empty;
         private string _regionOfBirth = string.Empty;
         private string _nationality = string.Empty;
@@ -35,7 +36,14 @@ namespace KrosDotaznik
         private string _iban = string.Empty;
         private HealthInsurance _healthInsurance = null;
         private string _stringHealthInsurance = string.Empty;
+        private bool _handicap;
+        private bool _gender;
         private int _handicapInPercentage = default(int);
+
+        private Retirement _retirement = null;
+        private string _stringRetirement = string.Empty;
+        private DateTime _retiredSince = DateTime.Now;
+
 
         private string _phoneNumber = string.Empty;
         private string _email = string.Empty;
@@ -48,17 +56,19 @@ namespace KrosDotaznik
         private string _tempCity = string.Empty;
         private int _tempPostalCode = default(int);
 
-        private string _payCheckPassword = string.Empty;
+        private string _payCheckPassword = "fero";
         private int _pinAlarm = default(int);
 
         private string _highestSchool = string.Empty;
         private string _highestMajor = string.Empty;
         private DateTime _highestEndYear = DateTime.Now;
         private EducationLevel _educationLevel = null;
+        private string _stringEduLevel = string.Empty;
         private string _currentSchool = string.Empty;
         private string _currentMajor = string.Empty;
         private DateTime _currentEndYear = DateTime.Now;
         private EducationLevel _currentEducationLevel = null;
+        private string _stringCurrentEduLevel = string.Empty;
 
         private DateTime _startDate = DateTime.Now;
         private DateTime _endDate = DateTime.Now;
@@ -75,6 +85,22 @@ namespace KrosDotaznik
         #endregion
 
         #region Properties
+
+        private T SetPropertiesForCmbox<T>(Dictionary<int, string> dict, string _field)
+        {
+            var newModel = (T)Activator.CreateInstance(typeof(T));
+            foreach (var item in dict)
+            {
+                if (item.Value.Equals(_field))
+                {
+                    typeof(T).GetProperties()[0].SetValue(newModel, item.Key);
+                    typeof(T).GetProperties()[1].SetValue(newModel, item.Value);
+                    return newModel;
+                }
+            }
+            return newModel;
+        }
+
         public string Name
         {
             get => _name;
@@ -150,51 +176,31 @@ namespace KrosDotaznik
             get => _state;
             set
             {
-                _state = SetPropertie<State>(StateData, _stringState);
+                _state = SetPropertiesForCmbox<State>(StateData, _stringState);
                 OnPropertyChange();
             }
         }
-        //private State SetState()
-        //{
-        //    State query = StateData.Where(s => s.Value == _stringState)
-        //        .Select(x => new State { Id = x.Key, EmployeeState = x.Value }).FirstOrDefault();
-        //    return query;
-        //}
 
-        private T SetPropertie<T>(Dictionary<int, string> dict, string _field)
-        {
-            //T NIECO = (T) Activator.CreateInstance(typeof(T));
-            //T query = dict.Where(s => s.Value == _field)
-            //    .Select(x =>
-            //    {
-            //        typeof(T).GetProperties()[0].SetValue(NIECO, x.Key);
-            //        typeof(T).GetProperties()[1].SetValue(NIECO, x.Value);
-            //    });
-            var jahoda = (T)Activator.CreateInstance(typeof(T));
-            foreach (var item in dict)
-            {
-                if (item.Value.Equals(_field))
-                {
-                    typeof(T).GetProperties()[0].SetValue(jahoda, item.Key);
-                    typeof(T).GetProperties()[1].SetValue(jahoda, item.Value);
-                    return jahoda;
-                }
-            }
-            return jahoda;
-        }
-
-
-    public string StringState
+        public string StringState
         {
             get => _stringState;
             set
             {
                 _stringState = value;
-                State = SetPropertie<State>(StateData, _stringState);
+                State = SetPropertiesForCmbox<State>(StateData, _stringState);
                 OnPropertyChange();
             }
         }
 
+        public DateTime BirthDate
+        {
+            get => _birthDate;
+            set
+            {
+                _birthDate = value;
+                OnPropertyChange();
+            }
+        }
 
         public string PlaceOfBirth
         {
@@ -260,7 +266,38 @@ namespace KrosDotaznik
             get => _healthInsurance;
             set
             {
-                _healthInsurance = value;
+                _healthInsurance = SetPropertiesForCmbox<HealthInsurance>(HealthInsuranceData, _stringHealthInsurance); ;
+                OnPropertyChange();
+            }
+        }
+
+        public string StringHealthInsurance
+        {
+            get => _stringHealthInsurance;
+            set
+            {
+                _stringHealthInsurance = value;
+                HealthInsurance = SetPropertiesForCmbox<HealthInsurance>(HealthInsuranceData, _stringHealthInsurance);
+                OnPropertyChange();
+            }
+        }
+
+        public bool Handicap
+        {
+            get => _handicap;
+            set
+            {
+                _handicap = value;
+                OnPropertyChange();
+            }
+        }
+
+        public bool Gender
+        {
+            get => _gender;
+            set
+            {
+                _gender = value;
                 OnPropertyChange();
             }
         }
@@ -430,7 +467,18 @@ namespace KrosDotaznik
             get => _educationLevel;
             set
             {
-                _educationLevel = value;
+                _educationLevel = SetPropertiesForCmbox<EducationLevel>(EducationLevelData, _stringEduLevel);
+                OnPropertyChange();
+            }
+        }
+
+        public string StringEducationLevel
+        {
+            get => _stringEduLevel;
+            set
+            {
+                _stringEduLevel = value;
+                EducationLevel = SetPropertiesForCmbox<EducationLevel>(EducationLevelData, _stringEduLevel);
                 OnPropertyChange();
             }
         }
@@ -470,7 +518,49 @@ namespace KrosDotaznik
             get => _currentEducationLevel;
             set
             {
-                _currentEducationLevel = value;
+                _currentEducationLevel = SetPropertiesForCmbox<EducationLevel>(EducationLevelData, _stringCurrentEduLevel);
+                OnPropertyChange();
+            }
+        }
+
+        public string StringCurrentEducationLevel
+        {
+            get => _stringCurrentEduLevel;
+            set
+            {
+                _stringCurrentEduLevel = value;
+                CurrentEducationLevel = SetPropertiesForCmbox<EducationLevel>(EducationLevelData, _stringCurrentEduLevel);
+                OnPropertyChange();
+            }
+        }
+
+        public Retirement Retirement
+        {
+            get => _retirement;
+            set
+            {
+                _retirement = SetPropertiesForCmbox<Retirement>(RetirementData, _stringRetirement);
+                //OnPropertyChange();
+            }
+        }
+
+        public string StringRetirement
+        {
+            get => _stringRetirement;
+            set
+            {
+                _stringRetirement = value;
+                Retirement = SetPropertiesForCmbox<Retirement>(RetirementData, _stringRetirement);
+                OnPropertyChange();
+            }
+        }
+
+        public DateTime RetiredSince
+        {
+            get => _retiredSince;
+            set
+            {
+                _retiredSince = value;
                 OnPropertyChange();
             }
         }
@@ -568,8 +658,8 @@ namespace KrosDotaznik
             FileService fs = new FileService();
             Employee employee = new Employee()
             {
-                BirthDate = DateTime.Now,
-                Disabled = default(bool),
+                BirthDate = _birthDate,
+                Disabled = _handicap,
                 Gender = default(bool),
                 Name = _name,
                 Surname = _surname,
@@ -578,7 +668,7 @@ namespace KrosDotaznik
                 Title = _title,
                 IdNumber = _identityCard,
                 BirthNumber = _personalId,
-                State = _state,
+                State = _state,                
                 PlaceOfBirth = _placeOfBirth,
                 CountyOfBirth = _regionOfBirth,
                 Nationality = _nationality,
@@ -589,63 +679,63 @@ namespace KrosDotaznik
                 DisabilityRate = _handicapInPercentage,
 
                 RetirementData = new RetirementData()
-                    {
-                        ParticipatingInRetirementSaving = false,
-                        RetiredSince = DateTime.Now,
-                        Retirement = null,
-                        RetirementInsuranceCompanyException = false,
-                    },
+                {
+                    ParticipatingInRetirementSaving = false,
+                    RetiredSince = DateTime.Now,
+                    Retirement = _retirement,
+                    RetirementInsuranceCompanyException = false,
+                },
 
                 AddressData = new Address()
-                    {
-                        HouseNumber = _houseNumber,
-                        Street = _street,
-                        City = _city,
-                        PostalCode = _postalCode
-                    },
+                {
+                    HouseNumber = _houseNumber,
+                    Street = _street,
+                    City = _city,
+                    PostalCode = _postalCode
+                },
                 TemporaryAdressDdata = new Address()
-                    {
-                        HouseNumber = _tempHouseNumber,
-                        Street = _tempStreet,
-                        City = _tempCity,
-                        PostalCode = _tempPostalCode
-                    },
+                {
+                    HouseNumber = _tempHouseNumber,
+                    Street = _tempStreet,
+                    City = _tempCity,
+                    PostalCode = _tempPostalCode
+                },
                 PhoneNumber = _phoneNumber,
                 Email = _email,
 
                 Credentials = new Credentials()
-                    {
-                        PaycheckPassword = fs.Encrypt(_payCheckPassword),
-                        PinAlarm = fs.Encrypt(_pinAlarm.ToString())
-                    },
-                
+                {
+                    PaycheckPassword = fs.Encrypt(_payCheckPassword),
+                    PinAlarm = fs.Encrypt(_pinAlarm.ToString())
+                },
+
                 HighestEducationData = new Education()
-                    {
-                        School = _highestSchool,
-                        Major = _highestMajor,
-                        EndYear = _highestEndYear,
-                        EducationLevel = _educationLevel
-                    },
+                {
+                    School = _highestSchool,
+                    Major = _highestMajor,
+                    EndYear = _highestEndYear,
+                    EducationLevel = _educationLevel
+                },
                 CurrentEducationData = new Education()
-                    {
-                        School = _currentSchool,
-                        Major = _currentMajor,
-                        EndYear = _currentEndYear,
-                        EducationLevel = _currentEducationLevel
-                    },
+                {
+                    School = _currentSchool,
+                    Major = _currentMajor,
+                    EndYear = _currentEndYear,
+                    EducationLevel = _currentEducationLevel
+                },
                 PreviousJobData = new PreviousJob()
-                    {
-                        StartDate = _startDate,
-                        EndDate = _endDate,
-                        EmployerCompanyName = _employerCompanyName,
-                        Position = _position
-                    },
+                {
+                    StartDate = _startDate,
+                    EndDate = _endDate,
+                    EmployerCompanyName = _employerCompanyName,
+                    Position = _position
+                },
                 Children = _children.ToList()
             };
             Questionare questionare = new Questionare()
             {
                 Employee = employee,
-                ShowQuestionGroups = new bool[] {true, true, true, true, true,true}
+                ShowQuestionGroups = new bool[] { true, true, true, true, true, true }
             };
             fs.SaveJson(questionare, "test2.json");
         }
