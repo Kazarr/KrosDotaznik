@@ -68,7 +68,7 @@
             this.lblPin = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.grBoxCurrentEducation = new System.Windows.Forms.GroupBox();
-            this.txtCurrentSchoolEducationLevel = new System.Windows.Forms.TextBox();
+            this.cmbCurrentEduLevel = new System.Windows.Forms.ComboBox();
             this.txtCurrentSchoolMajor = new System.Windows.Forms.TextBox();
             this.txtCurrentSchoolEndYear = new System.Windows.Forms.TextBox();
             this.txtCurrentSchool = new System.Windows.Forms.TextBox();
@@ -77,7 +77,7 @@
             this.lblCurrMajor = new System.Windows.Forms.Label();
             this.lblCurrSchool = new System.Windows.Forms.Label();
             this.grBoxHighEducation = new System.Windows.Forms.GroupBox();
-            this.txtHighestSchoolEducationLevel = new System.Windows.Forms.TextBox();
+            this.cmbEduLevel = new System.Windows.Forms.ComboBox();
             this.txtHightestSchoolMajor = new System.Windows.Forms.TextBox();
             this.txtHighestSchoolEndYear = new System.Windows.Forms.TextBox();
             this.txtHighestSchool = new System.Windows.Forms.TextBox();
@@ -88,6 +88,8 @@
             this.tabCntrl = new System.Windows.Forms.TabControl();
             this.tPagePersonalInfo = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cmbRetirement = new System.Windows.Forms.ComboBox();
+            this.cmbHealthInsurance = new System.Windows.Forms.ComboBox();
             this.txtHndcpInPercentage = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radioBtnExceptionYes = new System.Windows.Forms.RadioButton();
@@ -99,15 +101,11 @@
             this.radioBtnHandcpYes = new System.Windows.Forms.RadioButton();
             this.radioBtnHndcpNo = new System.Windows.Forms.RadioButton();
             this.datePickerRetiredSince = new System.Windows.Forms.DateTimePicker();
-            this.radioBtnRetirment = new System.Windows.Forms.RadioButton();
-            this.radioBtnDisabled = new System.Windows.Forms.RadioButton();
-            this.radioBtnOldAge = new System.Windows.Forms.RadioButton();
-            this.txtHealtInsurance = new System.Windows.Forms.TextBox();
             this.panelBank = new System.Windows.Forms.Panel();
             this.txtIban = new System.Windows.Forms.TextBox();
             this.txtBankAcc = new System.Windows.Forms.TextBox();
             this.panelEmloyeeBasicInfo = new System.Windows.Forms.Panel();
-            this.txtState = new System.Windows.Forms.TextBox();
+            this.cmbState = new System.Windows.Forms.ComboBox();
             this.radioBtnFemale = new System.Windows.Forms.RadioButton();
             this.radioBtnMale = new System.Windows.Forms.RadioButton();
             this.datePickerBirth = new System.Windows.Forms.DateTimePicker();
@@ -145,6 +143,7 @@
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTaxBonus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSave = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -372,7 +371,7 @@
             // 
             // grBoxCurrentEducation
             // 
-            this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEducationLevel);
+            this.grBoxCurrentEducation.Controls.Add(this.cmbCurrentEduLevel);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolMajor);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEndYear);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchool);
@@ -384,10 +383,11 @@
             this.grBoxCurrentEducation.Name = "grBoxCurrentEducation";
             this.grBoxCurrentEducation.TabStop = false;
             // 
-            // txtCurrentSchoolEducationLevel
+            // cmbCurrentEduLevel
             // 
-            resources.ApplyResources(this.txtCurrentSchoolEducationLevel, "txtCurrentSchoolEducationLevel");
-            this.txtCurrentSchoolEducationLevel.Name = "txtCurrentSchoolEducationLevel";
+            this.cmbCurrentEduLevel.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
+            this.cmbCurrentEduLevel.Name = "cmbCurrentEduLevel";
             // 
             // txtCurrentSchoolMajor
             // 
@@ -426,7 +426,7 @@
             // 
             // grBoxHighEducation
             // 
-            this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEducationLevel);
+            this.grBoxHighEducation.Controls.Add(this.cmbEduLevel);
             this.grBoxHighEducation.Controls.Add(this.txtHightestSchoolMajor);
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEndYear);
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchool);
@@ -438,10 +438,11 @@
             this.grBoxHighEducation.Name = "grBoxHighEducation";
             this.grBoxHighEducation.TabStop = false;
             // 
-            // txtHighestSchoolEducationLevel
+            // cmbEduLevel
             // 
-            resources.ApplyResources(this.txtHighestSchoolEducationLevel, "txtHighestSchoolEducationLevel");
-            this.txtHighestSchoolEducationLevel.Name = "txtHighestSchoolEducationLevel";
+            this.cmbEduLevel.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
+            this.cmbEduLevel.Name = "cmbEduLevel";
             // 
             // txtHightestSchoolMajor
             // 
@@ -503,21 +504,31 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.cmbRetirement);
+            this.panel1.Controls.Add(this.cmbHealthInsurance);
             this.panel1.Controls.Add(this.txtHndcpInPercentage);
             this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.lblHandicapInPercentage);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.datePickerRetiredSince);
-            this.panel1.Controls.Add(this.radioBtnRetirment);
-            this.panel1.Controls.Add(this.radioBtnDisabled);
-            this.panel1.Controls.Add(this.radioBtnOldAge);
-            this.panel1.Controls.Add(this.txtHealtInsurance);
             this.panel1.Controls.Add(this.lblHealthInsurance);
             this.panel1.Controls.Add(this.lblPensionRecipient);
             this.panel1.Controls.Add(this.lblRetiredSince);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // cmbRetirement
+            // 
+            resources.ApplyResources(this.cmbRetirement, "cmbRetirement");
+            this.cmbRetirement.FormattingEnabled = true;
+            this.cmbRetirement.Name = "cmbRetirement";
+            // 
+            // cmbHealthInsurance
+            // 
+            resources.ApplyResources(this.cmbHealthInsurance, "cmbHealthInsurance");
+            this.cmbHealthInsurance.FormattingEnabled = true;
+            this.cmbHealthInsurance.Name = "cmbHealthInsurance";
             // 
             // txtHndcpInPercentage
             // 
@@ -597,32 +608,6 @@
             resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
             this.datePickerRetiredSince.Name = "datePickerRetiredSince";
             // 
-            // radioBtnRetirment
-            // 
-            resources.ApplyResources(this.radioBtnRetirment, "radioBtnRetirment");
-            this.radioBtnRetirment.Name = "radioBtnRetirment";
-            this.radioBtnRetirment.TabStop = true;
-            this.radioBtnRetirment.UseVisualStyleBackColor = true;
-            // 
-            // radioBtnDisabled
-            // 
-            resources.ApplyResources(this.radioBtnDisabled, "radioBtnDisabled");
-            this.radioBtnDisabled.Name = "radioBtnDisabled";
-            this.radioBtnDisabled.TabStop = true;
-            this.radioBtnDisabled.UseVisualStyleBackColor = true;
-            // 
-            // radioBtnOldAge
-            // 
-            resources.ApplyResources(this.radioBtnOldAge, "radioBtnOldAge");
-            this.radioBtnOldAge.Name = "radioBtnOldAge";
-            this.radioBtnOldAge.TabStop = true;
-            this.radioBtnOldAge.UseVisualStyleBackColor = true;
-            // 
-            // txtHealtInsurance
-            // 
-            resources.ApplyResources(this.txtHealtInsurance, "txtHealtInsurance");
-            this.txtHealtInsurance.Name = "txtHealtInsurance";
-            // 
             // panelBank
             // 
             this.panelBank.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -646,7 +631,8 @@
             // panelEmloyeeBasicInfo
             // 
             this.panelEmloyeeBasicInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panelEmloyeeBasicInfo.Controls.Add(this.txtState);
+            this.panelEmloyeeBasicInfo.Controls.Add(this.label1);
+            this.panelEmloyeeBasicInfo.Controls.Add(this.cmbState);
             this.panelEmloyeeBasicInfo.Controls.Add(this.radioBtnFemale);
             this.panelEmloyeeBasicInfo.Controls.Add(this.radioBtnMale);
             this.panelEmloyeeBasicInfo.Controls.Add(this.datePickerBirth);
@@ -670,10 +656,12 @@
             resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.Name = "panelEmloyeeBasicInfo";
             // 
-            // txtState
+            // cmbState
             // 
-            resources.ApplyResources(this.txtState, "txtState");
-            this.txtState.Name = "txtState";
+            resources.ApplyResources(this.cmbState, "cmbState");
+            this.cmbState.FormattingEnabled = true;
+            this.cmbState.Name = "cmbState";
+            this.cmbState.SelectedIndexChanged += new System.EventHandler(this.cmbState_SelectedIndexChanged);
             // 
             // radioBtnFemale
             // 
@@ -906,6 +894,11 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // FrmQuestionnaireToFill
             // 
             resources.ApplyResources(this, "$this");
@@ -1005,7 +998,6 @@
         private System.Windows.Forms.Label lblJobTo;
         private System.Windows.Forms.Label lblJobFrom;
         private System.Windows.Forms.Panel panelEmloyeeBasicInfo;
-        private System.Windows.Forms.TextBox txtState;
         private System.Windows.Forms.RadioButton radioBtnFemale;
         private System.Windows.Forms.RadioButton radioBtnMale;
         private System.Windows.Forms.DateTimePicker datePickerBirth;
@@ -1025,12 +1017,8 @@
         private System.Windows.Forms.TextBox txtIban;
         private System.Windows.Forms.TextBox txtBankAcc;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.RadioButton radioBtnRetirment;
-        private System.Windows.Forms.RadioButton radioBtnDisabled;
-        private System.Windows.Forms.RadioButton radioBtnOldAge;
         private System.Windows.Forms.RadioButton radioBtnHndcpNo;
         private System.Windows.Forms.RadioButton radioBtnHandcpYes;
-        private System.Windows.Forms.TextBox txtHealtInsurance;
         private System.Windows.Forms.RadioButton radioBtnExceptionNo;
         private System.Windows.Forms.RadioButton radioBtnExceptionYes;
         private System.Windows.Forms.RadioButton radioBtnSecondPilarNo;
@@ -1043,11 +1031,9 @@
         private System.Windows.Forms.TextBox txtPostalCode;
         private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.TextBox txtStreetHouseNumber;
-        private System.Windows.Forms.TextBox txtCurrentSchoolEducationLevel;
         private System.Windows.Forms.TextBox txtCurrentSchoolMajor;
         private System.Windows.Forms.TextBox txtCurrentSchoolEndYear;
         private System.Windows.Forms.TextBox txtCurrentSchool;
-        private System.Windows.Forms.TextBox txtHighestSchoolEducationLevel;
         private System.Windows.Forms.TextBox txtHightestSchoolMajor;
         private System.Windows.Forms.TextBox txtHighestSchoolEndYear;
         private System.Windows.Forms.TextBox txtHighestSchool;
@@ -1067,5 +1053,11 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.ComboBox cmbHealthInsurance;
+        private System.Windows.Forms.ComboBox cmbState;
+        private System.Windows.Forms.ComboBox cmbRetirement;
+        private System.Windows.Forms.ComboBox cmbCurrentEduLevel;
+        private System.Windows.Forms.ComboBox cmbEduLevel;
+        private System.Windows.Forms.Label label1;
     }
 }
