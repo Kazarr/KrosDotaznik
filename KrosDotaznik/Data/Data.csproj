@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectionManager.cs" />
     <Compile Include="Models\Credentials.cs" />
     <Compile Include="Models\Child.cs" />
     <Compile Include="Models\Address.cs" />
@@ -62,6 +63,39 @@
     <Compile Include="Models\Registers\WorkPosition.cs" />
     <Compile Include="Models\Registers\WorkType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\ResourceAccess.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceAccess.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SettingsAccess.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>SettingsAccess.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\Registers\CountryRepository.cs" />
+    <Compile Include="Repository\Registers\EducationLevelRepository.cs" />
+    <Compile Include="Repository\Registers\HealthInsuranceRepository.cs" />
+    <Compile Include="Repository\Registers\RetirementRepository.cs" />
+    <Compile Include="Repository\Registers\StateRepository.cs" />
+    <Compile Include="Repository\Registers\WageCategoryRepository.cs" />
+    <Compile Include="Repository\Registers\WorkExpirationRepository.cs" />
+    <Compile Include="Repository\Registers\WorkHoursRepository.cs" />
+    <Compile Include="Repository\Registers\WorkPositionRepository.cs" />
+    <Compile Include="Repository\Registers\WorkTypeRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\SettingsAccess.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SettingsAccess.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\ResourceAccess.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceAccess.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
