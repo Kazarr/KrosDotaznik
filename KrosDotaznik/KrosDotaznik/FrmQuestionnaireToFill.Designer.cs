@@ -884,8 +884,6 @@
             this.colEmployeeId});
             resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
-            this.dgvChildren.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChildren_CellValueChanged);
-            this.dgvChildren.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChildren_RowLeave);
             // 
             // colName
             // 
