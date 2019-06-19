@@ -118,11 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblRetirementInsuranceCompanyException.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 21</value>
-  </data>
-  <data name="lblRetirementInsuranceCompanyException.Text" xml:space="preserve">
-    <value>Len dohody: výnimka z dôch. poist.</value>
+  <data name="lblRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 190</value>
   </data>
   <data name="lblRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 21</value>
@@ -130,29 +127,23 @@
   <data name="lblRetiredSince.Text" xml:space="preserve">
     <value>Poberateľ dôchodku od:</value>
   </data>
+  <data name="lblPensionRecipient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 140</value>
+  </data>
   <data name="lblPensionRecipient.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 21</value>
   </data>
   <data name="lblPensionRecipient.Text" xml:space="preserve">
     <value>Poberateľ dôchodku:</value>
   </data>
+  <data name="lblHandicapInPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 82</value>
+  </data>
   <data name="lblHandicapInPercentage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 21</value>
   </data>
   <data name="lblHandicapInPercentage.Text" xml:space="preserve">
     <value>Miera postihnutia v %:</value>
-  </data>
-  <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 21</value>
-  </data>
-  <data name="lblHandicap.Text" xml:space="preserve">
-    <value>ZŤP</value>
-  </data>
-  <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 21</value>
-  </data>
-  <data name="lblSecondPillar.Text" xml:space="preserve">
-    <value>Zúčastnený v 2. piliery SDS:</value>
   </data>
   <data name="lblHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -430,38 +421,11 @@
   <data name="grBoxHighEducation.Text" xml:space="preserve">
     <value>Najvyššie ukončené vzdelanie</value>
   </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>Ulož</value>
+  <data name="txtHndcpInPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 80</value>
   </data>
-  <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 27</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 25</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
-    <value>Nie</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Text" xml:space="preserve">
-    <value>Áno</value>
-  </data>
-  <data name="radioBtnExceptionNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>891, 157</value>
-  </data>
-  <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 25</value>
-  </data>
-  <data name="radioBtnExceptionNo.Text" xml:space="preserve">
-    <value>Nie</value>
-  </data>
-  <data name="radioBtnExceptionYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 157</value>
+  <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 27</value>
   </data>
   <data name="radioBtnExceptionYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 25</value>
@@ -469,23 +433,59 @@
   <data name="radioBtnExceptionYes.Text" xml:space="preserve">
     <value>Áno</value>
   </data>
-  <data name="radioBtnRetirment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 25</value>
+  <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
   </data>
-  <data name="radioBtnRetirment.Text" xml:space="preserve">
-    <value>Výsluhový</value>
+  <data name="radioBtnExceptionNo.Text" xml:space="preserve">
+    <value>Nie</value>
   </data>
-  <data name="radioBtnDisabled.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 25</value>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 190</value>
   </data>
-  <data name="radioBtnDisabled.Text" xml:space="preserve">
-    <value>Invalidný</value>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 73</value>
   </data>
-  <data name="radioBtnOldAge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 25</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Len dohody: výnimka z dôch. poist.</value>
   </data>
-  <data name="radioBtnOldAge.Text" xml:space="preserve">
-    <value>Starobný</value>
+  <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 25</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Text" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 26</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 25</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 10</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 60</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Zúčastnený v 2. piliery SDS:</value>
+  </data>
+  <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 25</value>
+  </data>
+  <data name="radioBtnHandcpYes.Text" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 26</value>
   </data>
   <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 25</value>
@@ -493,11 +493,53 @@
   <data name="radioBtnHndcpNo.Text" xml:space="preserve">
     <value>Nie</value>
   </data>
-  <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 66</value>
   </data>
-  <data name="radioBtnHandcpYes.Text" xml:space="preserve">
-    <value>Áno</value>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 60</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>ZŤP:</value>
+  </data>
+  <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 190</value>
+  </data>
+  <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 27</value>
+  </data>
+  <data name="radioBtnRetirment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 143</value>
+  </data>
+  <data name="radioBtnRetirment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 25</value>
+  </data>
+  <data name="radioBtnRetirment.Text" xml:space="preserve">
+    <value>Výsluhový</value>
+  </data>
+  <data name="radioBtnDisabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 143</value>
+  </data>
+  <data name="radioBtnDisabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="radioBtnDisabled.Text" xml:space="preserve">
+    <value>Invalidný</value>
+  </data>
+  <data name="radioBtnOldAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 143</value>
+  </data>
+  <data name="radioBtnOldAge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="radioBtnOldAge.Text" xml:space="preserve">
+    <value>Starobný</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1013, 288</value>
   </data>
   <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 25</value>
@@ -562,13 +604,7 @@
   <data name="tPagePreviousJob.Text" xml:space="preserve">
     <value>Predchádzajúce zamestnanie</value>
   </data>
-  <data name="colName.HeaderText" xml:space="preserve">
-    <value>Meno</value>
-  </data>
-  <data name="colSurname.HeaderText" xml:space="preserve">
-    <value>Priezvisko</value>
-  </data>
-  <data name="colTaxBonus.HeaderText" xml:space="preserve">
-    <value>Daňový bonus</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1054, 855</value>
   </data>
 </root>
