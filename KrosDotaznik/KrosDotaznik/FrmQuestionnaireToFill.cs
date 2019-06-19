@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KrosDotaznik.CalendarColumnPicker;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,14 @@ namespace KrosDotaznik
             _viewModel = fillViewModel;
             //LoadCombo();
             BindingTest();
+            CalendarColumn calendarColumn = new CalendarColumn();
+            calendarColumn.Name = "colDateOfBirth";
+            calendarColumn.HeaderText = Resources.GridResources.colDateOfBirth;
+            dgvChildren.Columns.Add(calendarColumn);
+            foreach(DataGridViewRow row in dgvChildren.Rows)
+            {
+                row.Cells[3].Value = DateTime.Now;
+            }
             //SetComponentsByLanguage();
             //SetTabPagesByLanguage();
         }
@@ -143,6 +152,11 @@ namespace KrosDotaznik
         private void txtHndcpInPercentage_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            _viewModel.Save();
         }
     }
 }

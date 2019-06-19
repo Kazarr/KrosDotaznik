@@ -1,8 +1,9 @@
-﻿using Data.Repository.Registers;
+﻿using Data.Models;
+using Data.Models.Registers;
+using Logic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -20,14 +21,14 @@ namespace KrosDotaznik
         private string _title = string.Empty;
         private string _identityCard = string.Empty;
         private string _personalId = string.Empty;
-        private string _state = string.Empty;
+        private State _state = null;
         private string _placeOfBirth = string.Empty;
         private string _regionOfBirth = string.Empty;
         private string _nationality = string.Empty;
         private string _citizenShip = string.Empty;
         private string _bankAcc = string.Empty;
         private string _iban = string.Empty;
-        private string _healthInsurance = string.Empty;
+        private HealthInsurance _healthInsurance = null;
         private int _handicapInPercentage = default(int);
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
@@ -108,7 +109,7 @@ namespace KrosDotaznik
             }
         }
 
-        public string State
+        public State State
         {
             get => _state;
             set
@@ -177,7 +178,7 @@ namespace KrosDotaznik
             }
         }
 
-        public string HealthInsurance
+        public HealthInsurance HealthInsurance
         {
             get => _healthInsurance;
             set
@@ -232,5 +233,35 @@ namespace KrosDotaznik
             HealthInsuranceData = health.GetHealthInsuranceData<int, string>(_cultureInfo);            
         }
         #endregion
+
+        public void Save()
+        {
+            FileService fs = new FileService();
+            Employee employee = new Employee()
+            {
+                Name = _name,
+                Surname = _surname,
+                PreviousName = _previousName,
+                MaidenName = _maidenName,
+                Title = _title,
+                IdNumber = _identityCard,
+                BirthNumber = _personalId,
+                State = _state,
+                PlaceOfBirth = _placeOfBirth,
+                CountyOfBirth = _regionOfBirth,
+                Nationality = _nationality,
+                Citizenship = _citizenShip,
+                BankAccountNumber = _bankAcc,
+                IBAN = _iban,
+                HealthInsuranceCompany = _healthInsurance,
+                DisabilityRate = _handicapInPercentage
+            };
+            Questionare questionare = new Questionare()
+            {
+                Employee = employee,
+                ShowQuestionGroups = new bool[] {true, true, true, true, true,true}
+            };
+            fs.SaveJson(questionare, "test2.json");
+        }
     }
 }
