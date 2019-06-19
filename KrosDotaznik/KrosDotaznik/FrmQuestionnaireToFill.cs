@@ -50,7 +50,9 @@ namespace KrosDotaznik
         //    cmbState.ValueMember = "Key";
         //    cmbState.DisplayMember = "Value";
         //}
-
+        /// <summary>
+        /// Need to bind the rest of the properties. Object from comboboxes. Street and house number
+        /// </summary>
         public void BindingTest()
         {
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
@@ -68,6 +70,38 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
             BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
+            //BindDefaultControlProperty(txtState, nameof(_viewModel.State));
+
+            BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
+            BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
+            //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.HouseNumber));
+            //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.Street));
+            BindDefaultControlProperty(txtCity, nameof(_viewModel.City));
+            BindDefaultControlProperty(txtPostalCode, nameof(_viewModel.PostalCode));
+            //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempHouseNumber));
+            //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempStreet));
+            BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
+            BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
+
+            BindDefaultControlProperty(txtPassword, nameof(_viewModel.PayChechPassword));
+            BindDefaultControlProperty(txtPinAlarm, nameof(_viewModel.PinAlarm));
+
+            BindDefaultControlProperty(txtHighestSchool, nameof(_viewModel.HighestSchool));
+            BindDefaultControlProperty(txtHightestSchoolMajor, nameof(_viewModel.HighestMajor));
+            BindDefaultControlProperty(txtHighestSchoolEndYear, nameof(_viewModel.HighestEndYear));
+            //BindDefaultControlProperty(txtHighestSchoolEducationLevel, nameof(_viewModel.EducationLevel));
+            BindDefaultControlProperty(txtCurrentSchool, nameof(_viewModel.CurrentSchool));
+            BindDefaultControlProperty(txtCurrentSchoolMajor, nameof(_viewModel.CurrentMajor));
+            BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
+            //BindDefaultControlProperty(txtCurrentSchoolEducationLevel, nameof(_viewModel.CurrentEducationLevel));
+
+            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
+            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
+            BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
+
+            BindDefaultControlProperty(dgvChildren, nameof(_viewModel.Children));
+
         }
         //#region Set components by language
         //private void SetComponentsByLanguage()
