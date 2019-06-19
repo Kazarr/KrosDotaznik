@@ -32,6 +32,7 @@ namespace KrosDotaznik
         private string _bankAcc = string.Empty;
         private string _iban = string.Empty;
         private HealthInsurance _healthInsurance = null;
+        private string _stringHealthInsurance = string.Empty;
         private int _handicapInPercentage = default(int);
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
@@ -148,17 +149,16 @@ namespace KrosDotaznik
             get => _state;
             set
             {
-                //_state = SetState();
                 _state = SetPropertie<State>(StateData, _stringState);
                 OnPropertyChange();
             }
         }
-        private State SetState()
-        {
-            State query = StateData.Where(s => s.Value == _stringState)
-                .Select(x => new State { Id = x.Key, EmployeeState = x.Value }).FirstOrDefault();
-            return query;
-        }
+        //private State SetState()
+        //{
+        //    State query = StateData.Where(s => s.Value == _stringState)
+        //        .Select(x => new State { Id = x.Key, EmployeeState = x.Value }).FirstOrDefault();
+        //    return query;
+        //}
 
         private T SetPropertie<T>(Dictionary<int, string> dict, string _field)
         {
@@ -182,10 +182,6 @@ namespace KrosDotaznik
             return jahoda;
         }
 
-        private void Zemiak()
-        {
-            SetPropertie<State>(StateData, _stringState);
-        }
 
     public string StringState
         {
