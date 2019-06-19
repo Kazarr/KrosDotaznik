@@ -12,23 +12,38 @@ namespace Data
     {
         public Dictionary<TKey, TValue> GetAllAccessData<TKey, TValue>(string command,string cultureInfo)
         {
-            OleDbConnection connection = new OleDbConnection();
-            connection.ConnectionString = Properties.SettingsAccess.Default.ConnString;
-            connection.Open();
-            OleDbCommand dbCommand = new OleDbCommand();
-            dbCommand.CommandText = command;
-            dbCommand.Connection = connection;
-            OleDbDataAdapter oleDbData = new OleDbDataAdapter(dbCommand);
-            DataSet ds = new DataSet();
-            oleDbData.Fill(ds);
-            if (cultureInfo == "sk")
+            try
             {
-                return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(1));
+                using (OleDbConnection connection = new OleDbConnection(Properties.SettingsAccess.Default.ConnString))
+                {
+                    connection.Open();
+                    try
+                    {
+                        using(OleDbCommand dbCommand = new OleDbCommand(command,connection))
+                        {
+                            OleDbDataAdapter oleDbData = new OleDbDataAdapter(dbCommand);
+                            DataSet ds = new DataSet();
+                            oleDbData.Fill(ds);
+                            if (cultureInfo == "sk")
+                            {
+                                return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(1));
+                            }
+                            else
+                            {
+                                return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(2));
+                            }
+                        }
+                    }
+                    catch (OleDbException)
+                    {
+                        throw;
+                    }
+                }
             }
-            else
+            catch (OleDbException)
             {
-                return ds.Tables[0].AsEnumerable().ToDictionary<DataRow, TKey, TValue>(r => r.Field<TKey>(0), r => r.Field<TValue>(2));
-            }
+                throw;
+            }            
         }
     }
 }
