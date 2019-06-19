@@ -24,7 +24,6 @@ namespace KrosDotaznik
         private string _personalId = string.Empty;
         private State _state = null;
         private string _stringState = string.Empty;
-        private int _intState;
         private string _placeOfBirth = string.Empty;
         private string _regionOfBirth = string.Empty;
         private string _nationality = string.Empty;
@@ -117,7 +116,8 @@ namespace KrosDotaznik
             get => _state;
             set
             {
-                _state = SetState();
+                //_state = SetState();
+                _state = SetPropertie<State>(StateData, _stringState);
                 OnPropertyChange();
             }
         }
@@ -128,13 +128,40 @@ namespace KrosDotaznik
             return query;
         }
 
-        public string StringState
+        private T SetPropertie<T>(Dictionary<int, string> dict, string _field)
+        {
+            //T NIECO = (T) Activator.CreateInstance(typeof(T));
+            //T query = dict.Where(s => s.Value == _field)
+            //    .Select(x =>
+            //    {
+            //        typeof(T).GetProperties()[0].SetValue(NIECO, x.Key);
+            //        typeof(T).GetProperties()[1].SetValue(NIECO, x.Value);
+            //    });
+            var jahoda = (T)Activator.CreateInstance(typeof(T));
+            foreach (var item in dict)
+            {
+                if (item.Value.Equals(_field))
+                {
+                    typeof(T).GetProperties()[0].SetValue(jahoda, item.Key);
+                    typeof(T).GetProperties()[1].SetValue(jahoda, item.Value);
+                    return jahoda;
+                }
+            }
+            return jahoda;
+        }
+
+        private void Zemiak()
+        {
+            SetPropertie<State>(StateData, _stringState);
+        }
+
+    public string StringState
         {
             get => _stringState;
             set
             {
                 _stringState = value;
-                State = SetState();
+                State = SetPropertie<State>(StateData, _stringState);
                 OnPropertyChange();
             }
         }
