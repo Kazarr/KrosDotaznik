@@ -1,6 +1,7 @@
 ﻿using KrosDotaznik.CalendarColumnPicker;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -20,14 +21,12 @@ namespace KrosDotaznik
             _viewModel = fillViewModel;
             LoadCombos();
             BindingTest();
-            CalendarColumn calendarColumn = new CalendarColumn();
-            calendarColumn.Name = "colDateOfBirth";
-            calendarColumn.HeaderText = Resources.GridResources.colDateOfBirth;
-            dgvChildren.Columns.Add(calendarColumn);
-            foreach(DataGridViewRow row in dgvChildren.Rows)
+            foreach (DataGridViewRow row in dgvChildren.Rows)
             {
                 row.Cells[3].Value = DateTime.Now;
             }
+            //_viewModel.Children.CollectionChanged += dgvChildren_CollectionChanged;
+            //_viewModel.Children.
             //SetComponentsByLanguage();
             //SetTabPagesByLanguage();
         }
@@ -80,6 +79,38 @@ namespace KrosDotaznik
             
             //BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
+            //BindDefaultControlProperty(txtState, nameof(_viewModel.State));
+
+            BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
+            BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
+            //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.HouseNumber));
+            //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.Street));
+            BindDefaultControlProperty(txtCity, nameof(_viewModel.City));
+            BindDefaultControlProperty(txtPostalCode, nameof(_viewModel.PostalCode));
+            //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempHouseNumber));
+            //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempStreet));
+            BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
+            BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
+
+            BindDefaultControlProperty(txtPassword, nameof(_viewModel.PayChechPassword));
+            BindDefaultControlProperty(txtPinAlarm, nameof(_viewModel.PinAlarm));
+
+            BindDefaultControlProperty(txtHighestSchool, nameof(_viewModel.HighestSchool));
+            BindDefaultControlProperty(txtHightestSchoolMajor, nameof(_viewModel.HighestMajor));
+            BindDefaultControlProperty(txtHighestSchoolEndYear, nameof(_viewModel.HighestEndYear));
+            //BindDefaultControlProperty(txtHighestSchoolEducationLevel, nameof(_viewModel.EducationLevel));
+            BindDefaultControlProperty(txtCurrentSchool, nameof(_viewModel.CurrentSchool));
+            BindDefaultControlProperty(txtCurrentSchoolMajor, nameof(_viewModel.CurrentMajor));
+            BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
+            //BindDefaultControlProperty(txtCurrentSchoolEducationLevel, nameof(_viewModel.CurrentEducationLevel));
+
+            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
+            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
+            BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
+
+            dgvChildren.DataSource = _viewModel.Children;
+
         }
         //#region Set components by language
         //private void SetComponentsByLanguage()

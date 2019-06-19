@@ -4,6 +4,7 @@ using Data.Repository.Registers;
 using Logic;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -33,6 +34,37 @@ namespace KrosDotaznik
         private HealthInsurance _healthInsurance = null;
         private int _handicapInPercentage = default(int);
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
+
+        private string _phoneNumber = string.Empty;
+        private string _email = string.Empty;
+        private string _houseNumber = string.Empty;
+        private string _street = string.Empty;
+        private string _city = string.Empty;
+        private int _postalCode = default(int);
+        private string _tempHouseNumber = string.Empty;
+        private string _tempStreet = string.Empty;
+        private string _tempCity = string.Empty;
+        private int _tempPostalCode = default(int);
+
+        private string _payCheckPassword = string.Empty;
+        private int _pinAlarm = default(int);
+
+        private string _highestSchool = string.Empty;
+        private string _highestMajor = string.Empty;
+        private DateTime _highestEndYear = DateTime.Now;
+        private EducationLevel _educationLevel = null;
+        private string _currentSchool = string.Empty;
+        private string _currentMajor = string.Empty;
+        private DateTime _currentEndYear = DateTime.Now;
+        private EducationLevel _currentEducationLevel = null;
+
+        private DateTime _startDate = DateTime.Now;
+        private DateTime _endDate = DateTime.Now;
+        private string _employerCompanyName = string.Empty;
+        private string _position = string.Empty;
+
+        private BindingList<Child> _children = new BindingList<Child>();
+
 
         public QuestionnaireToFillViewModel()
         {
@@ -246,6 +278,255 @@ namespace KrosDotaznik
             }
         }
 
+        public string PhoneNumber
+        {
+            get => _phoneNumber;
+            set
+            {
+                _phoneNumber = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string Email
+        {
+            get => _email;
+            set
+            {
+                _email = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string HouseNumber
+        {
+            get => _houseNumber;
+            set
+            {
+                _houseNumber = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string Street
+        {
+            get => _street;
+            set
+            {
+                _street = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string City
+        {
+            get => _city;
+            set
+            {
+                _city = value;
+                OnPropertyChange();
+            }
+        }
+
+        public int PostalCode
+        {
+            get => _postalCode;
+            set
+            {
+                _postalCode = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string TempHouseNumber
+        {
+            get => _tempHouseNumber;
+            set
+            {
+                _tempHouseNumber = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string TempStreet
+        {
+            get => _tempStreet;
+            set
+            {
+                _tempStreet = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string TempCity
+        {
+            get => _tempCity;
+            set
+            {
+                _tempCity = value;
+                OnPropertyChange();
+            }
+        }
+
+        public int TempPostalCode
+        {
+            get => _tempPostalCode;
+            set
+            {
+                _tempPostalCode = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string PayChechPassword
+        {
+            get => _payCheckPassword;
+            set
+            {
+                _payCheckPassword = value;
+                OnPropertyChange();
+            }
+        }
+
+        public int PinAlarm
+        {
+            get => _pinAlarm;
+            set
+            {
+                _pinAlarm = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string HighestSchool
+        {
+            get => _highestSchool;
+            set
+            {
+                _highestSchool = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string HighestMajor
+        {
+            get => _highestMajor;
+            set
+            {
+                _highestMajor = value;
+                OnPropertyChange();
+            }
+        }
+
+        public DateTime HighestEndYear
+        {
+            get => _highestEndYear;
+            set
+            {
+                _highestEndYear = value;
+                OnPropertyChange();
+            }
+        }
+
+        public EducationLevel EducationLevel
+        {
+            get => _educationLevel;
+            set
+            {
+                _educationLevel = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string CurrentSchool
+        {
+            get => _currentSchool;
+            set
+            {
+                _currentSchool = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string CurrentMajor
+        {
+            get => _currentMajor;
+            set
+            {
+                _currentMajor = value;
+                OnPropertyChange();
+            }
+        }
+
+        public DateTime CurrentEndYear
+        {
+            get => _currentEndYear;
+            set
+            {
+                _currentEndYear = value;
+                OnPropertyChange();
+            }
+        }
+
+        public EducationLevel CurrentEducationLevel
+        {
+            get => _currentEducationLevel;
+            set
+            {
+                _currentEducationLevel = value;
+                OnPropertyChange();
+            }
+        }
+
+        public DateTime StartDate
+        {
+            get => _startDate;
+            set
+            {
+                _startDate = value;
+                OnPropertyChange();
+            }
+        }
+
+        public DateTime EndDate
+        {
+            get => _endDate;
+            set
+            {
+                _endDate = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string EmployerCompanyName
+        {
+            get => _employerCompanyName;
+            set
+            {
+                _employerCompanyName = value;
+                OnPropertyChange();
+            }
+        }
+
+        public string Position
+        {
+            get => _position;
+            set
+            {
+                _position = value;
+                OnPropertyChange();
+            }
+        }
+
+        public BindingList<Child> Children
+        {
+            get => _children;
+            set
+            {
+                _children = value;
+                OnPropertyChange();
+            }
+        }
 
         #endregion
 
