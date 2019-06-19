@@ -1,5 +1,6 @@
 ﻿using Data.Models;
 using Data.Models.Registers;
+using Data.Repository.Registers;
 using Logic;
 using System;
 using System.Collections.Generic;
