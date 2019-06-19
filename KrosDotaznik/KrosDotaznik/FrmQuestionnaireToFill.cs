@@ -19,7 +19,7 @@ namespace KrosDotaznik
         {
             InitializeComponent();
             _viewModel = fillViewModel;
-            //LoadCombo();
+            LoadCombos();
             BindingTest();
             foreach (DataGridViewRow row in dgvChildren.Rows)
             {
@@ -42,16 +42,23 @@ namespace KrosDotaznik
                 DataSourceUpdateMode.OnValidation);
         }
 
-        //private void LoadCombo()
-        //{
-        //    string info = System.Globalization.CultureInfo.CurrentCulture.ToString();
-        //    cmbState.DataSource = new BindingSource(_viewModel.StateData, null);
-        //    cmbState.ValueMember = "Key";
-        //    cmbState.DisplayMember = "Value";
-        //}
-        /// <summary>
-        /// Need to bind the rest of the properties. Object from comboboxes. Street and house number
-        /// </summary>
+        private void FillCombo(ComboBox combo, Object dataSource)
+        {
+            string info = System.Globalization.CultureInfo.CurrentCulture.ToString();
+            combo.DataSource = new BindingSource(dataSource, null);
+            combo.ValueMember = "Key";
+            combo.DisplayMember = "Value";
+        }
+
+        private void LoadCombos()
+        {
+            FillCombo(cmbHealthInsurance,_viewModel.HealthInsuranceData);
+            FillCombo(cmbState, _viewModel.StateData);
+            FillCombo(cmbRetirement, _viewModel.RetirementData);
+            FillCombo(cmbEduLevel, _viewModel.EducationLevelData);
+            FillCombo(cmbCurrentEduLevel, _viewModel.EducationLevelData);
+        }
+
         public void BindingTest()
         {
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
@@ -67,7 +74,10 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
             BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
-            BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
+
+            BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
+            
+            //BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
             //BindDefaultControlProperty(txtState, nameof(_viewModel.State));
 
@@ -192,19 +202,9 @@ namespace KrosDotaznik
             _viewModel.Save();
         }
 
-        private void dgvChildren_RowLeave(object sender, DataGridViewCellEventArgs e)
+        private void cmbState_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-        }
-
-        private void dgvChildren_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-        {
-
-        }
-
-        private void dgvChildren_CellValueChanged(object sender, DataGridViewCellEventArgs e)
-        {
-
+            label1.Text = _viewModel.StringState;
         }
     }
 }

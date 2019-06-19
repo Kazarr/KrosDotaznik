@@ -39,7 +39,7 @@ namespace Logic
                             Newtonsoft.Json.Serialization
                             .CamelCasePropertyNamesContractResolver()
                         });
-            using (TextWriter writer = new StreamWriter(filePath))
+            using (var writer = new StreamWriter(new FileStream(filePath,FileMode.Open,FileAccess.ReadWrite),Encoding.UTF8))
             {
                 writer.Write(json);
             }

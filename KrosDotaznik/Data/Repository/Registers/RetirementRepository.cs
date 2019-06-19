@@ -10,7 +10,7 @@ namespace Data.Repository.Registers
     {
         public Dictionary<TKey, TValue> GetRetirementData<TKey, TValue>(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.RetirementSelect, cultureInfo);
+            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.RetirementSelect, cultureInfo);            
         }
     }
 }
