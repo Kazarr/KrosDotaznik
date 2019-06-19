@@ -319,12 +319,6 @@
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Heslo k výplatnej páske:</value>
   </data>
-  <data name="txtCurrentSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>572, 60</value>
-  </data>
-  <data name="txtCurrentSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 27</value>
-  </data>
   <data name="txtCurrentSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
     <value>572, 23</value>
   </data>
@@ -369,12 +363,6 @@
   </data>
   <data name="grBoxCurrentEducation.Text" xml:space="preserve">
     <value>Súčasné štúdium</value>
-  </data>
-  <data name="txtHighestSchoolEducationLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>572, 60</value>
-  </data>
-  <data name="txtHighestSchoolEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 27</value>
   </data>
   <data name="txtHightestSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
     <value>572, 23</value>
@@ -520,9 +508,6 @@
   <data name="tPagePersonalInfo.Text" xml:space="preserve">
     <value>Údaje o zamestnancovi</value>
   </data>
-  <data name="tPageContactAdress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1026, 779</value>
-  </data>
   <data name="tPageContactAdress.Text" xml:space="preserve">
     <value>Kontakty, adresy</value>
   </data>
@@ -538,14 +523,8 @@
   <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 27</value>
   </data>
-  <data name="tPagePassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1026, 779</value>
-  </data>
   <data name="tPagePassword.Text" xml:space="preserve">
     <value>Heslá a prístupy</value>
-  </data>
-  <data name="tPageEducation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1026, 779</value>
   </data>
   <data name="tPageEducation.Text" xml:space="preserve">
     <value>Údaje o vzdelaní</value>
@@ -574,14 +553,20 @@
   <data name="lblJobFrom.Text" xml:space="preserve">
     <value>Od:</value>
   </data>
-  <data name="tPagePreviousJob.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1026, 779</value>
-  </data>
   <data name="tPagePreviousJob.Text" xml:space="preserve">
     <value>Predchádzajúce zamestnanie</value>
   </data>
-  <data name="tPageChildInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1026, 779</value>
+  <data name="colName.HeaderText" xml:space="preserve">
+    <value>Meno</value>
+  </data>
+  <data name="colSurname.HeaderText" xml:space="preserve">
+    <value>Priezvisko</value>
+  </data>
+  <data name="colBonus.HeaderText" xml:space="preserve">
+    <value>Daňový bonus</value>
+  </data>
+  <data name="colBirthDate.HeaderText" xml:space="preserve">
+    <value>Dárum narodenia</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1054, 855</value>
