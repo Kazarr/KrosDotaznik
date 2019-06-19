@@ -1,6 +1,7 @@
 ﻿using KrosDotaznik.CalendarColumnPicker;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -20,14 +21,12 @@ namespace KrosDotaznik
             _viewModel = fillViewModel;
             //LoadCombo();
             BindingTest();
-            CalendarColumn calendarColumn = new CalendarColumn();
-            calendarColumn.Name = "colDateOfBirth";
-            calendarColumn.HeaderText = Resources.GridResources.colDateOfBirth;
-            dgvChildren.Columns.Add(calendarColumn);
-            foreach(DataGridViewRow row in dgvChildren.Rows)
+            foreach (DataGridViewRow row in dgvChildren.Rows)
             {
                 row.Cells[3].Value = DateTime.Now;
             }
+            //_viewModel.Children.CollectionChanged += dgvChildren_CollectionChanged;
+            //_viewModel.Children.
             //SetComponentsByLanguage();
             //SetTabPagesByLanguage();
         }
@@ -100,7 +99,7 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
             BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
 
-            BindDefaultControlProperty(dgvChildren, nameof(_viewModel.Children));
+            dgvChildren.DataSource = _viewModel.Children;
 
         }
         //#region Set components by language
@@ -191,6 +190,21 @@ namespace KrosDotaznik
         private void btnSave_Click_1(object sender, EventArgs e)
         {
             _viewModel.Save();
+        }
+
+        private void dgvChildren_RowLeave(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void dgvChildren_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        {
+
+        }
+
+        private void dgvChildren_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

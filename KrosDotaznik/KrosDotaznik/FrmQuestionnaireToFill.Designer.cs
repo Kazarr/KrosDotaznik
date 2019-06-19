@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -143,8 +144,14 @@
             this.dgvChildren = new System.Windows.Forms.DataGridView();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTaxBonus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colBonus = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
+            this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSave = new System.Windows.Forms.Button();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -883,21 +890,54 @@
             this.dgvChildren.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colName,
             this.colSurname,
-            this.colTaxBonus});
+            this.colBonus,
+            this.colBirthDate,
+            this.colId,
+            this.colEmployeeId});
             resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
+            this.dgvChildren.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChildren_CellValueChanged);
+            this.dgvChildren.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChildren_RowLeave);
             // 
             // colName
             // 
+            this.colName.DataPropertyName = "Name";
+            resources.ApplyResources(this.colName, "colName");
             this.colName.Name = "colName";
             // 
             // colSurname
             // 
+            this.colSurname.DataPropertyName = "Surname";
+            resources.ApplyResources(this.colSurname, "colSurname");
             this.colSurname.Name = "colSurname";
             // 
-            // colTaxBonus
+            // colBonus
             // 
-            this.colTaxBonus.Name = "colTaxBonus";
+            this.colBonus.DataPropertyName = "Bonus";
+            resources.ApplyResources(this.colBonus, "colBonus");
+            this.colBonus.Name = "colBonus";
+            this.colBonus.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colBonus.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // colBirthDate
+            // 
+            this.colBirthDate.DataPropertyName = "BirthDate";
+            dataGridViewCellStyle1.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
+            resources.ApplyResources(this.colBirthDate, "colBirthDate");
+            this.colBirthDate.Name = "colBirthDate";
+            // 
+            // colId
+            // 
+            this.colId.DataPropertyName = "Id";
+            resources.ApplyResources(this.colId, "colId");
+            this.colId.Name = "colId";
+            // 
+            // colEmployeeId
+            // 
+            this.colEmployeeId.DataPropertyName = "IdEmployeeData";
+            resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
+            this.colEmployeeId.Name = "colEmployeeId";
             // 
             // btnSave
             // 
@@ -905,6 +945,24 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Surname";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // calendarColumn1
+            // 
+            this.calendarColumn1.DataPropertyName = "BirthDate";
+            resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
+            this.calendarColumn1.Name = "calendarColumn1";
             // 
             // FrmQuestionnaireToFill
             // 
@@ -1060,12 +1118,18 @@
         private System.Windows.Forms.DateTimePicker dtpTo;
         private System.Windows.Forms.DateTimePicker dtpFrom;
         private System.Windows.Forms.DataGridView dgvChildren;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTaxBonus;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private CalendarColumnPicker.CalendarColumn calendarColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn colBonus;
+        private CalendarColumnPicker.CalendarColumn colBirthDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colEmployeeId;
     }
 }

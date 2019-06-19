@@ -4,6 +4,7 @@ using Data.Repository.Registers;
 using Logic;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -61,7 +62,7 @@ namespace KrosDotaznik
         private string _employerCompanyName = string.Empty;
         private string _position = string.Empty;
 
-        private List<Child> _children = null;
+        private BindingList<Child> _children = new BindingList<Child>();
 
 
         public QuestionnaireToFillViewModel()
@@ -470,7 +471,7 @@ namespace KrosDotaznik
             }
         }
 
-        public List<Child> Children
+        public BindingList<Child> Children
         {
             get => _children;
             set
