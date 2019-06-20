@@ -128,8 +128,7 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
             BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
-            BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
-
+            //BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
             BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
             BindDefaultControlProperty(cmbRetirement, nameof(_viewModel.StringRetirement));
             //BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
@@ -137,8 +136,8 @@ namespace KrosDotaznik
 
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
 
-            //BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Handicap));
-            //BindRadioButtons(radioBtnMale, nameof(_viewModel.Gender));
+            BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Handicap));
+            BindRadioButtons(radioBtnMale, nameof(_viewModel.Gender));
 
             BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
             BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
