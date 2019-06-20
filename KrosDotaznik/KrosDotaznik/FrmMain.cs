@@ -22,12 +22,25 @@ namespace KrosDotaznik
         /// 
         /// </summary>
         /// <param name="args">Argumets for starting app for edit questionare</param>
-        public FrmMain(string[] args)
+        public FrmMain(bool allowCreate)
         {
             InitializeComponent();
             _mainViewModel = new MainViewModel();
             SetComponentsByLanguage();
             BindingCheckBox();
+            MakeVisible(allowCreate);
+        }
+
+        private void MakeVisible(bool allowCreate)
+        {
+            if (allowCreate)
+            {
+                foreach(CheckBox checkBox in Controls.OfType<CheckBox>())
+                {
+                    checkBox.Visible = true;
+                }
+                btnCreate.Visible = true;
+            }
         }
         #endregion
 
@@ -82,7 +95,16 @@ namespace KrosDotaznik
 
         private void btnFill_Click(object sender, EventArgs e)
         {
-            _mainViewModel.OpenQuestionnaireToFill();
+            OpenFileDialog openFile = new OpenFileDialog()
+            {
+                Filter = "Text files (*.json)|*.json",
+                Title = "Choose Questionare",
+                RestoreDirectory = true
+            };
+            if(openFile.ShowDialog() == DialogResult.OK)
+            {
+                _mainViewModel.OpenQuestionnaireToFill(openFile.FileName);
+            }
         }
 
         private void btnCreate_Click(object sender, EventArgs e)

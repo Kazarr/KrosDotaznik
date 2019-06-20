@@ -134,6 +134,9 @@
   <data name="btnCreate.Text" xml:space="preserve">
     <value>Create questionnare</value>
   </data>
+  <data name="btnCreate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;btnCreate.Name" xml:space="preserve">
     <value>btnCreate</value>
   </data>
@@ -239,6 +242,9 @@
   <data name="chbxEmployeeData.Text" xml:space="preserve">
     <value>Employee Data</value>
   </data>
+  <data name="chbxEmployeeData.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;chbxEmployeeData.Name" xml:space="preserve">
     <value>chbxEmployeeData</value>
   </data>
@@ -273,6 +279,9 @@
   <data name="chbxContacts.Text" xml:space="preserve">
     <value>Contact, address</value>
   </data>
+  <data name="chbxContacts.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;chbxContacts.Name" xml:space="preserve">
     <value>chbxContacts</value>
   </data>
@@ -305,6 +314,9 @@
   </data>
   <data name="chbxPassword.Text" xml:space="preserve">
     <value>Password and access</value>
+  </data>
+  <data name="chbxPassword.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;chbxPassword.Name" xml:space="preserve">
     <value>chbxPassword</value>
@@ -339,6 +351,9 @@
   <data name="chbxEducation.Text" xml:space="preserve">
     <value>Education data</value>
   </data>
+  <data name="chbxEducation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;chbxEducation.Name" xml:space="preserve">
     <value>chbxEducation</value>
   </data>
@@ -371,6 +386,9 @@
   </data>
   <data name="chbxPrevious.Text" xml:space="preserve">
     <value>Previous job</value>
+  </data>
+  <data name="chbxPrevious.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;chbxPrevious.Name" xml:space="preserve">
     <value>chbxPrevious</value>
@@ -405,6 +423,9 @@
   <data name="chbxChild.Text" xml:space="preserve">
     <value>Child Data</value>
   </data>
+  <data name="chbxChild.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;chbxChild.Name" xml:space="preserve">
     <value>chbxChild</value>
   </data>
@@ -437,6 +458,9 @@
   </data>
   <data name="chbxJobSpecification.Text" xml:space="preserve">
     <value>Job specification</value>
+  </data>
+  <data name="chbxJobSpecification.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;chbxJobSpecification.Name" xml:space="preserve">
     <value>chbxJobSpecification</value>

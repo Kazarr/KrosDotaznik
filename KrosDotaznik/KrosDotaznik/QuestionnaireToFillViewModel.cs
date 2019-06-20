@@ -18,6 +18,8 @@ namespace KrosDotaznik
         #region  Fields
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
+        private Employee _testEmployee;
+
         private string _name = string.Empty;
         private string _surname = string.Empty;
         private string _previousName = string.Empty;
@@ -70,8 +72,9 @@ namespace KrosDotaznik
         private BindingList<Child> _children = new BindingList<Child>();
 
 
-        public QuestionnaireToFillViewModel()
+        public QuestionnaireToFillViewModel(string path)
         {
+            Load(path);
             LoadCombos();
         }
         #endregion
@@ -79,10 +82,10 @@ namespace KrosDotaznik
         #region Properties
         public string Name
         {
-            get => _name;
+            get => _testEmployee.Name;
             set
             {
-                _name = value;
+                _testEmployee.Name = value;
                 OnPropertyChange();
             }
         }
@@ -569,6 +572,17 @@ namespace KrosDotaznik
         private bool ShouldSerializeStringState() => false;
         private bool SHouldSerializeIntState() => false;
         private bool ShouldSerializeHouseNumberStreet() => false;
+
+        public void Load(string path)
+        {
+            FileService fs = new FileService();
+            var file = fs.LoadJson<Questionare>(path);
+            Questionare questionare = new Questionare()
+            {
+                ShowQuestionGroups = file.ShowQuestionGroups,
+                Employee = file.Employee
+            };
+        }
 
         public void Save()
         {
