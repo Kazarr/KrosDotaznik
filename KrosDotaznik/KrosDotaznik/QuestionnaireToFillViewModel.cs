@@ -84,7 +84,7 @@ namespace KrosDotaznik
         public QuestionnaireToFillViewModel()
         {
             LoadCombos();
-            _employee = new Employee();
+            _employee = new Employee();            
         }
         #endregion
 

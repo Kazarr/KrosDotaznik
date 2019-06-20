@@ -60,5 +60,16 @@ namespace Data.Models
         public JobSpecification JobSpecificationData { get; set; }
         public List<Child> Children { get; set; }
 
+        public Employee()
+        {
+            RetirementData = new RetirementData();
+            AddressData = new Address();
+            TemporaryAdressDdata = new Address();
+            Credentials = new Credentials();
+            HighestEducationData = new Education();
+            CurrentEducationData = new Education();
+            PreviousJobData = new PreviousJob();
+            Children = new List<Child>();
+        }
     }
 }
