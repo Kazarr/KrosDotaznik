@@ -25,10 +25,6 @@ namespace KrosDotaznik
             {
                 row.Cells[3].Value = DateTime.Now;
             }
-            //_viewModel.Children.CollectionChanged += dgvChildren_CollectionChanged;
-            //_viewModel.Children.
-            //SetComponentsByLanguage();
-            //SetTabPagesByLanguage();
         }
 
         private void BindDefaultControlProperty(Control ctrl, string dataMember)
@@ -72,49 +68,6 @@ namespace KrosDotaznik
 
         public void BindingTest()
         {
-            //txtName.DataBindings.Add(nameof(txtName.Text), _viewModel, nameof(_viewModel.Name), false, DataSourceUpdateMode.OnValidation);
-            //txtSurname.DataBindings.Add(nameof(txtSurname.Text), _viewModel, nameof(_viewModel.Surname), false, DataSourceUpdateMode.OnValidation);
-            //txtPreviousName.DataBindings.Add(nameof(txtPreviousName.Text), _viewModel, nameof(_viewModel.PreviousName), false, DataSourceUpdateMode.OnValidation);
-            //txtMaidenName.DataBindings.Add(nameof(txtMaidenName.Text), _viewModel, nameof(_viewModel.MaidenName), false, DataSourceUpdateMode.OnValidation);
-            //txtTitle.DataBindings.Add(nameof(txtTitle.Text), _viewModel, nameof(_viewModel.Title), false, DataSourceUpdateMode.OnValidation);
-            //txtIdentityCard.DataBindings.Add(nameof(txtIdentityCard.Text), _viewModel, nameof(_viewModel.IdentityCard), false, DataSourceUpdateMode.OnValidation);
-            //txtPersonalId.DataBindings.Add(nameof(txtPersonalId.Text), _viewModel, nameof(_viewModel.PersonalId), false, DataSourceUpdateMode.OnValidation);
-            //txtPlaceOfBirth.DataBindings.Add(nameof(txtPlaceOfBirth.Text), _viewModel, nameof(_viewModel.PlaceOfBirth), false, DataSourceUpdateMode.OnValidation);
-            //txtRegionOfBirth.DataBindings.Add(nameof(txtRegionOfBirth.Text), _viewModel, nameof(_viewModel.RegionOfBirth), false, DataSourceUpdateMode.OnValidation);
-            //txtNationality.DataBindings.Add(nameof(txtNationality.Text), _viewModel, nameof(_viewModel.Nationality), false, DataSourceUpdateMode.OnValidation);
-            //txtCitizenShip.DataBindings.Add(nameof(txtCitizenShip.Text), _viewModel, nameof(_viewModel.CitizenShip), false, DataSourceUpdateMode.OnValidation);
-            //txtBankAcc.DataBindings.Add(nameof(txtBankAcc.Text), _viewModel, nameof(_viewModel.BankAccount), false, DataSourceUpdateMode.OnValidation);
-            //txtIban.DataBindings.Add(nameof(txtIban.Text), _viewModel, nameof(_viewModel.Iban), false, DataSourceUpdateMode.OnValidation);
-            //cmbState.DataBindings.Add(nameof(cmbState.Text), _viewModel, nameof(_viewModel.StringState), false, DataSourceUpdateMode.OnValidation);
-            //cmbHealthInsurance.DataBindings.Add(nameof(cmbHealthInsurance.Text), _viewModel, nameof(_viewModel.HealthInsurance), false, DataSourceUpdateMode.OnValidation);
-            //txtHndcpInPercentage.DataBindings.Add(nameof(txtHndcpInPercentage.Text), _viewModel, nameof(_viewModel.HandicapInPercentage), false, DataSourceUpdateMode.OnValidation);
-            //txtPhoneNumber.DataBindings.Add(nameof(txtPhoneNumber.Text), _viewModel, nameof(_viewModel.PhoneNumber), false, DataSourceUpdateMode.OnValidation);
-            //txtEmail.DataBindings.Add(nameof(txtEmail.Text), _viewModel, nameof(_viewModel.Email), false, DataSourceUpdateMode.OnValidation);
-
-            //txtStreetHouseNumber.DataBindings.Add(nameof(txtStreetHouseNumber.Text), _viewModel, nameof(_viewModel.HouseNumberStreet), false, DataSourceUpdateMode.OnValidation);
-            //txtCity.DataBindings.Add(nameof(txtCity.Text), _viewModel, nameof(_viewModel.City), false, DataSourceUpdateMode.OnValidation);
-            //txtPostalCode.DataBindings.Add(nameof(txtPostalCode.Text), _viewModel, nameof(_viewModel.PostalCode), false, DataSourceUpdateMode.OnValidation);
-            //txtTempStreetHouseNumber.DataBindings.Add(nameof(txtTempStreetHouseNumber.Text), _viewModel, nameof(_viewModel.HouseNumberStreet), false, DataSourceUpdateMode.OnValidation);
-            //txtTempCity.DataBindings.Add(nameof(txtTempCity.Text), _viewModel, nameof(_viewModel.TempCity), false, DataSourceUpdateMode.OnValidation);
-            //txtTempPostalCode.DataBindings.Add(nameof(txtTempPostalCode.Text), _viewModel, nameof(_viewModel.TempPostalCode), false, DataSourceUpdateMode.OnValidation);
-
-            //txtPassword.DataBindings.Add(nameof(txtPassword.Text), _viewModel, nameof(_viewModel.PayChechPassword), false, DataSourceUpdateMode.OnValidation);
-            //txtPinAlarm.DataBindings.Add(nameof(txtPinAlarm.Text), _viewModel, nameof(_viewModel.PinAlarm), false, DataSourceUpdateMode.OnValidation);
-
-            //txtHighestSchool.DataBindings.Add(nameof(txtHighestSchool.Text), _viewModel, nameof(_viewModel.HighestSchool), false, DataSourceUpdateMode.OnValidation);
-            //txtHightestSchoolMajor.DataBindings.Add(nameof(txtHightestSchoolMajor.Text), _viewModel, nameof(_viewModel.HighestMajor), false, DataSourceUpdateMode.OnValidation);
-            //txtHighestSchoolEndYear.DataBindings.Add(nameof(txtHighestSchoolEndYear.Text), _viewModel, nameof(_viewModel.EndDate), false, DataSourceUpdateMode.OnValidation);
-            //cmbEduLevel.DataBindings.Add(nameof(cmbEduLevel.Text), _viewModel, nameof(_viewModel.EducationLevel), false, DataSourceUpdateMode.OnValidation);
-            //txtCurrentSchool.DataBindings.Add(nameof(txtCurrentSchool.Text), _viewModel, nameof(_viewModel.CurrentSchool), false, DataSourceUpdateMode.OnValidation);
-            //txtCurrentSchoolMajor.DataBindings.Add(nameof(txtCurrentSchoolMajor.Text), _viewModel, nameof(_viewModel.CurrentMajor), false, DataSourceUpdateMode.OnValidation);
-            //txtCurrentSchoolEndYear.DataBindings.Add(nameof(txtCurrentSchoolEndYear.Text), _viewModel, nameof(_viewModel.CurrentEndYear), false, DataSourceUpdateMode.OnValidation);
-            //cmbCurrentEduLevel.DataBindings.Add(nameof(cmbCurrentEduLevel.Text), _viewModel, nameof(_viewModel.CurrentEducationLevel), false, DataSourceUpdateMode.OnValidation);
-
-            ////dtpFrom.DataBindings.Add(nameof(dtpFrom.Value), _viewModel, nameof(_viewModel.StartDate), false, DataSourceUpdateMode.OnValidation);
-            ////dtpTo.DataBindings.Add(nameof(dtpTo.Value), _viewModel, nameof(_viewModel.EndDate), false, DataSourceUpdateMode.OnValidation);
-            //txtEmployeer.DataBindings.Add(nameof(txtEmployeer.Text), _viewModel, nameof(_viewModel.EmployerCompanyName), false, DataSourceUpdateMode.OnValidation);
-            //txtWorkPosition.DataBindings.Add(nameof(txtWorkPosition.Text), _viewModel, nameof(_viewModel.Position), false, DataSourceUpdateMode.OnValidation);
-
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
             BindDefaultControlProperty(txtSurname, nameof(_viewModel.Surname));
             BindDefaultControlProperty(txtPreviousName, nameof(_viewModel.PreviousName));
@@ -141,11 +94,11 @@ namespace KrosDotaznik
 
             BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
             BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
-            //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.HouseNumber));
+            BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.HouseNumberStreet));
             //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.Street));
             BindDefaultControlProperty(txtCity, nameof(_viewModel.City));
             BindDefaultControlProperty(txtPostalCode, nameof(_viewModel.PostalCode));
-            //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempHouseNumber));
+            BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempHouseNumberStreet));
             //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempStreet));
             BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
             BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
@@ -168,9 +121,8 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
 
             dgvChildren.DataSource = _viewModel.Children;
-
         }
-        //#region Set components by language
+        #region Set components by language
         //private void SetComponentsByLanguage()
         //{
         //    //grBoxEmployeeData.Text = Resources.Questionnaire.lblPersonalInfo;
@@ -234,7 +186,7 @@ namespace KrosDotaznik
         //    radioBtnSecondPilarYes.Text = Resources.Questionnaire.lblYes;
         //    radioBtnSecondPilarNo.Text = Resources.Questionnaire.lblNo;
         //}
-        //#endregion
+
         //private void SetTabPagesByLanguage()
         //{
         //    tPagePersonalInfo.Text = Resources.Questionnaire.lblPersonalInfo;
@@ -244,7 +196,7 @@ namespace KrosDotaznik
         //    tPageChildInfo.Text = Resources.Questionnaire.lblChildInfo;
         //    tPagePreviousJob.Text = Resources.Questionnaire.lblPreviousJob;
         //}
-
+        #endregion
         /// <summary>
         /// Allows you to enter only a number
         /// </summary>

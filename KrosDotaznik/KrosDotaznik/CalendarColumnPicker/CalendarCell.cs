@@ -31,7 +31,15 @@ namespace KrosDotaznik.CalendarColumnPicker
             }
             else
             {
-                ctl.Value = (DateTime)this.Value;
+                DateTime date = (DateTime)this.Value;
+                if(date.Year < 1970)
+                {
+                    ctl.Value = DateTime.Now;
+                }
+                else
+                {
+                    ctl.Value = (DateTime)this.Value;
+                }
             }
         }
 
