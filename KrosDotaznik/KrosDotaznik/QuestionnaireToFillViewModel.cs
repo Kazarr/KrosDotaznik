@@ -20,64 +20,19 @@ namespace KrosDotaznik
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
         private Employee _employee;
-        //private string _name = string.Empty;
-        //private string _surname = string.Empty;
-        //private string _previousName = string.Empty;
-        //private string _maidenName = string.Empty;
-        //private string _title = string.Empty;
-        //private string _identityCard = string.Empty;
-        //private string _personalId = string.Empty;
-        //private State _state = null;
         private string _stringState = string.Empty;
-        //private DateTime _birthDate = DateTime.Now;
-        //private string _placeOfBirth = string.Empty;
-        //private string _regionOfBirth = string.Empty;
-        //private string _nationality = string.Empty;
-        //private string _citizenShip = string.Empty;
-        //private string _bankAcc = string.Empty;
-        //private string _iban = string.Empty;
-        //private HealthInsurance _healthInsurance = null;
         private string _stringHealthInsurance = string.Empty;
-        //private bool _handicap;
-        //private bool _gender;
-        //private int _handicapInPercentage = default(int);
-
-        //private Retirement _retirement = null;
         private string _stringRetirement = string.Empty;
-        //private DateTime _retiredSince = DateTime.Now;
-
-
-        //private string _phoneNumber = string.Empty;
-        //private string _email = string.Empty;
         private string _houseNumberStreet = string.Empty;
         private string _houseNumber = string.Empty;
         private string _street = string.Empty;
-        //private string _city = string.Empty;
-        //private int _postalCode = default(int);
         private string _tempHouseNumberStreet = string.Empty;
         private string _tempHouseNumber = string.Empty;
         private string _tempStreet = string.Empty;
-        //private string _tempCity = string.Empty;
-        //private int _tempPostalCode = default(int);
-
         private string _payCheckPassword = "fero";
         private int _pinAlarm = default(int);
-
-        //private string _highestSchool = string.Empty;
-        //private string _highestMajor = string.Empty;
-        //private int _highestEndYear = default(int);
-        //private EducationLevel _educationLevel = null;
         private string _stringEduLevel = string.Empty;
-        //private string _currentSchool = string.Empty;
-        //private string _currentMajor = string.Empty;
-        //private int _currentEndYear = default(int);
-        //private EducationLevel _currentEducationLevel = null;
         private string _stringCurrentEduLevel = string.Empty;
-
-        //private DateTime _startDate = DateTime.Now;
-        //private DateTime _endDate = DateTime.Now;
-        //private string _employerCompanyName = string.Empty;
-        //private string _position = string.Empty;
 
         private BindingList<Child> _children = new BindingList<Child>();
 
@@ -638,7 +593,7 @@ namespace KrosDotaznik
             get => _children;
             set
             {
-                _children = value;
+                _employee.Children = value.ToList();
                 OnPropertyChange();
             }
         }
@@ -687,83 +642,9 @@ namespace KrosDotaznik
 
         public void Save()
         {
+            _employee.Children = _children.ToList();
             FileService fs = new FileService();
-            Employee employee = _employee;
-            //{
-            //    BirthDate = _birthDate,
-            //    Disabled = _handicap,
-            //    Gender = default(bool),
-            //    Name = _name,
-            //    Surname = _surname,
-            //    PreviousName = _previousName,
-            //    MaidenName = _maidenName,
-            //    Title = _title,
-            //    IdNumber = _identityCard,
-            //    BirthNumber = _personalId,
-            //    State = _state,                
-            //    PlaceOfBirth = _placeOfBirth,
-            //    CountyOfBirth = _regionOfBirth,
-            //    Nationality = _nationality,
-            //    Citizenship = _citizenShip,
-            //    BankAccountNumber = _bankAcc,
-            //    IBAN = _iban,
-            //    HealthInsuranceCompany = _healthInsurance,
-            //    DisabilityRate = _handicapInPercentage,
-
-            //    RetirementData = new RetirementData()
-            //    {
-            //        ParticipatingInRetirementSaving = false,
-            //        RetiredSince = DateTime.Now,
-            //        Retirement = _retirement,
-            //        RetirementInsuranceCompanyException = false,
-            //    },
-
-            //    AddressData = new Address()
-            //    {
-            //        HouseNumber = _houseNumber,
-            //        Street = _street,
-            //        City = _city,
-            //        PostalCode = _postalCode
-            //    },
-            //    TemporaryAdressDdata = new Address()
-            //    {
-            //        HouseNumber = _tempHouseNumber,
-            //        Street = _tempStreet,
-            //        City = _tempCity,
-            //        PostalCode = _tempPostalCode
-            //    },
-            //    PhoneNumber = _phoneNumber,
-            //    Email = _email,
-
-            //    Credentials = new Credentials()
-            //    {
-            //        PaycheckPassword = fs.Encrypt(_payCheckPassword),
-            //        PinAlarm = fs.Encrypt(_pinAlarm.ToString())
-            //    },
-
-            //    HighestEducationData = new Education()
-            //    {
-            //        School = _highestSchool,
-            //        Major = _highestMajor,
-            //        EndYear = _highestEndYear,
-            //        EducationLevel = _educationLevel
-            //    },
-            //    CurrentEducationData = new Education()
-            //    {
-            //        School = _currentSchool,
-            //        Major = _currentMajor,
-            //        EndYear = _currentEndYear,
-            //        EducationLevel = _currentEducationLevel
-            //    },
-            //    PreviousJobData = new PreviousJob()
-            //    {
-            //        StartDate = _startDate,
-            //        EndDate = _endDate,
-            //        EmployerCompanyName = _employerCompanyName,
-            //        Position = _position
-            //    },
-            //    Children = _children.ToList()
-            //};
+            Employee employee = _employee;            
             Questionare questionare = new Questionare()
             {
                 Employee = employee,
