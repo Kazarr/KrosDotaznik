@@ -13,7 +13,8 @@ namespace KrosDotaznik
     public class MainViewModel
     {
         #region Fields
-        private bool[] _showQuestionGroups = new bool[7];
+        //private bool[] _showQuestionGroups = new bool[7];
+        private Dictionary<int, bool> _showQuestionGroups = new Dictionary<int, bool>();
         private bool _employeeData;
         private bool _contactsAddress;
         private bool _passwordAccess;
@@ -30,7 +31,7 @@ namespace KrosDotaznik
             set
             {
                 _employeeData = value;
-                _showQuestionGroups[0] = _employeeData;
+                _showQuestionGroups[0] = _employeeData;  
                 OnPropertyChange();
             }
         }
@@ -128,7 +129,7 @@ namespace KrosDotaznik
             fs.SaveJson(
                 new Questionare()
                 {
-                    ShowQuestionGroups = _showQuestionGroups, 
+                    ShowQuestionGroups = _showQuestionGroups,
                 }, "test.json");
         }
         #endregion
