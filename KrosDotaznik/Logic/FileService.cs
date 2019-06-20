@@ -64,10 +64,10 @@ namespace Logic
         /// <returns></returns>
         public byte[] Encrypt(string pass)
         {
-            byte[] nieco;
+            byte[] cipher;
             // Encrypt the string to an array of bytes.
-            nieco = EncryptStringToBytes(pass,CRYPTING_KEY, CRYPTING_IV);
-            return nieco;
+            cipher = EncryptStringToBytes(pass,CRYPTING_KEY, CRYPTING_IV);
+            return cipher;
         }
         /// <summary>
         /// Decrypt password. Return your password as plain text
