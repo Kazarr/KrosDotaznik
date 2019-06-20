@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class WageCategoryRepository:ConnectionManager
+    public class WageCategoryRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetWageCategoryData<TKey, TValue>(string cultureInfo)
+        public Dictionary<int, string> GetWageCategoryData(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.WageCategorySelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.WageCategorySelect, cultureInfo);
         }
     }
 }

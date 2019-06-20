@@ -671,13 +671,13 @@ namespace KrosDotaznik
         private void LoadCombos()
         {
             StateRepository state = new StateRepository();
-            StateData = state.GetAllState<int, string>(_cultureInfo);
+            StateData = state.GetAllState(_cultureInfo);
             HealthInsuranceRepository health = new HealthInsuranceRepository();
-            HealthInsuranceData = health.GetHealthInsuranceData<int, string>(_cultureInfo);
+            HealthInsuranceData = health.GetHealthInsuranceData(_cultureInfo);
             RetirementRepository retirement = new RetirementRepository();
-            RetirementData = retirement.GetRetirementData<int, string>(_cultureInfo);
+            RetirementData = retirement.GetRetirementData(_cultureInfo);
             EducationLevelRepository educationLevel = new EducationLevelRepository();
-            EducationLevelData = educationLevel.GetEducationLevelData<int, string>(_cultureInfo);
+            EducationLevelData = educationLevel.GetEducationLevelData(_cultureInfo);
         }
         #endregion
 
@@ -767,7 +767,7 @@ namespace KrosDotaznik
             Questionare questionare = new Questionare()
             {
                 Employee = employee,
-                ShowQuestionGroups = new bool[] { true, true, true, true, true, true }
+                ShowQuestionGroups = new Dictionary<int, bool>()
             };
             fs.SaveJson(questionare, "test2.json");
         }

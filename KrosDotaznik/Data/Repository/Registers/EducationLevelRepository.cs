@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class EducationLevelRepository:ConnectionManager
+    public class EducationLevelRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetEducationLevelData<TKey, TValue>(string cultureInfo)
+        public Dictionary<int,string> GetEducationLevelData(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.EducationLevelSelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.EducationLevelSelect, cultureInfo);
         }
     }
 }
