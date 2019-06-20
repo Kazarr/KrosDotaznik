@@ -333,7 +333,7 @@ namespace KrosDotaznik
             }
         }
 
-        public int PostalCode
+        public string PostalCode
         {
             get => _employee.AddressData.PostalCode;
             set
@@ -385,7 +385,7 @@ namespace KrosDotaznik
             }
         }
 
-        public int TempPostalCode
+        public string TempPostalCode
         {
             get => _employee.TemporaryAdressDdata.PostalCode;
             set
