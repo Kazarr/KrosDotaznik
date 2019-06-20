@@ -195,6 +195,9 @@
   <data name="lblJobFrom" xml:space="preserve">
     <value>Od</value>
   </data>
+  <data name="lblJobSpecification" xml:space="preserve">
+    <value>ÚDAJE O PRACOVNOM ZARADENÍ</value>
+  </data>
   <data name="lblJobTo" xml:space="preserve">
     <value>Do</value>
   </data>
