@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class Questionare
+    public class Questionare 
     {
-        public bool[] ShowQuestionGroups { get; set; }
+        public Dictionary<int, bool> ShowQuestionGroups { get; set;}
         public Employee Employee { get; set; }
     }
 }
