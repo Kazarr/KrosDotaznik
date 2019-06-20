@@ -61,6 +61,49 @@ namespace KrosDotaznik
 
         public void BindingTest()
         {
+            //txtName.DataBindings.Add(nameof(txtName.Text), _viewModel, nameof(_viewModel.Name), false, DataSourceUpdateMode.OnValidation);
+            //txtSurname.DataBindings.Add(nameof(txtSurname.Text), _viewModel, nameof(_viewModel.Surname), false, DataSourceUpdateMode.OnValidation);
+            //txtPreviousName.DataBindings.Add(nameof(txtPreviousName.Text), _viewModel, nameof(_viewModel.PreviousName), false, DataSourceUpdateMode.OnValidation);
+            //txtMaidenName.DataBindings.Add(nameof(txtMaidenName.Text), _viewModel, nameof(_viewModel.MaidenName), false, DataSourceUpdateMode.OnValidation);
+            //txtTitle.DataBindings.Add(nameof(txtTitle.Text), _viewModel, nameof(_viewModel.Title), false, DataSourceUpdateMode.OnValidation);
+            //txtIdentityCard.DataBindings.Add(nameof(txtIdentityCard.Text), _viewModel, nameof(_viewModel.IdentityCard), false, DataSourceUpdateMode.OnValidation);
+            //txtPersonalId.DataBindings.Add(nameof(txtPersonalId.Text), _viewModel, nameof(_viewModel.PersonalId), false, DataSourceUpdateMode.OnValidation);
+            //txtPlaceOfBirth.DataBindings.Add(nameof(txtPlaceOfBirth.Text), _viewModel, nameof(_viewModel.PlaceOfBirth), false, DataSourceUpdateMode.OnValidation);
+            //txtRegionOfBirth.DataBindings.Add(nameof(txtRegionOfBirth.Text), _viewModel, nameof(_viewModel.RegionOfBirth), false, DataSourceUpdateMode.OnValidation);
+            //txtNationality.DataBindings.Add(nameof(txtNationality.Text), _viewModel, nameof(_viewModel.Nationality), false, DataSourceUpdateMode.OnValidation);
+            //txtCitizenShip.DataBindings.Add(nameof(txtCitizenShip.Text), _viewModel, nameof(_viewModel.CitizenShip), false, DataSourceUpdateMode.OnValidation);
+            //txtBankAcc.DataBindings.Add(nameof(txtBankAcc.Text), _viewModel, nameof(_viewModel.BankAccount), false, DataSourceUpdateMode.OnValidation);
+            //txtIban.DataBindings.Add(nameof(txtIban.Text), _viewModel, nameof(_viewModel.Iban), false, DataSourceUpdateMode.OnValidation);
+            //cmbState.DataBindings.Add(nameof(cmbState.Text), _viewModel, nameof(_viewModel.StringState), false, DataSourceUpdateMode.OnValidation);
+            //cmbHealthInsurance.DataBindings.Add(nameof(cmbHealthInsurance.Text), _viewModel, nameof(_viewModel.HealthInsurance), false, DataSourceUpdateMode.OnValidation);
+            //txtHndcpInPercentage.DataBindings.Add(nameof(txtHndcpInPercentage.Text), _viewModel, nameof(_viewModel.HandicapInPercentage), false, DataSourceUpdateMode.OnValidation);
+            //txtPhoneNumber.DataBindings.Add(nameof(txtPhoneNumber.Text), _viewModel, nameof(_viewModel.PhoneNumber), false, DataSourceUpdateMode.OnValidation);
+            //txtEmail.DataBindings.Add(nameof(txtEmail.Text), _viewModel, nameof(_viewModel.Email), false, DataSourceUpdateMode.OnValidation);
+
+            //txtStreetHouseNumber.DataBindings.Add(nameof(txtStreetHouseNumber.Text), _viewModel, nameof(_viewModel.HouseNumberStreet), false, DataSourceUpdateMode.OnValidation);
+            //txtCity.DataBindings.Add(nameof(txtCity.Text), _viewModel, nameof(_viewModel.City), false, DataSourceUpdateMode.OnValidation);
+            //txtPostalCode.DataBindings.Add(nameof(txtPostalCode.Text), _viewModel, nameof(_viewModel.PostalCode), false, DataSourceUpdateMode.OnValidation);
+            //txtTempStreetHouseNumber.DataBindings.Add(nameof(txtTempStreetHouseNumber.Text), _viewModel, nameof(_viewModel.HouseNumberStreet), false, DataSourceUpdateMode.OnValidation);
+            //txtTempCity.DataBindings.Add(nameof(txtTempCity.Text), _viewModel, nameof(_viewModel.TempCity), false, DataSourceUpdateMode.OnValidation);
+            //txtTempPostalCode.DataBindings.Add(nameof(txtTempPostalCode.Text), _viewModel, nameof(_viewModel.TempPostalCode), false, DataSourceUpdateMode.OnValidation);
+
+            //txtPassword.DataBindings.Add(nameof(txtPassword.Text), _viewModel, nameof(_viewModel.PayChechPassword), false, DataSourceUpdateMode.OnValidation);
+            //txtPinAlarm.DataBindings.Add(nameof(txtPinAlarm.Text), _viewModel, nameof(_viewModel.PinAlarm), false, DataSourceUpdateMode.OnValidation);
+
+            //txtHighestSchool.DataBindings.Add(nameof(txtHighestSchool.Text), _viewModel, nameof(_viewModel.HighestSchool), false, DataSourceUpdateMode.OnValidation);
+            //txtHightestSchoolMajor.DataBindings.Add(nameof(txtHightestSchoolMajor.Text), _viewModel, nameof(_viewModel.HighestMajor), false, DataSourceUpdateMode.OnValidation);
+            //txtHighestSchoolEndYear.DataBindings.Add(nameof(txtHighestSchoolEndYear.Text), _viewModel, nameof(_viewModel.EndDate), false, DataSourceUpdateMode.OnValidation);
+            //cmbEduLevel.DataBindings.Add(nameof(cmbEduLevel.Text), _viewModel, nameof(_viewModel.EducationLevel), false, DataSourceUpdateMode.OnValidation);
+            //txtCurrentSchool.DataBindings.Add(nameof(txtCurrentSchool.Text), _viewModel, nameof(_viewModel.CurrentSchool), false, DataSourceUpdateMode.OnValidation);
+            //txtCurrentSchoolMajor.DataBindings.Add(nameof(txtCurrentSchoolMajor.Text), _viewModel, nameof(_viewModel.CurrentMajor), false, DataSourceUpdateMode.OnValidation);
+            //txtCurrentSchoolEndYear.DataBindings.Add(nameof(txtCurrentSchoolEndYear.Text), _viewModel, nameof(_viewModel.CurrentEndYear), false, DataSourceUpdateMode.OnValidation);
+            //cmbCurrentEduLevel.DataBindings.Add(nameof(cmbCurrentEduLevel.Text), _viewModel, nameof(_viewModel.CurrentEducationLevel), false, DataSourceUpdateMode.OnValidation);
+
+            ////dtpFrom.DataBindings.Add(nameof(dtpFrom.Value), _viewModel, nameof(_viewModel.StartDate), false, DataSourceUpdateMode.OnValidation);
+            ////dtpTo.DataBindings.Add(nameof(dtpTo.Value), _viewModel, nameof(_viewModel.EndDate), false, DataSourceUpdateMode.OnValidation);
+            //txtEmployeer.DataBindings.Add(nameof(txtEmployeer.Text), _viewModel, nameof(_viewModel.EmployerCompanyName), false, DataSourceUpdateMode.OnValidation);
+            //txtWorkPosition.DataBindings.Add(nameof(txtWorkPosition.Text), _viewModel, nameof(_viewModel.Position), false, DataSourceUpdateMode.OnValidation);
+
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
             BindDefaultControlProperty(txtSurname, nameof(_viewModel.Surname));
             BindDefaultControlProperty(txtPreviousName, nameof(_viewModel.PreviousName));
@@ -76,7 +119,7 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
 
             BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
-            
+
             //BindDefaultControlProperty(txtHealtInsurance, nameof(_viewModel.HealthInsurance));
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
             //BindDefaultControlProperty(txtState, nameof(_viewModel.State));
@@ -104,8 +147,8 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
             //BindDefaultControlProperty(txtCurrentSchoolEducationLevel, nameof(_viewModel.CurrentEducationLevel));
 
-            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
-            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            //BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
+            //BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
             BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
             BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
 

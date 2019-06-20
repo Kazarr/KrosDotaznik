@@ -39,10 +39,12 @@ namespace KrosDotaznik
 
         private string _phoneNumber = string.Empty;
         private string _email = string.Empty;
+        private string _houseNumberStreet = string.Empty;
         private string _houseNumber = string.Empty;
         private string _street = string.Empty;
         private string _city = string.Empty;
         private int _postalCode = default(int);
+        private string _tempHouseNumberStreet = string.Empty;
         private string _tempHouseNumber = string.Empty;
         private string _tempStreet = string.Empty;
         private string _tempCity = string.Empty;
@@ -53,11 +55,11 @@ namespace KrosDotaznik
 
         private string _highestSchool = string.Empty;
         private string _highestMajor = string.Empty;
-        private DateTime _highestEndYear = DateTime.Now;
+        private int _highestEndYear = default(int);
         private EducationLevel _educationLevel = null;
         private string _currentSchool = string.Empty;
         private string _currentMajor = string.Empty;
-        private DateTime _currentEndYear = DateTime.Now;
+        private int _currentEndYear = default(int);
         private EducationLevel _currentEducationLevel = null;
 
         private DateTime _startDate = DateTime.Now;
@@ -272,6 +274,18 @@ namespace KrosDotaznik
             }
         }
 
+        public string HouseNumberStreet
+        {
+            get => _houseNumberStreet;
+            set
+            {
+                _houseNumberStreet = value;
+                var temp = value.Split(',');
+                Street = temp[0];
+                HouseNumber = temp[1];
+            }
+        }
+
         public string HouseNumber
         {
             get => _houseNumber;
@@ -309,6 +323,18 @@ namespace KrosDotaznik
             {
                 _postalCode = value;
                 OnPropertyChange();
+            }
+        }
+
+        public string TempHouseNumberStreet
+        {
+            get => _tempHouseNumberStreet;
+            set
+            {
+                _tempHouseNumberStreet = value;
+                var temp = value.Split(',');
+                TempStreet = temp[0];
+                TempHouseNumber = temp[1];
             }
         }
 
@@ -392,7 +418,7 @@ namespace KrosDotaznik
             }
         }
 
-        public DateTime HighestEndYear
+        public int HighestEndYear
         {
             get => _highestEndYear;
             set
@@ -432,7 +458,7 @@ namespace KrosDotaznik
             }
         }
 
-        public DateTime CurrentEndYear
+        public int CurrentEndYear
         {
             get => _currentEndYear;
             set
@@ -539,6 +565,10 @@ namespace KrosDotaznik
             EducationLevelData = educationLevel.GetEducationLevelData<int, string>(_cultureInfo);
         }
         #endregion
+
+        private bool ShouldSerializeStringState() => false;
+        private bool SHouldSerializeIntState() => false;
+        private bool ShouldSerializeHouseNumberStreet() => false;
 
         public void Save()
         {
