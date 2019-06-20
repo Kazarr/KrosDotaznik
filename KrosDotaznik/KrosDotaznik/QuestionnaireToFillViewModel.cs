@@ -605,9 +605,12 @@ namespace KrosDotaznik
             get => _employee;
             set
             {
-                foreach(System.Reflection.PropertyInfo property in typeof(Employee).GetProperties())
+                if(value != null)
                 {
-                    property.SetValue(_employee,property.GetValue(value));
+                    foreach(System.Reflection.PropertyInfo property in typeof(Employee).GetProperties())
+                    {
+                        property.SetValue(_employee,property.GetValue(value));
+                    }
                 }
             }
         }
