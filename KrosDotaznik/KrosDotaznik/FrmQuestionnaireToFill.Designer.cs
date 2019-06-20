@@ -106,7 +106,6 @@
             this.txtIban = new System.Windows.Forms.TextBox();
             this.txtBankAcc = new System.Windows.Forms.TextBox();
             this.panelEmloyeeBasicInfo = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.cmbState = new System.Windows.Forms.ComboBox();
             this.radioBtnFemale = new System.Windows.Forms.RadioButton();
             this.radioBtnMale = new System.Windows.Forms.RadioButton();
@@ -141,16 +140,16 @@
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
             this.dgvChildren = new System.Windows.Forms.DataGridView();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colBonus = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -274,13 +273,13 @@
             // 
             // grBoxTemporaryAddress
             // 
-            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempPostalCode);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempCity);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempStreetHouseNumber);
             this.grBoxTemporaryAddress.Controls.Add(this.lblPostalCodeTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblCityTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblStreetTemp);
+            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Name = "grBoxTemporaryAddress";
             this.grBoxTemporaryAddress.TabStop = false;
             // 
@@ -316,13 +315,13 @@
             // 
             // grBoxAddress
             // 
-            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Controls.Add(this.txtPostalCode);
             this.grBoxAddress.Controls.Add(this.txtCity);
             this.grBoxAddress.Controls.Add(this.txtStreetHouseNumber);
             this.grBoxAddress.Controls.Add(this.lblPostalCode);
             this.grBoxAddress.Controls.Add(this.lblCity);
             this.grBoxAddress.Controls.Add(this.lblStreet);
+            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Name = "grBoxAddress";
             this.grBoxAddress.TabStop = false;
             // 
@@ -378,7 +377,6 @@
             // 
             // grBoxCurrentEducation
             // 
-            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Controls.Add(this.cmbCurrentEduLevel);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolMajor);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEndYear);
@@ -387,13 +385,14 @@
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrEndYear);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrMajor);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrSchool);
+            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Name = "grBoxCurrentEducation";
             this.grBoxCurrentEducation.TabStop = false;
             // 
             // cmbCurrentEduLevel
             // 
-            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
             this.cmbCurrentEduLevel.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
             this.cmbCurrentEduLevel.Name = "cmbCurrentEduLevel";
             // 
             // txtCurrentSchoolMajor
@@ -433,7 +432,6 @@
             // 
             // grBoxHighEducation
             // 
-            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Controls.Add(this.cmbEduLevel);
             this.grBoxHighEducation.Controls.Add(this.txtHightestSchoolMajor);
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEndYear);
@@ -442,13 +440,14 @@
             this.grBoxHighEducation.Controls.Add(this.lblEndYear);
             this.grBoxHighEducation.Controls.Add(this.lblMajor);
             this.grBoxHighEducation.Controls.Add(this.lblSchool);
+            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Name = "grBoxHighEducation";
             this.grBoxHighEducation.TabStop = false;
             // 
             // cmbEduLevel
             // 
-            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
             this.cmbEduLevel.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
             this.cmbEduLevel.Name = "cmbEduLevel";
             // 
             // txtHightestSchoolMajor
@@ -488,29 +487,28 @@
             // 
             // tabCntrl
             // 
-            resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Controls.Add(this.tPagePersonalInfo);
             this.tabCntrl.Controls.Add(this.tPageContactAdress);
             this.tabCntrl.Controls.Add(this.tPagePassword);
             this.tabCntrl.Controls.Add(this.tPageEducation);
             this.tabCntrl.Controls.Add(this.tPagePreviousJob);
             this.tabCntrl.Controls.Add(this.tPageChildInfo);
+            resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Name = "tabCntrl";
             this.tabCntrl.SelectedIndex = 0;
             // 
             // tPagePersonalInfo
             // 
-            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Controls.Add(this.panel1);
             this.tPagePersonalInfo.Controls.Add(this.panelBank);
             this.tPagePersonalInfo.Controls.Add(this.panelEmloyeeBasicInfo);
             this.tPagePersonalInfo.Controls.Add(this.panelName);
+            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Name = "tPagePersonalInfo";
             this.tPagePersonalInfo.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.cmbRetirement);
             this.panel1.Controls.Add(this.cmbHealthInsurance);
@@ -523,6 +521,7 @@
             this.panel1.Controls.Add(this.lblHealthInsurance);
             this.panel1.Controls.Add(this.lblPensionRecipient);
             this.panel1.Controls.Add(this.lblRetiredSince);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // cmbRetirement
@@ -545,15 +544,16 @@
             // 
             // groupBox3
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.radioBtnExceptionYes);
             this.groupBox3.Controls.Add(this.radioBtnExceptionNo);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
             // radioBtnExceptionYes
             // 
             resources.ApplyResources(this.radioBtnExceptionYes, "radioBtnExceptionYes");
+            this.radioBtnExceptionYes.Checked = true;
             this.radioBtnExceptionYes.Name = "radioBtnExceptionYes";
             this.radioBtnExceptionYes.TabStop = true;
             this.radioBtnExceptionYes.UseVisualStyleBackColor = true;
@@ -562,20 +562,20 @@
             // 
             resources.ApplyResources(this.radioBtnExceptionNo, "radioBtnExceptionNo");
             this.radioBtnExceptionNo.Name = "radioBtnExceptionNo";
-            this.radioBtnExceptionNo.TabStop = true;
             this.radioBtnExceptionNo.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.radioBtnSecondPilarYes);
             this.groupBox2.Controls.Add(this.radioBtnSecondPilarNo);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
             // radioBtnSecondPilarYes
             // 
             resources.ApplyResources(this.radioBtnSecondPilarYes, "radioBtnSecondPilarYes");
+            this.radioBtnSecondPilarYes.Checked = true;
             this.radioBtnSecondPilarYes.Name = "radioBtnSecondPilarYes";
             this.radioBtnSecondPilarYes.TabStop = true;
             this.radioBtnSecondPilarYes.UseVisualStyleBackColor = true;
@@ -584,21 +584,21 @@
             // 
             resources.ApplyResources(this.radioBtnSecondPilarNo, "radioBtnSecondPilarNo");
             this.radioBtnSecondPilarNo.Name = "radioBtnSecondPilarNo";
-            this.radioBtnSecondPilarNo.TabStop = true;
             this.radioBtnSecondPilarNo.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.radioBtnHandcpYes);
             this.groupBox1.Controls.Add(this.radioBtnHndcpNo);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // radioBtnHandcpYes
             // 
             resources.ApplyResources(this.radioBtnHandcpYes, "radioBtnHandcpYes");
+            this.radioBtnHandcpYes.Checked = true;
             this.radioBtnHandcpYes.Name = "radioBtnHandcpYes";
             this.radioBtnHandcpYes.TabStop = true;
             this.radioBtnHandcpYes.UseVisualStyleBackColor = true;
@@ -607,7 +607,6 @@
             // 
             resources.ApplyResources(this.radioBtnHndcpNo, "radioBtnHndcpNo");
             this.radioBtnHndcpNo.Name = "radioBtnHndcpNo";
-            this.radioBtnHndcpNo.TabStop = true;
             this.radioBtnHndcpNo.UseVisualStyleBackColor = true;
             // 
             // datePickerRetiredSince
@@ -617,12 +616,12 @@
             // 
             // panelBank
             // 
-            resources.ApplyResources(this.panelBank, "panelBank");
             this.panelBank.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelBank.Controls.Add(this.txtIban);
             this.panelBank.Controls.Add(this.txtBankAcc);
             this.panelBank.Controls.Add(this.lblBankAcc);
             this.panelBank.Controls.Add(this.lblIBAN);
+            resources.ApplyResources(this.panelBank, "panelBank");
             this.panelBank.Name = "panelBank";
             // 
             // txtIban
@@ -637,9 +636,7 @@
             // 
             // panelEmloyeeBasicInfo
             // 
-            resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panelEmloyeeBasicInfo.Controls.Add(this.label1);
             this.panelEmloyeeBasicInfo.Controls.Add(this.cmbState);
             this.panelEmloyeeBasicInfo.Controls.Add(this.radioBtnFemale);
             this.panelEmloyeeBasicInfo.Controls.Add(this.radioBtnMale);
@@ -661,30 +658,25 @@
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblRegionOfBirth);
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblNationality);
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblCitizenShip);
+            resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.Name = "panelEmloyeeBasicInfo";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
             // 
             // cmbState
             // 
             resources.ApplyResources(this.cmbState, "cmbState");
             this.cmbState.FormattingEnabled = true;
             this.cmbState.Name = "cmbState";
-            this.cmbState.SelectedIndexChanged += new System.EventHandler(this.cmbState_SelectedIndexChanged);
             // 
             // radioBtnFemale
             // 
             resources.ApplyResources(this.radioBtnFemale, "radioBtnFemale");
             this.radioBtnFemale.Name = "radioBtnFemale";
-            this.radioBtnFemale.TabStop = true;
             this.radioBtnFemale.UseVisualStyleBackColor = true;
             // 
             // radioBtnMale
             // 
             resources.ApplyResources(this.radioBtnMale, "radioBtnMale");
+            this.radioBtnMale.Checked = true;
             this.radioBtnMale.Name = "radioBtnMale";
             this.radioBtnMale.TabStop = true;
             this.radioBtnMale.UseVisualStyleBackColor = true;
@@ -731,7 +723,6 @@
             // 
             // panelName
             // 
-            resources.ApplyResources(this.panelName, "panelName");
             this.panelName.BackColor = System.Drawing.Color.Transparent;
             this.panelName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelName.Controls.Add(this.txtMaidenName);
@@ -743,6 +734,7 @@
             this.panelName.Controls.Add(this.lblPreviousName);
             this.panelName.Controls.Add(this.lblMaidenName);
             this.panelName.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panelName, "panelName");
             this.panelName.Name = "panelName";
             // 
             // txtMaidenName
@@ -767,13 +759,13 @@
             // 
             // tPageContactAdress
             // 
-            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Controls.Add(this.txtEmail);
             this.tPageContactAdress.Controls.Add(this.txtPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxTemporaryAddress);
             this.tPageContactAdress.Controls.Add(this.lblPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxAddress);
             this.tPageContactAdress.Controls.Add(this.lblEmail);
+            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Name = "tPageContactAdress";
             this.tPageContactAdress.UseVisualStyleBackColor = true;
             // 
@@ -789,11 +781,11 @@
             // 
             // tPagePassword
             // 
-            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Controls.Add(this.txtPinAlarm);
             this.tPagePassword.Controls.Add(this.txtPassword);
             this.tPagePassword.Controls.Add(this.lblPin);
             this.tPagePassword.Controls.Add(this.lblPassword);
+            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Name = "tPagePassword";
             this.tPagePassword.UseVisualStyleBackColor = true;
             // 
@@ -809,15 +801,14 @@
             // 
             // tPageEducation
             // 
-            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Controls.Add(this.grBoxCurrentEducation);
             this.tPageEducation.Controls.Add(this.grBoxHighEducation);
+            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Name = "tPageEducation";
             this.tPageEducation.UseVisualStyleBackColor = true;
             // 
             // tPagePreviousJob
             // 
-            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Controls.Add(this.txtWorkPosition);
             this.tPagePreviousJob.Controls.Add(this.txtEmployeer);
             this.tPagePreviousJob.Controls.Add(this.dtpTo);
@@ -826,6 +817,7 @@
             this.tPagePreviousJob.Controls.Add(this.lblEmployeer);
             this.tPagePreviousJob.Controls.Add(this.lblJobTo);
             this.tPagePreviousJob.Controls.Add(this.lblJobFrom);
+            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Name = "tPagePreviousJob";
             this.tPagePreviousJob.UseVisualStyleBackColor = true;
             // 
@@ -871,14 +863,13 @@
             // 
             // tPageChildInfo
             // 
-            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Controls.Add(this.dgvChildren);
+            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
             // 
             // dgvChildren
             // 
-            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChildren.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChildren.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -888,32 +879,8 @@
             this.colBirthDate,
             this.colId,
             this.colEmployeeId});
+            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
-            // 
-            // btnSave
-            // 
-            resources.ApplyResources(this.btnSave, "btnSave");
-            this.btnSave.Name = "btnSave";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
-            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Surname";
-            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // calendarColumn1
-            // 
-            this.calendarColumn1.DataPropertyName = "BirthDate";
-            resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
-            this.calendarColumn1.Name = "calendarColumn1";
             // 
             // colName
             // 
@@ -954,6 +921,28 @@
             this.colEmployeeId.DataPropertyName = "IdEmployeeData";
             resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
             this.colEmployeeId.Name = "colEmployeeId";
+            // 
+            // btnSave
+            // 
+            resources.ApplyResources(this.btnSave, "btnSave");
+            this.btnSave.Name = "btnSave";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Surname";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // calendarColumn1
+            // 
+            this.calendarColumn1.DataPropertyName = "BirthDate";
+            this.calendarColumn1.Name = "calendarColumn1";
             // 
             // FrmQuestionnaireToFill
             // 
@@ -1114,7 +1103,6 @@
         private System.Windows.Forms.ComboBox cmbRetirement;
         private System.Windows.Forms.ComboBox cmbCurrentEduLevel;
         private System.Windows.Forms.ComboBox cmbEduLevel;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
         private System.Windows.Forms.DataGridViewCheckBoxColumn colBonus;
