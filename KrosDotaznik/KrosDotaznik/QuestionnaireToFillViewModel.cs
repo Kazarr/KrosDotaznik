@@ -81,7 +81,6 @@ namespace KrosDotaznik
 
         private BindingList<Child> _children = new BindingList<Child>();
 
-
         public QuestionnaireToFillViewModel(string path)
         {
             Load(path);
@@ -683,9 +682,7 @@ namespace KrosDotaznik
         }
         #endregion
 
-        private bool ShouldSerializeStringState() => false;
-        private bool SHouldSerializeIntState() => false;
-        private bool ShouldSerializeHouseNumberStreet() => false;
+
 
         public void Load(string path)
         {
