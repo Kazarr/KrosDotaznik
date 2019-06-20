@@ -652,7 +652,7 @@ namespace KrosDotaznik
             Questionare questionare = new Questionare()
             {
                 Employee = employee,
-                ShowQuestionGroups = new bool[] {true, true, true, true, true,true}
+                ShowQuestionGroups = new Dictionary<int, bool>()
             };
             fs.SaveJson(questionare, "test2.json");
         }
