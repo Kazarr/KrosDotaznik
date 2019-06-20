@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class WorkTypeRepository:ConnectionManager
+    public class WorkTypeRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetWorkTypeData<TKey, TValue>(string cultureInfo)
+        public Dictionary<int, string> GetWorkTypeData(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.WorkTypeSelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.WorkTypeSelect, cultureInfo);
         }
     }
 }

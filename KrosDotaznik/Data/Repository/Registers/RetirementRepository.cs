@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class RetirementRepository:ConnectionManager
+    public class RetirementRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetRetirementData<TKey, TValue>(string cultureInfo)
+        public Dictionary<int, string> GetRetirementData(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.RetirementSelect, cultureInfo);            
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.RetirementSelect, cultureInfo);            
         }
     }
 }

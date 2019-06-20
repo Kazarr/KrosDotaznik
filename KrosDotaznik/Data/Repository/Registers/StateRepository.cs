@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class StateRepository:ConnectionManager
+    public class StateRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetAllState<TKey, TValue>(string cultureInfo)
+        public Dictionary<int, string> GetAllState(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.StateSelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.StateSelect, cultureInfo);
         }
     }
 }

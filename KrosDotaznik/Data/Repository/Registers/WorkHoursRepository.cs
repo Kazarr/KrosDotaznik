@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class WorkHoursRepository:ConnectionManager
+    public class WorkHoursRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetWorkHoursData<TKey, TValue>(string cultureInfo)
+        public Dictionary<int, string> GetWorkHoursData(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.WorkHoursSelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.WorkHoursSelect, cultureInfo);
         }
     }
 }
