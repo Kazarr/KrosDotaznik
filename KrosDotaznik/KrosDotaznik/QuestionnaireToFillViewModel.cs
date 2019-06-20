@@ -16,6 +16,8 @@ namespace KrosDotaznik
     public class QuestionnaireToFillViewModel
     {
         #region  Fields
+        private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
+
         private string _name = string.Empty;
         private string _surname = string.Empty;
         private string _previousName = string.Empty;
@@ -34,14 +36,15 @@ namespace KrosDotaznik
         private string _iban = string.Empty;
         private HealthInsurance _healthInsurance = null;
         private int _handicapInPercentage = default(int);
-        private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
         private string _phoneNumber = string.Empty;
         private string _email = string.Empty;
+        private string _houseNumberStreet = string.Empty;
         private string _houseNumber = string.Empty;
         private string _street = string.Empty;
         private string _city = string.Empty;
         private int _postalCode = default(int);
+        private string _tempHouseNumberStreet = string.Empty;
         private string _tempHouseNumber = string.Empty;
         private string _tempStreet = string.Empty;
         private string _tempCity = string.Empty;
@@ -52,11 +55,11 @@ namespace KrosDotaznik
 
         private string _highestSchool = string.Empty;
         private string _highestMajor = string.Empty;
-        private DateTime _highestEndYear = DateTime.Now;
+        private int _highestEndYear = default(int);
         private EducationLevel _educationLevel = null;
         private string _currentSchool = string.Empty;
         private string _currentMajor = string.Empty;
-        private DateTime _currentEndYear = DateTime.Now;
+        private int _currentEndYear = default(int);
         private EducationLevel _currentEducationLevel = null;
 
         private DateTime _startDate = DateTime.Now;
@@ -271,6 +274,18 @@ namespace KrosDotaznik
             }
         }
 
+        public string HouseNumberStreet
+        {
+            get => _houseNumberStreet;
+            set
+            {
+                _houseNumberStreet = value;
+                var temp = value.Split(',');
+                Street = temp[0];
+                HouseNumber = temp[1];
+            }
+        }
+
         public string HouseNumber
         {
             get => _houseNumber;
@@ -308,6 +323,18 @@ namespace KrosDotaznik
             {
                 _postalCode = value;
                 OnPropertyChange();
+            }
+        }
+
+        public string TempHouseNumberStreet
+        {
+            get => _tempHouseNumberStreet;
+            set
+            {
+                _tempHouseNumberStreet = value;
+                var temp = value.Split(',');
+                TempStreet = temp[0];
+                TempHouseNumber = temp[1];
             }
         }
 
@@ -391,7 +418,7 @@ namespace KrosDotaznik
             }
         }
 
-        public DateTime HighestEndYear
+        public int HighestEndYear
         {
             get => _highestEndYear;
             set
@@ -431,7 +458,7 @@ namespace KrosDotaznik
             }
         }
 
-        public DateTime CurrentEndYear
+        public int CurrentEndYear
         {
             get => _currentEndYear;
             set
@@ -539,11 +566,18 @@ namespace KrosDotaznik
         }
         #endregion
 
+        private bool ShouldSerializeStringState() => false;
+        private bool SHouldSerializeIntState() => false;
+        private bool ShouldSerializeHouseNumberStreet() => false;
+
         public void Save()
         {
             FileService fs = new FileService();
             Employee employee = new Employee()
             {
+                BirthDate = DateTime.Now,
+                Disabled = default(bool),
+                Gender = default(bool),
                 Name = _name,
                 Surname = _surname,
                 PreviousName = _previousName,
@@ -559,7 +593,61 @@ namespace KrosDotaznik
                 BankAccountNumber = _bankAcc,
                 IBAN = _iban,
                 HealthInsuranceCompany = _healthInsurance,
-                DisabilityRate = _handicapInPercentage
+                DisabilityRate = _handicapInPercentage,
+
+                RetirementData = new RetirementData()
+                    {
+                        ParticipatingInRetirementSaving = false,
+                        RetiredSince = DateTime.Now,
+                        Retirement = null,
+                        RetirementInsuranceCompanyException = false,
+                    },
+
+                AddressData = new Address()
+                    {
+                        HouseNumber = _houseNumber,
+                        Street = _street,
+                        City = _city,
+                        PostalCode = _postalCode
+                    },
+                TemporaryAdressDdata = new Address()
+                    {
+                        HouseNumber = _tempHouseNumber,
+                        Street = _tempStreet,
+                        City = _tempCity,
+                        PostalCode = _tempPostalCode
+                    },
+                PhoneNumber = _phoneNumber,
+                Email = _email,
+
+                Credentials = new Credentials()
+                    {
+                        PaycheckPassword = fs.Encrypt(_payCheckPassword),
+                        PinAlarm = fs.Encrypt(_pinAlarm.ToString())
+                    },
+                
+                HighestEducationData = new Education()
+                    {
+                        School = _highestSchool,
+                        Major = _highestMajor,
+                        EndYear = _highestEndYear,
+                        EducationLevel = _educationLevel
+                    },
+                CurrentEducationData = new Education()
+                    {
+                        School = _currentSchool,
+                        Major = _currentMajor,
+                        EndYear = _currentEndYear,
+                        EducationLevel = _currentEducationLevel
+                    },
+                PreviousJobData = new PreviousJob()
+                    {
+                        StartDate = _startDate,
+                        EndDate = _endDate,
+                        EmployerCompanyName = _employerCompanyName,
+                        Position = _position
+                    },
+                Children = _children.ToList()
             };
             Questionare questionare = new Questionare()
             {

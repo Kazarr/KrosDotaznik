@@ -12,7 +12,7 @@ namespace Data.Models
         public int Id { get; set; }
         public string School { get; set; }
         public string Major { get; set; }
-        public DateTime EndYear { get; set; }
+        public int EndYear { get; set; }
 
         public EducationLevel EducationLevel { get; set; }
     }
