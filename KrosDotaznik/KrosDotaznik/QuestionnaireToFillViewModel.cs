@@ -35,6 +35,7 @@ namespace KrosDotaznik
         private string _stringCurrentEduLevel = string.Empty;
 
         private BindingList<Child> _children = new BindingList<Child>();
+        private Dictionary<int, bool> _showQuestionGroups;
 
         public QuestionnaireToFillViewModel(string path)
         {
@@ -643,22 +644,19 @@ namespace KrosDotaznik
         {
             FileService fs = new FileService();
             var file = fs.LoadJson<Questionare>(path);
-            Questionare questionare = new Questionare()
-            {
-                ShowQuestionGroups = file.ShowQuestionGroups,
-                Employee = file.Employee
-            };
+            _employee = file.Employee;
+            _showQuestionGroups = file.ShowQuestionGroups;
         }
 
         public void Save()
         {
             _employee.Children = _children.ToList();
             FileService fs = new FileService();
-            Employee employee = _employee;            
+            Employee employee = _employee;
             Questionare questionare = new Questionare()
             {
                 Employee = employee,
-                ShowQuestionGroups = new Dictionary<int, bool>()
+                ShowQuestionGroups = _showQuestionGroups
             };
             fs.SaveJson(questionare, "test2.json");
         }
