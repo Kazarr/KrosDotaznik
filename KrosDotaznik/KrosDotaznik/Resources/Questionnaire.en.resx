@@ -126,6 +126,9 @@
   <data name="lblEducation" xml:space="preserve">
     <value>Education data</value>
   </data>
+  <data name="lblJobSpecification" xml:space="preserve">
+    <value>Job Specification</value>
+  </data>
   <data name="lblPassAndApproaches" xml:space="preserve">
     <value>Passwords and access</value>
   </data>

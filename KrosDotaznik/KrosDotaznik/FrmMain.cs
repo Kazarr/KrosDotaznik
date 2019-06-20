@@ -13,7 +13,11 @@ namespace KrosDotaznik
 {
     public partial class FrmMain : Form
     {
-        private MainViewModel _mainViewModel = new MainViewModel();
+        #region Fields
+        private MainViewModel _mainViewModel;
+        #endregion
+
+        #region Constructor
         /// <summary>
         /// 
         /// </summary>
@@ -21,16 +25,49 @@ namespace KrosDotaznik
         public FrmMain(string[] args)
         {
             InitializeComponent();
+            _mainViewModel = new MainViewModel();
             SetComponentsByLanguage();
-            _mainViewModel.SaveTest();
-            _mainViewModel.LoadTest();
+            BindingCheckBox();
         }
+        #endregion
 
+        #region Set components res
         private void SetComponentsByLanguage() {
             btnCreate.Text = Resources.MainForm.btnCreate;
             btnFill.Text = Resources.MainForm.btnFill;
+            chbxEmployeeData.Text = Resources.Questionnaire.lblPersonalInfo;
+            chbxContacts.Text = Resources.Questionnaire.lblContactAddress;
+            chbxPassword.Text = Resources.Questionnaire.lblPassAndApproaches;
+            chbxEducation.Text = Resources.Questionnaire.lblEducation;
+            chbxPrevious.Text = Resources.Questionnaire.lblPreviousJob;
+            chbxChild.Text = Resources.Questionnaire.lblChildInfo;
+            chbxJobSpecification.Text = Resources.Questionnaire.lblJobSpecification;
         }
+        #endregion
 
+        #region Binding components
+        private void BindCheckBoxControls(CheckBox checkBox, string memberData)
+        {
+            checkBox.DataBindings.Add(
+                nameof(checkBox.Checked),
+                _mainViewModel,
+                memberData,
+                false,
+                DataSourceUpdateMode.OnPropertyChanged);            
+        }
+        public void BindingCheckBox()
+        {
+            BindCheckBoxControls(chbxEmployeeData, nameof(_mainViewModel.EmployeeData));
+            BindCheckBoxControls(chbxContacts, nameof(_mainViewModel.ContactsAddress));
+            BindCheckBoxControls(chbxPassword, nameof(_mainViewModel.PasswordAccess));
+            BindCheckBoxControls(chbxEducation, nameof(_mainViewModel.EducationData));
+            BindCheckBoxControls(chbxPrevious, nameof(_mainViewModel.PreviousJob));
+            BindCheckBoxControls(chbxChild, nameof(_mainViewModel.ChildData));
+            BindCheckBoxControls(chbxJobSpecification, nameof(_mainViewModel.JobSpecification));
+        }
+        #endregion
+
+        #region Button handlers
         private void btnSvk_Click(object sender, EventArgs e)
         {
             _mainViewModel.SetLOcalization("sk");
@@ -47,5 +84,11 @@ namespace KrosDotaznik
         {
             _mainViewModel.OpenQuestionnaireToFill();
         }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            _mainViewModel.SaveQuestionnaire();
+        }
+        #endregion
     }
 }
