@@ -35,11 +35,13 @@ namespace KrosDotaznik
         private string _stringCurrentEduLevel = string.Empty;
 
         private BindingList<Child> _children = new BindingList<Child>();
+        private Dictionary<int, bool> _showQuestionGroups;
 
-        public QuestionnaireToFillViewModel()
+        public QuestionnaireToFillViewModel(string path)
         {
-            LoadCombos();
             _employee = new Employee();            
+            Load(path);
+            LoadCombos();
         }
         #endregion
 
@@ -598,6 +600,18 @@ namespace KrosDotaznik
             }
         }
 
+        public Employee Employee
+        {
+            get => _employee;
+            set
+            {
+                foreach(System.Reflection.PropertyInfo property in typeof(Employee).GetProperties())
+                {
+                    property.SetValue(_employee,property.GetValue(value));
+                }
+            }
+        }
+
         #endregion
 
         #region Combo data
@@ -636,19 +650,25 @@ namespace KrosDotaznik
         }
         #endregion
 
-        private bool ShouldSerializeStringState() => false;
-        private bool SHouldSerializeIntState() => false;
-        private bool ShouldSerializeHouseNumberStreet() => false;
+
+
+        public void Load(string path)
+        {
+            FileService fs = new FileService();
+            var file = fs.LoadJson<Questionare>(path);
+            Employee = file.Employee;
+            _showQuestionGroups = file.ShowQuestionGroups;
+        }
 
         public void Save()
         {
             _employee.Children = _children.ToList();
             FileService fs = new FileService();
-            Employee employee = _employee;            
+            Employee employee = _employee;
             Questionare questionare = new Questionare()
             {
                 Employee = employee,
-                ShowQuestionGroups = new Dictionary<int, bool>()
+                ShowQuestionGroups = _showQuestionGroups
             };
             fs.SaveJson(questionare, "test2.json");
         }

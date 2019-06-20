@@ -107,9 +107,9 @@ namespace KrosDotaznik
         #endregion
 
         #region Form method
-        public void OpenQuestionnaireToFill()
+        public void OpenQuestionnaireToFill(string path)
         {
-            using (FrmQuestionnaireToFill toFill = new FrmQuestionnaireToFill(new QuestionnaireToFillViewModel()))
+            using (FrmQuestionnaireToFill toFill = new FrmQuestionnaireToFill(new QuestionnaireToFillViewModel(path)))
             {
                 toFill.ShowDialog();
             }

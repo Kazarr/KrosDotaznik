@@ -14,9 +14,17 @@ namespace KrosDotaznik
         [STAThread]
         static void Main(string[] args)
         {
+            bool allowCreate = default(bool);
+            if(args.Length != 0)
+            {
+                if(args[0] == "monikajehviezda")
+                {
+                    allowCreate = true;
+                }
+            }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain(args));
+            Application.Run(new FrmMain(allowCreate));
         }
     }
 }
