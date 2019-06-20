@@ -122,7 +122,7 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="btnCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 182</value>
+    <value>250, 84</value>
   </data>
   <data name="btnCreate.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 45</value>
@@ -144,13 +144,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCreate.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>10</value>
   </data>
   <data name="btnFill.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="btnFill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 182</value>
+    <value>480, 84</value>
   </data>
   <data name="btnFill.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 45</value>
@@ -171,10 +171,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnFill.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>9</value>
   </data>
   <data name="btnSvk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 29</value>
+    <value>618, 29</value>
   </data>
   <data name="btnSvk.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
@@ -195,10 +195,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSvk.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>8</value>
   </data>
   <data name="btnEng.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 29</value>
+    <value>664, 29</value>
   </data>
   <data name="btnEng.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
@@ -219,6 +219,235 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnEng.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chbxEmployeeData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxEmployeeData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chbxEmployeeData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="chbxEmployeeData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="chbxEmployeeData.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chbxEmployeeData.Text" xml:space="preserve">
+    <value>Employee Data</value>
+  </data>
+  <data name="&gt;&gt;chbxEmployeeData.Name" xml:space="preserve">
+    <value>chbxEmployeeData</value>
+  </data>
+  <data name="&gt;&gt;chbxEmployeeData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxEmployeeData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxEmployeeData.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chbxContacts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxContacts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chbxContacts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 64</value>
+  </data>
+  <data name="chbxContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
+  <data name="chbxContacts.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chbxContacts.Text" xml:space="preserve">
+    <value>Contact, address</value>
+  </data>
+  <data name="&gt;&gt;chbxContacts.Name" xml:space="preserve">
+    <value>chbxContacts</value>
+  </data>
+  <data name="&gt;&gt;chbxContacts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxContacts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxContacts.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chbxPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chbxPassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 97</value>
+  </data>
+  <data name="chbxPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="chbxPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chbxPassword.Text" xml:space="preserve">
+    <value>Password and access</value>
+  </data>
+  <data name="&gt;&gt;chbxPassword.Name" xml:space="preserve">
+    <value>chbxPassword</value>
+  </data>
+  <data name="&gt;&gt;chbxPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxPassword.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chbxEducation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxEducation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chbxEducation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxEducation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 129</value>
+  </data>
+  <data name="chbxEducation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="chbxEducation.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chbxEducation.Text" xml:space="preserve">
+    <value>Education data</value>
+  </data>
+  <data name="&gt;&gt;chbxEducation.Name" xml:space="preserve">
+    <value>chbxEducation</value>
+  </data>
+  <data name="&gt;&gt;chbxEducation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxEducation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxEducation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chbxPrevious.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxPrevious.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chbxPrevious.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxPrevious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 162</value>
+  </data>
+  <data name="chbxPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 24</value>
+  </data>
+  <data name="chbxPrevious.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chbxPrevious.Text" xml:space="preserve">
+    <value>Previous job</value>
+  </data>
+  <data name="&gt;&gt;chbxPrevious.Name" xml:space="preserve">
+    <value>chbxPrevious</value>
+  </data>
+  <data name="&gt;&gt;chbxPrevious.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxPrevious.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxPrevious.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chbxChild.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxChild.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chbxChild.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxChild.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 196</value>
+  </data>
+  <data name="chbxChild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="chbxChild.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chbxChild.Text" xml:space="preserve">
+    <value>Child Data</value>
+  </data>
+  <data name="&gt;&gt;chbxChild.Name" xml:space="preserve">
+    <value>chbxChild</value>
+  </data>
+  <data name="&gt;&gt;chbxChild.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxChild.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxChild.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chbxJobSpecification.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxJobSpecification.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chbxJobSpecification.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 226</value>
+  </data>
+  <data name="chbxJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 24</value>
+  </data>
+  <data name="chbxJobSpecification.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chbxJobSpecification.Text" xml:space="preserve">
+    <value>Job specification</value>
+  </data>
+  <data name="&gt;&gt;chbxJobSpecification.Name" xml:space="preserve">
+    <value>chbxJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;chbxJobSpecification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxJobSpecification.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxJobSpecification.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -228,7 +457,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>740, 277</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Dotazník</value>
