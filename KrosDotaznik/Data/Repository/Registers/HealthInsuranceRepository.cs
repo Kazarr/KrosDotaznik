@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class HealthInsuranceRepository:ConnectionManager
+    public class HealthInsuranceRepository:MainRepository
     {
-        public Dictionary<TKey,TValue> GetHealthInsuranceData<TKey,TValue>(string cultureInfo)
+        public Dictionary<int,string> GetHealthInsuranceData(string cultureInfo)
         {
-            return GetAllAccessData<TKey,TValue>(Properties.ResourceAccess.HealthInsuranceSelect,cultureInfo);            
+            return GetAllAccessData<int,string>(Properties.ResourceAccess.HealthInsuranceSelect,cultureInfo);            
         }
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repository.Registers
 {
-    public class CountryRepository:ConnectionManager
+    public class CountryRepository:MainRepository
     {
-        public Dictionary<TKey, TValue> GetCountryData<TKey, TValue>(string cultureInfo)
+        public Dictionary<int, string> GetCountryData(string cultureInfo)
         {
-            return GetAllAccessData<TKey, TValue>(Properties.ResourceAccess.CountrySelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.CountrySelect, cultureInfo);
         }
     }
 }
