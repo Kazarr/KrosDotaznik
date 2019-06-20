@@ -11,6 +11,8 @@ namespace Logic
 {
     public class FileService
     {
+        private byte[] CRYPTING_KEY = {17,174,194,123,135,243,85,78,116,25,69,215,155,207,55,181,12,12,14,122,120,222,252,59,58,85,116,34,64,110,113,149};
+        private byte[] CRYPTING_IV = {200,49,19,118,85,177,161,224,143,241,247,102,44,16,232,8};
         /// <summary>
         /// Position of pass in List<byte[]> crypted password
         /// </summary>
@@ -60,28 +62,24 @@ namespace Logic
         /// </summary>
         /// <param name="pass">Your pass as plain text</param>
         /// <returns></returns>
-        public List<byte[]> Encrypt(string pass)
+        public byte[] Encrypt(string pass)
         {
-            List<byte[]> nieco;
-            using(Rijndael myRijndael = Rijndael.Create())
-            {
-                // Encrypt the string to an array of bytes.
-                nieco = EncryptStringToBytes(pass, myRijndael.Key, myRijndael.IV);
-                //spat = DecryptStringFromBytes(nieco, myRijndael.Key, myRijndael.IV);
-            }
-            return nieco;
+            byte[] cipher;
+            // Encrypt the string to an array of bytes.
+            cipher = EncryptStringToBytes(pass,CRYPTING_KEY, CRYPTING_IV);
+            return cipher;
         }
         /// <summary>
         /// Decrypt password. Return your password as plain text
         /// </summary>
         /// <param name="cipher">List of crypted password, key to decrypt password, inicialization vector to decrypt password</param>
         /// <returns></returns>
-        public string Decrypt(List<byte[]> cipher)
+        public string Decrypt(byte[] cipher)
         {
-            return DecryptStringFromBytes(cipher[PASS], cipher[KEY], cipher[IV]);
+            return DecryptStringFromBytes(cipher, CRYPTING_KEY, CRYPTING_IV);
         }
 
-        private List<byte[]> EncryptStringToBytes(string plainText, byte[] Key, byte[] IV)
+        private byte[] EncryptStringToBytes(string plainText, byte[] Key, byte[] IV)
         {
             // Check arguments.
             if (plainText == null || plainText.Length <= 0)
@@ -116,9 +114,11 @@ namespace Logic
                     }
                 }
             }
+
             // Return the encrypted bytes from the memory stream.
-            return new List<byte[]>{ encrypted, Key, IV};
+            return encrypted;
         }
+
         private string DecryptStringFromBytes(byte[] cipherText, byte[] Key, byte[] IV)
         {
             // Check arguments.
