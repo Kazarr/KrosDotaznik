@@ -39,9 +39,9 @@ namespace KrosDotaznik
 
         public QuestionnaireToFillViewModel(string path)
         {
+            _employee = new Employee();            
             Load(path);
             LoadCombos();
-            _employee = new Employee();            
         }
         #endregion
 
@@ -600,6 +600,18 @@ namespace KrosDotaznik
             }
         }
 
+        public Employee Employee
+        {
+            get => _employee;
+            set
+            {
+                foreach(System.Reflection.PropertyInfo property in typeof(Employee).GetProperties())
+                {
+                    property.SetValue(_employee,property.GetValue(value));
+                }
+            }
+        }
+
         #endregion
 
         #region Combo data
@@ -644,7 +656,7 @@ namespace KrosDotaznik
         {
             FileService fs = new FileService();
             var file = fs.LoadJson<Questionare>(path);
-            _employee = file.Employee;
+            Employee = file.Employee;
             _showQuestionGroups = file.ShowQuestionGroups;
         }
 
