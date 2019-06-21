@@ -26,8 +26,15 @@ namespace KrosDotaznik
         private string _stringRetirement = string.Empty;
         private string _stringEduLevel = string.Empty;
         private string _stringCurrentEduLevel = string.Empty;
+        private string _stringWorkExpiration = string.Empty;
+        private string _stringDivision = string.Empty;
+        private string _stringTeam = string.Empty;
+        private string _stringWorkType = string.Empty;
+        private string _stringWorkHours = string.Empty;
+        private string _stringWorkPosition = string.Empty;
+        private string _stringWageCategory = string.Empty;
 
-        private BindingList<Child> _children = new BindingList<Child>();
+        //private BindingList<Child> _children = new BindingList<Child>();
         private Dictionary<int, bool> _showQuestionGroups;
 
         public QuestionnaireToFillViewModel(string path)
@@ -561,7 +568,7 @@ namespace KrosDotaznik
 
         #endregion
         #region Previous Job
-        public DateTime StartDate
+        public DateTime PreviousJobStartDate
         {
             get => _employee.PreviousJobData.StartDate;
             set
@@ -571,7 +578,7 @@ namespace KrosDotaznik
             }
         }
 
-        public DateTime EndDate
+        public DateTime PreviousJobEndDate
         {
             get => _employee.PreviousJobData.EndDate;
             set
@@ -597,6 +604,209 @@ namespace KrosDotaznik
             set
             {
                 _employee.PreviousJobData.Position = value;
+                OnPropertyChange();
+            }
+        }
+        #endregion
+        #region Job Specification
+        public WorkPosition WorkPosition
+        {
+            get => _employee.JobSpecificationData.WorkPosition;
+            set
+            {
+                _employee.JobSpecificationData.WorkPosition = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringWorkPosition
+        {
+            get => _employee.JobSpecificationData.WorkPosition == null 
+                ? _stringWorkPosition
+                : _employee.JobSpecificationData.WorkPosition.Position;
+            set
+            {
+                _stringWorkPosition = value;
+                WorkPosition = SetPropertiesForCmbox<WorkPosition>(WorkPositionData, _stringWorkPosition);
+                OnPropertyChange();
+            }
+        }
+
+        public WorkHours WorkHours
+        {
+            get => _employee.JobSpecificationData.WorkHours;
+            set
+            {
+                _employee.JobSpecificationData.WorkHours = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringWorkHours
+        {
+            get => _employee.JobSpecificationData.WorkHours == null
+                ? _stringWorkHours
+                : _employee.JobSpecificationData.WorkHours.NameOfHoursPerWeek;
+            set
+            {
+                _stringWorkHours = value;
+                WorkHours = SetPropertiesForCmbox<WorkHours>(WorkHoursData, _stringWorkHours);
+                OnPropertyChange();
+            }
+        }
+
+        public WorkType WorkType
+        {
+            get => _employee.JobSpecificationData.WorkType;
+            set
+            {
+                _employee.JobSpecificationData.WorkType = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringWorkType
+        {
+            get => _employee.JobSpecificationData.WorkType == null
+                ? _stringWorkType
+                : _employee.JobSpecificationData.WorkType.Type;
+            set
+            {
+                _stringWorkType = value;
+                WorkType = SetPropertiesForCmbox<WorkType>(WorkTypeData, _stringWorkType);
+                OnPropertyChange();
+            }
+        }
+
+        #region Nedoriesene
+        public Department Division
+        {
+            get => _employee.JobSpecificationData.Department;
+            set
+            {
+                _employee.JobSpecificationData.Department = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringDivision
+        {
+            get => _employee.JobSpecificationData.Department == null
+                ? _stringDivision
+                : _employee.JobSpecificationData.Department.ParentId.ToString();   //napicu toto treba vyriesit spolu s team
+            set
+            {
+                _stringDivision = value;
+                Division = SetPropertiesForCmbox<Department>(DepartmentData, _stringDivision);
+                OnPropertyChange();
+            }
+        }
+
+        public Department Team
+        {
+            get => _employee.JobSpecificationData.Department;
+            set
+            {
+                _employee.JobSpecificationData.Department = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringTeam
+        {
+            get => _employee.JobSpecificationData.Department == null
+                ? _stringTeam
+                : _employee.JobSpecificationData.Department.DepartmentName;
+            set
+            {
+                _stringTeam = value;
+                Division = SetPropertiesForCmbox<Department>(DepartmentData, _stringTeam);
+                OnPropertyChange();
+            }
+        }
+        #endregion
+
+        public WorkExpiration WorkExpiration
+        {
+            get => _employee.JobSpecificationData.WorkExpiration;
+            set
+            {
+                _employee.JobSpecificationData.WorkExpiration = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringWorkExpiration
+        {
+            get => _employee.JobSpecificationData.WorkExpiration == null
+                ? _stringWorkExpiration
+                : _employee.JobSpecificationData.WorkExpiration.JobExpire;
+            set
+            {
+                _stringWorkExpiration = value;
+                WorkExpiration = SetPropertiesForCmbox<WorkExpiration>(WorkExpirationData, _stringWorkExpiration);
+                OnPropertyChange();
+            }
+        }
+
+        public WageCategory WageCategory
+        {
+            get => _employee.JobSpecificationData.WorkPosition.WageCategory;
+            set
+            {
+                _employee.JobSpecificationData.WorkPosition.WageCategory = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringWageCategory
+        {
+            get => _employee.JobSpecificationData.WorkPosition.WageCategory == null
+                ? _stringWageCategory
+                : _employee.JobSpecificationData.WorkPosition.WageCategory.Category;
+            set
+            {
+                _stringWageCategory = value;
+                WageCategory = SetPropertiesForCmbox<WageCategory>(WageCategoryData, _stringWageCategory);
+                OnPropertyChange();
+            }
+        }
+
+        public string PlaceOfWork
+        {
+            get => _employee.JobSpecificationData.WorkPlace;
+            set
+            {
+                _employee.JobSpecificationData.WorkPlace = value;
+                OnPropertyChange();
+            }
+        }
+        public DateTime HireDate
+        {
+            get => _employee.JobSpecificationData.HireDate;
+            set
+            {
+                _employee.JobSpecificationData.HireDate = value;
+                OnPropertyChange();
+            }
+        }
+        public DateTime StartDate
+        {
+            get => _employee.JobSpecificationData.StartDate;
+            set
+            {
+                _employee.JobSpecificationData.StartDate = value;
+                OnPropertyChange();
+            }
+        }
+        public DateTime EndOfTrial
+        {
+            get => _employee.JobSpecificationData.EndOfTrial;
+            set
+            {
+                _employee.JobSpecificationData.EndOfTrial = value;
+                OnPropertyChange();
+            }
+        }
+        public decimal Salary
+        {
+            get => _employee.JobSpecificationData.Salary;
+            set
+            {
+                _employee.JobSpecificationData.Salary = value;
                 OnPropertyChange();
             }
         }
@@ -640,6 +850,7 @@ namespace KrosDotaznik
         public Dictionary<int, string> WorkHoursData { get; set; }
         public Dictionary<int, string> WorkPositionData { get; set; }
         public Dictionary<int, string> WorkTypeData { get; set; }
+        public Dictionary<int, string> DepartmentData { get; set; } // doplnit tento dictionary a pracovat s nim
         #endregion
 
         #region Inotify Property Change
