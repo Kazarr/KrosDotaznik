@@ -20,6 +20,7 @@ namespace KrosDotaznik
             InitializeComponent();
             _viewModel = fillViewModel;
             LoadCombos();
+            BindPersonalData();
         }
 
         private void BindDefaultControlProperty(Control ctrl, string dataMember)
@@ -182,6 +183,7 @@ namespace KrosDotaznik
             BindRadioButtons(radioBtnSecondPilarYes, nameof(_viewModel.ParticipatingInRetirementSaving));
             BindRadioButtons(radioBtnSecondPilarNo, nameof(_viewModel.NotParticipatingInRetirementSaving));
             #endregion
+            tPagePersonalInfo.Tag = true;
         }
         private void BindContactAddress()
         {
@@ -221,7 +223,9 @@ namespace KrosDotaznik
         }
         private void BindChildren()
         {
+            //dgvChildren.DataBindings.Add(nameof(dgvChildren.DataSource), _viewModel.Children, nameof(_viewModel.Children), false, DataSourceUpdateMode.OnValidation);
             dgvChildren.DataSource = _viewModel.Children;
+            //var test = dgvChildren.DataBindings.BindableComponent;
         }
 
         private void tabCntrl_SelectedIndexChanged(object sender, EventArgs e)
@@ -230,9 +234,6 @@ namespace KrosDotaznik
             {
                 switch (tabCntrl.SelectedTab.Name)
                 {
-                    case nameof(tPagePersonalInfo):
-                        BindPersonalData();
-                        break;
                     case nameof(tPageContactAdress):
                         BindContactAddress();
                         break;
