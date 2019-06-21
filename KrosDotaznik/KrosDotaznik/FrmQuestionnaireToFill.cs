@@ -20,10 +20,6 @@ namespace KrosDotaznik
             InitializeComponent();
             _viewModel = fillViewModel;
             LoadCombos();
-            foreach (DataGridViewRow row in dgvChildren.Rows)
-            {
-                row.Cells[3].Value = DateTime.Now;
-            }
         }
 
         private void BindDefaultControlProperty(Control ctrl, string dataMember)
