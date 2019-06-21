@@ -20,6 +20,7 @@ namespace KrosDotaznik
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
         private Employee _employee;
+        private FileService _fileService = new FileService();
         private string _stringState = string.Empty;
         private string _stringHealthInsurance = string.Empty;
         private string _stringRetirement = string.Empty;
@@ -61,7 +62,7 @@ namespace KrosDotaznik
             }
             return newModel;
         }
-
+        #region Personal Info
         public string Name 
         {
             get => _employee.Name;
@@ -272,7 +273,8 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Contact, address
         public string PhoneNumber
         {
             get => _employee.PhoneNumber;
@@ -396,27 +398,29 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Credentials
         public string PayChechPassword
         {
-            get => _payCheckPassword;
+            get =>_fileService.Decrypt(_employee.Credentials.PaycheckPassword);
             set
             {
-                _payCheckPassword = value;
+                _employee.Credentials.PaycheckPassword = _fileService.Encrypt(value);
                 OnPropertyChange();
             }
         }
 
-        public int PinAlarm
+        public string PinAlarm
         {
-            get => _pinAlarm;
+            get => _fileService.Decrypt(_employee.Credentials.PinAlarm);
             set
             {
-                _pinAlarm = value;
+                _employee.Credentials.PinAlarm = _fileService.Encrypt(value);
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Education
         public string HighestSchool
         {
             get => _employee.HighestEducationData.School;
@@ -518,14 +522,15 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Retirement
         public Retirement Retirement
         {
             get => _employee.RetirementData.Retirement;
             set
             {
                 _employee.RetirementData.Retirement = SetPropertiesForCmbox<Retirement>(RetirementData, _stringRetirement);
-                //OnPropertyChange();
+                OnPropertyChange();
             }
         }
 
@@ -550,6 +555,27 @@ namespace KrosDotaznik
             }
         }
 
+        //public bool ParticipatingInRetirementSaving
+        //{
+        //    get => _employee.RetirementData.ParticipatingInRetirementSaving;
+        //    set
+        //    {
+        //        _employee.RetirementData.ParticipatingInRetirementSaving = value;
+        //        OnPropertyChange();
+        //    }
+        //}
+
+        //public bool? RetirementInsuranceCompanyException
+        //{
+        //    get => _employee.RetirementData.RetirementInsuranceCompanyException;
+        //    set
+        //    {
+        //        _employee.RetirementData.RetirementInsuranceCompanyException = value;
+        //        OnPropertyChange();
+        //    }
+        //}
+
+        #endregion
         public DateTime StartDate
         {
             get => _employee.PreviousJobData.StartDate;
