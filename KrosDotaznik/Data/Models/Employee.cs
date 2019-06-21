@@ -18,7 +18,7 @@ namespace Data.Models
         public string MaidenName { get; set; }
         public string Title { get; set; }
         public string IdNumber { get; set; }
-        public DateTime BirthDate { get; set; }
+        public DateTime BirthDate { get; set; } = DateTime.Now;
         public string BirthNumber { get; set; }
         public string PlaceOfBirth { get; set; }
         /// <summary>

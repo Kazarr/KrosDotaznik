@@ -140,16 +140,16 @@
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
             this.dgvChildren = new System.Windows.Forms.DataGridView();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colBonus = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -612,6 +612,7 @@
             // datePickerRetiredSince
             // 
             resources.ApplyResources(this.datePickerRetiredSince, "datePickerRetiredSince");
+            this.datePickerRetiredSince.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datePickerRetiredSince.Name = "datePickerRetiredSince";
             // 
             // panelBank
@@ -684,6 +685,7 @@
             // datePickerBirth
             // 
             resources.ApplyResources(this.datePickerBirth, "datePickerBirth");
+            this.datePickerBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datePickerBirth.Name = "datePickerBirth";
             // 
             // txtNationality
@@ -834,11 +836,13 @@
             // dtpTo
             // 
             resources.ApplyResources(this.dtpTo, "dtpTo");
+            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpTo.Name = "dtpTo";
             // 
             // dtpFrom
             // 
             resources.ApplyResources(this.dtpFrom, "dtpFrom");
+            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFrom.Name = "dtpFrom";
             // 
             // lblWorkPosition
@@ -882,31 +886,6 @@
             this.colEmployeeId});
             this.dgvChildren.Name = "dgvChildren";
             // 
-            // btnSave
-            // 
-            resources.ApplyResources(this.btnSave, "btnSave");
-            this.btnSave.Name = "btnSave";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
-            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Surname";
-            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // calendarColumn1
-            // 
-            this.calendarColumn1.DataPropertyName = "BirthDate";
-            resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
-            this.calendarColumn1.Name = "calendarColumn1";
-            // 
             // colName
             // 
             this.colName.DataPropertyName = "Name";
@@ -947,6 +926,31 @@
             this.colEmployeeId.DataPropertyName = "IdEmployeeData";
             resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
             this.colEmployeeId.Name = "colEmployeeId";
+            // 
+            // btnSave
+            // 
+            resources.ApplyResources(this.btnSave, "btnSave");
+            this.btnSave.Name = "btnSave";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Surname";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // calendarColumn1
+            // 
+            this.calendarColumn1.DataPropertyName = "BirthDate";
+            resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
+            this.calendarColumn1.Name = "calendarColumn1";
             // 
             // FrmQuestionnaireToFill
             // 

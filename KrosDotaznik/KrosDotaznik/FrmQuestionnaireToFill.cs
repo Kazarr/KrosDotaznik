@@ -81,10 +81,10 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
             BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
-            //BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
+            BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
             BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
             BindDefaultControlProperty(cmbRetirement, nameof(_viewModel.StringRetirement));
-            //BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
+            BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
             BindDefaultControlProperty(cmbHealthInsurance, nameof(_viewModel.StringHealthInsurance));
 
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
@@ -115,8 +115,8 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
             BindDefaultControlProperty(cmbCurrentEduLevel, nameof(_viewModel.StringCurrentEducationLevel));
 
-            //BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
-            //BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
+            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
             BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
             BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
 

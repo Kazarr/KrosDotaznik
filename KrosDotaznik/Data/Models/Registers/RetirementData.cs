@@ -11,7 +11,7 @@ namespace Data.Models.Registers
     {
         public int Id { get; set; }
         public bool ParticipatingInRetirementSaving { get; set; }
-        public DateTime? RetiredSince { get; set; }
+        public DateTime? RetiredSince { get; set; } = DateTime.Now;
         /// <summary>
         /// Only contranct work type should set this.
         /// </summary>
