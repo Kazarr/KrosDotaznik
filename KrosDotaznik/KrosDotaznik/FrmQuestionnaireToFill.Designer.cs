@@ -524,7 +524,7 @@
             resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Name = "tabCntrl";
             this.tabCntrl.SelectedIndex = 0;
-            this.tabCntrl.TabIndexChanged += new System.EventHandler(this.tabCntrl_TabIndexChanged);
+            this.tabCntrl.SelectedIndexChanged += new System.EventHandler(this.tabCntrl_SelectedIndexChanged);
             // 
             // tPagePersonalInfo
             // 

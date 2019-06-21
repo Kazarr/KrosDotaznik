@@ -20,11 +20,6 @@ namespace KrosDotaznik
             InitializeComponent();
             _viewModel = fillViewModel;
             LoadCombos();
-            BindingTest();
-            foreach (DataGridViewRow row in dgvChildren.Rows)
-            {
-                row.Cells[3].Value = DateTime.Now;
-            }
         }
 
         private void BindDefaultControlProperty(Control ctrl, string dataMember)
@@ -59,57 +54,13 @@ namespace KrosDotaznik
 
         private void LoadCombos()
         {
-            FillCombo(cmbHealthInsurance,_viewModel.HealthInsuranceData);
+            FillCombo(cmbHealthInsurance, _viewModel.HealthInsuranceData);
             FillCombo(cmbState, _viewModel.StateData);
             FillCombo(cmbRetirement, _viewModel.RetirementData);
             FillCombo(cmbEduLevel, _viewModel.EducationLevelData);
             FillCombo(cmbCurrentEduLevel, _viewModel.EducationLevelData);
         }
 
-        public void BindingTest()
-        {
-
-            #region RadioBtns binding
-            BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Disabled));
-            BindRadioButtons(radioBtnHndcpNo, nameof(_viewModel.NotDisabled));
-            BindRadioButtons(radioBtnMale, nameof(_viewModel.Gender));
-            BindRadioButtons(radioBtnFemale, nameof(_viewModel.Female));
-            BindRadioButtons(radioBtnExceptionYes, nameof(_viewModel.RetirementInsuranceCompanyException));
-            BindRadioButtons(radioBtnExceptionNo, nameof(_viewModel.NotRetirementInsuranceCompanyException));
-            BindRadioButtons(radioBtnSecondPilarYes, nameof(_viewModel.ParticipatingInRetirementSaving));
-            BindRadioButtons(radioBtnSecondPilarNo, nameof(_viewModel.NotParticipatingInRetirementSaving));
-            #endregion
-
-            BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
-            BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
-            BindDefaultControlProperty(txtStreet, nameof(_viewModel.HouseNumber));
-            BindDefaultControlProperty(txtHouseNumber, nameof(_viewModel.Street));
-            BindDefaultControlProperty(txtCity, nameof(_viewModel.City));
-            BindDefaultControlProperty(txtPostalCode, nameof(_viewModel.PostalCode));
-            BindDefaultControlProperty(txtTempStreet, nameof(_viewModel.TempHouseNumber));
-            BindDefaultControlProperty(txtTempHouseNumber, nameof(_viewModel.TempStreet));
-            BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
-            BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
-
-            BindDefaultControlProperty(txtPassword, nameof(_viewModel.PayChechPassword));
-            BindDefaultControlProperty(txtPinAlarm, nameof(_viewModel.PinAlarm));
-
-            BindDefaultControlProperty(txtHighestSchool, nameof(_viewModel.HighestSchool));
-            BindDefaultControlProperty(txtHightestSchoolMajor, nameof(_viewModel.HighestMajor));
-            BindDefaultControlProperty(txtHighestSchoolEndYear, nameof(_viewModel.HighestEndYear));
-            BindDefaultControlProperty(cmbEduLevel, nameof(_viewModel.StringEducationLevel));
-            BindDefaultControlProperty(txtCurrentSchool, nameof(_viewModel.CurrentSchool));
-            BindDefaultControlProperty(txtCurrentSchoolMajor, nameof(_viewModel.CurrentMajor));
-            BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
-            BindDefaultControlProperty(cmbCurrentEduLevel, nameof(_viewModel.StringCurrentEducationLevel));
-
-            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
-            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
-            BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
-            BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
-
-            dgvChildren.DataSource = _viewModel.Children;
-        }
         #region Set components by language
         //private void SetComponentsByLanguage()
         //{
@@ -200,25 +151,6 @@ namespace KrosDotaznik
             _viewModel.Save();
         }
 
-        private void tabCntrl_TabIndexChanged(object sender, EventArgs e)
-        {
-            if(tabCntrl.SelectedTab.Tag == null)
-            {
-                switch (tabCntrl.SelectedTab.Name)
-                {
-                    case nameof(tPagePersonalInfo):
-                        BindPersonalData();
-                        break;
-                    case nameof(tPageContactAdress):
-
-                        break;
-                    
-                }
-                tabCntrl.SelectedTab.Tag = true;
-
-            }
-        }
-
         private void BindPersonalData()
         {
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
@@ -239,8 +171,87 @@ namespace KrosDotaznik
             BindDefaultControlProperty(cmbRetirement, nameof(_viewModel.StringRetirement));
             BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
             BindDefaultControlProperty(cmbHealthInsurance, nameof(_viewModel.StringHealthInsurance));
-
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
+            #region RadioBtns binding
+            BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Disabled));
+            BindRadioButtons(radioBtnHndcpNo, nameof(_viewModel.NotDisabled));
+            BindRadioButtons(radioBtnMale, nameof(_viewModel.Gender));
+            BindRadioButtons(radioBtnFemale, nameof(_viewModel.Female));
+            BindRadioButtons(radioBtnExceptionYes, nameof(_viewModel.RetirementInsuranceCompanyException));
+            BindRadioButtons(radioBtnExceptionNo, nameof(_viewModel.NotRetirementInsuranceCompanyException));
+            BindRadioButtons(radioBtnSecondPilarYes, nameof(_viewModel.ParticipatingInRetirementSaving));
+            BindRadioButtons(radioBtnSecondPilarNo, nameof(_viewModel.NotParticipatingInRetirementSaving));
+            #endregion
+        }
+        private void BindContactAddress()
+        {
+            BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
+            BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
+            BindDefaultControlProperty(txtStreet, nameof(_viewModel.HouseNumber));
+            BindDefaultControlProperty(txtHouseNumber, nameof(_viewModel.Street));
+            BindDefaultControlProperty(txtCity, nameof(_viewModel.City));
+            BindDefaultControlProperty(txtPostalCode, nameof(_viewModel.PostalCode));
+            BindDefaultControlProperty(txtTempStreet, nameof(_viewModel.TempHouseNumber));
+            BindDefaultControlProperty(txtTempHouseNumber, nameof(_viewModel.TempStreet));
+            BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
+            BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
+        }
+        private void BindCredentials()
+        {
+            BindDefaultControlProperty(txtPassword, nameof(_viewModel.PayChechPassword));
+            BindDefaultControlProperty(txtPinAlarm, nameof(_viewModel.PinAlarm));
+        }
+        private void BindEducation()
+        {
+            BindDefaultControlProperty(txtHighestSchool, nameof(_viewModel.HighestSchool));
+            BindDefaultControlProperty(txtHightestSchoolMajor, nameof(_viewModel.HighestMajor));
+            BindDefaultControlProperty(txtHighestSchoolEndYear, nameof(_viewModel.HighestEndYear));
+            BindDefaultControlProperty(cmbEduLevel, nameof(_viewModel.StringEducationLevel));
+            BindDefaultControlProperty(txtCurrentSchool, nameof(_viewModel.CurrentSchool));
+            BindDefaultControlProperty(txtCurrentSchoolMajor, nameof(_viewModel.CurrentMajor));
+            BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
+            BindDefaultControlProperty(cmbCurrentEduLevel, nameof(_viewModel.StringCurrentEducationLevel));
+        }
+        private void BindPreviousJob()
+        {
+            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
+            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
+            BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
+        }
+        private void BindChildren()
+        {
+            dgvChildren.DataSource = _viewModel.Children;
+        }
+
+        private void tabCntrl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabCntrl.SelectedTab.Tag == null)
+            {
+                switch (tabCntrl.SelectedTab.Name)
+                {
+                    case nameof(tPagePersonalInfo):
+                        BindPersonalData();
+                        break;
+                    case nameof(tPageContactAdress):
+                        BindContactAddress();
+                        break;
+                    case nameof(tPagePassword):
+                        BindCredentials();
+                        break;
+                    case nameof(tPagePreviousJob):
+                        BindPreviousJob();
+                        break;
+                    case nameof(tPageEducation):
+                        BindEducation();
+                        break;
+                    case nameof(tPageChildInfo):
+                        BindChildren();
+                        break;
+                }
+                tabCntrl.SelectedTab.Tag = true;
+
+            }
         }
     }
 }
