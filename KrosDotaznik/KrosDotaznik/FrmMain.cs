@@ -97,13 +97,20 @@ namespace KrosDotaznik
         {
             OpenFileDialog openFile = new OpenFileDialog()
             {
-                Filter = "Text files (*.json)|*.json",
+                Filter = "Questionare (*.kpq)|*.kpq",
                 Title = "Choose Questionare",
                 RestoreDirectory = true
             };
             if(openFile.ShowDialog() == DialogResult.OK)
             {
-                _mainViewModel.OpenQuestionnaireToFill(openFile.FileName);
+                try
+                {
+                    _mainViewModel.OpenQuestionnaireToFill(openFile.FileName);
+                }
+                catch (Newtonsoft.Json.JsonReaderException exception)
+                {
+                    MessageBox.Show("Súbor je pravdepodobne poškodený a nieje možné ho načítať.", "Poškodený súbor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 

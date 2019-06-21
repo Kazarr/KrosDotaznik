@@ -130,7 +130,7 @@ namespace KrosDotaznik
                 new Questionare()
                 {
                     ShowQuestionGroups = _showQuestionGroups,
-                }, "test.json");
+                }, "test.kpq");
         }
         #endregion
     }

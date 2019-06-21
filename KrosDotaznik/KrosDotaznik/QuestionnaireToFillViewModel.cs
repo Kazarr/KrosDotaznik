@@ -673,7 +673,7 @@ namespace KrosDotaznik
                 Employee = employee,
                 ShowQuestionGroups = _showQuestionGroups
             };
-            fs.SaveJson(questionare, "test2.json");
+            fs.SaveJson(questionare, "test2.kpq");
         }
     }
 }
