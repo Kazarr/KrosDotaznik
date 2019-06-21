@@ -145,7 +145,7 @@ namespace KrosDotaznik
 
         public string StringState
         {
-            get => _stringState;
+            get => _employee.State.EmployeeState;
             set
             {
                 _stringState = value;
@@ -235,7 +235,7 @@ namespace KrosDotaznik
 
         public string StringHealthInsurance
         {
-            get => _stringHealthInsurance;
+            get => _employee.HealthInsuranceCompany.CompanyName;
             set
             {
                 _stringHealthInsurance = value;
@@ -443,7 +443,7 @@ namespace KrosDotaznik
 
         public string StringEducationLevel
         {
-            get => _stringEduLevel;
+            get => _employee.HighestEducationData.EducationLevel.EducationLevelName;
             set
             {
                 _stringEduLevel = value;
@@ -494,7 +494,9 @@ namespace KrosDotaznik
 
         public string StringCurrentEducationLevel
         {
-            get => _stringCurrentEduLevel;
+            get => _employee.CurrentEducationData.EducationLevel == null  
+                ? _stringCurrentEduLevel
+                : _employee.CurrentEducationData.EducationLevel.EducationLevelName;
             set
             {
                 _stringCurrentEduLevel = value;
@@ -516,7 +518,9 @@ namespace KrosDotaznik
 
         public string StringRetirement
         {
-            get => _stringRetirement;
+            get => _employee.RetirementData.Retirement==null
+                ? _stringRetirement
+                : _employee.RetirementData.Retirement.PensionName;
             set
             {
                 _stringRetirement = value;
