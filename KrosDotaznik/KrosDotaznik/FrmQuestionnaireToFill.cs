@@ -155,36 +155,6 @@ namespace KrosDotaznik
             _viewModel.Save();
         }
 
-        private void tabCntrl_TabIndexChanged(object sender, EventArgs e)
-        {
-            if (tabCntrl.SelectedTab.Tag == null)
-            {
-                switch (tabCntrl.SelectedTab.Name)
-                {
-                    case nameof(tPagePersonalInfo):
-                        BindPersonalData();
-                        break;
-                    case nameof(tPageContactAdress):
-                        BindContactAddress();
-                        break;
-                    case nameof(tPagePassword):
-                        BindCredentials();
-                        break;
-                    case nameof(tPagePreviousJob):
-                        BindPreviousJob();
-                        break;
-                    case nameof(tPageEducation):
-                        BindEducation();
-                        break;
-                    case nameof(tPageChildInfo):
-                        BindChildren();
-                        break;
-                }
-                tabCntrl.SelectedTab.Tag = true;
-
-            }
-        }
-
         private void BindPersonalData()
         {
             BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
@@ -256,6 +226,36 @@ namespace KrosDotaznik
         private void BindChildren()
         {
             dgvChildren.DataSource = _viewModel.Children;
+        }
+
+        private void tabCntrl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabCntrl.SelectedTab.Tag == null)
+            {
+                switch (tabCntrl.SelectedTab.Name)
+                {
+                    case nameof(tPagePersonalInfo):
+                        BindPersonalData();
+                        break;
+                    case nameof(tPageContactAdress):
+                        BindContactAddress();
+                        break;
+                    case nameof(tPagePassword):
+                        BindCredentials();
+                        break;
+                    case nameof(tPagePreviousJob):
+                        BindPreviousJob();
+                        break;
+                    case nameof(tPageEducation):
+                        BindEducation();
+                        break;
+                    case nameof(tPageChildInfo):
+                        BindChildren();
+                        break;
+                }
+                tabCntrl.SelectedTab.Tag = true;
+
+            }
         }
     }
 }
