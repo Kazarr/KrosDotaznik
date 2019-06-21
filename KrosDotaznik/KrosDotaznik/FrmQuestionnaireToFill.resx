@@ -3084,6 +3084,654 @@
   <data name="&gt;&gt;tPageChildInfo.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="dtpEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 69</value>
+  </data>
+  <data name="dtpEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="dtpEndOfTrial.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.Name" xml:space="preserve">
+    <value>dtpEndOfTrial</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.Parent" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtpStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 36</value>
+  </data>
+  <data name="dtpStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="dtpStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Name" xml:space="preserve">
+    <value>dtpStartDate</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Parent" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpHireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 3</value>
+  </data>
+  <data name="dtpHireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="dtpHireDate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dtpHireDate.Name" xml:space="preserve">
+    <value>dtpHireDate</value>
+  </data>
+  <data name="&gt;&gt;dtpHireDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpHireDate.Parent" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;dtpHireDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 75</value>
+  </data>
+  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblEndOfTrial.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblEndOfTrial.Text" xml:space="preserve">
+    <value>End of trial</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.Name" xml:space="preserve">
+    <value>lblEndOfTrial</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.Parent" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Name" xml:space="preserve">
+    <value>lblStartDate</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Parent" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblHiredDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="lblHiredDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblHiredDate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblHiredDate.Text" xml:space="preserve">
+    <value>Hire date</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.Name" xml:space="preserve">
+    <value>lblHiredDate</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.Parent" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelWorkTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 3</value>
+  </data>
+  <data name="panelWorkTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 138</value>
+  </data>
+  <data name="panelWorkTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelWorkTime.Name" xml:space="preserve">
+    <value>panelWorkTime</value>
+  </data>
+  <data name="&gt;&gt;panelWorkTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelWorkTime.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panelWorkTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbWageCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 36</value>
+  </data>
+  <data name="cmbWageCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="cmbWageCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbWageCategory.Name" xml:space="preserve">
+    <value>cmbWageCategory</value>
+  </data>
+  <data name="&gt;&gt;cmbWageCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWageCategory.Parent" xml:space="preserve">
+    <value>panelRating</value>
+  </data>
+  <data name="&gt;&gt;cmbWageCategory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSalary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 3</value>
+  </data>
+  <data name="txtSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="txtSalary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSalary.Name" xml:space="preserve">
+    <value>txtSalary</value>
+  </data>
+  <data name="&gt;&gt;txtSalary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSalary.Parent" xml:space="preserve">
+    <value>panelRating</value>
+  </data>
+  <data name="&gt;&gt;txtSalary.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSalary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblSalary.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSalary.Text" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.Name" xml:space="preserve">
+    <value>lblSalary</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.Parent" xml:space="preserve">
+    <value>panelRating</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWageCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 39</value>
+  </data>
+  <data name="lblWageCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 23</value>
+  </data>
+  <data name="lblWageCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblWageCategory.Text" xml:space="preserve">
+    <value>Wage category</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.Name" xml:space="preserve">
+    <value>lblWageCategory</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.Parent" xml:space="preserve">
+    <value>panelRating</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 147</value>
+  </data>
+  <data name="panelRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 84</value>
+  </data>
+  <data name="panelRating.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelRating.Name" xml:space="preserve">
+    <value>panelRating</value>
+  </data>
+  <data name="&gt;&gt;panelRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelRating.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panelRating.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 70</value>
+  </data>
+  <data name="cmbTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="cmbTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbTeam.Name" xml:space="preserve">
+    <value>cmbTeam</value>
+  </data>
+  <data name="&gt;&gt;cmbTeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTeam.Parent" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;cmbTeam.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 37</value>
+  </data>
+  <data name="cmbDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="cmbDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbDivision.Name" xml:space="preserve">
+    <value>cmbDivision</value>
+  </data>
+  <data name="&gt;&gt;cmbDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbDivision.Parent" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;cmbDivision.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 4</value>
+  </data>
+  <data name="txtPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="txtPlaceOfWork.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfWork.Name" xml:space="preserve">
+    <value>txtPlaceOfWork</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfWork.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfWork.Parent" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfWork.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="lblPlaceOfWork.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPlaceOfWork.Text" xml:space="preserve">
+    <value>Place of work</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.Name" xml:space="preserve">
+    <value>lblPlaceOfWork</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.Parent" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDivision.Text" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.Name" xml:space="preserve">
+    <value>lblDivision</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.Parent" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 73</value>
+  </data>
+  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTeam.Text" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Name" xml:space="preserve">
+    <value>lblTeam</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Parent" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelWorkEnviroment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 147</value>
+  </data>
+  <data name="panelWorkEnviroment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 109</value>
+  </data>
+  <data name="panelWorkEnviroment.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelWorkEnviroment.Name" xml:space="preserve">
+    <value>panelWorkEnviroment</value>
+  </data>
+  <data name="&gt;&gt;panelWorkEnviroment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelWorkEnviroment.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panelWorkEnviroment.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 102</value>
+  </data>
+  <data name="cmbWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="cmbWorkExpiration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.Name" xml:space="preserve">
+    <value>cmbWorkExpiration</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWorkType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="lblWorkType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblWorkType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblWorkType.Text" xml:space="preserve">
+    <value>Work type</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.Name" xml:space="preserve">
+    <value>lblWorkType</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 69</value>
+  </data>
+  <data name="cmbWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="cmbWorkPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.Name" xml:space="preserve">
+    <value>cmbWorkPosition</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWorkHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 39</value>
+  </data>
+  <data name="lblWorkHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblWorkHours.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblWorkHours.Text" xml:space="preserve">
+    <value>Work hours</value>
+  </data>
+  <data name="&gt;&gt;lblWorkHours.Name" xml:space="preserve">
+    <value>lblWorkHours</value>
+  </data>
+  <data name="&gt;&gt;lblWorkHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkHours.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;lblWorkHours.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbWorkHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 36</value>
+  </data>
+  <data name="cmbWorkHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="cmbWorkHours.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkHours.Name" xml:space="preserve">
+    <value>cmbWorkHours</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkHours.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkHours.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblNewWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 75</value>
+  </data>
+  <data name="lblNewWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 23</value>
+  </data>
+  <data name="lblNewWorkPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblNewWorkPosition.Text" xml:space="preserve">
+    <value>Work position</value>
+  </data>
+  <data name="&gt;&gt;lblNewWorkPosition.Name" xml:space="preserve">
+    <value>lblNewWorkPosition</value>
+  </data>
+  <data name="&gt;&gt;lblNewWorkPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNewWorkPosition.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;lblNewWorkPosition.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbWorkType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 3</value>
+  </data>
+  <data name="cmbWorkType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="cmbWorkType.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkType.Name" xml:space="preserve">
+    <value>cmbWorkType</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkType.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 105</value>
+  </data>
+  <data name="lblWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="lblWorkExpiration.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblWorkExpiration.Text" xml:space="preserve">
+    <value>Work Expiration</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.Name" xml:space="preserve">
+    <value>lblWorkExpiration</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.Parent" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panelWorkDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panelWorkDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 138</value>
+  </data>
+  <data name="panelWorkDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelWorkDescription.Name" xml:space="preserve">
+    <value>panelWorkDescription</value>
+  </data>
+  <data name="&gt;&gt;panelWorkDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelWorkDescription.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panelWorkDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tPageJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="tPageJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1026, 779</value>
+  </data>
+  <data name="tPageJobSpecification.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tPageJobSpecification.Text" xml:space="preserve">
+    <value>Job specification</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Name" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="tabCntrl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold</value>
   </data>

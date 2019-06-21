@@ -424,87 +424,6 @@
   <data name="tPagePersonalInfo.Text" xml:space="preserve">
     <value>Údaje o zamestnancovi</value>
   </data>
-  <data name="tPageContactAdress.Text" xml:space="preserve">
-    <value>Kontakty, adresy</value>
-  </data>
-  <data name="tPagePassword.Text" xml:space="preserve">
-    <value>Heslá a prístupy</value>
-  </data>
-  <data name="tPageEducation.Text" xml:space="preserve">
-    <value>Údaje o vzdelaní</value>
-  </data>
-  <data name="tPagePreviousJob.Text" xml:space="preserve">
-    <value>Predchádzajúce zamestnanie</value>
-  </data>
-  <data name="tPageChildInfo.Text" xml:space="preserve">
-    <value>Údaje o deťoch</value>
-  </data>
-  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 19</value>
-  </data>
-  <data name="lblEndOfTrial.Text" xml:space="preserve">
-    <value>Skúšobná doba do</value>
-  </data>
-  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 19</value>
-  </data>
-  <data name="lblStartDate.Text" xml:space="preserve">
-    <value>Dátum nástupu</value>
-  </data>
-  <data name="lblHiredDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 19</value>
-  </data>
-  <data name="lblHiredDate.Text" xml:space="preserve">
-    <value>Vznik PP</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 6</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 115</value>
-  </data>
-  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 19</value>
-  </data>
-  <data name="lblSalary.Text" xml:space="preserve">
-    <value>Mzda</value>
-  </data>
-  <data name="lblWageCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 19</value>
-  </data>
-  <data name="lblWageCategory.Text" xml:space="preserve">
-    <value>Platová kategória</value>
-  </data>
-  <data name="panelRating.Location" type="System.Drawing.Point, System.Drawing">
-    <value>427, 202</value>
-  </data>
-  <data name="panelRating.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 74</value>
-  </data>
-  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 19</value>
-  </data>
-  <data name="lblPlaceOfWork.Text" xml:space="preserve">
-    <value>Miesto výkonu práce</value>
-  </data>
-  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 19</value>
-  </data>
-  <data name="lblDivision.Text" xml:space="preserve">
-    <value>Divízia</value>
-  </data>
-  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 19</value>
-  </data>
-  <data name="lblTeam.Text" xml:space="preserve">
-    <value>Tím</value>
-  </data>
-  <data name="panelWorkEnviroment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 161</value>
-  </data>
-  <data name="tPageJobSpecification.Text" xml:space="preserve">
-    <value>Údaje o pracovnom zaradení</value>
-  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1013, 288</value>
   </data>
@@ -601,6 +520,12 @@
   <data name="radioBtnMale.Text" xml:space="preserve">
     <value>Muž</value>
   </data>
+  <data name="tPageContactAdress.Text" xml:space="preserve">
+    <value>Kontakty, adresy</value>
+  </data>
+  <data name="tPagePassword.Text" xml:space="preserve">
+    <value>Heslá a prístupy</value>
+  </data>
   <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
     <value>562, 18</value>
   </data>
@@ -612,6 +537,12 @@
   </data>
   <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 27</value>
+  </data>
+  <data name="tPageEducation.Text" xml:space="preserve">
+    <value>Údaje o vzdelaní</value>
+  </data>
+  <data name="tPagePreviousJob.Text" xml:space="preserve">
+    <value>Predchádzajúce zamestnanie</value>
   </data>
   <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 21</value>
@@ -637,6 +568,9 @@
   <data name="lblJobFrom.Text" xml:space="preserve">
     <value>Od:</value>
   </data>
+  <data name="tPageChildInfo.Text" xml:space="preserve">
+    <value>Údaje o deťoch</value>
+  </data>
   <data name="colName.HeaderText" xml:space="preserve">
     <value>Meno</value>
   </data>
@@ -648,6 +582,87 @@
   </data>
   <data name="colBirthDate.HeaderText" xml:space="preserve">
     <value>Dátum narodenia</value>
+  </data>
+  <data name="tPageJobSpecification.Text" xml:space="preserve">
+    <value>Údaje o pracovnom zaradení</value>
+  </data>
+  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 19</value>
+  </data>
+  <data name="lblEndOfTrial.Text" xml:space="preserve">
+    <value>Skúšobná doba do</value>
+  </data>
+  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 19</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Dátum nástupu</value>
+  </data>
+  <data name="lblHiredDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 19</value>
+  </data>
+  <data name="lblHiredDate.Text" xml:space="preserve">
+    <value>Vznik PP</value>
+  </data>
+  <data name="panelRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 74</value>
+  </data>
+  <data name="cmbWageCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 36</value>
+  </data>
+  <data name="cmbWageCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="txtSalary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 3</value>
+  </data>
+  <data name="txtSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
+  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="lblSalary.Text" xml:space="preserve">
+    <value>Mzda</value>
+  </data>
+  <data name="lblWageCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 19</value>
+  </data>
+  <data name="lblWageCategory.Text" xml:space="preserve">
+    <value>Platová kategória</value>
+  </data>
+  <data name="panelWorkEnviroment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 147</value>
+  </data>
+  <data name="panelWorkEnviroment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 109</value>
+  </data>
+  <data name="cmbTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 70</value>
+  </data>
+  <data name="cmbDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 37</value>
+  </data>
+  <data name="txtPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 4</value>
+  </data>
+  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 19</value>
+  </data>
+  <data name="lblPlaceOfWork.Text" xml:space="preserve">
+    <value>Miesto výkonu práce</value>
+  </data>
+  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="lblDivision.Text" xml:space="preserve">
+    <value>Divízia</value>
+  </data>
+  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="lblTeam.Text" xml:space="preserve">
+    <value>Tím</value>
   </data>
   <data name="lblWorkType.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 19</value>
