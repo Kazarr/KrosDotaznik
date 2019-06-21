@@ -32,6 +32,8 @@ namespace Logic
         /// <param name="filePath">Where you want to save it</param>
         public void SaveJson(object objectToSerialize, string filePath)
         {
+            if (File.Exists(filePath)) File.Delete(filePath);
+
             string json = JsonConvert.SerializeObject(
                         objectToSerialize,
                         Formatting.Indented,
