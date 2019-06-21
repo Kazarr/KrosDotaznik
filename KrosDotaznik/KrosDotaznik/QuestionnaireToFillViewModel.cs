@@ -30,8 +30,8 @@ namespace KrosDotaznik
         private string _tempHouseNumberStreet = string.Empty;
         private string _tempHouseNumber = string.Empty;
         private string _tempStreet = string.Empty;
-        private string _payCheckPassword = "fero";
-        private int _pinAlarm = default(int);
+        //private string _payCheckPassword = "fero";
+        //private int _pinAlarm = default(int);
         private string _stringEduLevel = string.Empty;
         private string _stringCurrentEduLevel = string.Empty;
 
@@ -263,6 +263,8 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool Female { get => !Gender; }
+
 
         public int? HandicapInPercentage
         {
@@ -555,25 +557,25 @@ namespace KrosDotaznik
             }
         }
 
-        //public bool ParticipatingInRetirementSaving
-        //{
-        //    get => _employee.RetirementData.ParticipatingInRetirementSaving;
-        //    set
-        //    {
-        //        _employee.RetirementData.ParticipatingInRetirementSaving = value;
-        //        OnPropertyChange();
-        //    }
-        //}
+        public bool ParticipatingInRetirementSaving
+        {
+            get => _employee.RetirementData.ParticipatingInRetirementSaving;
+            set
+            {
+                _employee.RetirementData.ParticipatingInRetirementSaving = value;
+                OnPropertyChange();
+            }
+        }
 
-        //public bool? RetirementInsuranceCompanyException
-        //{
-        //    get => _employee.RetirementData.RetirementInsuranceCompanyException;
-        //    set
-        //    {
-        //        _employee.RetirementData.RetirementInsuranceCompanyException = value;
-        //        OnPropertyChange();
-        //    }
-        //}
+        public bool RetirementInsuranceCompanyException
+        {
+            get => _employee.RetirementData.RetirementInsuranceCompanyException;
+            set
+            {
+                _employee.RetirementData.RetirementInsuranceCompanyException = value;
+                OnPropertyChange();
+            }
+        }
 
         #endregion
         public DateTime StartDate
