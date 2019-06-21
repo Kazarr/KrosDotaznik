@@ -154,6 +154,7 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
+            this.saveFileData = new System.Windows.Forms.SaveFileDialog();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -961,7 +962,7 @@
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -977,6 +978,10 @@
             // 
             this.calendarColumn1.DataPropertyName = "BirthDate";
             this.calendarColumn1.Name = "calendarColumn1";
+            // 
+            // saveFileData
+            // 
+            this.saveFileData.RestoreDirectory = true;
             // 
             // FrmQuestionnaireToFill
             // 
@@ -1147,5 +1152,6 @@
         private System.Windows.Forms.Label lblTempHouseNumber;
         private System.Windows.Forms.TextBox txtHouseNumber;
         private System.Windows.Forms.Label lblHouseNumber;
+        private System.Windows.Forms.SaveFileDialog saveFileData;
     }
 }
