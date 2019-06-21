@@ -20,17 +20,10 @@ namespace KrosDotaznik
         private string _cultureInfo = System.Globalization.CultureInfo.CurrentCulture.ToString();
 
         private Employee _employee;
+        private FileService _fileService = new FileService();
         private string _stringState = string.Empty;
         private string _stringHealthInsurance = string.Empty;
         private string _stringRetirement = string.Empty;
-        private string _houseNumberStreet = string.Empty;
-        private string _houseNumber = string.Empty;
-        private string _street = string.Empty;
-        private string _tempHouseNumberStreet = string.Empty;
-        private string _tempHouseNumber = string.Empty;
-        private string _tempStreet = string.Empty;
-        private string _payCheckPassword = "fero";
-        private int _pinAlarm = default(int);
         private string _stringEduLevel = string.Empty;
         private string _stringCurrentEduLevel = string.Empty;
 
@@ -61,7 +54,7 @@ namespace KrosDotaznik
             }
             return newModel;
         }
-
+        #region Personal Info
         public string Name 
         {
             get => _employee.Name;
@@ -144,7 +137,9 @@ namespace KrosDotaznik
 
         public string StringState
         {
-            get => _stringState;
+            get => _employee.State==null
+                ? _stringState
+                : _employee.State.EmployeeState;
             set
             {
                 _stringState = value;
@@ -234,7 +229,9 @@ namespace KrosDotaznik
 
         public string StringHealthInsurance
         {
-            get => _stringHealthInsurance;
+            get => _employee.HealthInsuranceCompany == null
+                ? _stringHealthInsurance
+                : _employee.HealthInsuranceCompany.CompanyName;
             set
             {
                 _stringHealthInsurance = value;
@@ -243,7 +240,7 @@ namespace KrosDotaznik
             }
         }
 
-        public bool Handicap
+        public bool Disabled
         {
             get => _employee.Disabled;
             set
@@ -252,6 +249,7 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool NotDisabled { get => !Disabled; }
 
         public bool Gender
         {
@@ -262,8 +260,10 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool Female { get => !Gender; }
 
-        public int? HandicapInPercentage
+
+        public int HandicapInPercentage
         {
             get => _employee.DisabilityRate;
             set
@@ -272,7 +272,8 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Contact, address
         public string PhoneNumber
         {
             get => _employee.PhoneNumber;
@@ -293,34 +294,23 @@ namespace KrosDotaznik
             }
         }
 
-        public string HouseNumberStreet
-        {
-            get => _houseNumberStreet;
-            set
-            {
-                _houseNumberStreet = value;
-                var temp = value.Split(',');
-                Street = temp[0];
-                HouseNumber = temp[1];
-            }
-        }
 
         public string HouseNumber
         {
-            get => _houseNumber;
+            get => _employee.AddressData.HouseNumber;
             set
             {
-                _houseNumber = value;
+                _employee.AddressData.HouseNumber = value;
                 OnPropertyChange();
             }
         }
 
         public string Street
         {
-            get => _street;
+            get => _employee.AddressData.Street;
             set
             {
-                _street = value;
+                _employee.AddressData.Street = value;
                 OnPropertyChange();
             }
         }
@@ -345,34 +335,22 @@ namespace KrosDotaznik
             }
         }
 
-        public string TempHouseNumberStreet
-        {
-            get => _tempHouseNumberStreet;
-            set
-            {
-                _tempHouseNumberStreet = value;
-                var temp = value.Split(',');
-                TempStreet = temp[0];
-                TempHouseNumber = temp[1];
-            }
-        }
-
         public string TempHouseNumber
         {
-            get => _tempHouseNumber;
+            get => _employee.TemporaryAdressDdata.HouseNumber;
             set
             {
-                _tempHouseNumber = value;
+                _employee.TemporaryAdressDdata.HouseNumber = value;
                 OnPropertyChange();
             }
         }
 
         public string TempStreet
         {
-            get => _tempStreet;
+            get => _employee.TemporaryAdressDdata.Street;
             set
             {
-                _tempStreet = value;
+                _employee.TemporaryAdressDdata.Street = value;
                 OnPropertyChange();
             }
         }
@@ -396,27 +374,29 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Credentials
         public string PayChechPassword
         {
-            get => _payCheckPassword;
+            get =>_fileService.Decrypt(_employee.Credentials.PaycheckPassword);
             set
             {
-                _payCheckPassword = value;
+                _employee.Credentials.PaycheckPassword = _fileService.Encrypt(value);
                 OnPropertyChange();
             }
         }
 
-        public int PinAlarm
+        public string PinAlarm
         {
-            get => _pinAlarm;
+            get => _fileService.Decrypt(_employee.Credentials.PinAlarm);
             set
             {
-                _pinAlarm = value;
+                _employee.Credentials.PinAlarm = _fileService.Encrypt(value);
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Education
         public string HighestSchool
         {
             get => _employee.HighestEducationData.School;
@@ -459,7 +439,9 @@ namespace KrosDotaznik
 
         public string StringEducationLevel
         {
-            get => _stringEduLevel;
+            get => _employee.HighestEducationData.EducationLevel == null
+                ? _stringCurrentEduLevel
+                : _employee.HighestEducationData.EducationLevel.EducationLevelName;
             set
             {
                 _stringEduLevel = value;
@@ -510,7 +492,9 @@ namespace KrosDotaznik
 
         public string StringCurrentEducationLevel
         {
-            get => _stringCurrentEduLevel;
+            get => _employee.CurrentEducationData.EducationLevel == null  
+                ? _stringCurrentEduLevel
+                : _employee.CurrentEducationData.EducationLevel.EducationLevelName;
             set
             {
                 _stringCurrentEduLevel = value;
@@ -518,20 +502,23 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
+        #region Retirement
         public Retirement Retirement
         {
             get => _employee.RetirementData.Retirement;
             set
             {
                 _employee.RetirementData.Retirement = SetPropertiesForCmbox<Retirement>(RetirementData, _stringRetirement);
-                //OnPropertyChange();
+                OnPropertyChange();
             }
         }
 
         public string StringRetirement
         {
-            get => _stringRetirement;
+            get => _employee.RetirementData.Retirement==null
+                ? _stringRetirement
+                : _employee.RetirementData.Retirement.PensionName;
             set
             {
                 _stringRetirement = value;
@@ -550,6 +537,30 @@ namespace KrosDotaznik
             }
         }
 
+        public bool ParticipatingInRetirementSaving
+        {
+            get => _employee.RetirementData.ParticipatingInRetirementSaving;
+            set
+            {
+                _employee.RetirementData.ParticipatingInRetirementSaving = value;
+                OnPropertyChange();
+            }
+        }
+        public bool NotParticipatingInRetirementSaving { get => !ParticipatingInRetirementSaving; }
+
+        public bool RetirementInsuranceCompanyException
+        {
+            get => _employee.RetirementData.RetirementInsuranceCompanyException;
+            set
+            {
+                _employee.RetirementData.RetirementInsuranceCompanyException = value;
+                OnPropertyChange();
+            }
+        }
+        public bool NotRetirementInsuranceCompanyException { get => !RetirementInsuranceCompanyException; }
+
+        #endregion
+        #region Previous Job
         public DateTime StartDate
         {
             get => _employee.PreviousJobData.StartDate;
@@ -589,10 +600,10 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
         public BindingList<Child> Children
         {
-            get => _children;
+            get => new BindingList<Child>(_employee.Children);
             set
             {
                 _employee.Children = value.ToList();
@@ -611,6 +622,7 @@ namespace KrosDotaznik
                     {
                         property.SetValue(_employee,property.GetValue(value));
                     }
+                    //Children = new BindingList<Child>(value.Children);
                 }
             }
         }
@@ -665,7 +677,6 @@ namespace KrosDotaznik
 
         public void Save(string filePath)
         {
-            _employee.Children = _children.ToList();
             FileService fs = new FileService();
             Employee employee = _employee;
             Questionare questionare = new Questionare()

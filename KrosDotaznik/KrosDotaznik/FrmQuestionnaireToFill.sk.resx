@@ -241,6 +241,12 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>Meno:</value>
   </data>
+  <data name="lblTempHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="lblTempHouseNumber.Text" xml:space="preserve">
+    <value>Číslo :</value>
+  </data>
   <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
     <value>745, 20</value>
   </data>
@@ -263,13 +269,19 @@
     <value>Mesto:</value>
   </data>
   <data name="lblStreetTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 21</value>
+    <value>56, 21</value>
   </data>
   <data name="lblStreetTemp.Text" xml:space="preserve">
-    <value>Ulica, číslo:</value>
+    <value>Ulica :</value>
   </data>
   <data name="grBoxTemporaryAddress.Text" xml:space="preserve">
     <value>Prechodné bydlisko</value>
+  </data>
+  <data name="lblHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="lblHouseNumber.Text" xml:space="preserve">
+    <value>Číslo :</value>
   </data>
   <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
     <value>745, 20</value>
@@ -293,10 +305,10 @@
     <value>Mesto:</value>
   </data>
   <data name="lblStreet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 21</value>
+    <value>56, 21</value>
   </data>
   <data name="lblStreet.Text" xml:space="preserve">
-    <value>Ulica, číslo:</value>
+    <value>Ulica :</value>
   </data>
   <data name="grBoxAddress.Text" xml:space="preserve">
     <value>Adresa trvalého bydliska</value>

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -51,16 +51,20 @@
             this.lblIdentityCard = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.grBoxTemporaryAddress = new System.Windows.Forms.GroupBox();
+            this.txtTempHouseNumber = new System.Windows.Forms.TextBox();
+            this.lblTempHouseNumber = new System.Windows.Forms.Label();
             this.txtTempPostalCode = new System.Windows.Forms.TextBox();
             this.txtTempCity = new System.Windows.Forms.TextBox();
-            this.txtTempStreetHouseNumber = new System.Windows.Forms.TextBox();
+            this.txtTempStreet = new System.Windows.Forms.TextBox();
             this.lblPostalCodeTemp = new System.Windows.Forms.Label();
             this.lblCityTemp = new System.Windows.Forms.Label();
             this.lblStreetTemp = new System.Windows.Forms.Label();
             this.grBoxAddress = new System.Windows.Forms.GroupBox();
+            this.txtHouseNumber = new System.Windows.Forms.TextBox();
+            this.lblHouseNumber = new System.Windows.Forms.Label();
             this.txtPostalCode = new System.Windows.Forms.TextBox();
             this.txtCity = new System.Windows.Forms.TextBox();
-            this.txtStreetHouseNumber = new System.Windows.Forms.TextBox();
+            this.txtStreet = new System.Windows.Forms.TextBox();
             this.lblPostalCode = new System.Windows.Forms.Label();
             this.lblCity = new System.Windows.Forms.Label();
             this.lblStreet = new System.Windows.Forms.Label();
@@ -150,7 +154,6 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
-            this.saveFileData = new System.Windows.Forms.SaveFileDialog();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -274,15 +277,27 @@
             // 
             // grBoxTemporaryAddress
             // 
+            this.grBoxTemporaryAddress.Controls.Add(this.txtTempHouseNumber);
+            this.grBoxTemporaryAddress.Controls.Add(this.lblTempHouseNumber);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempPostalCode);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempCity);
-            this.grBoxTemporaryAddress.Controls.Add(this.txtTempStreetHouseNumber);
+            this.grBoxTemporaryAddress.Controls.Add(this.txtTempStreet);
             this.grBoxTemporaryAddress.Controls.Add(this.lblPostalCodeTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblCityTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblStreetTemp);
             resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Name = "grBoxTemporaryAddress";
             this.grBoxTemporaryAddress.TabStop = false;
+            // 
+            // txtTempHouseNumber
+            // 
+            resources.ApplyResources(this.txtTempHouseNumber, "txtTempHouseNumber");
+            this.txtTempHouseNumber.Name = "txtTempHouseNumber";
+            // 
+            // lblTempHouseNumber
+            // 
+            resources.ApplyResources(this.lblTempHouseNumber, "lblTempHouseNumber");
+            this.lblTempHouseNumber.Name = "lblTempHouseNumber";
             // 
             // txtTempPostalCode
             // 
@@ -294,10 +309,10 @@
             resources.ApplyResources(this.txtTempCity, "txtTempCity");
             this.txtTempCity.Name = "txtTempCity";
             // 
-            // txtTempStreetHouseNumber
+            // txtTempStreet
             // 
-            resources.ApplyResources(this.txtTempStreetHouseNumber, "txtTempStreetHouseNumber");
-            this.txtTempStreetHouseNumber.Name = "txtTempStreetHouseNumber";
+            resources.ApplyResources(this.txtTempStreet, "txtTempStreet");
+            this.txtTempStreet.Name = "txtTempStreet";
             // 
             // lblPostalCodeTemp
             // 
@@ -316,15 +331,27 @@
             // 
             // grBoxAddress
             // 
+            this.grBoxAddress.Controls.Add(this.txtHouseNumber);
+            this.grBoxAddress.Controls.Add(this.lblHouseNumber);
             this.grBoxAddress.Controls.Add(this.txtPostalCode);
             this.grBoxAddress.Controls.Add(this.txtCity);
-            this.grBoxAddress.Controls.Add(this.txtStreetHouseNumber);
+            this.grBoxAddress.Controls.Add(this.txtStreet);
             this.grBoxAddress.Controls.Add(this.lblPostalCode);
             this.grBoxAddress.Controls.Add(this.lblCity);
             this.grBoxAddress.Controls.Add(this.lblStreet);
             resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Name = "grBoxAddress";
             this.grBoxAddress.TabStop = false;
+            // 
+            // txtHouseNumber
+            // 
+            resources.ApplyResources(this.txtHouseNumber, "txtHouseNumber");
+            this.txtHouseNumber.Name = "txtHouseNumber";
+            // 
+            // lblHouseNumber
+            // 
+            resources.ApplyResources(this.lblHouseNumber, "lblHouseNumber");
+            this.lblHouseNumber.Name = "lblHouseNumber";
             // 
             // txtPostalCode
             // 
@@ -336,10 +363,10 @@
             resources.ApplyResources(this.txtCity, "txtCity");
             this.txtCity.Name = "txtCity";
             // 
-            // txtStreetHouseNumber
+            // txtStreet
             // 
-            resources.ApplyResources(this.txtStreetHouseNumber, "txtStreetHouseNumber");
-            this.txtStreetHouseNumber.Name = "txtStreetHouseNumber";
+            resources.ApplyResources(this.txtStreet, "txtStreet");
+            this.txtStreet.Name = "txtStreet";
             // 
             // lblPostalCode
             // 
@@ -497,6 +524,7 @@
             resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Name = "tabCntrl";
             this.tabCntrl.SelectedIndex = 0;
+            this.tabCntrl.SelectedIndexChanged += new System.EventHandler(this.tabCntrl_SelectedIndexChanged);
             // 
             // tPagePersonalInfo
             // 
@@ -910,9 +938,9 @@
             // colBirthDate
             // 
             this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.colBirthDate, "colBirthDate");
             this.colBirthDate.Name = "colBirthDate";
             // 
@@ -933,7 +961,7 @@
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -1078,10 +1106,10 @@
         private System.Windows.Forms.DateTimePicker datePickerRetiredSince;
         private System.Windows.Forms.TextBox txtTempPostalCode;
         private System.Windows.Forms.TextBox txtTempCity;
-        private System.Windows.Forms.TextBox txtTempStreetHouseNumber;
+        private System.Windows.Forms.TextBox txtTempStreet;
         private System.Windows.Forms.TextBox txtPostalCode;
         private System.Windows.Forms.TextBox txtCity;
-        private System.Windows.Forms.TextBox txtStreetHouseNumber;
+        private System.Windows.Forms.TextBox txtStreet;
         private System.Windows.Forms.TextBox txtCurrentSchoolMajor;
         private System.Windows.Forms.TextBox txtCurrentSchoolEndYear;
         private System.Windows.Forms.TextBox txtCurrentSchool;
@@ -1115,6 +1143,9 @@
         private CalendarColumnPicker.CalendarColumn colBirthDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn colId;
         private System.Windows.Forms.DataGridViewTextBoxColumn colEmployeeId;
-        private System.Windows.Forms.SaveFileDialog saveFileData;
+        private System.Windows.Forms.TextBox txtTempHouseNumber;
+        private System.Windows.Forms.Label lblTempHouseNumber;
+        private System.Windows.Forms.TextBox txtHouseNumber;
+        private System.Windows.Forms.Label lblHouseNumber;
     }
 }

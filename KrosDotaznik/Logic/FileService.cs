@@ -32,6 +32,8 @@ namespace Logic
         /// <param name="filePath">Where you want to save it</param>
         public void SaveJson(object objectToSerialize, string filePath)
         {
+            if (File.Exists(filePath)) File.Delete(filePath);
+
             string json = JsonConvert.SerializeObject(
                         objectToSerialize,
                         Formatting.Indented,
@@ -123,7 +125,7 @@ namespace Logic
         {
             // Check arguments.
             if (cipherText == null || cipherText.Length <= 0)
-                throw new ArgumentNullException("cipherText");
+                return string.Empty;
             if (Key == null || Key.Length <= 0)
                 throw new ArgumentNullException("Key");
             if (IV == null || IV.Length <= 0)
