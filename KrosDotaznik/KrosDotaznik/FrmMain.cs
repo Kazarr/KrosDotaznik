@@ -107,9 +107,9 @@ namespace KrosDotaznik
                 {
                     _mainViewModel.OpenQuestionnaireToFill(openFile.FileName);
                 }
-                catch (Newtonsoft.Json.JsonReaderException exception)
+                catch (Newtonsoft.Json.JsonReaderException)
                 {
-                    MessageBox.Show("Súbor je pravdepodobne poškodený a nieje možné ho načítať.", "Poškodený súbor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Resources.MainForm.msgWarningText, Resources.MainForm.msgWarning, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
