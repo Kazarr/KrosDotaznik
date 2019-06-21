@@ -23,9 +23,9 @@ namespace KrosDotaznik
 
         public void OpenQuestionnaireCreate()
         {
-            using (FrmQuestionnaireCreate toFill = new FrmQuestionnaireCreate())
+            using (FrmQuestionnaireCreate toCreate = new FrmQuestionnaireCreate())
             {
-                toFill.ShowDialog();
+                toCreate.ShowDialog();
             }
         }
 
