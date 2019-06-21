@@ -150,6 +150,35 @@
             this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tPageJobSpecification = new System.Windows.Forms.TabPage();
+            this.panelWorkTime = new System.Windows.Forms.Panel();
+            this.dtpEndOfTrial = new System.Windows.Forms.DateTimePicker();
+            this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
+            this.dtpHireDate = new System.Windows.Forms.DateTimePicker();
+            this.lblEndOfTrial = new System.Windows.Forms.Label();
+            this.lblStartDate = new System.Windows.Forms.Label();
+            this.lblHiredDate = new System.Windows.Forms.Label();
+            this.panelRating = new System.Windows.Forms.Panel();
+            this.cmbWageCategory = new System.Windows.Forms.ComboBox();
+            this.txtSalary = new System.Windows.Forms.TextBox();
+            this.lblSalary = new System.Windows.Forms.Label();
+            this.lblWageCategory = new System.Windows.Forms.Label();
+            this.panelWorkEnviroment = new System.Windows.Forms.Panel();
+            this.cmbTeam = new System.Windows.Forms.ComboBox();
+            this.cmbDivision = new System.Windows.Forms.ComboBox();
+            this.txtPlaceOfWork = new System.Windows.Forms.TextBox();
+            this.lblPlaceOfWork = new System.Windows.Forms.Label();
+            this.lblDivision = new System.Windows.Forms.Label();
+            this.lblTeam = new System.Windows.Forms.Label();
+            this.panelWorkDescription = new System.Windows.Forms.Panel();
+            this.cmbWorkExpiration = new System.Windows.Forms.ComboBox();
+            this.lblWorkType = new System.Windows.Forms.Label();
+            this.cmbWorkPosition = new System.Windows.Forms.ComboBox();
+            this.lblWorkHours = new System.Windows.Forms.Label();
+            this.cmbWorkHours = new System.Windows.Forms.ComboBox();
+            this.lblNewWorkPosition = new System.Windows.Forms.Label();
+            this.cmbWorkType = new System.Windows.Forms.ComboBox();
+            this.lblWorkExpiration = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -174,6 +203,11 @@
             this.tPagePreviousJob.SuspendLayout();
             this.tPageChildInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).BeginInit();
+            this.tPageJobSpecification.SuspendLayout();
+            this.panelWorkTime.SuspendLayout();
+            this.panelRating.SuspendLayout();
+            this.panelWorkEnviroment.SuspendLayout();
+            this.panelWorkDescription.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblRetiredSince
@@ -522,6 +556,7 @@
             this.tabCntrl.Controls.Add(this.tPageEducation);
             this.tabCntrl.Controls.Add(this.tPagePreviousJob);
             this.tabCntrl.Controls.Add(this.tPageChildInfo);
+            this.tabCntrl.Controls.Add(this.tPageJobSpecification);
             resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Name = "tabCntrl";
             this.tabCntrl.SelectedIndex = 0;
@@ -957,6 +992,188 @@
             resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
             this.colEmployeeId.Name = "colEmployeeId";
             // 
+            // tPageJobSpecification
+            // 
+            this.tPageJobSpecification.Controls.Add(this.panelWorkTime);
+            this.tPageJobSpecification.Controls.Add(this.panelRating);
+            this.tPageJobSpecification.Controls.Add(this.panelWorkEnviroment);
+            this.tPageJobSpecification.Controls.Add(this.panelWorkDescription);
+            resources.ApplyResources(this.tPageJobSpecification, "tPageJobSpecification");
+            this.tPageJobSpecification.Name = "tPageJobSpecification";
+            this.tPageJobSpecification.UseVisualStyleBackColor = true;
+            // 
+            // panelWorkTime
+            // 
+            this.panelWorkTime.Controls.Add(this.dtpEndOfTrial);
+            this.panelWorkTime.Controls.Add(this.dtpStartDate);
+            this.panelWorkTime.Controls.Add(this.dtpHireDate);
+            this.panelWorkTime.Controls.Add(this.lblEndOfTrial);
+            this.panelWorkTime.Controls.Add(this.lblStartDate);
+            this.panelWorkTime.Controls.Add(this.lblHiredDate);
+            resources.ApplyResources(this.panelWorkTime, "panelWorkTime");
+            this.panelWorkTime.Name = "panelWorkTime";
+            // 
+            // dtpEndOfTrial
+            // 
+            resources.ApplyResources(this.dtpEndOfTrial, "dtpEndOfTrial");
+            this.dtpEndOfTrial.Name = "dtpEndOfTrial";
+            // 
+            // dtpStartDate
+            // 
+            resources.ApplyResources(this.dtpStartDate, "dtpStartDate");
+            this.dtpStartDate.Name = "dtpStartDate";
+            // 
+            // dtpHireDate
+            // 
+            resources.ApplyResources(this.dtpHireDate, "dtpHireDate");
+            this.dtpHireDate.Name = "dtpHireDate";
+            // 
+            // lblEndOfTrial
+            // 
+            resources.ApplyResources(this.lblEndOfTrial, "lblEndOfTrial");
+            this.lblEndOfTrial.Name = "lblEndOfTrial";
+            // 
+            // lblStartDate
+            // 
+            resources.ApplyResources(this.lblStartDate, "lblStartDate");
+            this.lblStartDate.Name = "lblStartDate";
+            // 
+            // lblHiredDate
+            // 
+            resources.ApplyResources(this.lblHiredDate, "lblHiredDate");
+            this.lblHiredDate.Name = "lblHiredDate";
+            // 
+            // panelRating
+            // 
+            this.panelRating.Controls.Add(this.cmbWageCategory);
+            this.panelRating.Controls.Add(this.txtSalary);
+            this.panelRating.Controls.Add(this.lblSalary);
+            this.panelRating.Controls.Add(this.lblWageCategory);
+            resources.ApplyResources(this.panelRating, "panelRating");
+            this.panelRating.Name = "panelRating";
+            // 
+            // cmbWageCategory
+            // 
+            this.cmbWageCategory.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWageCategory, "cmbWageCategory");
+            this.cmbWageCategory.Name = "cmbWageCategory";
+            // 
+            // txtSalary
+            // 
+            resources.ApplyResources(this.txtSalary, "txtSalary");
+            this.txtSalary.Name = "txtSalary";
+            this.txtSalary.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // lblSalary
+            // 
+            resources.ApplyResources(this.lblSalary, "lblSalary");
+            this.lblSalary.Name = "lblSalary";
+            // 
+            // lblWageCategory
+            // 
+            resources.ApplyResources(this.lblWageCategory, "lblWageCategory");
+            this.lblWageCategory.Name = "lblWageCategory";
+            // 
+            // panelWorkEnviroment
+            // 
+            this.panelWorkEnviroment.Controls.Add(this.cmbTeam);
+            this.panelWorkEnviroment.Controls.Add(this.cmbDivision);
+            this.panelWorkEnviroment.Controls.Add(this.txtPlaceOfWork);
+            this.panelWorkEnviroment.Controls.Add(this.lblPlaceOfWork);
+            this.panelWorkEnviroment.Controls.Add(this.lblDivision);
+            this.panelWorkEnviroment.Controls.Add(this.lblTeam);
+            resources.ApplyResources(this.panelWorkEnviroment, "panelWorkEnviroment");
+            this.panelWorkEnviroment.Name = "panelWorkEnviroment";
+            // 
+            // cmbTeam
+            // 
+            this.cmbTeam.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbTeam, "cmbTeam");
+            this.cmbTeam.Name = "cmbTeam";
+            // 
+            // cmbDivision
+            // 
+            this.cmbDivision.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbDivision, "cmbDivision");
+            this.cmbDivision.Name = "cmbDivision";
+            // 
+            // txtPlaceOfWork
+            // 
+            resources.ApplyResources(this.txtPlaceOfWork, "txtPlaceOfWork");
+            this.txtPlaceOfWork.Name = "txtPlaceOfWork";
+            // 
+            // lblPlaceOfWork
+            // 
+            resources.ApplyResources(this.lblPlaceOfWork, "lblPlaceOfWork");
+            this.lblPlaceOfWork.Name = "lblPlaceOfWork";
+            // 
+            // lblDivision
+            // 
+            resources.ApplyResources(this.lblDivision, "lblDivision");
+            this.lblDivision.Name = "lblDivision";
+            // 
+            // lblTeam
+            // 
+            resources.ApplyResources(this.lblTeam, "lblTeam");
+            this.lblTeam.Name = "lblTeam";
+            // 
+            // panelWorkDescription
+            // 
+            this.panelWorkDescription.Controls.Add(this.cmbWorkExpiration);
+            this.panelWorkDescription.Controls.Add(this.lblWorkType);
+            this.panelWorkDescription.Controls.Add(this.cmbWorkPosition);
+            this.panelWorkDescription.Controls.Add(this.lblWorkHours);
+            this.panelWorkDescription.Controls.Add(this.cmbWorkHours);
+            this.panelWorkDescription.Controls.Add(this.lblNewWorkPosition);
+            this.panelWorkDescription.Controls.Add(this.cmbWorkType);
+            this.panelWorkDescription.Controls.Add(this.lblWorkExpiration);
+            resources.ApplyResources(this.panelWorkDescription, "panelWorkDescription");
+            this.panelWorkDescription.Name = "panelWorkDescription";
+            // 
+            // cmbWorkExpiration
+            // 
+            this.cmbWorkExpiration.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
+            this.cmbWorkExpiration.Name = "cmbWorkExpiration";
+            // 
+            // lblWorkType
+            // 
+            resources.ApplyResources(this.lblWorkType, "lblWorkType");
+            this.lblWorkType.Name = "lblWorkType";
+            // 
+            // cmbWorkPosition
+            // 
+            this.cmbWorkPosition.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
+            this.cmbWorkPosition.Name = "cmbWorkPosition";
+            // 
+            // lblWorkHours
+            // 
+            resources.ApplyResources(this.lblWorkHours, "lblWorkHours");
+            this.lblWorkHours.Name = "lblWorkHours";
+            // 
+            // cmbWorkHours
+            // 
+            this.cmbWorkHours.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkHours, "cmbWorkHours");
+            this.cmbWorkHours.Name = "cmbWorkHours";
+            // 
+            // lblNewWorkPosition
+            // 
+            resources.ApplyResources(this.lblNewWorkPosition, "lblNewWorkPosition");
+            this.lblNewWorkPosition.Name = "lblNewWorkPosition";
+            // 
+            // cmbWorkType
+            // 
+            this.cmbWorkType.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkType, "cmbWorkType");
+            this.cmbWorkType.Name = "cmbWorkType";
+            // 
+            // lblWorkExpiration
+            // 
+            resources.ApplyResources(this.lblWorkExpiration, "lblWorkExpiration");
+            this.lblWorkExpiration.Name = "lblWorkExpiration";
+            // 
             // btnSave
             // 
             resources.ApplyResources(this.btnSave, "btnSave");
@@ -1023,6 +1240,13 @@
             this.tPagePreviousJob.PerformLayout();
             this.tPageChildInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).EndInit();
+            this.tPageJobSpecification.ResumeLayout(false);
+            this.panelWorkTime.ResumeLayout(false);
+            this.panelRating.ResumeLayout(false);
+            this.panelRating.PerformLayout();
+            this.panelWorkEnviroment.ResumeLayout(false);
+            this.panelWorkEnviroment.PerformLayout();
+            this.panelWorkDescription.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1152,6 +1376,35 @@
         private System.Windows.Forms.Label lblTempHouseNumber;
         private System.Windows.Forms.TextBox txtHouseNumber;
         private System.Windows.Forms.Label lblHouseNumber;
+        private System.Windows.Forms.TabPage tPageJobSpecification;
+        private System.Windows.Forms.Label lblEndOfTrial;
+        private System.Windows.Forms.Label lblWorkExpiration;
+        private System.Windows.Forms.Label lblStartDate;
+        private System.Windows.Forms.Label lblHiredDate;
+        private System.Windows.Forms.Label lblTeam;
+        private System.Windows.Forms.Label lblDivision;
+        private System.Windows.Forms.Label lblNewWorkPosition;
+        private System.Windows.Forms.Label lblWorkHours;
+        private System.Windows.Forms.Label lblWorkType;
+        private System.Windows.Forms.Label lblPlaceOfWork;
+        private System.Windows.Forms.Label lblSalary;
+        private System.Windows.Forms.Panel panelWorkTime;
+        private System.Windows.Forms.DateTimePicker dtpEndOfTrial;
+        private System.Windows.Forms.DateTimePicker dtpStartDate;
+        private System.Windows.Forms.DateTimePicker dtpHireDate;
+        private System.Windows.Forms.Panel panelRating;
+        private System.Windows.Forms.ComboBox cmbWageCategory;
+        private System.Windows.Forms.TextBox txtSalary;
+        private System.Windows.Forms.Label lblWageCategory;
+        private System.Windows.Forms.Panel panelWorkEnviroment;
+        private System.Windows.Forms.ComboBox cmbTeam;
+        private System.Windows.Forms.ComboBox cmbDivision;
+        private System.Windows.Forms.TextBox txtPlaceOfWork;
+        private System.Windows.Forms.Panel panelWorkDescription;
+        private System.Windows.Forms.ComboBox cmbWorkExpiration;
+        private System.Windows.Forms.ComboBox cmbWorkPosition;
+        private System.Windows.Forms.ComboBox cmbWorkHours;
+        private System.Windows.Forms.ComboBox cmbWorkType;
         private System.Windows.Forms.SaveFileDialog saveFileData;
     }
 }
