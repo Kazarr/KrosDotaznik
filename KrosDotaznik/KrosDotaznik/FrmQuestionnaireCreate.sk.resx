@@ -117,16 +117,92 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnCreate" xml:space="preserve">
-    <value>Create questionnaire</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chbxJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 259</value>
   </data>
-  <data name="btnFill" xml:space="preserve">
-    <value>Fill questionnaire</value>
+  <data name="chbxJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 24</value>
   </data>
-  <data name="msgWarning" xml:space="preserve">
-    <value>Damaged file</value>
+  <data name="chbxJobSpecification.Text" xml:space="preserve">
+    <value>Údaje o pracovnom zaradení</value>
   </data>
-  <data name="msgWarningText" xml:space="preserve">
-    <value>File is probably damaged. It cannot be loaded.</value>
+  <data name="chbxChild.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 229</value>
+  </data>
+  <data name="chbxChild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="chbxChild.Text" xml:space="preserve">
+    <value>Údaje o deťoch</value>
+  </data>
+  <data name="chbxPrevious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 195</value>
+  </data>
+  <data name="chbxPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
+  </data>
+  <data name="chbxPrevious.Text" xml:space="preserve">
+    <value>Predchadzajúce zamestnanie</value>
+  </data>
+  <data name="chbxEducation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 162</value>
+  </data>
+  <data name="chbxEducation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="chbxEducation.Text" xml:space="preserve">
+    <value>Údaje o vzdelaní</value>
+  </data>
+  <data name="chbxPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
+  </data>
+  <data name="chbxPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 24</value>
+  </data>
+  <data name="chbxPassword.Text" xml:space="preserve">
+    <value>Heslá a prístupy</value>
+  </data>
+  <data name="chbxContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="chbxContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="chbxContacts.Text" xml:space="preserve">
+    <value>Kontakty, adresy</value>
+  </data>
+  <data name="chbxEmployeeData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 62</value>
+  </data>
+  <data name="chbxEmployeeData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 24</value>
+  </data>
+  <data name="chbxEmployeeData.Text" xml:space="preserve">
+    <value>Údaje o zamestnancovi</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 307</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 307</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 289</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Vyberte si skupiny údajov, ktoré chcete zobraziť v dotazníku</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>383, 344</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vytvoriť dotazník</value>
   </data>
 </root>

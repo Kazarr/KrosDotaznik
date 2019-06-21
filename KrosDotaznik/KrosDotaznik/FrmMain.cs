@@ -27,56 +27,22 @@ namespace KrosDotaznik
             InitializeComponent();
             _mainViewModel = new MainViewModel();
             SetComponentsByLanguage();
-            BindingCheckBox();
             MakeVisible(allowCreate);
         }
-
         private void MakeVisible(bool allowCreate)
         {
             if (allowCreate)
-            {
-                foreach(CheckBox checkBox in Controls.OfType<CheckBox>())
-                {
-                    checkBox.Visible = true;
-                }
+            {                
                 btnCreate.Visible = true;
             }
         }
         #endregion
 
         #region Set components res
-        private void SetComponentsByLanguage() {
+        private void SetComponentsByLanguage()
+        {
             btnCreate.Text = Resources.MainForm.btnCreate;
             btnFill.Text = Resources.MainForm.btnFill;
-            chbxEmployeeData.Text = Resources.Questionnaire.lblPersonalInfo;
-            chbxContacts.Text = Resources.Questionnaire.lblContactAddress;
-            chbxPassword.Text = Resources.Questionnaire.lblPassAndApproaches;
-            chbxEducation.Text = Resources.Questionnaire.lblEducation;
-            chbxPrevious.Text = Resources.Questionnaire.lblPreviousJob;
-            chbxChild.Text = Resources.Questionnaire.lblChildInfo;
-            chbxJobSpecification.Text = Resources.Questionnaire.lblJobSpecification;
-        }
-        #endregion
-
-        #region Binding components
-        private void BindCheckBoxControls(CheckBox checkBox, string memberData)
-        {
-            checkBox.DataBindings.Add(
-                nameof(checkBox.Checked),
-                _mainViewModel,
-                memberData,
-                false,
-                DataSourceUpdateMode.OnPropertyChanged);            
-        }
-        public void BindingCheckBox()
-        {
-            BindCheckBoxControls(chbxEmployeeData, nameof(_mainViewModel.EmployeeData));
-            BindCheckBoxControls(chbxContacts, nameof(_mainViewModel.ContactsAddress));
-            BindCheckBoxControls(chbxPassword, nameof(_mainViewModel.PasswordAccess));
-            BindCheckBoxControls(chbxEducation, nameof(_mainViewModel.EducationData));
-            BindCheckBoxControls(chbxPrevious, nameof(_mainViewModel.PreviousJob));
-            BindCheckBoxControls(chbxChild, nameof(_mainViewModel.ChildData));
-            BindCheckBoxControls(chbxJobSpecification, nameof(_mainViewModel.JobSpecification));
         }
         #endregion
 
@@ -107,16 +73,16 @@ namespace KrosDotaznik
                 {
                     _mainViewModel.OpenQuestionnaireToFill(openFile.FileName);
                 }
-                catch (Newtonsoft.Json.JsonReaderException exception)
+                catch (Newtonsoft.Json.JsonReaderException)
                 {
-                    MessageBox.Show("Súbor je pravdepodobne poškodený a nieje možné ho načítať.", "Poškodený súbor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Resources.MainForm.msgWarningText, Resources.MainForm.msgWarning, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            _mainViewModel.SaveQuestionnaire();
+            _mainViewModel.OpenQuestionnaireCreate();
         }
         #endregion
     }

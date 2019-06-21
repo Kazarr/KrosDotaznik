@@ -77,5 +77,23 @@ namespace KrosDotaznik.Resources {
                 return ResourceManager.GetString("btnFill", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poškodený súbor.
+        /// </summary>
+        internal static string msgWarning {
+            get {
+                return ResourceManager.GetString("msgWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Súbor je pravdepodobne poškodený a nieje možné ho načítať..
+        /// </summary>
+        internal static string msgWarningText {
+            get {
+                return ResourceManager.GetString("msgWarningText", resourceCulture);
+            }
+        }
     }
 }

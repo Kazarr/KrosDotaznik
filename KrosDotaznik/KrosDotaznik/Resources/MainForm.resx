@@ -123,4 +123,10 @@
   <data name="btnFill" xml:space="preserve">
     <value>Vyplň dotazník</value>
   </data>
+  <data name="msgWarning" xml:space="preserve">
+    <value>Poškodený súbor</value>
+  </data>
+  <data name="msgWarningText" xml:space="preserve">
+    <value>Súbor je pravdepodobne poškodený a nieje možné ho načítať.</value>
+  </data>
 </root>

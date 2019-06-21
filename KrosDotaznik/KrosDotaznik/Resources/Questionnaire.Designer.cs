@@ -61,6 +61,24 @@ namespace KrosDotaznik.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to nie.
+        /// </summary>
+        internal static string btnNo {
+            get {
+                return ResourceManager.GetString("btnNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to áno.
+        /// </summary>
+        internal static string btnYes {
+            get {
+                return ResourceManager.GetString("btnYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Adresa trvalého bydliska.
         /// </summary>
         internal static string lblAddress {
@@ -606,6 +624,24 @@ namespace KrosDotaznik.Resources {
         internal static string lblYes {
             get {
                 return ResourceManager.GetString("lblYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chcete ukončiť režim vytvárania dotazníka?.
+        /// </summary>
+        internal static string msgQuestionCreate {
+            get {
+                return ResourceManager.GetString("msgQuestionCreate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ukončiť vytvorenie.
+        /// </summary>
+        internal static string msgQuestionCreateTitle {
+            get {
+                return ResourceManager.GetString("msgQuestionCreateTitle", resourceCulture);
             }
         }
     }
