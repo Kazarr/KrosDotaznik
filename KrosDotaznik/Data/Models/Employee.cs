@@ -56,8 +56,12 @@ namespace Data.Models
         /// </summary>
         public Education HighestEducationData { get; set; }
         public Education CurrentEducationData { get; set; }
+
         public PreviousJob PreviousJobData { get; set; }
+
         public JobSpecification JobSpecificationData { get; set; }
+        public int HousrPerWeek { get; set; }
+
         public List<Child> Children { get; set; }
 
         public Employee()
@@ -70,6 +74,12 @@ namespace Data.Models
             CurrentEducationData = new Education();
             PreviousJobData = new PreviousJob();
             Children = new List<Child>();
+            JobSpecificationData = new JobSpecification();
+            JobSpecificationData.WorkPosition = new WorkPosition();
+            JobSpecificationData.WorkHours = new WorkHours();
+            JobSpecificationData.WorkType = new WorkType();
+            JobSpecificationData.WorkExpiration = new WorkExpiration();
+            JobSpecificationData.WorkPosition.WageCategory = new WageCategory();
         }
     }
 }

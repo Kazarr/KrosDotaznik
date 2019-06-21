@@ -223,16 +223,32 @@ namespace KrosDotaznik
         }
         private void BindPreviousJob()
         {
-            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
-            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.PreviousJobStartDate));
+            BindDefaultControlProperty(dtpTo, nameof(_viewModel.PreviousJobEndDate));
             BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
             BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
         }
         private void BindChildren()
         {
-            //dgvChildren.DataBindings.Add(nameof(dgvChildren.DataSource), _viewModel.Children, nameof(_viewModel.Children), false, DataSourceUpdateMode.OnValidation);
             dgvChildren.DataSource = _viewModel.Children;
-            //var test = dgvChildren.DataBindings.BindableComponent;
+        }
+
+        private void BindJobSpecification()
+        {
+            BindDefaultControlProperty(cmbWorkType, nameof(_viewModel.StringWorkType));
+            BindDefaultControlProperty(cmbWorkHours, nameof(_viewModel.StringWorkHours));
+            BindDefaultControlProperty(cmbWorkPosition, nameof(_viewModel.StringWorkPosition));
+            BindDefaultControlProperty(cmbWorkExpiration, nameof(_viewModel.StringWorkExpiration));
+            BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
+            //BindDefaultControlProperty(cmbDivision, nameof(_viewModel.StringDepartment)); // vyriešiť automatické dopĺňanie a filtrovanie comba
+            //BindDefaultControlProperty(cmbTeam, nameof(_viewModel.StringDepartment));     // vyriešiť automatické dopĺňanie a filtrovanie comba
+            //BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
+            BindDefaultControlProperty(dtpHireDate, nameof(_viewModel.HireDate));
+            BindDefaultControlProperty(dtpStartDate, nameof(_viewModel.StartDate));
+            BindDefaultControlProperty(dtpEndOfTrial, nameof(_viewModel.EndOfTrial));
+            BindDefaultControlProperty(txtSalary, nameof(_viewModel.Salary));
+            BindDefaultControlProperty(cmbWageCategory, nameof(_viewModel.StringWageCategory));
+
         }
 
         private void tabCntrl_SelectedIndexChanged(object sender, EventArgs e)
@@ -256,11 +272,16 @@ namespace KrosDotaznik
                     case nameof(tPageChildInfo):
                         BindChildren();
                         break;
+                    case nameof(tPageJobSpecification):
+                        BindJobSpecification();
+                        break;
                 }
                 tabCntrl.SelectedTab.Tag = true;
 
             }
         }
+
+        
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {

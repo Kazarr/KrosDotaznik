@@ -10,11 +10,13 @@ namespace Data.Models
     public class JobSpecification
     {
         public int Id { get; set; }
-        public DateTime HireDate { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndOfTrial { get; set; }
+        public DateTime HireDate { get; set; } = DateTime.Now;
+        public DateTime StartDate { get; set; } = DateTime.Now;
+        public DateTime EndOfTrial { get; set; } = DateTime.Now;
         public DateTime EndDate { get; set; }
         public string WorkPlace { get; set; }
+        public decimal Salary { get; set; }
+
 
         /// <summary>
         /// When your contract expire. Unlimitet or will expire

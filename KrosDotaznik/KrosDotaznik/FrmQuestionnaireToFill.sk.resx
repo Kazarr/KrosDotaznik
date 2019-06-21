@@ -605,19 +605,7 @@
     <value>Vznik PP</value>
   </data>
   <data name="panelRating.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 74</value>
-  </data>
-  <data name="cmbWageCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 36</value>
-  </data>
-  <data name="cmbWageCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
-  </data>
-  <data name="txtSalary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 3</value>
-  </data>
-  <data name="txtSalary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
+    <value>426, 75</value>
   </data>
   <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 19</value>
