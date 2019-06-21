@@ -207,9 +207,16 @@ namespace KrosDotaznik
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
-        private void btnSave_Click_1(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            _viewModel.Save();
+            using (this.saveFileData = new SaveFileDialog())
+            {
+                saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
+                if (saveFileData.ShowDialog() == DialogResult.OK)
+                {
+                    _viewModel.Save(saveFileData.FileName);
+                }
+            }
         }
 
     }

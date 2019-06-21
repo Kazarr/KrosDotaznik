@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnNo" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="btnYes" xml:space="preserve">
+    <value>áno</value>
+  </data>
   <data name="lblAddress" xml:space="preserve">
     <value>Adresa trvalého bydliska</value>
   </data>
@@ -299,5 +305,11 @@
   </data>
   <data name="lblYes" xml:space="preserve">
     <value>Áno</value>
+  </data>
+  <data name="msgQuestionCreate" xml:space="preserve">
+    <value>Chcete ukončiť režim vytvárania dotazníka?</value>
+  </data>
+  <data name="msgQuestionCreateTitle" xml:space="preserve">
+    <value>Ukončiť vytvorenie</value>
   </data>
 </root>

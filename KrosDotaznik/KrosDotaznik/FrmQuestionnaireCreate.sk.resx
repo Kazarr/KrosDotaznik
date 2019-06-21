@@ -118,128 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnCreate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt, style=Bold</value>
+  <data name="chbxJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 259</value>
   </data>
-  <data name="btnCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 90</value>
+  <data name="chbxJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 24</value>
   </data>
-  <data name="btnCreate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 45</value>
+  <data name="chbxJobSpecification.Text" xml:space="preserve">
+    <value>Údaje o pracovnom zaradení</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnCreate.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="chbxChild.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 229</value>
   </data>
-  <data name="btnCreate.Text" xml:space="preserve">
-    <value>Create questionnare</value>
+  <data name="chbxChild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
   </data>
-  <data name="btnCreate.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="chbxChild.Text" xml:space="preserve">
+    <value>Údaje o deťoch</value>
   </data>
-  <data name="&gt;&gt;btnCreate.Name" xml:space="preserve">
-    <value>btnCreate</value>
+  <data name="chbxPrevious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 195</value>
   </data>
-  <data name="&gt;&gt;btnCreate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chbxPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 24</value>
   </data>
-  <data name="&gt;&gt;btnCreate.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="chbxPrevious.Text" xml:space="preserve">
+    <value>Predchadzajúce zamestnanie</value>
   </data>
-  <data name="&gt;&gt;btnCreate.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="chbxEducation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 162</value>
   </data>
-  <data name="btnFill.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt, style=Bold</value>
+  <data name="chbxEducation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 24</value>
   </data>
-  <data name="btnFill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 90</value>
+  <data name="chbxEducation.Text" xml:space="preserve">
+    <value>Údaje o vzdelaní</value>
   </data>
-  <data name="btnFill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 45</value>
+  <data name="chbxPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
   </data>
-  <data name="btnFill.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="chbxPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 24</value>
   </data>
-  <data name="btnFill.Text" xml:space="preserve">
-    <value>Fill questionnare</value>
+  <data name="chbxPassword.Text" xml:space="preserve">
+    <value>Heslá a prístupy</value>
   </data>
-  <data name="&gt;&gt;btnFill.Name" xml:space="preserve">
-    <value>btnFill</value>
+  <data name="chbxContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
   </data>
-  <data name="&gt;&gt;btnFill.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chbxContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
   </data>
-  <data name="&gt;&gt;btnFill.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="chbxContacts.Text" xml:space="preserve">
+    <value>Kontakty, adresy</value>
   </data>
-  <data name="&gt;&gt;btnFill.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="chbxEmployeeData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 62</value>
   </data>
-  <data name="btnSvk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>395, 12</value>
+  <data name="chbxEmployeeData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 24</value>
   </data>
-  <data name="btnSvk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
+  <data name="chbxEmployeeData.Text" xml:space="preserve">
+    <value>Údaje o zamestnancovi</value>
   </data>
-  <data name="btnSvk.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 307</value>
   </data>
-  <data name="btnSvk.Text" xml:space="preserve">
-    <value>SVK</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Zrušiť</value>
   </data>
-  <data name="&gt;&gt;btnSvk.Name" xml:space="preserve">
-    <value>btnSvk</value>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 307</value>
   </data>
-  <data name="&gt;&gt;btnSvk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Uložiť</value>
   </data>
-  <data name="&gt;&gt;btnSvk.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 289</value>
   </data>
-  <data name="&gt;&gt;btnSvk.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnEng.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 12</value>
-  </data>
-  <data name="btnEng.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="btnEng.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnEng.Text" xml:space="preserve">
-    <value>EN</value>
-  </data>
-  <data name="&gt;&gt;btnEng.Name" xml:space="preserve">
-    <value>btnEng</value>
-  </data>
-  <data name="&gt;&gt;btnEng.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEng.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnEng.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Vyberte si skupiny údajov, ktoré chcete zobraziť v dotazníku</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>508, 170</value>
+    <value>383, 344</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Dotazník</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>Vytvoriť dotazník</value>
   </data>
 </root>

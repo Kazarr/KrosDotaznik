@@ -663,7 +663,7 @@ namespace KrosDotaznik
             _showQuestionGroups = file.ShowQuestionGroups;
         }
 
-        public void Save()
+        public void Save(string filePath)
         {
             _employee.Children = _children.ToList();
             FileService fs = new FileService();
@@ -673,7 +673,7 @@ namespace KrosDotaznik
                 Employee = employee,
                 ShowQuestionGroups = _showQuestionGroups
             };
-            fs.SaveJson(questionare, "test2.kpq");
+            fs.SaveJson(questionare, filePath);
         }
     }
 }
