@@ -68,26 +68,6 @@ namespace KrosDotaznik
 
         public void BindingTest()
         {
-            BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
-            BindDefaultControlProperty(txtSurname, nameof(_viewModel.Surname));
-            BindDefaultControlProperty(txtPreviousName, nameof(_viewModel.PreviousName));
-            BindDefaultControlProperty(txtMaidenName, nameof(_viewModel.MaidenName));
-            BindDefaultControlProperty(txtTitle, nameof(_viewModel.Title));
-            BindDefaultControlProperty(txtIdentityCard, nameof(_viewModel.IdentityCard));
-            BindDefaultControlProperty(txtPersonalId, nameof(_viewModel.PersonalId));
-            BindDefaultControlProperty(txtPlaceOfBirth, nameof(_viewModel.PlaceOfBirth));
-            BindDefaultControlProperty(txtRegionOfBirth, nameof(_viewModel.RegionOfBirth));
-            BindDefaultControlProperty(txtNationality, nameof(_viewModel.Nationality));
-            BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
-            BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
-            BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
-            //BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
-            BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
-            BindDefaultControlProperty(cmbRetirement, nameof(_viewModel.StringRetirement));
-            //BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
-            BindDefaultControlProperty(cmbHealthInsurance, nameof(_viewModel.StringHealthInsurance));
-
-            BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
 
             #region RadioBtns binding
             BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Disabled));
@@ -123,8 +103,8 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtCurrentSchoolEndYear, nameof(_viewModel.CurrentEndYear));
             BindDefaultControlProperty(cmbCurrentEduLevel, nameof(_viewModel.StringCurrentEducationLevel));
 
-            //BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
-            //BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
+            BindDefaultControlProperty(dtpFrom, nameof(_viewModel.StartDate));
+            BindDefaultControlProperty(dtpTo, nameof(_viewModel.EndDate));
             BindDefaultControlProperty(txtEmployeer, nameof(_viewModel.EmployerCompanyName));
             BindDefaultControlProperty(txtWorkPosition, nameof(_viewModel.Position));
 
@@ -220,5 +200,47 @@ namespace KrosDotaznik
             _viewModel.Save();
         }
 
+        private void tabCntrl_TabIndexChanged(object sender, EventArgs e)
+        {
+            if(tabCntrl.SelectedTab.Tag == null)
+            {
+                switch (tabCntrl.SelectedTab.Name)
+                {
+                    case nameof(tPagePersonalInfo):
+                        BindPersonalData();
+                        break;
+                    case nameof(tPageContactAdress):
+
+                        break;
+                    
+                }
+                tabCntrl.SelectedTab.Tag = true;
+
+            }
+        }
+
+        private void BindPersonalData()
+        {
+            BindDefaultControlProperty(txtName, nameof(_viewModel.Name));
+            BindDefaultControlProperty(txtSurname, nameof(_viewModel.Surname));
+            BindDefaultControlProperty(txtPreviousName, nameof(_viewModel.PreviousName));
+            BindDefaultControlProperty(txtMaidenName, nameof(_viewModel.MaidenName));
+            BindDefaultControlProperty(txtTitle, nameof(_viewModel.Title));
+            BindDefaultControlProperty(txtIdentityCard, nameof(_viewModel.IdentityCard));
+            BindDefaultControlProperty(txtPersonalId, nameof(_viewModel.PersonalId));
+            BindDefaultControlProperty(txtPlaceOfBirth, nameof(_viewModel.PlaceOfBirth));
+            BindDefaultControlProperty(txtRegionOfBirth, nameof(_viewModel.RegionOfBirth));
+            BindDefaultControlProperty(txtNationality, nameof(_viewModel.Nationality));
+            BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
+            BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
+            BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
+            BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
+            BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
+            BindDefaultControlProperty(cmbRetirement, nameof(_viewModel.StringRetirement));
+            BindDefaultControlProperty(datePickerRetiredSince, nameof(_viewModel.RetiredSince));
+            BindDefaultControlProperty(cmbHealthInsurance, nameof(_viewModel.StringHealthInsurance));
+
+            BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
+        }
     }
 }
