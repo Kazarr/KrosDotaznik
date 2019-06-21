@@ -34,7 +34,7 @@ namespace Data.Models
         public string BankAccountNumber { get; set; }
         public string IBAN { get; set; }
         public bool Disabled { get; set; }
-        public int? DisabilityRate { get; set; }
+        public int DisabilityRate { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
 

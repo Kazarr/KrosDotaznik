@@ -244,7 +244,7 @@ namespace KrosDotaznik
             }
         }
 
-        public bool Handicap
+        public bool Disabled
         {
             get => _employee.Disabled;
             set
@@ -253,6 +253,7 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool NotDisabled { get => !Disabled; }
 
         public bool Gender
         {
@@ -266,7 +267,7 @@ namespace KrosDotaznik
         public bool Female { get => !Gender; }
 
 
-        public int? HandicapInPercentage
+        public int HandicapInPercentage
         {
             get => _employee.DisabilityRate;
             set
@@ -543,6 +544,7 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool NotParticipatingInRetirementSaving { get => !ParticipatingInRetirementSaving; }
 
         public bool RetirementInsuranceCompanyException
         {
@@ -553,6 +555,7 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool NotRetirementInsuranceCompanyException { get => !RetirementInsuranceCompanyException; }
 
         #endregion
         public DateTime StartDate
