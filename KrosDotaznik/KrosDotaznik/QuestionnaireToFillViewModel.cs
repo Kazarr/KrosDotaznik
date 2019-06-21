@@ -137,7 +137,9 @@ namespace KrosDotaznik
 
         public string StringState
         {
-            get => _employee.State.EmployeeState;
+            get => _employee.State==null
+                ? _stringState
+                : _employee.State.EmployeeState;
             set
             {
                 _stringState = value;
