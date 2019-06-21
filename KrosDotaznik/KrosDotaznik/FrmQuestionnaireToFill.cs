@@ -89,10 +89,16 @@ namespace KrosDotaznik
 
             BindDefaultControlProperty(txtHndcpInPercentage, nameof(_viewModel.HandicapInPercentage));
 
-            BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Handicap));
+            #region RadioBtns binding
+            BindRadioButtons(radioBtnHandcpYes, nameof(_viewModel.Disabled));
+            BindRadioButtons(radioBtnHndcpNo, nameof(_viewModel.NotDisabled));
             BindRadioButtons(radioBtnMale, nameof(_viewModel.Gender));
-            //BindRadioButtons(radioBtnExceptionYes, nameof(_viewModel.RetirementInsuranceCompanyException));
-            //BindRadioButtons(radioBtnSecondPilarYes, nameof(_viewModel.ParticipatingInRetirementSaving));
+            BindRadioButtons(radioBtnFemale, nameof(_viewModel.Female));
+            BindRadioButtons(radioBtnExceptionYes, nameof(_viewModel.RetirementInsuranceCompanyException));
+            BindRadioButtons(radioBtnExceptionNo, nameof(_viewModel.NotRetirementInsuranceCompanyException));
+            BindRadioButtons(radioBtnSecondPilarYes, nameof(_viewModel.ParticipatingInRetirementSaving));
+            BindRadioButtons(radioBtnSecondPilarNo, nameof(_viewModel.NotParticipatingInRetirementSaving));
+            #endregion
 
             BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
             BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));

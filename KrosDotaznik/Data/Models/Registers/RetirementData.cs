@@ -15,7 +15,7 @@ namespace Data.Models.Registers
         /// <summary>
         /// Only contranct work type should set this.
         /// </summary>
-        public bool? RetirementInsuranceCompanyException { get; set; }
+        public bool RetirementInsuranceCompanyException { get; set; }
         public Retirement Retirement { get; set; }
     }
 }
