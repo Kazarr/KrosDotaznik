@@ -24,14 +24,6 @@ namespace KrosDotaznik
         private string _stringState = string.Empty;
         private string _stringHealthInsurance = string.Empty;
         private string _stringRetirement = string.Empty;
-        //private string _houseNumberStreet = string.Empty;
-        //private string _houseNumber = string.Empty;
-        //private string _street = string.Empty;
-        //private string _tempHouseNumberStreet = string.Empty;
-        //private string _tempHouseNumber = string.Empty;
-        //private string _tempStreet = string.Empty;
-        //private string _payCheckPassword = "fero";
-        //private int _pinAlarm = default(int);
         private string _stringEduLevel = string.Empty;
         private string _stringCurrentEduLevel = string.Empty;
 
@@ -235,7 +227,9 @@ namespace KrosDotaznik
 
         public string StringHealthInsurance
         {
-            get => _employee.HealthInsuranceCompany.CompanyName;
+            get => _employee.HealthInsuranceCompany == null
+                ? _stringHealthInsurance
+                : _employee.HealthInsuranceCompany.CompanyName;
             set
             {
                 _stringHealthInsurance = value;
@@ -443,7 +437,9 @@ namespace KrosDotaznik
 
         public string StringEducationLevel
         {
-            get => _employee.HighestEducationData.EducationLevel.EducationLevelName;
+            get => _employee.HighestEducationData.EducationLevel == null
+                ? _stringCurrentEduLevel
+                : _employee.HighestEducationData.EducationLevel.EducationLevelName;
             set
             {
                 _stringEduLevel = value;
@@ -562,6 +558,7 @@ namespace KrosDotaznik
         public bool NotRetirementInsuranceCompanyException { get => !RetirementInsuranceCompanyException; }
 
         #endregion
+        #region Previous Job
         public DateTime StartDate
         {
             get => _employee.PreviousJobData.StartDate;
@@ -601,7 +598,7 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-
+        #endregion
         public BindingList<Child> Children
         {
             get => new BindingList<Child>(_employee.Children);
