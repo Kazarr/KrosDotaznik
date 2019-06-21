@@ -97,12 +97,12 @@ namespace KrosDotaznik
 
             BindDefaultControlProperty(txtPhoneNumber, nameof(_viewModel.PhoneNumber));
             BindDefaultControlProperty(txtEmail, nameof(_viewModel.Email));
-            BindDefaultControlProperty(txtStreet, nameof(_viewModel.HouseNumberStreet));
-            //BindDefaultControlProperty(txtStreetHouseNumber, nameof(_viewModel.Street));
+            BindDefaultControlProperty(txtStreet, nameof(_viewModel.HouseNumber));
+            BindDefaultControlProperty(txtHouseNumber, nameof(_viewModel.Street));
             BindDefaultControlProperty(txtCity, nameof(_viewModel.City));
             BindDefaultControlProperty(txtPostalCode, nameof(_viewModel.PostalCode));
-            BindDefaultControlProperty(txtTempStreet, nameof(_viewModel.TempHouseNumberStreet));
-            //BindDefaultControlProperty(txtTempStreetHouseNumber, nameof(_viewModel.TempStreet));
+            BindDefaultControlProperty(txtTempStreet, nameof(_viewModel.TempHouseNumber));
+            BindDefaultControlProperty(txtTempHouseNumber, nameof(_viewModel.TempStreet));
             BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
             BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
 
