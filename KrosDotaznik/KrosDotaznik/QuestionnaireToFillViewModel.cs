@@ -604,7 +604,7 @@ namespace KrosDotaznik
 
         public BindingList<Child> Children
         {
-            get => _children;
+            get => new BindingList<Child>(_employee.Children);
             set
             {
                 _employee.Children = value.ToList();
@@ -623,6 +623,7 @@ namespace KrosDotaznik
                     {
                         property.SetValue(_employee,property.GetValue(value));
                     }
+                    //Children = new BindingList<Child>(value.Children);
                 }
             }
         }
@@ -677,7 +678,6 @@ namespace KrosDotaznik
 
         public void Save()
         {
-            _employee.Children = _children.ToList();
             FileService fs = new FileService();
             Employee employee = _employee;
             Questionare questionare = new Questionare()
