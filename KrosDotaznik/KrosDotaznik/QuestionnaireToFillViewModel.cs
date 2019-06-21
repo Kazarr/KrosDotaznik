@@ -295,34 +295,23 @@ namespace KrosDotaznik
             }
         }
 
-        public string HouseNumberStreet
-        {
-            get => _houseNumberStreet;
-            set
-            {
-                _houseNumberStreet = value;
-                var temp = value.Split(',');
-                Street = temp[0];
-                HouseNumber = temp[1];
-            }
-        }
 
         public string HouseNumber
         {
-            get => _houseNumber;
+            get => _employee.AddressData.HouseNumber;
             set
             {
-                _houseNumber = value;
+                _employee.AddressData.HouseNumber = value;
                 OnPropertyChange();
             }
         }
 
         public string Street
         {
-            get => _street;
+            get => _employee.AddressData.Street;
             set
             {
-                _street = value;
+                _employee.AddressData.Street = value;
                 OnPropertyChange();
             }
         }
@@ -347,34 +336,22 @@ namespace KrosDotaznik
             }
         }
 
-        public string TempHouseNumberStreet
-        {
-            get => _tempHouseNumberStreet;
-            set
-            {
-                _tempHouseNumberStreet = value;
-                var temp = value.Split(',');
-                TempStreet = temp[0];
-                TempHouseNumber = temp[1];
-            }
-        }
-
         public string TempHouseNumber
         {
-            get => _tempHouseNumber;
+            get => _employee.TemporaryAdressDdata.HouseNumber;
             set
             {
-                _tempHouseNumber = value;
+                _employee.TemporaryAdressDdata.HouseNumber = value;
                 OnPropertyChange();
             }
         }
 
         public string TempStreet
         {
-            get => _tempStreet;
+            get => _employee.TemporaryAdressDdata.Street;
             set
             {
-                _tempStreet = value;
+                _employee.TemporaryAdressDdata.Street = value;
                 OnPropertyChange();
             }
         }
