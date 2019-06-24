@@ -27,6 +27,7 @@ namespace KrosDotaznik
         public QuestionnaireCreateViewModel()
         {
             _showQuestionGroups = new Dictionary<int, bool>();
+            FillDictionary();
         }
         #endregion
 
@@ -111,6 +112,14 @@ namespace KrosDotaznik
         public event PropertyChangedEventHandler PropertyChanged;
 
         #endregion
+
+        private void FillDictionary()
+        {
+            for (int i = 0; i < 7; i++)
+            {
+                _showQuestionGroups.Add(i, false);
+            }
+        }
 
         #region Save method
         public void SaveQuestionnaire(string filePath)

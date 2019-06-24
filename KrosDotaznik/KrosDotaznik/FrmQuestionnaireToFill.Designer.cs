@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -144,12 +145,7 @@
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
             this.dgvChildren = new System.Windows.Forms.DataGridView();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colBonus = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
-            this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tPageJobSpecification = new System.Windows.Forms.TabPage();
             this.panelWorkTime = new System.Windows.Forms.Panel();
             this.dtpEndOfTrial = new System.Windows.Forms.DateTimePicker();
@@ -181,10 +177,17 @@
             this.cmbWorkType = new System.Windows.Forms.ComboBox();
             this.lblWorkExpiration = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
+            this.saveFileData = new System.Windows.Forms.SaveFileDialog();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
-            this.saveFileData = new System.Windows.Forms.SaveFileDialog();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
+            this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -313,7 +316,6 @@
             // 
             // grBoxTemporaryAddress
             // 
-            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempHouseNumber);
             this.grBoxTemporaryAddress.Controls.Add(this.lblTempHouseNumber);
             this.grBoxTemporaryAddress.Controls.Add(this.txtTempPostalCode);
@@ -322,6 +324,7 @@
             this.grBoxTemporaryAddress.Controls.Add(this.lblPostalCodeTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblCityTemp);
             this.grBoxTemporaryAddress.Controls.Add(this.lblStreetTemp);
+            resources.ApplyResources(this.grBoxTemporaryAddress, "grBoxTemporaryAddress");
             this.grBoxTemporaryAddress.Name = "grBoxTemporaryAddress";
             this.grBoxTemporaryAddress.TabStop = false;
             // 
@@ -367,7 +370,6 @@
             // 
             // grBoxAddress
             // 
-            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Controls.Add(this.txtHouseNumber);
             this.grBoxAddress.Controls.Add(this.lblHouseNumber);
             this.grBoxAddress.Controls.Add(this.txtPostalCode);
@@ -376,6 +378,7 @@
             this.grBoxAddress.Controls.Add(this.lblPostalCode);
             this.grBoxAddress.Controls.Add(this.lblCity);
             this.grBoxAddress.Controls.Add(this.lblStreet);
+            resources.ApplyResources(this.grBoxAddress, "grBoxAddress");
             this.grBoxAddress.Name = "grBoxAddress";
             this.grBoxAddress.TabStop = false;
             // 
@@ -441,7 +444,6 @@
             // 
             // grBoxCurrentEducation
             // 
-            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Controls.Add(this.cmbCurrentEduLevel);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolMajor);
             this.grBoxCurrentEducation.Controls.Add(this.txtCurrentSchoolEndYear);
@@ -450,13 +452,14 @@
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrEndYear);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrMajor);
             this.grBoxCurrentEducation.Controls.Add(this.lblCurrSchool);
+            resources.ApplyResources(this.grBoxCurrentEducation, "grBoxCurrentEducation");
             this.grBoxCurrentEducation.Name = "grBoxCurrentEducation";
             this.grBoxCurrentEducation.TabStop = false;
             // 
             // cmbCurrentEduLevel
             // 
-            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
             this.cmbCurrentEduLevel.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
             this.cmbCurrentEduLevel.Name = "cmbCurrentEduLevel";
             // 
             // txtCurrentSchoolMajor
@@ -496,7 +499,6 @@
             // 
             // grBoxHighEducation
             // 
-            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Controls.Add(this.cmbEduLevel);
             this.grBoxHighEducation.Controls.Add(this.txtHightestSchoolMajor);
             this.grBoxHighEducation.Controls.Add(this.txtHighestSchoolEndYear);
@@ -505,13 +507,14 @@
             this.grBoxHighEducation.Controls.Add(this.lblEndYear);
             this.grBoxHighEducation.Controls.Add(this.lblMajor);
             this.grBoxHighEducation.Controls.Add(this.lblSchool);
+            resources.ApplyResources(this.grBoxHighEducation, "grBoxHighEducation");
             this.grBoxHighEducation.Name = "grBoxHighEducation";
             this.grBoxHighEducation.TabStop = false;
             // 
             // cmbEduLevel
             // 
-            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
             this.cmbEduLevel.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
             this.cmbEduLevel.Name = "cmbEduLevel";
             // 
             // txtHightestSchoolMajor
@@ -551,7 +554,6 @@
             // 
             // tabCntrl
             // 
-            resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Controls.Add(this.tPagePersonalInfo);
             this.tabCntrl.Controls.Add(this.tPageContactAdress);
             this.tabCntrl.Controls.Add(this.tPagePassword);
@@ -559,23 +561,23 @@
             this.tabCntrl.Controls.Add(this.tPagePreviousJob);
             this.tabCntrl.Controls.Add(this.tPageChildInfo);
             this.tabCntrl.Controls.Add(this.tPageJobSpecification);
+            resources.ApplyResources(this.tabCntrl, "tabCntrl");
             this.tabCntrl.Name = "tabCntrl";
             this.tabCntrl.SelectedIndex = 0;
             this.tabCntrl.SelectedIndexChanged += new System.EventHandler(this.tabCntrl_SelectedIndexChanged);
             // 
             // tPagePersonalInfo
             // 
-            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Controls.Add(this.panel1);
             this.tPagePersonalInfo.Controls.Add(this.panelBank);
             this.tPagePersonalInfo.Controls.Add(this.panelEmloyeeBasicInfo);
             this.tPagePersonalInfo.Controls.Add(this.panelName);
+            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Name = "tPagePersonalInfo";
             this.tPagePersonalInfo.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.cmbRetirement);
             this.panel1.Controls.Add(this.cmbHealthInsurance);
@@ -588,6 +590,7 @@
             this.panel1.Controls.Add(this.lblHealthInsurance);
             this.panel1.Controls.Add(this.lblPensionRecipient);
             this.panel1.Controls.Add(this.lblRetiredSince);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // cmbRetirement
@@ -610,9 +613,9 @@
             // 
             // groupBox3
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.radioBtnExceptionYes);
             this.groupBox3.Controls.Add(this.radioBtnExceptionNo);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -632,9 +635,9 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.radioBtnSecondPilarYes);
             this.groupBox2.Controls.Add(this.radioBtnSecondPilarNo);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -654,10 +657,10 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.radioBtnHandcpYes);
             this.groupBox1.Controls.Add(this.radioBtnHndcpNo);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -683,12 +686,12 @@
             // 
             // panelBank
             // 
-            resources.ApplyResources(this.panelBank, "panelBank");
             this.panelBank.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelBank.Controls.Add(this.txtIban);
             this.panelBank.Controls.Add(this.txtBankAcc);
             this.panelBank.Controls.Add(this.lblBankAcc);
             this.panelBank.Controls.Add(this.lblIBAN);
+            resources.ApplyResources(this.panelBank, "panelBank");
             this.panelBank.Name = "panelBank";
             // 
             // txtIban
@@ -703,7 +706,6 @@
             // 
             // panelEmloyeeBasicInfo
             // 
-            resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelEmloyeeBasicInfo.Controls.Add(this.cmbState);
             this.panelEmloyeeBasicInfo.Controls.Add(this.radioBtnFemale);
@@ -726,6 +728,7 @@
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblRegionOfBirth);
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblNationality);
             this.panelEmloyeeBasicInfo.Controls.Add(this.lblCitizenShip);
+            resources.ApplyResources(this.panelEmloyeeBasicInfo, "panelEmloyeeBasicInfo");
             this.panelEmloyeeBasicInfo.Name = "panelEmloyeeBasicInfo";
             // 
             // cmbState
@@ -791,7 +794,6 @@
             // 
             // panelName
             // 
-            resources.ApplyResources(this.panelName, "panelName");
             this.panelName.BackColor = System.Drawing.Color.Transparent;
             this.panelName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelName.Controls.Add(this.txtMaidenName);
@@ -803,6 +805,7 @@
             this.panelName.Controls.Add(this.lblPreviousName);
             this.panelName.Controls.Add(this.lblMaidenName);
             this.panelName.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.panelName, "panelName");
             this.panelName.Name = "panelName";
             // 
             // txtMaidenName
@@ -827,13 +830,13 @@
             // 
             // tPageContactAdress
             // 
-            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Controls.Add(this.txtEmail);
             this.tPageContactAdress.Controls.Add(this.txtPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxTemporaryAddress);
             this.tPageContactAdress.Controls.Add(this.lblPhoneNumber);
             this.tPageContactAdress.Controls.Add(this.grBoxAddress);
             this.tPageContactAdress.Controls.Add(this.lblEmail);
+            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Name = "tPageContactAdress";
             this.tPageContactAdress.UseVisualStyleBackColor = true;
             // 
@@ -849,11 +852,11 @@
             // 
             // tPagePassword
             // 
-            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Controls.Add(this.txtPinAlarm);
             this.tPagePassword.Controls.Add(this.txtPassword);
             this.tPagePassword.Controls.Add(this.lblPin);
             this.tPagePassword.Controls.Add(this.lblPassword);
+            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Name = "tPagePassword";
             this.tPagePassword.UseVisualStyleBackColor = true;
             // 
@@ -869,15 +872,14 @@
             // 
             // tPageEducation
             // 
-            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Controls.Add(this.grBoxCurrentEducation);
             this.tPageEducation.Controls.Add(this.grBoxHighEducation);
+            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Name = "tPageEducation";
             this.tPageEducation.UseVisualStyleBackColor = true;
             // 
             // tPagePreviousJob
             // 
-            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Controls.Add(this.txtWorkPosition);
             this.tPagePreviousJob.Controls.Add(this.txtEmployeer);
             this.tPagePreviousJob.Controls.Add(this.dtpTo);
@@ -886,6 +888,7 @@
             this.tPagePreviousJob.Controls.Add(this.lblEmployeer);
             this.tPagePreviousJob.Controls.Add(this.lblJobTo);
             this.tPagePreviousJob.Controls.Add(this.lblJobFrom);
+            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Name = "tPagePreviousJob";
             this.tPagePreviousJob.UseVisualStyleBackColor = true;
             // 
@@ -901,14 +904,14 @@
             // 
             // dtpTo
             // 
-            resources.ApplyResources(this.dtpTo, "dtpTo");
             this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.dtpTo, "dtpTo");
             this.dtpTo.Name = "dtpTo";
             // 
             // dtpFrom
             // 
-            resources.ApplyResources(this.dtpFrom, "dtpFrom");
             this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.dtpFrom, "dtpFrom");
             this.dtpFrom.Name = "dtpFrom";
             // 
             // lblWorkPosition
@@ -933,14 +936,13 @@
             // 
             // tPageChildInfo
             // 
-            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Controls.Add(this.dgvChildren);
+            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
             // 
             // dgvChildren
             // 
-            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChildren.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChildren.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -950,19 +952,8 @@
             this.colBirthDate,
             this.colId,
             this.colEmployeeId});
+            resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
-            // 
-            // colName
-            // 
-            this.colName.DataPropertyName = "Name";
-            resources.ApplyResources(this.colName, "colName");
-            this.colName.Name = "colName";
-            // 
-            // colSurname
-            // 
-            this.colSurname.DataPropertyName = "Surname";
-            resources.ApplyResources(this.colSurname, "colSurname");
-            this.colSurname.Name = "colSurname";
             // 
             // colBonus
             // 
@@ -972,46 +963,25 @@
             this.colBonus.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colBonus.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // colBirthDate
-            // 
-            this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.colBirthDate, "colBirthDate");
-            this.colBirthDate.Name = "colBirthDate";
-            // 
-            // colId
-            // 
-            this.colId.DataPropertyName = "Id";
-            resources.ApplyResources(this.colId, "colId");
-            this.colId.Name = "colId";
-            // 
-            // colEmployeeId
-            // 
-            this.colEmployeeId.DataPropertyName = "IdEmployeeData";
-            resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
-            this.colEmployeeId.Name = "colEmployeeId";
-            // 
             // tPageJobSpecification
             // 
-            resources.ApplyResources(this.tPageJobSpecification, "tPageJobSpecification");
             this.tPageJobSpecification.Controls.Add(this.panelWorkTime);
             this.tPageJobSpecification.Controls.Add(this.panelRating);
             this.tPageJobSpecification.Controls.Add(this.panelWorkEnviroment);
             this.tPageJobSpecification.Controls.Add(this.panelWorkDescription);
+            resources.ApplyResources(this.tPageJobSpecification, "tPageJobSpecification");
             this.tPageJobSpecification.Name = "tPageJobSpecification";
             this.tPageJobSpecification.UseVisualStyleBackColor = true;
             // 
             // panelWorkTime
             // 
-            resources.ApplyResources(this.panelWorkTime, "panelWorkTime");
             this.panelWorkTime.Controls.Add(this.dtpEndOfTrial);
             this.panelWorkTime.Controls.Add(this.dtpStartDate);
             this.panelWorkTime.Controls.Add(this.dtpHireDate);
             this.panelWorkTime.Controls.Add(this.lblEndOfTrial);
             this.panelWorkTime.Controls.Add(this.lblStartDate);
             this.panelWorkTime.Controls.Add(this.lblHiredDate);
+            resources.ApplyResources(this.panelWorkTime, "panelWorkTime");
             this.panelWorkTime.Name = "panelWorkTime";
             // 
             // dtpEndOfTrial
@@ -1046,24 +1016,23 @@
             // 
             // panelRating
             // 
-            resources.ApplyResources(this.panelRating, "panelRating");
             this.panelRating.Controls.Add(this.cmbWageCategory);
             this.panelRating.Controls.Add(this.txtSalary);
             this.panelRating.Controls.Add(this.lblSalary);
             this.panelRating.Controls.Add(this.lblWageCategory);
+            resources.ApplyResources(this.panelRating, "panelRating");
             this.panelRating.Name = "panelRating";
             // 
             // cmbWageCategory
             // 
-            resources.ApplyResources(this.cmbWageCategory, "cmbWageCategory");
             this.cmbWageCategory.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWageCategory, "cmbWageCategory");
             this.cmbWageCategory.Name = "cmbWageCategory";
             // 
             // txtSalary
             // 
             resources.ApplyResources(this.txtSalary, "txtSalary");
             this.txtSalary.Name = "txtSalary";
-            this.txtSalary.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblSalary
             // 
@@ -1077,25 +1046,25 @@
             // 
             // panelWorkEnviroment
             // 
-            resources.ApplyResources(this.panelWorkEnviroment, "panelWorkEnviroment");
             this.panelWorkEnviroment.Controls.Add(this.cmbTeam);
             this.panelWorkEnviroment.Controls.Add(this.cmbDivision);
             this.panelWorkEnviroment.Controls.Add(this.txtPlaceOfWork);
             this.panelWorkEnviroment.Controls.Add(this.lblPlaceOfWork);
             this.panelWorkEnviroment.Controls.Add(this.lblDivision);
             this.panelWorkEnviroment.Controls.Add(this.lblTeam);
+            resources.ApplyResources(this.panelWorkEnviroment, "panelWorkEnviroment");
             this.panelWorkEnviroment.Name = "panelWorkEnviroment";
             // 
             // cmbTeam
             // 
-            resources.ApplyResources(this.cmbTeam, "cmbTeam");
             this.cmbTeam.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbTeam, "cmbTeam");
             this.cmbTeam.Name = "cmbTeam";
             // 
             // cmbDivision
             // 
-            resources.ApplyResources(this.cmbDivision, "cmbDivision");
             this.cmbDivision.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbDivision, "cmbDivision");
             this.cmbDivision.Name = "cmbDivision";
             // 
             // txtPlaceOfWork
@@ -1120,7 +1089,6 @@
             // 
             // panelWorkDescription
             // 
-            resources.ApplyResources(this.panelWorkDescription, "panelWorkDescription");
             this.panelWorkDescription.Controls.Add(this.txtHoursPerWeek);
             this.panelWorkDescription.Controls.Add(this.cmbWorkExpiration);
             this.panelWorkDescription.Controls.Add(this.lblWorkType);
@@ -1130,6 +1098,7 @@
             this.panelWorkDescription.Controls.Add(this.lblNewWorkPosition);
             this.panelWorkDescription.Controls.Add(this.cmbWorkType);
             this.panelWorkDescription.Controls.Add(this.lblWorkExpiration);
+            resources.ApplyResources(this.panelWorkDescription, "panelWorkDescription");
             this.panelWorkDescription.Name = "panelWorkDescription";
             // 
             // txtHoursPerWeek
@@ -1139,8 +1108,8 @@
             // 
             // cmbWorkExpiration
             // 
-            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
             this.cmbWorkExpiration.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
             this.cmbWorkExpiration.Name = "cmbWorkExpiration";
             // 
             // lblWorkType
@@ -1150,8 +1119,8 @@
             // 
             // cmbWorkPosition
             // 
-            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
             this.cmbWorkPosition.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
             this.cmbWorkPosition.Name = "cmbWorkPosition";
             // 
             // lblWorkHours
@@ -1161,8 +1130,8 @@
             // 
             // cmbWorkHours
             // 
-            resources.ApplyResources(this.cmbWorkHours, "cmbWorkHours");
             this.cmbWorkHours.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkHours, "cmbWorkHours");
             this.cmbWorkHours.Name = "cmbWorkHours";
             // 
             // lblNewWorkPosition
@@ -1172,8 +1141,8 @@
             // 
             // cmbWorkType
             // 
-            resources.ApplyResources(this.cmbWorkType, "cmbWorkType");
             this.cmbWorkType.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbWorkType, "cmbWorkType");
             this.cmbWorkType.Name = "cmbWorkType";
             // 
             // lblWorkExpiration
@@ -1187,6 +1156,10 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // saveFileData
+            // 
+            this.saveFileData.RestoreDirectory = true;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -1203,13 +1176,56 @@
             // calendarColumn1
             // 
             this.calendarColumn1.DataPropertyName = "BirthDate";
+            dataGridViewCellStyle2.Format = "d";
+            dataGridViewCellStyle2.NullValue = "DateTime.Now";
+            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
             this.calendarColumn1.Name = "calendarColumn1";
             // 
-            // saveFileData
+            // dataGridViewTextBoxColumn3
             // 
-            resources.ApplyResources(this.saveFileData, "saveFileData");
-            this.saveFileData.RestoreDirectory = true;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Id";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "IdEmployeeData";
+            resources.ApplyResources(this.dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // colName
+            // 
+            this.colName.DataPropertyName = "Name";
+            resources.ApplyResources(this.colName, "colName");
+            this.colName.Name = "colName";
+            // 
+            // colSurname
+            // 
+            this.colSurname.DataPropertyName = "Surname";
+            resources.ApplyResources(this.colSurname, "colSurname");
+            this.colSurname.Name = "colSurname";
+            // 
+            // colBirthDate
+            // 
+            this.colBirthDate.DataPropertyName = "BirthDate";
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
+            resources.ApplyResources(this.colBirthDate, "colBirthDate");
+            this.colBirthDate.Name = "colBirthDate";
+            // 
+            // colId
+            // 
+            this.colId.DataPropertyName = "Id";
+            resources.ApplyResources(this.colId, "colId");
+            this.colId.Name = "colId";
+            // 
+            // colEmployeeId
+            // 
+            this.colEmployeeId.DataPropertyName = "IdEmployeeData";
+            resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
+            this.colEmployeeId.Name = "colEmployeeId";
             // 
             // FrmQuestionnaireToFill
             // 
@@ -1419,5 +1435,7 @@
         private System.Windows.Forms.ComboBox cmbWorkType;
         private System.Windows.Forms.SaveFileDialog saveFileData;
         private System.Windows.Forms.TextBox txtHoursPerWeek;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
     }
 }
