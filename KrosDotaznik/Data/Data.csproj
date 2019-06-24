@@ -75,6 +75,8 @@
       <DependentUpon>SettingsAccess.settings</DependentUpon>
     </Compile>
     <Compile Include="Repository\Registers\CountryRepository.cs" />
+    <Compile Include="Repository\Registers\DepartmentRepository.cs" />
+    <Compile Include="Repository\Registers\DivisionRepository.cs" />
     <Compile Include="Repository\Registers\EducationLevelRepository.cs" />
     <Compile Include="Repository\Registers\HealthInsuranceRepository.cs" />
     <Compile Include="Repository\Registers\RetirementRepository.cs" />

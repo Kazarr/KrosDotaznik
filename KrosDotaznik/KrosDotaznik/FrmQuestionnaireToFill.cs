@@ -70,6 +70,13 @@ namespace KrosDotaznik
             FillCombo(cmbRetirement, _viewModel.RetirementData);
             FillCombo(cmbEduLevel, _viewModel.EducationLevelData);
             FillCombo(cmbCurrentEduLevel, _viewModel.EducationLevelData);
+            FillCombo(cmbDivision, _viewModel.DivisionData);
+            FillCombo(cmbTeam, _viewModel.DepartmentData);
+            FillCombo(cmbWageCategory, _viewModel.WageCategoryData);
+            FillCombo(cmbWorkExpiration, _viewModel.WorkExpirationData);
+            FillCombo(cmbWorkHours, _viewModel.WorkExpirationData);
+            FillCombo(cmbWorkPosition, _viewModel.WorkPositionData);
+            FillCombo(cmbWorkType, _viewModel.WorkTypeData);
         }
         /// <summary>
         /// Allows you to enter only a number

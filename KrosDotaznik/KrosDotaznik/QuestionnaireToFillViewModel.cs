@@ -678,12 +678,12 @@ namespace KrosDotaznik
         }
 
         #region Nedoriesene
-        public Department Division
+        public Division Division
         {
-            get => _employee.JobSpecificationData.Department;
+            get => _employee.JobSpecificationData.Division;
             set
             {
-                _employee.JobSpecificationData.Department = value;
+                _employee.JobSpecificationData.Division = value;
                 OnPropertyChange();
             }
         }
@@ -695,12 +695,12 @@ namespace KrosDotaznik
             set
             {
                 _stringDivision = value;
-                Division = SetPropertiesForCmbox<Department>(DepartmentData, _stringDivision);
+                Division = SetPropertiesForCmbox<Division>(DepartmentData, _stringDivision);
                 OnPropertyChange();
             }
         }
 
-        public Department Team
+        public Department Department
         {
             get => _employee.JobSpecificationData.Department;
             set
@@ -709,7 +709,7 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-        public string StringTeam
+        public string StringDepartment
         {
             get => _employee.JobSpecificationData.Department == null
                 ? _stringTeam
@@ -717,7 +717,7 @@ namespace KrosDotaznik
             set
             {
                 _stringTeam = value;
-                Division = SetPropertiesForCmbox<Department>(DepartmentData, _stringTeam);
+                Department = SetPropertiesForCmbox<Department>(DepartmentData, _stringTeam);
                 OnPropertyChange();
             }
         }
@@ -834,7 +834,6 @@ namespace KrosDotaznik
                     {
                         property.SetValue(_employee,property.GetValue(value));
                     }
-                    //Children = new BindingList<Child>(value.Children);
                 }
             }
         }
@@ -855,6 +854,7 @@ namespace KrosDotaznik
         public Dictionary<int, string> WorkPositionData { get; set; }
         public Dictionary<int, string> WorkTypeData { get; set; }
         public Dictionary<int, string> DepartmentData { get; set; } // doplnit tento dictionary a pracovat s nim
+        public Dictionary<int, string> DivisionData { get; set; } // doplnit tento dictionary a pracovat s nim
         #endregion
 
         #region Inotify Property Change
@@ -870,13 +870,28 @@ namespace KrosDotaznik
         private void LoadCombos()
         {
             StateRepository state = new StateRepository();
-            StateData = state.GetAllState(_cultureInfo);
             HealthInsuranceRepository health = new HealthInsuranceRepository();
-            HealthInsuranceData = health.GetHealthInsuranceData(_cultureInfo);
             RetirementRepository retirement = new RetirementRepository();
-            RetirementData = retirement.GetRetirementData(_cultureInfo);
             EducationLevelRepository educationLevel = new EducationLevelRepository();
+            WageCategoryRepository wageCategory = new WageCategoryRepository();
+            WorkExpirationRepository workExpiration = new WorkExpirationRepository();
+            WorkHoursRepository workHours = new WorkHoursRepository();
+            WorkPositionRepository workPosition = new WorkPositionRepository();
+            WorkTypeRepository workType = new WorkTypeRepository();
+            DepartmentRepository department = new DepartmentRepository();
+            DivisionRepository division = new DivisionRepository();
+
+            StateData = state.GetAllState(_cultureInfo);
+            HealthInsuranceData = health.GetHealthInsuranceData(_cultureInfo);
+            RetirementData = retirement.GetRetirementData(_cultureInfo);
             EducationLevelData = educationLevel.GetEducationLevelData(_cultureInfo);
+            WageCategoryData = wageCategory.GetWageCategoryData(_cultureInfo);
+            WorkTypeData = workType.GetWorkTypeData(_cultureInfo);
+            WorkExpirationData = workExpiration.GetWorkExpirationData(_cultureInfo);
+            WorkHoursData = workHours.GetWorkHoursData(_cultureInfo);
+            WorkPositionData = workPosition.GetWorkPositionData(_cultureInfo);
+            DivisionData = division.GetDivisionData(_cultureInfo);
+            DepartmentData = department.GetDepartmentData(_cultureInfo);
         }
         #endregion
 
