@@ -121,7 +121,10 @@
     <value>Select  ID, CountryName, CountryNameEN FROM Country</value>
   </data>
   <data name="DepartmentSelect" xml:space="preserve">
-    <value />
+    <value>Select Id, DepartmentNameDepartmentName, DepartmentNameDepartmentNameEN FROM Department</value>
+  </data>
+  <data name="DivisionSelect" xml:space="preserve">
+    <value>Select Id, DivisionName, DivisionNameEN FROM Division</value>
   </data>
   <data name="EducationLevelSelect" xml:space="preserve">
     <value>Select  ID, EducationLevelName, EducationLevelNameEN FROM EducationLevel</value>

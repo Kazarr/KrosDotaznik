@@ -70,11 +70,20 @@ namespace Data.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Select Id, DepartmentNameDepartmentName, DepartmentNameDepartmentNameEN FROM Department.
         /// </summary>
         internal static string DepartmentSelect {
             get {
                 return ResourceManager.GetString("DepartmentSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Id, DivisionName, DivisionNameEN FROM Division.
+        /// </summary>
+        internal static string DivisionSelect {
+            get {
+                return ResourceManager.GetString("DivisionSelect", resourceCulture);
             }
         }
         

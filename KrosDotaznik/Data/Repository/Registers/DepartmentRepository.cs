@@ -10,7 +10,7 @@ namespace Data.Repository.Registers
     {
         public Dictionary<int, string> GetDepartmentData(string cultureInfo)
         {
-            return GetAllAccessData<int, string>(Properties.ResourceAccess.CountrySelect, cultureInfo);
+            return GetAllAccessData<int, string>(Properties.ResourceAccess.DepartmentSelect, cultureInfo);
         }
     }
 }
