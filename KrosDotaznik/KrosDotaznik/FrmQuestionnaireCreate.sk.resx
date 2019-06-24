@@ -181,14 +181,8 @@
   <data name="chbxEmployeeData.Text" xml:space="preserve">
     <value>Údaje o zamestnancovi</value>
   </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 307</value>
-  </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Zrušiť</value>
-  </data>
-  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 307</value>
   </data>
   <data name="btnSave.Text" xml:space="preserve">
     <value>Uložiť</value>
@@ -196,11 +190,8 @@
   <data name="panelQuestion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt, style=Bold, Underline</value>
   </data>
-  <data name="panelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 289</value>
-  </data>
   <data name="panelQuestion.Text" xml:space="preserve">
-    <value>Vyberte si skupiny údajov, ktoré chcete zobraziť v dotazníku</value>
+    <value>Vyberte si skupiny údajov, ktoré chcete vyplniť v dotazníku</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>383, 344</value>

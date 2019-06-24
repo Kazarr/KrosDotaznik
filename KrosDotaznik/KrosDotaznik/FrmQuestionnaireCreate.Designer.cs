@@ -101,7 +101,6 @@
             // 
             // panelQuestion
             // 
-            resources.ApplyResources(this.panelQuestion, "panelQuestion");
             this.panelQuestion.Controls.Add(this.chbxPrevious);
             this.panelQuestion.Controls.Add(this.chbxEmployeeData);
             this.panelQuestion.Controls.Add(this.chbxContacts);
@@ -109,6 +108,7 @@
             this.panelQuestion.Controls.Add(this.chbxPassword);
             this.panelQuestion.Controls.Add(this.chbxChild);
             this.panelQuestion.Controls.Add(this.chbxEducation);
+            resources.ApplyResources(this.panelQuestion, "panelQuestion");
             this.panelQuestion.Name = "panelQuestion";
             this.panelQuestion.TabStop = false;
             // 
