@@ -38,9 +38,9 @@
             this.chbxEmployeeData = new System.Windows.Forms.CheckBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panelQuestion = new System.Windows.Forms.GroupBox();
             this.saveFileData = new System.Windows.Forms.SaveFileDialog();
-            this.groupBox1.SuspendLayout();
+            this.panelQuestion.SuspendLayout();
             this.SuspendLayout();
             // 
             // chbxJobSpecification
@@ -99,36 +99,36 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // groupBox1
+            // panelQuestion
             // 
-            this.groupBox1.Controls.Add(this.chbxPrevious);
-            this.groupBox1.Controls.Add(this.chbxEmployeeData);
-            this.groupBox1.Controls.Add(this.chbxContacts);
-            this.groupBox1.Controls.Add(this.chbxJobSpecification);
-            this.groupBox1.Controls.Add(this.chbxPassword);
-            this.groupBox1.Controls.Add(this.chbxChild);
-            this.groupBox1.Controls.Add(this.chbxEducation);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
+            this.panelQuestion.Controls.Add(this.chbxPrevious);
+            this.panelQuestion.Controls.Add(this.chbxEmployeeData);
+            this.panelQuestion.Controls.Add(this.chbxContacts);
+            this.panelQuestion.Controls.Add(this.chbxJobSpecification);
+            this.panelQuestion.Controls.Add(this.chbxPassword);
+            this.panelQuestion.Controls.Add(this.chbxChild);
+            this.panelQuestion.Controls.Add(this.chbxEducation);
+            resources.ApplyResources(this.panelQuestion, "panelQuestion");
+            this.panelQuestion.Name = "panelQuestion";
+            this.panelQuestion.TabStop = false;
             // 
             // saveFileData
             // 
-            this.saveFileData.CheckFileExists = true;
             this.saveFileData.DefaultExt = "kpq";
             resources.ApplyResources(this.saveFileData, "saveFileData");
             this.saveFileData.RestoreDirectory = true;
+            this.saveFileData.ValidateNames = false;
             // 
             // FrmQuestionnaireCreate
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.panelQuestion);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancel);
             this.Name = "FrmQuestionnaireCreate";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.panelQuestion.ResumeLayout(false);
+            this.panelQuestion.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -144,7 +144,7 @@
         private System.Windows.Forms.CheckBox chbxEmployeeData;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox panelQuestion;
         private System.Windows.Forms.SaveFileDialog saveFileData;
     }
 }

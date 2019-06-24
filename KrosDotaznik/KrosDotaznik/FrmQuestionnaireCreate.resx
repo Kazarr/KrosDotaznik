@@ -130,7 +130,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 233</value>
+    <value>6, 263</value>
   </data>
   <data name="chbxJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 24</value>
@@ -148,7 +148,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxJobSpecification.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxJobSpecification.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -163,7 +163,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxChild.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 203</value>
+    <value>6, 233</value>
   </data>
   <data name="chbxChild.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 24</value>
@@ -181,7 +181,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxChild.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxChild.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -196,7 +196,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxPrevious.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 169</value>
+    <value>6, 199</value>
   </data>
   <data name="chbxPrevious.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 24</value>
@@ -214,7 +214,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxPrevious.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxPrevious.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -229,7 +229,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxEducation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 136</value>
+    <value>6, 166</value>
   </data>
   <data name="chbxEducation.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 24</value>
@@ -247,7 +247,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxEducation.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxEducation.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -262,7 +262,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 104</value>
+    <value>6, 134</value>
   </data>
   <data name="chbxPassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 24</value>
@@ -280,7 +280,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxPassword.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxPassword.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -295,7 +295,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxContacts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 71</value>
+    <value>6, 101</value>
   </data>
   <data name="chbxContacts.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 24</value>
@@ -313,7 +313,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxContacts.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxContacts.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -328,7 +328,7 @@
     <value>NoControl</value>
   </data>
   <data name="chbxEmployeeData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 36</value>
+    <value>6, 66</value>
   </data>
   <data name="chbxEmployeeData.Size" type="System.Drawing.Size, System.Drawing">
     <value>137, 24</value>
@@ -346,7 +346,7 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chbxEmployeeData.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxEmployeeData.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -355,7 +355,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 289</value>
+    <value>12, 319</value>
   </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 33</value>
@@ -382,7 +382,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 289</value>
+    <value>256, 319</value>
   </data>
   <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 33</value>
@@ -405,31 +405,31 @@
   <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="panelQuestion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt, style=Bold, Underline</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="panelQuestion.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 271</value>
+  <data name="panelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 301</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="panelQuestion.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Choose group, which you can fill.</value>
+  <data name="panelQuestion.Text" xml:space="preserve">
+    <value>Choose data groups to be filled in questionnaire</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;panelQuestion.Name" xml:space="preserve">
+    <value>panelQuestion</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;panelQuestion.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelQuestion.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panelQuestion.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="saveFileData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -441,9 +441,6 @@
   <data name="saveFileData.Title" xml:space="preserve">
     <value>Save Questionare</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sk</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -451,7 +448,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>383, 334</value>
+    <value>383, 364</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Create questionnaire</value>
