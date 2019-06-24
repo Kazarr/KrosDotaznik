@@ -644,5 +644,23 @@ namespace KrosDotaznik.Resources {
                 return ResourceManager.GetString("msgQuestionCreateTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chcete vytvoriť ďalší formulár?.
+        /// </summary>
+        internal static string msgQuestionSave {
+            get {
+                return ResourceManager.GetString("msgQuestionSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vytvorenie formulára.
+        /// </summary>
+        internal static string msgQuestionSaveTitle {
+            get {
+                return ResourceManager.GetString("msgQuestionSaveTitle", resourceCulture);
+            }
+        }
     }
 }

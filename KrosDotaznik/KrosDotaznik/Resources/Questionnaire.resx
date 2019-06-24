@@ -312,4 +312,10 @@
   <data name="msgQuestionCreateTitle" xml:space="preserve">
     <value>Ukončiť vytvorenie</value>
   </data>
+  <data name="msgQuestionSave" xml:space="preserve">
+    <value>Chcete vytvoriť ďalší formulár?</value>
+  </data>
+  <data name="msgQuestionSaveTitle" xml:space="preserve">
+    <value>Vytvorenie formulára</value>
+  </data>
 </root>

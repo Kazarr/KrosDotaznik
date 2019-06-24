@@ -150,4 +150,10 @@
   <data name="msgQuestionCreateTitle" xml:space="preserve">
     <value>Close create</value>
   </data>
+  <data name="msgQuestionSave" xml:space="preserve">
+    <value>Do you want create next questionnare?</value>
+  </data>
+  <data name="msgQuestionSaveTitle" xml:space="preserve">
+    <value>Create next</value>
+  </data>
 </root>

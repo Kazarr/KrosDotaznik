@@ -61,8 +61,14 @@ namespace KrosDotaznik
                 {
                     _viewModel.SaveQuestionnaire(saveFileData.FileName);
                 }
-            }      
+            }
+            DialogResult result = MessageBox.Show(Resources.Questionnaire.msgQuestionSave, Resources.Questionnaire.msgQuestionSaveTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (DialogResult.No == result)
+            {
+                this.Close();
+            }
         }
+
         #endregion
 
     }

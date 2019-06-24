@@ -33,20 +33,22 @@ namespace KrosDotaznik
         private string _stringWorkHours = string.Empty;
         private string _stringWorkPosition = string.Empty;
         private string _stringWageCategory = string.Empty;
-
         //private BindingList<Child> _children = new BindingList<Child>();
         private Dictionary<int, bool> _showQuestionGroups;
+        #endregion
 
+        #region Constructor
         public QuestionnaireToFillViewModel(string path)
         {
             _employee = new Employee();            
             Load(path);
             LoadCombos();
+            LoadSettings();
         }
         #endregion
-
+        
         #region Properties
-
+               
         private T SetPropertiesForCmbox<T>(Dictionary<int, string> dict, string _field)
         {
             var newModel = (T)Activator.CreateInstance(typeof(T));
@@ -837,6 +839,8 @@ namespace KrosDotaznik
             }
         }
 
+        public int[] HiddenTabs { get; set; }
+
         #endregion
 
         #region Combo data
@@ -876,7 +880,11 @@ namespace KrosDotaznik
         }
         #endregion
 
-
+        #region Load file and settings
+        private void LoadSettings()
+        {
+            HiddenTabs = _showQuestionGroups.Where(x => x.Value == false).Select(x => x.Key).ToArray();
+        }
 
         public void Load(string path)
         {
@@ -885,7 +893,9 @@ namespace KrosDotaznik
             Employee = file.Employee;
             _showQuestionGroups = file.ShowQuestionGroups;
         }
+        #endregion
 
+        #region Save file
         public void Save(string filePath)
         {
             FileService fs = new FileService();
@@ -897,5 +907,6 @@ namespace KrosDotaznik
             };
             fs.SaveJson(questionare, filePath);
         }
+        #endregion
     }
 }
