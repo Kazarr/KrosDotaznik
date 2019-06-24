@@ -687,9 +687,9 @@ namespace KrosDotaznik
         }
         public string StringDivision
         {
-            get => _employee.JobSpecificationData.Department == null
+            get => _employee.JobSpecificationData.Division == null
                 ? _stringDivision
-                : _employee.JobSpecificationData.Department.ParentId.ToString();   //napicu toto treba vyriesit spolu s team
+                : _employee.JobSpecificationData.Division.DivisionName;   //napicu toto treba vyriesit spolu s team
             set
             {
                 _stringDivision = value;

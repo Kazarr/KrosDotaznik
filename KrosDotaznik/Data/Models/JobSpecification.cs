@@ -23,6 +23,7 @@ namespace Data.Models
         /// </summary>
         public WorkExpiration WorkExpiration { get; set; }
         public Department Department { get; set; }
+        public Division Division { get; set; }
         /// <summary>
         /// Employment, Contract, WorkForHire...
         /// </summary>

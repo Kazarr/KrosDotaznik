@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data.Models.Registers
 {
-    public class Department
+    public class Division
     {
         public int Id { get; set; }
-        public string DepartmentName { get; set; }
+        public string DivisionName { get; set; }
     }
 }

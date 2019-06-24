@@ -51,6 +51,7 @@
     <Compile Include="Models\Questionare.cs" />
     <Compile Include="Models\Registers\Country.cs" />
     <Compile Include="Models\Registers\Department.cs" />
+    <Compile Include="Models\Registers\Division.cs" />
     <Compile Include="Models\Registers\EducationLevel.cs" />
     <Compile Include="Models\Registers\HealthInsurance.cs" />
     <Compile Include="Models\Registers\Retirement.cs" />
