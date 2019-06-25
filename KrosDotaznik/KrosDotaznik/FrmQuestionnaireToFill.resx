@@ -3690,9 +3690,6 @@
   <data name="txtHoursPerWeek.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="txtHoursPerWeek.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;txtHoursPerWeek.Name" xml:space="preserve">
     <value>txtHoursPerWeek</value>
   </data>
@@ -4035,17 +4032,44 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1054, 864</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>FrmQuestionnaireToFill</value>
+  </data>
+  <data name="&gt;&gt;colName.Name" xml:space="preserve">
+    <value>colName</value>
+  </data>
+  <data name="&gt;&gt;colName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colSurname.Name" xml:space="preserve">
+    <value>colSurname</value>
+  </data>
+  <data name="&gt;&gt;colSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;colBonus.Name" xml:space="preserve">
     <value>colBonus</value>
   </data>
   <data name="&gt;&gt;colBonus.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colBirthDate.Name" xml:space="preserve">
+    <value>colBirthDate</value>
+  </data>
+  <data name="&gt;&gt;colBirthDate.Type" xml:space="preserve">
+    <value>KrosDotaznik.CalendarColumnPicker.CalendarColumn, KrosDotaznik, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colId.Name" xml:space="preserve">
+    <value>colId</value>
+  </data>
+  <data name="&gt;&gt;colId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colEmployeeId.Name" xml:space="preserve">
+    <value>colEmployeeId</value>
+  </data>
+  <data name="&gt;&gt;colEmployeeId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;saveFileData.Name" xml:space="preserve">
     <value>saveFileData</value>
@@ -4081,36 +4105,6 @@
     <value>dataGridViewTextBoxColumn4</value>
   </data>
   <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colName.Name" xml:space="preserve">
-    <value>colName</value>
-  </data>
-  <data name="&gt;&gt;colName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colSurname.Name" xml:space="preserve">
-    <value>colSurname</value>
-  </data>
-  <data name="&gt;&gt;colSurname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colBirthDate.Name" xml:space="preserve">
-    <value>colBirthDate</value>
-  </data>
-  <data name="&gt;&gt;colBirthDate.Type" xml:space="preserve">
-    <value>KrosDotaznik.CalendarColumnPicker.CalendarColumn, KrosDotaznik, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;colId.Name" xml:space="preserve">
-    <value>colId</value>
-  </data>
-  <data name="&gt;&gt;colId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colEmployeeId.Name" xml:space="preserve">
-    <value>colEmployeeId</value>
-  </data>
-  <data name="&gt;&gt;colEmployeeId.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -145,7 +145,12 @@
             this.lblJobFrom = new System.Windows.Forms.Label();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
             this.dgvChildren = new System.Windows.Forms.DataGridView();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colBonus = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
+            this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tPageJobSpecification = new System.Windows.Forms.TabPage();
             this.panelWorkTime = new System.Windows.Forms.Panel();
             this.dtpEndOfTrial = new System.Windows.Forms.DateTimePicker();
@@ -183,11 +188,6 @@
             this.calendarColumn1 = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colBirthDate = new KrosDotaznik.CalendarColumnPicker.CalendarColumn();
-            this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grBoxTemporaryAddress.SuspendLayout();
             this.grBoxAddress.SuspendLayout();
             this.grBoxCurrentEducation.SuspendLayout();
@@ -955,6 +955,18 @@
             resources.ApplyResources(this.dgvChildren, "dgvChildren");
             this.dgvChildren.Name = "dgvChildren";
             // 
+            // colName
+            // 
+            this.colName.DataPropertyName = "Name";
+            resources.ApplyResources(this.colName, "colName");
+            this.colName.Name = "colName";
+            // 
+            // colSurname
+            // 
+            this.colSurname.DataPropertyName = "Surname";
+            resources.ApplyResources(this.colSurname, "colSurname");
+            this.colSurname.Name = "colSurname";
+            // 
             // colBonus
             // 
             this.colBonus.DataPropertyName = "Bonus";
@@ -962,6 +974,27 @@
             this.colBonus.Name = "colBonus";
             this.colBonus.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colBonus.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // colBirthDate
+            // 
+            this.colBirthDate.DataPropertyName = "BirthDate";
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
+            resources.ApplyResources(this.colBirthDate, "colBirthDate");
+            this.colBirthDate.Name = "colBirthDate";
+            // 
+            // colId
+            // 
+            this.colId.DataPropertyName = "Id";
+            resources.ApplyResources(this.colId, "colId");
+            this.colId.Name = "colId";
+            // 
+            // colEmployeeId
+            // 
+            this.colEmployeeId.DataPropertyName = "IdEmployeeData";
+            resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
+            this.colEmployeeId.Name = "colEmployeeId";
             // 
             // tPageJobSpecification
             // 
@@ -1193,39 +1226,6 @@
             this.dataGridViewTextBoxColumn4.DataPropertyName = "IdEmployeeData";
             resources.ApplyResources(this.dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // colName
-            // 
-            this.colName.DataPropertyName = "Name";
-            resources.ApplyResources(this.colName, "colName");
-            this.colName.Name = "colName";
-            // 
-            // colSurname
-            // 
-            this.colSurname.DataPropertyName = "Surname";
-            resources.ApplyResources(this.colSurname, "colSurname");
-            this.colSurname.Name = "colSurname";
-            // 
-            // colBirthDate
-            // 
-            this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle1.Format = "d";
-            dataGridViewCellStyle1.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
-            resources.ApplyResources(this.colBirthDate, "colBirthDate");
-            this.colBirthDate.Name = "colBirthDate";
-            // 
-            // colId
-            // 
-            this.colId.DataPropertyName = "Id";
-            resources.ApplyResources(this.colId, "colId");
-            this.colId.Name = "colId";
-            // 
-            // colEmployeeId
-            // 
-            this.colEmployeeId.DataPropertyName = "IdEmployeeData";
-            resources.ApplyResources(this.colEmployeeId, "colEmployeeId");
-            this.colEmployeeId.Name = "colEmployeeId";
             // 
             // FrmQuestionnaireToFill
             // 
