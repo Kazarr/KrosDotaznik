@@ -136,7 +136,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblRetiredSince.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -175,7 +175,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPensionRecipient.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblPensionRecipient.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -214,7 +214,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblHandicapInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblHandicapInPercentage.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -253,7 +253,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblHealthInsurance.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -292,7 +292,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblIBAN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblIBAN.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -331,7 +331,7 @@
     <value>3, 75</value>
   </data>
   <data name="lblState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 35</value>
+    <value>212, 35</value>
   </data>
   <data name="lblState.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -370,7 +370,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 38</value>
+    <value>207, 38</value>
   </data>
   <data name="lblGender.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -409,7 +409,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCitizenShip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 38</value>
+    <value>215, 38</value>
   </data>
   <data name="lblCitizenShip.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -448,7 +448,7 @@
     <value>3, 37</value>
   </data>
   <data name="lblNationality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 38</value>
+    <value>212, 38</value>
   </data>
   <data name="lblNationality.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -487,7 +487,7 @@
     <value>3, 110</value>
   </data>
   <data name="lblRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 40</value>
+    <value>212, 40</value>
   </data>
   <data name="lblRegionOfBirth.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -526,7 +526,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 37</value>
+    <value>212, 37</value>
   </data>
   <data name="lblPlaceOfBirth.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -565,7 +565,7 @@
     <value>3, 39</value>
   </data>
   <data name="lblPersonalId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 36</value>
+    <value>212, 36</value>
   </data>
   <data name="lblPersonalId.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -604,7 +604,7 @@
     <value>3, 37</value>
   </data>
   <data name="lblBirthDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 38</value>
+    <value>212, 38</value>
   </data>
   <data name="lblBirthDate.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -643,7 +643,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 37</value>
+    <value>210, 37</value>
   </data>
   <data name="lblSurname.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -682,7 +682,7 @@
     <value>3, 37</value>
   </data>
   <data name="lblMaidenName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 38</value>
+    <value>210, 38</value>
   </data>
   <data name="lblMaidenName.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -721,7 +721,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 37</value>
+    <value>212, 37</value>
   </data>
   <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -760,7 +760,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblIdentityCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 39</value>
+    <value>212, 39</value>
   </data>
   <data name="lblIdentityCard.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -790,10 +790,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtTempHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtTempHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtTempHouseNumber.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -826,7 +826,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblTempHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblTempHouseNumber.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -856,10 +856,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtTempPostalCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtTempPostalCode.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -883,10 +883,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtTempCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtTempCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtTempCity.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -910,10 +910,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtTempStreet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtTempStreet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtTempStreet.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -946,7 +946,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblPostalCodeTemp.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -985,7 +985,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCityTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblCityTemp.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1024,7 +1024,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblStreetTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblStreetTemp.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1054,10 +1054,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtHouseNumber.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -1090,7 +1090,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblHouseNumber.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1120,10 +1120,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtPostalCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtPostalCode.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1147,10 +1147,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtCity.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1174,10 +1174,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtStreet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtStreet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtStreet.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1210,7 +1210,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPostalCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblPostalCode.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1249,7 +1249,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblCity.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1288,7 +1288,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblStreet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblStreet.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1327,7 +1327,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblEmail.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1366,7 +1366,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblPhoneNumber.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1405,7 +1405,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblPin.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -1444,7 +1444,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1474,10 +1474,10 @@
     <value>Flat</value>
   </data>
   <data name="cmbCurrentEduLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="cmbCurrentEduLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="cmbCurrentEduLevel.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -1501,10 +1501,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtCurrentSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtCurrentSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtCurrentSchoolMajor.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1528,10 +1528,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtCurrentSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtCurrentSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtCurrentSchoolEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1555,10 +1555,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtCurrentSchool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtCurrentSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtCurrentSchool.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1591,7 +1591,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCurrEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblCurrEducationLevel.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1630,7 +1630,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCurrEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblCurrEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1669,7 +1669,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCurrSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblCurrSchool.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1702,10 +1702,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="cmbEduLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="cmbEduLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 31</value>
+    <value>215, 31</value>
   </data>
   <data name="cmbEduLevel.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -1729,10 +1729,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtHightestSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtHightestSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtHightestSchoolMajor.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1756,10 +1756,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtHighestSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtHighestSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtHighestSchoolEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1783,10 +1783,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtHighestSchool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtHighestSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtHighestSchool.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1819,7 +1819,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblEducationLevel.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1858,7 +1858,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblEndYear.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1897,7 +1897,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblMajor.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1936,7 +1936,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblSchool.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1962,6 +1962,12 @@
   <data name="tabCntrl.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
     <value>Left</value>
   </data>
+  <data name="tabCntrl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel12.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -1972,10 +1978,10 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="datePickerRetiredSince.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1993,13 +1999,13 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 472</value>
+    <value>463, 490</value>
   </data>
   <data name="tableLayoutPanel12.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel12.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -2019,6 +2025,9 @@
   <data name="tableLayoutPanel12.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRetiredSince" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="datePickerRetiredSince" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel11.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -2032,10 +2041,10 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="cmbRetirement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="cmbRetirement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 29</value>
+    <value>215, 29</value>
   </data>
   <data name="cmbRetirement.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -2053,13 +2062,13 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 469</value>
+    <value>7, 487</value>
   </data>
   <data name="tableLayoutPanel11.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel11.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -2079,6 +2088,9 @@
   <data name="tableLayoutPanel11.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPensionRecipient" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbRetirement" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -2089,10 +2101,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtHndcpInPercentage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtHndcpInPercentage.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -2110,13 +2122,13 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 426</value>
+    <value>463, 444</value>
   </data>
   <data name="tableLayoutPanel10.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel10.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -2136,6 +2148,9 @@
   <data name="tableLayoutPanel10.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHandicapInPercentage" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHndcpInPercentage" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel9.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -2152,10 +2167,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 3</value>
+    <value>328, 3</value>
   </data>
   <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 31</value>
+    <value>111, 31</value>
   </data>
   <data name="radioBtnSecondPilarNo.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -2188,10 +2203,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 3</value>
+    <value>226, 3</value>
   </data>
   <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 31</value>
+    <value>96, 31</value>
   </data>
   <data name="radioBtnSecondPilarYes.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -2224,7 +2239,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 37</value>
+    <value>217, 37</value>
   </data>
   <data name="lblSecondPillar.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -2248,13 +2263,13 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 383</value>
+    <value>463, 401</value>
   </data>
   <data name="tableLayoutPanel9.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel9.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -2272,7 +2287,10 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnSecondPilarNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnSecondPilarYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSecondPillar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,67,92453,Percent,32,07547,Absolute,123" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnSecondPilarNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnSecondPilarYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSecondPillar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,55346,Percent,31,44654,Absolute,116" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel8.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2290,10 +2308,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 3</value>
+    <value>328, 3</value>
   </data>
   <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 31</value>
+    <value>111, 31</value>
   </data>
   <data name="radioBtnHndcpNo.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -2326,10 +2344,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 3</value>
+    <value>225, 3</value>
   </data>
   <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 31</value>
+    <value>97, 31</value>
   </data>
   <data name="radioBtnHandcpYes.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -2362,7 +2380,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 37</value>
+    <value>216, 37</value>
   </data>
   <data name="lblHandicap.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -2386,13 +2404,13 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 426</value>
+    <value>7, 444</value>
   </data>
   <data name="tableLayoutPanel8.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel8.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -2410,7 +2428,10 @@
     <value>4</value>
   </data>
   <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnHndcpNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnHandcpYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHandicap" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,67,92453,Percent,32,07547,Absolute,123" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnHndcpNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnHandcpYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHandicap" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,23899,Percent,31,76101,Absolute,116" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel7.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2425,7 +2446,7 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnExceptionYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 3</value>
+    <value>275, 3</value>
   </data>
   <data name="radioBtnExceptionYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 25</value>
@@ -2458,7 +2479,7 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnExceptionNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 3</value>
+    <value>362, 3</value>
   </data>
   <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 25</value>
@@ -2491,7 +2512,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblInsuranceComapny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 37</value>
+    <value>266, 37</value>
   </data>
   <data name="lblInsuranceComapny.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -2515,13 +2536,13 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 512</value>
+    <value>7, 530</value>
   </data>
   <data name="tableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -2539,7 +2560,10 @@
     <value>5</value>
   </data>
   <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,62327,Percent,24,37673,Absolute,81" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,62327,Percent,24,37673,Absolute,82" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2551,7 +2575,7 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="cmbHealthInsurance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="cmbHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 29</value>
@@ -2572,13 +2596,13 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 383</value>
+    <value>7, 401</value>
   </data>
   <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -2598,11 +2622,14 @@
   <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHealthInsurance" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbHealthInsurance" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="panel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 372</value>
+    <value>0, 381</value>
   </data>
   <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>912, 5</value>
+    <value>919, 5</value>
   </data>
   <data name="panel6.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -2619,6 +2646,9 @@
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="tableLayoutPanel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -2629,10 +2659,10 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="txtIban.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtIban.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 20</value>
+    <value>215, 20</value>
   </data>
   <data name="txtIban.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -2650,13 +2680,13 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 329</value>
+    <value>7, 338</value>
   </data>
   <data name="tableLayoutPanel6.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel6.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -2676,11 +2706,14 @@
   <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblIBAN" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIban" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 318</value>
   </data>
   <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>912, 5</value>
+    <value>919, 5</value>
   </data>
   <data name="panel5.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -2697,6 +2730,9 @@
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="tableLayoutPanel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -2707,10 +2743,10 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtCitizenShip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtCitizenShip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtCitizenShip.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -2734,7 +2770,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 38</value>
+    <value>442, 38</value>
   </data>
   <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2754,6 +2790,9 @@
   <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtCitizenShip" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCitizenShip" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -2770,10 +2809,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnFemale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 3</value>
+    <value>320, 3</value>
   </data>
   <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 32</value>
+    <value>119, 32</value>
   </data>
   <data name="radioBtnFemale.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -2806,10 +2845,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnMale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 3</value>
+    <value>216, 3</value>
   </data>
   <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 32</value>
+    <value>98, 32</value>
   </data>
   <data name="radioBtnMale.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -2836,7 +2875,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 38</value>
+    <value>442, 38</value>
   </data>
   <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2854,7 +2893,10 @@
     <value>11</value>
   </data>
   <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnFemale" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblGender" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnMale" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,67,08464,Percent,32,91536,Absolute,123" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnFemale" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblGender" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnMale" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,67,08464,Percent,32,91536,Absolute,124" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2863,7 +2905,7 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtNationality.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 40</value>
+    <value>221, 40</value>
   </data>
   <data name="txtNationality.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 24</value>
@@ -2887,7 +2929,7 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtPlaceOfBirth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 3</value>
+    <value>221, 3</value>
   </data>
   <data name="txtPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 24</value>
@@ -2914,7 +2956,7 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 75</value>
+    <value>442, 75</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -2938,7 +2980,7 @@
     <value>0, 98</value>
   </data>
   <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>912, 5</value>
+    <value>924, 5</value>
   </data>
   <data name="panel4.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -2955,6 +2997,9 @@
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -2968,10 +3013,10 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="cmbState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 78</value>
+    <value>221, 78</value>
   </data>
   <data name="cmbState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 29</value>
+    <value>218, 29</value>
   </data>
   <data name="cmbState.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -2995,10 +3040,10 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="txtIdentityCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 3</value>
+    <value>221, 3</value>
   </data>
   <data name="txtIdentityCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="txtIdentityCard.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -3022,10 +3067,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtRegionOfBirth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 113</value>
+    <value>221, 113</value>
   </data>
   <data name="txtRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
+    <value>218, 24</value>
   </data>
   <data name="txtRegionOfBirth.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -3049,10 +3094,10 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="txtPersonalId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 42</value>
+    <value>221, 42</value>
   </data>
   <data name="txtPersonalId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="txtPersonalId.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -3076,7 +3121,7 @@
     <value>4</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 150</value>
+    <value>442, 150</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -3096,6 +3141,9 @@
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbState" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblIdentityCard" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPersonalId" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIdentityCard" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtRegionOfBirth" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblState" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPersonalId" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRegionOfBirth" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,52,Percent,48,Absolute,35,Absolute,39" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="layoutPanelSurname.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="layoutPanelSurname.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -3106,10 +3154,10 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtMaidenName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 40</value>
+    <value>219, 40</value>
   </data>
   <data name="txtMaidenName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
+    <value>217, 24</value>
   </data>
   <data name="txtMaidenName.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3133,10 +3181,10 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtSurname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 3</value>
+    <value>219, 3</value>
   </data>
   <data name="txtSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
+    <value>217, 24</value>
   </data>
   <data name="txtSurname.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3154,13 +3202,13 @@
     <value>3</value>
   </data>
   <data name="layoutPanelSurname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 19</value>
+    <value>466, 19</value>
   </data>
   <data name="layoutPanelSurname.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="layoutPanelSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 75</value>
+    <value>439, 75</value>
   </data>
   <data name="layoutPanelSurname.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3180,6 +3228,9 @@
   <data name="layoutPanelSurname.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtMaidenName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSurname" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMaidenName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSurname" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="layoutPaneltitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="layoutPaneltitle.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -3190,10 +3241,10 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 3</value>
+    <value>221, 3</value>
   </data>
   <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
+    <value>218, 24</value>
   </data>
   <data name="txtTitle.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3217,10 +3268,10 @@
     <value>Century Gothic, 12pt</value>
   </data>
   <data name="datePickerBirth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 40</value>
+    <value>221, 40</value>
   </data>
   <data name="datePickerBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 27</value>
+    <value>218, 27</value>
   </data>
   <data name="datePickerBirth.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -3244,7 +3295,7 @@
     <value>2</value>
   </data>
   <data name="layoutPaneltitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 75</value>
+    <value>442, 75</value>
   </data>
   <data name="layoutPaneltitle.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3264,107 +3315,8 @@
   <data name="layoutPaneltitle.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblTitle" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblBirthDate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtTitle" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="datePickerBirth" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>565, 15</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 73</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Second pillar:</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 1</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 73</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Retirement Insurance Company Exception:</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 14</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 74</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Handicap:</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>830, 515</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 40</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="layoutPanelName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="layoutPanelName.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3385,7 +3337,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 37</value>
+    <value>210, 37</value>
   </data>
   <data name="lblName.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3424,7 +3376,7 @@
     <value>3, 37</value>
   </data>
   <data name="lblPreviousName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 38</value>
+    <value>210, 38</value>
   </data>
   <data name="lblPreviousName.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -3454,10 +3406,10 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtPreviousName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 40</value>
+    <value>219, 40</value>
   </data>
   <data name="txtPreviousName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
+    <value>217, 24</value>
   </data>
   <data name="txtPreviousName.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -3481,10 +3433,10 @@
     <value>Century Gothic, 14.25pt</value>
   </data>
   <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 3</value>
+    <value>219, 3</value>
   </data>
   <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
+    <value>217, 24</value>
   </data>
   <data name="txtName.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -3508,7 +3460,7 @@
     <value>2</value>
   </data>
   <data name="layoutPanelName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 75</value>
+    <value>439, 75</value>
   </data>
   <data name="layoutPanelName.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3523,7 +3475,7 @@
     <value>tPagePersonalInfo</value>
   </data>
   <data name="&gt;&gt;layoutPanelName.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>17</value>
   </data>
   <data name="layoutPanelName.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPreviousName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPreviousName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
@@ -3535,7 +3487,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPagePersonalInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPagePersonalInfo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3555,17 +3507,278 @@
   <data name="&gt;&gt;tPagePersonalInfo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="tableLayoutPanel50.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel50.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 1</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel50</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbTempCountry.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbTempCountry.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmbTempCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="cmbTempCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 27</value>
+  </data>
+  <data name="cmbTempCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;cmbTempCountry.Name" xml:space="preserve">
+    <value>cmbTempCountry</value>
+  </data>
+  <data name="&gt;&gt;cmbTempCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTempCountry.Parent" xml:space="preserve">
+    <value>tableLayoutPanel50</value>
+  </data>
+  <data name="&gt;&gt;cmbTempCountry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblTempCoutry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTempCoutry.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTempCoutry.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTempCoutry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblTempCoutry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblTempCoutry.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblTempCoutry.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblTempCoutry.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTempCoutry.Name" xml:space="preserve">
+    <value>lblTempCoutry</value>
+  </data>
+  <data name="&gt;&gt;lblTempCoutry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTempCoutry.Parent" xml:space="preserve">
+    <value>tableLayoutPanel50</value>
+  </data>
+  <data name="&gt;&gt;lblTempCoutry.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 374</value>
+  </data>
+  <data name="tableLayoutPanel50.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel50.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel50.Name" xml:space="preserve">
+    <value>tableLayoutPanel50</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel50.Parent" xml:space="preserve">
+    <value>tPageContactAdress</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel50.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel50.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbTempCountry" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTempCoutry" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel49.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel49.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 1</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel49</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbCountry.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbCountry.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="cmbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 27</value>
+  </data>
+  <data name="cmbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Name" xml:space="preserve">
+    <value>cmbCountry</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.Parent" xml:space="preserve">
+    <value>tableLayoutPanel49</value>
+  </data>
+  <data name="&gt;&gt;cmbCountry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCountry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCountry.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblCountry.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblCountry.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.Name" xml:space="preserve">
+    <value>lblCountry</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.Parent" xml:space="preserve">
+    <value>tableLayoutPanel49</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 188</value>
+  </data>
+  <data name="tableLayoutPanel49.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel49.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel49.Name" xml:space="preserve">
+    <value>tableLayoutPanel49</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel49.Parent" xml:space="preserve">
+    <value>tPageContactAdress</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel49.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel49.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbCountry" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCountry" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel22.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel22.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 304</value>
+    <value>470, 331</value>
   </data>
   <data name="tableLayoutPanel22.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel22.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -3580,22 +3793,25 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel22.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="tableLayoutPanel22.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtTempPostalCode" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblPostalCodeTemp" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel21.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel21.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 261</value>
+    <value>470, 288</value>
   </data>
   <data name="tableLayoutPanel21.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel21.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -3610,22 +3826,25 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel21.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="tableLayoutPanel21.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCityTemp" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtTempCity" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel20.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel20.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 304</value>
+    <value>16, 331</value>
   </data>
   <data name="tableLayoutPanel20.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel20.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -3640,22 +3859,25 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel20.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="tableLayoutPanel20.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtTempHouseNumber" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTempHouseNumber" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel19.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 261</value>
+    <value>16, 288</value>
   </data>
   <data name="tableLayoutPanel19.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel19.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -3670,10 +3892,13 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel19.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="tableLayoutPanel19.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStreetTemp" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtTempStreet" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblTempAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblTempAddress.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3682,7 +3907,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblTempAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 222</value>
+    <value>12, 249</value>
   </data>
   <data name="lblTempAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 19</value>
@@ -3706,13 +3931,16 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;lblTempAddress.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
+  </data>
+  <data name="panel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 214</value>
+    <value>1, 241</value>
   </data>
   <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>912, 5</value>
+    <value>919, 5</value>
   </data>
   <data name="panel7.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -3727,7 +3955,10 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel18.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3739,7 +3970,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel18.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -3754,10 +3985,13 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel18.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="tableLayoutPanel18.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtPostalCode" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblPostalCode" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel17.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3769,7 +4003,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel17.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -3784,10 +4018,13 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel17.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="tableLayoutPanel17.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCity" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCity" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel16.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3799,7 +4036,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel16.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -3814,10 +4051,13 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel16.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="tableLayoutPanel16.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtHouseNumber" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHouseNumber" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel15.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3829,7 +4069,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel15.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -3844,10 +4084,13 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel15.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="tableLayoutPanel15.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStreet" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtStreet" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblAddress.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3877,13 +4120,16 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;lblAddress.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
+  </data>
+  <data name="panel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 62</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>912, 5</value>
+    <value>919, 5</value>
   </data>
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -3898,7 +4144,10 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
+  </data>
+  <data name="tableLayoutPanel14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel14.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3910,10 +4159,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3937,7 +4186,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel14.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -3952,10 +4201,13 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel14.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="tableLayoutPanel14.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblEmail" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtEmail" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel13.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3967,10 +4219,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtPhoneNumber.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3988,13 +4240,13 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
+    <value>14, 19</value>
   </data>
   <data name="tableLayoutPanel13.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel13.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -4009,7 +4261,7 @@
     <value>tPageContactAdress</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel13.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="tableLayoutPanel13.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPhoneNumber" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPhoneNumber" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
@@ -4021,7 +4273,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPageContactAdress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPageContactAdress.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4041,6 +4293,9 @@
   <data name="&gt;&gt;tPageContactAdress.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="tableLayoutPanel24.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel24.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4051,10 +4306,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 31</value>
+    <value>215, 31</value>
   </data>
   <data name="txtPinAlarm.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4078,7 +4333,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel24.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -4098,6 +4353,9 @@
   <data name="tableLayoutPanel24.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPin" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPinAlarm" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel23.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel23.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4108,10 +4366,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 31</value>
+    <value>215, 31</value>
   </data>
   <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4135,7 +4393,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel23.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -4162,7 +4420,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPagePassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPagePassword.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4182,6 +4440,9 @@
   <data name="&gt;&gt;tPagePassword.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="tableLayoutPanel29.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel29.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4192,7 +4453,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel29.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -4211,6 +4472,9 @@
   </data>
   <data name="tableLayoutPanel29.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbCurrentEduLevel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCurrEducationLevel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel30.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel30.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4231,7 +4495,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblCurrMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblCurrMajor.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -4261,7 +4525,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel30.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -4281,6 +4545,9 @@
   <data name="tableLayoutPanel30.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrMajor" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchoolMajor" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel31.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel31.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4291,7 +4558,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel31.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -4311,6 +4578,9 @@
   <data name="tableLayoutPanel31.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrEndYear" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchoolEndYear" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel32.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel32.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4321,7 +4591,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel32.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel32.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -4341,11 +4611,14 @@
   <data name="tableLayoutPanel32.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrSchool" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchool" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="panel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>-2, 131</value>
   </data>
   <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>912, 5</value>
+    <value>919, 5</value>
   </data>
   <data name="panel8.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -4362,6 +4635,9 @@
   <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="tableLayoutPanel28.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel28.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4372,7 +4648,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel28.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -4392,6 +4668,9 @@
   <data name="tableLayoutPanel28.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbEduLevel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEducationLevel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel27.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel27.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4402,7 +4681,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel27.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -4422,6 +4701,9 @@
   <data name="tableLayoutPanel27.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblMajor" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHightestSchoolMajor" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel26.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel26.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4432,7 +4714,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel26.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -4452,6 +4734,9 @@
   <data name="tableLayoutPanel26.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblEndYear" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHighestSchoolEndYear" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="tableLayoutPanel25.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel25.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4462,7 +4747,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel25.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -4481,6 +4766,9 @@
   </data>
   <data name="tableLayoutPanel25.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSchool" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHighestSchool" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblCurrentEdu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblCurrentEdu.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4511,6 +4799,9 @@
   </data>
   <data name="&gt;&gt;lblCurrentEdu.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="lblHighEdu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblHighEdu.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4546,7 +4837,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPageEducation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPageEducation.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4566,6 +4857,9 @@
   <data name="&gt;&gt;tPageEducation.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="tableLayoutPanel33.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="tableLayoutPanel33.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -4573,10 +4867,10 @@
     <value>Fill</value>
   </data>
   <data name="dtpTo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="dtpTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="dtpTo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4609,7 +4903,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblJobTo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4639,7 +4933,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel33.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -4658,6 +4952,9 @@
   </data>
   <data name="tableLayoutPanel33.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dtpTo" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblJobTo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel34.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel34.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4678,7 +4975,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblWorkPosition.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4708,10 +5005,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtWorkPosition.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4735,7 +5032,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel34.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -4754,6 +5051,9 @@
   </data>
   <data name="tableLayoutPanel34.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtWorkPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel35.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel35.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4774,7 +5074,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblJobFrom.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4801,10 +5101,10 @@
     <value>Fill</value>
   </data>
   <data name="dtpFrom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="dtpFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="dtpFrom.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4828,7 +5128,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel35.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel35.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -4847,6 +5147,9 @@
   </data>
   <data name="tableLayoutPanel35.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblJobFrom" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpFrom" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel36.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel36.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4867,7 +5170,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>215, 37</value>
   </data>
   <data name="lblEmployeer.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4897,10 +5200,10 @@
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
   <data name="txtEmployeer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtEmployeer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 24</value>
+    <value>215, 24</value>
   </data>
   <data name="txtEmployeer.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4924,7 +5227,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel36.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 37</value>
+    <value>442, 37</value>
   </data>
   <data name="tableLayoutPanel36.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -4951,7 +5254,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPagePreviousJob.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPagePreviousJob.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4970,6 +5273,9 @@
   </data>
   <data name="&gt;&gt;tPagePreviousJob.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="dgvChildren.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="colName.HeaderText" xml:space="preserve">
     <value>Name</value>
@@ -4999,7 +5305,7 @@
     <value>0, 0</value>
   </data>
   <data name="dgvChildren.Size" type="System.Drawing.Size, System.Drawing">
-    <value>783, 150</value>
+    <value>922, 150</value>
   </data>
   <data name="dgvChildren.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5023,7 +5329,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPageChildInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPageChildInfo.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -5043,32 +5349,101 @@
   <data name="&gt;&gt;tPageChildInfo.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="dtpEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 69</value>
+  <data name="panel11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="dtpEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 254</value>
   </data>
-  <data name="dtpEndOfTrial.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>919, 5</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;dtpEndOfTrial.Name" xml:space="preserve">
-    <value>dtpEndOfTrial</value>
+  <data name="panel10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="&gt;&gt;dtpEndOfTrial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 191</value>
   </data>
-  <data name="&gt;&gt;dtpEndOfTrial.Parent" xml:space="preserve">
-    <value>panelWorkTime</value>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>919, 5</value>
   </data>
-  <data name="&gt;&gt;dtpEndOfTrial.ZOrder" xml:space="preserve">
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel48.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel48.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblStartDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblStartDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="lblStartDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Name" xml:space="preserve">
+    <value>lblStartDate</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel48</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="dtpStartDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="dtpStartDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 36</value>
+    <value>224, 3</value>
   </data>
   <data name="dtpStartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="dtpStartDate.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5080,16 +5455,175 @@
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dtpStartDate.Parent" xml:space="preserve">
-    <value>panelWorkTime</value>
+    <value>tableLayoutPanel48</value>
   </data>
   <data name="&gt;&gt;dtpStartDate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="tableLayoutPanel48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 274</value>
+  </data>
+  <data name="tableLayoutPanel48.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel48.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.Name" xml:space="preserve">
+    <value>tableLayoutPanel48</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel48.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStartDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpStartDate" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel47.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel47.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dtpEndOfTrial.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dtpEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="dtpEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 27</value>
+  </data>
+  <data name="dtpEndOfTrial.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.Name" xml:space="preserve">
+    <value>dtpEndOfTrial</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.Parent" xml:space="preserve">
+    <value>tableLayoutPanel47</value>
+  </data>
+  <data name="&gt;&gt;dtpEndOfTrial.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEndOfTrial.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblEndOfTrial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblEndOfTrial.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblEndOfTrial.Text" xml:space="preserve">
+    <value>End of trial</value>
+  </data>
+  <data name="lblEndOfTrial.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.Name" xml:space="preserve">
+    <value>lblEndOfTrial</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.Parent" xml:space="preserve">
+    <value>tableLayoutPanel47</value>
+  </data>
+  <data name="&gt;&gt;lblEndOfTrial.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 317</value>
+  </data>
+  <data name="tableLayoutPanel47.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel47.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.Name" xml:space="preserve">
+    <value>tableLayoutPanel47</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel47.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dtpEndOfTrial" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEndOfTrial" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel46.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel46.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblHiredDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHiredDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHiredDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblHiredDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblHiredDate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblHiredDate.Text" xml:space="preserve">
+    <value>Hire date</value>
+  </data>
+  <data name="lblHiredDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.Name" xml:space="preserve">
+    <value>lblHiredDate</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel46</value>
+  </data>
+  <data name="&gt;&gt;lblHiredDate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtpHireDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="dtpHireDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="dtpHireDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="dtpHireDate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -5101,118 +5635,55 @@
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dtpHireDate.Parent" xml:space="preserve">
-    <value>panelWorkTime</value>
+    <value>tableLayoutPanel46</value>
   </data>
   <data name="&gt;&gt;dtpHireDate.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
-  <data name="lblEndOfTrial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tableLayoutPanel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 274</value>
   </data>
-  <data name="lblEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 75</value>
+  <data name="tableLayoutPanel46.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="tableLayoutPanel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
   </data>
-  <data name="lblEndOfTrial.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="tableLayoutPanel46.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
   </data>
-  <data name="lblEndOfTrial.Text" xml:space="preserve">
-    <value>End of trial</value>
+  <data name="&gt;&gt;tableLayoutPanel46.Name" xml:space="preserve">
+    <value>tableLayoutPanel46</value>
   </data>
-  <data name="&gt;&gt;lblEndOfTrial.Name" xml:space="preserve">
-    <value>lblEndOfTrial</value>
+  <data name="&gt;&gt;tableLayoutPanel46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblEndOfTrial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblEndOfTrial.Parent" xml:space="preserve">
-    <value>panelWorkTime</value>
-  </data>
-  <data name="&gt;&gt;lblEndOfTrial.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblStartDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblStartDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 42</value>
-  </data>
-  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblStartDate.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblStartDate.Text" xml:space="preserve">
-    <value>Start date</value>
-  </data>
-  <data name="&gt;&gt;lblStartDate.Name" xml:space="preserve">
-    <value>lblStartDate</value>
-  </data>
-  <data name="&gt;&gt;lblStartDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblStartDate.Parent" xml:space="preserve">
-    <value>panelWorkTime</value>
-  </data>
-  <data name="&gt;&gt;lblStartDate.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblHiredDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblHiredDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 9</value>
-  </data>
-  <data name="lblHiredDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblHiredDate.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblHiredDate.Text" xml:space="preserve">
-    <value>Hire date</value>
-  </data>
-  <data name="&gt;&gt;lblHiredDate.Name" xml:space="preserve">
-    <value>lblHiredDate</value>
-  </data>
-  <data name="&gt;&gt;lblHiredDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblHiredDate.Parent" xml:space="preserve">
-    <value>panelWorkTime</value>
-  </data>
-  <data name="&gt;&gt;lblHiredDate.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="panelWorkTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 3</value>
-  </data>
-  <data name="panelWorkTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 138</value>
-  </data>
-  <data name="panelWorkTime.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelWorkTime.Name" xml:space="preserve">
-    <value>panelWorkTime</value>
-  </data>
-  <data name="&gt;&gt;panelWorkTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelWorkTime.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tableLayoutPanel46.Parent" xml:space="preserve">
     <value>tPageJobSpecification</value>
   </data>
-  <data name="&gt;&gt;panelWorkTime.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tableLayoutPanel46.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel46.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHiredDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpHireDate" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel45.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel45.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbWageCategory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbWageCategory.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="cmbWageCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 36</value>
+    <value>224, 3</value>
   </data>
   <data name="cmbWageCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
+    <value>215, 27</value>
   </data>
   <data name="cmbWageCategory.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5224,16 +5695,118 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbWageCategory.Parent" xml:space="preserve">
-    <value>panelRating</value>
+    <value>tableLayoutPanel45</value>
   </data>
   <data name="&gt;&gt;cmbWageCategory.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="lblWageCategory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblWageCategory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWageCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblWageCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblWageCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblWageCategory.Text" xml:space="preserve">
+    <value>Wage category</value>
+  </data>
+  <data name="lblWageCategory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.Name" xml:space="preserve">
+    <value>lblWageCategory</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.Parent" xml:space="preserve">
+    <value>tableLayoutPanel45</value>
+  </data>
+  <data name="&gt;&gt;lblWageCategory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 211</value>
+  </data>
+  <data name="tableLayoutPanel45.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel45.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.Name" xml:space="preserve">
+    <value>tableLayoutPanel45</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel45.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbWageCategory" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblWageCategory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel44.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel44.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSalary.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblSalary.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSalary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblSalary.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSalary.Text" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="lblSalary.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.Name" xml:space="preserve">
+    <value>lblSalary</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.Parent" xml:space="preserve">
+    <value>tableLayoutPanel44</value>
+  </data>
+  <data name="&gt;&gt;lblSalary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSalary.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="txtSalary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 3</value>
+    <value>224, 3</value>
   </data>
   <data name="txtSalary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 27</value>
+    <value>215, 20</value>
   </data>
   <data name="txtSalary.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5245,91 +5818,55 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtSalary.Parent" xml:space="preserve">
-    <value>panelRating</value>
+    <value>tableLayoutPanel44</value>
   </data>
   <data name="&gt;&gt;txtSalary.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="lblSalary.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tableLayoutPanel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 211</value>
   </data>
-  <data name="lblSalary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 6</value>
-  </data>
-  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblSalary.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblSalary.Text" xml:space="preserve">
-    <value>Salary</value>
-  </data>
-  <data name="&gt;&gt;lblSalary.Name" xml:space="preserve">
-    <value>lblSalary</value>
-  </data>
-  <data name="&gt;&gt;lblSalary.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSalary.Parent" xml:space="preserve">
-    <value>panelRating</value>
-  </data>
-  <data name="&gt;&gt;lblSalary.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblWageCategory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblWageCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 39</value>
-  </data>
-  <data name="lblWageCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 23</value>
-  </data>
-  <data name="lblWageCategory.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblWageCategory.Text" xml:space="preserve">
-    <value>Wage category</value>
-  </data>
-  <data name="&gt;&gt;lblWageCategory.Name" xml:space="preserve">
-    <value>lblWageCategory</value>
-  </data>
-  <data name="&gt;&gt;lblWageCategory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblWageCategory.Parent" xml:space="preserve">
-    <value>panelRating</value>
-  </data>
-  <data name="&gt;&gt;lblWageCategory.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="panelRating.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 147</value>
-  </data>
-  <data name="panelRating.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 109</value>
-  </data>
-  <data name="panelRating.TabIndex" type="System.Int32, mscorlib">
+  <data name="tableLayoutPanel44.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;panelRating.Name" xml:space="preserve">
-    <value>panelRating</value>
+  <data name="tableLayoutPanel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
   </data>
-  <data name="&gt;&gt;panelRating.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tableLayoutPanel44.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
   </data>
-  <data name="&gt;&gt;panelRating.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tableLayoutPanel44.Name" xml:space="preserve">
+    <value>tableLayoutPanel44</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel44.Parent" xml:space="preserve">
     <value>tPageJobSpecification</value>
   </data>
-  <data name="&gt;&gt;panelRating.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;tableLayoutPanel44.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel44.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSalary" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSalary" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel43.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel43.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbTeam.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbTeam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="cmbTeam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 70</value>
+    <value>201, 3</value>
   </data>
   <data name="cmbTeam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
+    <value>192, 27</value>
   </data>
   <data name="cmbTeam.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5341,16 +5878,121 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbTeam.Parent" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
+    <value>tableLayoutPanel43</value>
   </data>
   <data name="&gt;&gt;cmbTeam.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="lblTeam.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTeam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 37</value>
+  </data>
+  <data name="lblTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTeam.Text" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="lblTeam.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Name" xml:space="preserve">
+    <value>lblTeam</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Parent" xml:space="preserve">
+    <value>tableLayoutPanel43</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 108</value>
+  </data>
+  <data name="tableLayoutPanel43.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 37</value>
+  </data>
+  <data name="tableLayoutPanel43.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.Name" xml:space="preserve">
+    <value>tableLayoutPanel43</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel43.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbTeam" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTeam" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel42.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel42.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDivision.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblDivision.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 37</value>
+  </data>
+  <data name="lblDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDivision.Text" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="lblDivision.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.Name" xml:space="preserve">
+    <value>lblDivision</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.Parent" xml:space="preserve">
+    <value>tableLayoutPanel42</value>
+  </data>
+  <data name="&gt;&gt;lblDivision.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbDivision.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbDivision.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="cmbDivision.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 37</value>
+    <value>201, 3</value>
   </data>
   <data name="cmbDivision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
+    <value>192, 27</value>
   </data>
   <data name="cmbDivision.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5362,16 +6004,85 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbDivision.Parent" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
+    <value>tableLayoutPanel42</value>
   </data>
   <data name="&gt;&gt;cmbDivision.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="tableLayoutPanel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 65</value>
+  </data>
+  <data name="tableLayoutPanel42.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 37</value>
+  </data>
+  <data name="tableLayoutPanel42.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.Name" xml:space="preserve">
+    <value>tableLayoutPanel42</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel42.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblDivision" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbDivision" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel41.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel41.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblPlaceOfWork.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlaceOfWork.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 37</value>
+  </data>
+  <data name="lblPlaceOfWork.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPlaceOfWork.Text" xml:space="preserve">
+    <value>Place of work</value>
+  </data>
+  <data name="lblPlaceOfWork.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.Name" xml:space="preserve">
+    <value>lblPlaceOfWork</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.Parent" xml:space="preserve">
+    <value>tableLayoutPanel41</value>
+  </data>
+  <data name="&gt;&gt;lblPlaceOfWork.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPlaceOfWork.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="txtPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 4</value>
+    <value>201, 3</value>
   </data>
   <data name="txtPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
+    <value>192, 20</value>
   </data>
   <data name="txtPlaceOfWork.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -5383,118 +6094,52 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtPlaceOfWork.Parent" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
+    <value>tableLayoutPanel41</value>
   </data>
   <data name="&gt;&gt;txtPlaceOfWork.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
-  <data name="lblPlaceOfWork.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tableLayoutPanel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 19</value>
   </data>
-  <data name="lblPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 7</value>
+  <data name="tableLayoutPanel41.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 23</value>
+  <data name="tableLayoutPanel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 37</value>
   </data>
-  <data name="lblPlaceOfWork.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="tableLayoutPanel41.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
-  <data name="lblPlaceOfWork.Text" xml:space="preserve">
-    <value>Place of work</value>
+  <data name="&gt;&gt;tableLayoutPanel41.Name" xml:space="preserve">
+    <value>tableLayoutPanel41</value>
   </data>
-  <data name="&gt;&gt;lblPlaceOfWork.Name" xml:space="preserve">
-    <value>lblPlaceOfWork</value>
+  <data name="&gt;&gt;tableLayoutPanel41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblPlaceOfWork.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlaceOfWork.Parent" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
-  </data>
-  <data name="&gt;&gt;lblPlaceOfWork.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblDivision.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblDivision.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 40</value>
-  </data>
-  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblDivision.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblDivision.Text" xml:space="preserve">
-    <value>Division</value>
-  </data>
-  <data name="&gt;&gt;lblDivision.Name" xml:space="preserve">
-    <value>lblDivision</value>
-  </data>
-  <data name="&gt;&gt;lblDivision.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblDivision.Parent" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
-  </data>
-  <data name="&gt;&gt;lblDivision.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblTeam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblTeam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 73</value>
-  </data>
-  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblTeam.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblTeam.Text" xml:space="preserve">
-    <value>Team</value>
-  </data>
-  <data name="&gt;&gt;lblTeam.Name" xml:space="preserve">
-    <value>lblTeam</value>
-  </data>
-  <data name="&gt;&gt;lblTeam.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTeam.Parent" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
-  </data>
-  <data name="&gt;&gt;lblTeam.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="panelWorkEnviroment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 147</value>
-  </data>
-  <data name="panelWorkEnviroment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 109</value>
-  </data>
-  <data name="panelWorkEnviroment.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panelWorkEnviroment.Name" xml:space="preserve">
-    <value>panelWorkEnviroment</value>
-  </data>
-  <data name="&gt;&gt;panelWorkEnviroment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelWorkEnviroment.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tableLayoutPanel41.Parent" xml:space="preserve">
     <value>tPageJobSpecification</value>
   </data>
-  <data name="&gt;&gt;panelWorkEnviroment.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;tableLayoutPanel41.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tableLayoutPanel41.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPlaceOfWork" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPlaceOfWork" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel40.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel40.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtHoursPerWeek.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="txtHoursPerWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 36</value>
+    <value>443, 3</value>
   </data>
   <data name="txtHoursPerWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
+    <value>48, 20</value>
   </data>
   <data name="txtHoursPerWeek.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -5506,94 +6151,31 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtHoursPerWeek.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
+    <value>tableLayoutPanel40</value>
   </data>
   <data name="&gt;&gt;txtHoursPerWeek.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="cmbWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 102</value>
-  </data>
-  <data name="cmbWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
-  </data>
-  <data name="cmbWorkExpiration.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkExpiration.Name" xml:space="preserve">
-    <value>cmbWorkExpiration</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkExpiration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkExpiration.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkExpiration.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblWorkType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblWorkType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 6</value>
-  </data>
-  <data name="lblWorkType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="lblWorkType.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblWorkType.Text" xml:space="preserve">
-    <value>Work type</value>
-  </data>
-  <data name="&gt;&gt;lblWorkType.Name" xml:space="preserve">
-    <value>lblWorkType</value>
-  </data>
-  <data name="&gt;&gt;lblWorkType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblWorkType.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
-  </data>
-  <data name="&gt;&gt;lblWorkType.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cmbWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 69</value>
-  </data>
-  <data name="cmbWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
-  </data>
-  <data name="cmbWorkPosition.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkPosition.Name" xml:space="preserve">
-    <value>cmbWorkPosition</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkPosition.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkPosition.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
-  </data>
-  <data name="&gt;&gt;cmbWorkPosition.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="lblWorkHours.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="lblWorkHours.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblWorkHours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 39</value>
+    <value>3, 0</value>
   </data>
   <data name="lblWorkHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>148, 37</value>
   </data>
   <data name="lblWorkHours.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="lblWorkHours.Text" xml:space="preserve">
     <value>Work hours</value>
+  </data>
+  <data name="lblWorkHours.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;lblWorkHours.Name" xml:space="preserve">
     <value>lblWorkHours</value>
@@ -5602,16 +6184,22 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblWorkHours.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
+    <value>tableLayoutPanel40</value>
   </data>
   <data name="&gt;&gt;lblWorkHours.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>1</value>
+  </data>
+  <data name="cmbWorkHours.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbWorkHours.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="cmbWorkHours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 36</value>
+    <value>157, 3</value>
   </data>
   <data name="cmbWorkHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
+    <value>280, 27</value>
   </data>
   <data name="cmbWorkHours.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -5623,25 +6211,157 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbWorkHours.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
+    <value>tableLayoutPanel40</value>
   </data>
   <data name="&gt;&gt;cmbWorkHours.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 148</value>
+  </data>
+  <data name="tableLayoutPanel40.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 37</value>
+  </data>
+  <data name="tableLayoutPanel40.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.Name" xml:space="preserve">
+    <value>tableLayoutPanel40</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel40.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtHoursPerWeek" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblWorkHours" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkHours" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,02304,Percent,64,97696,Absolute,53" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel39.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel39.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblWorkExpiration.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblWorkExpiration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="lblWorkExpiration.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblWorkExpiration.Text" xml:space="preserve">
+    <value>Work Expiration</value>
+  </data>
+  <data name="lblWorkExpiration.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.Name" xml:space="preserve">
+    <value>lblWorkExpiration</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.Parent" xml:space="preserve">
+    <value>tableLayoutPanel39</value>
+  </data>
+  <data name="&gt;&gt;lblWorkExpiration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbWorkExpiration.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbWorkExpiration.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmbWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 3</value>
+  </data>
+  <data name="cmbWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 27</value>
+  </data>
+  <data name="cmbWorkExpiration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.Name" xml:space="preserve">
+    <value>cmbWorkExpiration</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.Parent" xml:space="preserve">
+    <value>tableLayoutPanel39</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkExpiration.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 105</value>
+  </data>
+  <data name="tableLayoutPanel39.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel39.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.Name" xml:space="preserve">
+    <value>tableLayoutPanel39</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tableLayoutPanel39.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkExpiration" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkExpiration" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel38.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel38.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNewWorkPosition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="lblNewWorkPosition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblNewWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 75</value>
+    <value>3, 0</value>
   </data>
   <data name="lblNewWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>148, 37</value>
   </data>
   <data name="lblNewWorkPosition.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="lblNewWorkPosition.Text" xml:space="preserve">
     <value>Work position</value>
+  </data>
+  <data name="lblNewWorkPosition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;lblNewWorkPosition.Name" xml:space="preserve">
     <value>lblNewWorkPosition</value>
@@ -5650,16 +6370,115 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblNewWorkPosition.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
+    <value>tableLayoutPanel38</value>
   </data>
   <data name="&gt;&gt;lblNewWorkPosition.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>0</value>
+  </data>
+  <data name="cmbWorkPosition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbWorkPosition.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmbWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 3</value>
+  </data>
+  <data name="cmbWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 27</value>
+  </data>
+  <data name="cmbWorkPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.Name" xml:space="preserve">
+    <value>cmbWorkPosition</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.Parent" xml:space="preserve">
+    <value>tableLayoutPanel38</value>
+  </data>
+  <data name="&gt;&gt;cmbWorkPosition.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 62</value>
+  </data>
+  <data name="tableLayoutPanel38.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel38.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.Name" xml:space="preserve">
+    <value>tableLayoutPanel38</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tableLayoutPanel38.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewWorkPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel37.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel37.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblWorkType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblWorkType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorkType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblWorkType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="lblWorkType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblWorkType.Text" xml:space="preserve">
+    <value>Work type</value>
+  </data>
+  <data name="lblWorkType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.Name" xml:space="preserve">
+    <value>lblWorkType</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.Parent" xml:space="preserve">
+    <value>tableLayoutPanel37</value>
+  </data>
+  <data name="&gt;&gt;lblWorkType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbWorkType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbWorkType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="cmbWorkType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 3</value>
+    <value>157, 3</value>
   </data>
   <data name="cmbWorkType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 27</value>
+    <value>282, 27</value>
   </data>
   <data name="cmbWorkType.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -5671,64 +6490,43 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbWorkType.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
+    <value>tableLayoutPanel37</value>
   </data>
   <data name="&gt;&gt;cmbWorkType.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>1</value>
   </data>
-  <data name="lblWorkExpiration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tableLayoutPanel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
   </data>
-  <data name="lblWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 105</value>
+  <data name="tableLayoutPanel37.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="lblWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 23</value>
+  <data name="tableLayoutPanel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
   </data>
-  <data name="lblWorkExpiration.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="tableLayoutPanel37.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
   </data>
-  <data name="lblWorkExpiration.Text" xml:space="preserve">
-    <value>Work Expiration</value>
+  <data name="&gt;&gt;tableLayoutPanel37.Name" xml:space="preserve">
+    <value>tableLayoutPanel37</value>
   </data>
-  <data name="&gt;&gt;lblWorkExpiration.Name" xml:space="preserve">
-    <value>lblWorkExpiration</value>
+  <data name="&gt;&gt;tableLayoutPanel37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblWorkExpiration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblWorkExpiration.Parent" xml:space="preserve">
-    <value>panelWorkDescription</value>
-  </data>
-  <data name="&gt;&gt;lblWorkExpiration.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="panelWorkDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panelWorkDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>510, 138</value>
-  </data>
-  <data name="panelWorkDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panelWorkDescription.Name" xml:space="preserve">
-    <value>panelWorkDescription</value>
-  </data>
-  <data name="&gt;&gt;panelWorkDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelWorkDescription.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tableLayoutPanel37.Parent" xml:space="preserve">
     <value>tPageJobSpecification</value>
   </data>
-  <data name="&gt;&gt;panelWorkDescription.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;tableLayoutPanel37.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tableLayoutPanel37.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkType" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkType" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tPageJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
     <value>184, 4</value>
   </data>
   <data name="tPageJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
-    <value>909, 652</value>
+    <value>930, 630</value>
   </data>
   <data name="tPageJobSpecification.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -5755,10 +6553,10 @@
     <value>90, 180</value>
   </data>
   <data name="tabCntrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 64</value>
+    <value>0, 0</value>
   </data>
   <data name="tabCntrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1097, 660</value>
+    <value>1118, 638</value>
   </data>
   <data name="tabCntrl.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -5770,10 +6568,10 @@
     <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabCntrl.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panelTabControl</value>
   </data>
   <data name="&gt;&gt;tabCntrl.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="btnSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5785,7 +6583,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 698</value>
+    <value>0, 0</value>
   </data>
   <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 58</value>
@@ -5803,10 +6601,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel9</value>
   </data>
   <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <metadata name="saveFileData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -5841,8 +6639,8 @@
   <data name="dataGridViewTextBoxColumn4.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="btnCancel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5854,7 +6652,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1026, 0</value>
+    <value>1035, 0</value>
   </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 58</value>
@@ -5877,11 +6675,14 @@
   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1100, 58</value>
+    <value>1118, 58</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -5896,6 +6697,51 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 899</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1100, 58</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelTabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="panelTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 725</value>
+  </data>
+  <data name="panelTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;panelTabControl.Name" xml:space="preserve">
+    <value>panelTabControl</value>
+  </data>
+  <data name="&gt;&gt;panelTabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTabControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -5908,7 +6754,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1108, 960</value>
+    <value>1118, 783</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
