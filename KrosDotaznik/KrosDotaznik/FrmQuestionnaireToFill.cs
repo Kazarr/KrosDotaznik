@@ -92,14 +92,7 @@ namespace KrosDotaznik
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            using (this.saveFileData = new SaveFileDialog())
-            {
-                saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
-                if (saveFileData.ShowDialog() == DialogResult.OK)
-                {
-                    _viewModel.Save(saveFileData.FileName);
-                }
-            }
+
         }
 
         private void BindPersonalData()
@@ -256,6 +249,18 @@ namespace KrosDotaznik
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Close();    
+        }
+
+        private void btnSaveQsr_Click(object sender, EventArgs e)
+        {
+            using (this.saveFileData = new SaveFileDialog())
+            {
+                saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
+                if (saveFileData.ShowDialog() == DialogResult.OK)
+                {
+                    _viewModel.Save(saveFileData.FileName);
+                }
+            }
         }
     }
 }

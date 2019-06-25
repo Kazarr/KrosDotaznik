@@ -121,11 +121,15 @@
   <data name="btnCreate.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCreate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 90</value>
+    <value>15, 144</value>
   </data>
   <data name="btnCreate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 45</value>
+    <value>246, 71</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnCreate.TabIndex" type="System.Int32, mscorlib">
@@ -133,6 +137,9 @@
   </data>
   <data name="btnCreate.Text" xml:space="preserve">
     <value>Create questionnare</value>
+  </data>
+  <data name="btnCreate.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
   <data name="btnCreate.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -152,17 +159,23 @@
   <data name="btnFill.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 14.25pt, style=Bold</value>
   </data>
+  <data name="btnFill.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnFill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 90</value>
+    <value>15, 67</value>
   </data>
   <data name="btnFill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 45</value>
+    <value>246, 71</value>
   </data>
   <data name="btnFill.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="btnFill.Text" xml:space="preserve">
     <value>Fill questionnare</value>
+  </data>
+  <data name="btnFill.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
   <data name="&gt;&gt;btnFill.Name" xml:space="preserve">
     <value>btnFill</value>
@@ -176,41 +189,20 @@
   <data name="&gt;&gt;btnFill.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnSvk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>395, 12</value>
+  <data name="btnEng.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="btnSvk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="btnSvk.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnSvk.Text" xml:space="preserve">
-    <value>SVK</value>
-  </data>
-  <data name="&gt;&gt;btnSvk.Name" xml:space="preserve">
-    <value>btnSvk</value>
-  </data>
-  <data name="&gt;&gt;btnSvk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSvk.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnSvk.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="btnEng.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnEng.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 12</value>
+    <value>141, 12</value>
   </data>
   <data name="btnEng.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
+    <value>70, 40</value>
   </data>
   <data name="btnEng.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="btnEng.Text" xml:space="preserve">
-    <value>EN</value>
   </data>
   <data name="&gt;&gt;btnEng.Name" xml:space="preserve">
     <value>btnEng</value>
@@ -224,6 +216,64 @@
   <data name="&gt;&gt;btnEng.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="btnSvk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSvk.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        YoYkI32tAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSvk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSvk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="btnSvk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 40</value>
+  </data>
+  <data name="btnSvk.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnSvk.Name" xml:space="preserve">
+    <value>btnSvk</value>
+  </data>
+  <data name="&gt;&gt;btnSvk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSvk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSvk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -231,7 +281,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>508, 170</value>
+    <value>277, 231</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Dotazník</value>
