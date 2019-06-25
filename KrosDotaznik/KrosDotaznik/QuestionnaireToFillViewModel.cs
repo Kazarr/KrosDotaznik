@@ -854,7 +854,7 @@ namespace KrosDotaznik
                     {
                         property.SetValue(_employee,property.GetValue(value));
                     }
-                    //VisibleHoursPerWeek = value.JobSpecificationData.WorkHours.NameOfHoursPerWeek == WorkHoursData[2];
+                    VisibleHoursPerWeek = value.JobSpecificationData.WorkHours.NameOfHoursPerWeek == WorkHoursData[2];
 
                 }
             }
