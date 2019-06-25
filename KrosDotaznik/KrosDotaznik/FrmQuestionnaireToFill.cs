@@ -182,13 +182,13 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
             BindDefaultControlProperty(cmbDivision, nameof(_viewModel.StringDivision)); // vyriešiť automatické dopĺňanie a filtrovanie comba
             BindDefaultControlProperty(cmbTeam, nameof(_viewModel.StringDepartment));     // vyriešiť automatické dopĺňanie a filtrovanie comba
-            //BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
             BindDefaultControlProperty(dtpHireDate, nameof(_viewModel.HireDate));
             BindDefaultControlProperty(dtpStartDate, nameof(_viewModel.StartDate));
             BindDefaultControlProperty(dtpEndOfTrial, nameof(_viewModel.EndOfTrial));
             BindDefaultControlProperty(txtSalary, nameof(_viewModel.Salary));
             BindDefaultControlProperty(cmbWageCategory, nameof(_viewModel.StringWageCategory));
-
+            txtHoursPerWeek.DataBindings.Add(nameof(txtHoursPerWeek.Visible), _viewModel, nameof(_viewModel.VisibleHoursPerWeek), false, DataSourceUpdateMode.OnPropertyChanged);
+            txtHoursPerWeek.DataBindings.Add(nameof(txtHoursPerWeek.Text), _viewModel, nameof(_viewModel.HoursPerWeek), false, DataSourceUpdateMode.OnValidation);
         }
 
         private void tabCntrl_SelectedIndexChanged(object sender, EventArgs e)
