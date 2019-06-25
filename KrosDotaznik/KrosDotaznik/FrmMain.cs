@@ -25,7 +25,7 @@ namespace KrosDotaznik
         public FrmMain(bool allowCreate)
         {
             InitializeComponent();
-            _mainViewModel = new MainViewModel();
+            _mainViewModel = new MainViewModel();            
             SetComponentsByLanguage();
             MakeVisible(allowCreate);
         }
@@ -49,13 +49,13 @@ namespace KrosDotaznik
         #region Button handlers
         private void btnSvk_Click(object sender, EventArgs e)
         {
-            _mainViewModel.SetLOcalization("sk");
+            _mainViewModel.SetLocalization("sk");
             SetComponentsByLanguage();
         }
 
         private void btnEng_Click(object sender, EventArgs e)
         {
-            _mainViewModel.SetLOcalization("en");
+            _mainViewModel.SetLocalization("en");
             SetComponentsByLanguage();
         }
 

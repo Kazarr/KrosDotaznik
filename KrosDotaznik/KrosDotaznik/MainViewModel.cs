@@ -11,7 +11,11 @@ using System.ComponentModel;
 namespace KrosDotaznik
 {
     public class MainViewModel
-    {      
+    {
+        public MainViewModel()
+        {
+            SetLocalization("sk");
+        }
         #region Form method
         public void OpenQuestionnaireToFill(string path)
         {
@@ -29,7 +33,7 @@ namespace KrosDotaznik
             }
         }
 
-        public void SetLOcalization(string language)
+        public void SetLocalization(string language)
         {
             System.Globalization.CultureInfo.CurrentCulture = new System.Globalization.CultureInfo(language);
             System.Globalization.CultureInfo.CurrentUICulture = new System.Globalization.CultureInfo(language);

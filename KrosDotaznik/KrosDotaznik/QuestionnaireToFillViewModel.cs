@@ -1,4 +1,5 @@
-﻿using Data.Models;
+﻿using Data;
+using Data.Models;
 using Data.Models.Registers;
 using Data.Repository.Registers;
 using Logic;
@@ -33,7 +34,6 @@ namespace KrosDotaznik
         private string _stringWorkHours = string.Empty;
         private string _stringWorkPosition = string.Empty;
         private string _stringWageCategory = string.Empty;
-        //private BindingList<Child> _children = new BindingList<Child>();
         private Dictionary<int, bool> _showQuestionGroups;
         #endregion
 
@@ -868,30 +868,18 @@ namespace KrosDotaznik
 
         #region Load Combos
         private void LoadCombos()
-        {
-            StateRepository state = new StateRepository();
-            HealthInsuranceRepository health = new HealthInsuranceRepository();
-            RetirementRepository retirement = new RetirementRepository();
-            EducationLevelRepository educationLevel = new EducationLevelRepository();
-            WageCategoryRepository wageCategory = new WageCategoryRepository();
-            WorkExpirationRepository workExpiration = new WorkExpirationRepository();
-            WorkHoursRepository workHours = new WorkHoursRepository();
-            WorkPositionRepository workPosition = new WorkPositionRepository();
-            WorkTypeRepository workType = new WorkTypeRepository();
-            DepartmentRepository department = new DepartmentRepository();
-            DivisionRepository division = new DivisionRepository();
-
-            StateData = state.GetAllState(_cultureInfo);
-            HealthInsuranceData = health.GetHealthInsuranceData(_cultureInfo);
-            RetirementData = retirement.GetRetirementData(_cultureInfo);
-            EducationLevelData = educationLevel.GetEducationLevelData(_cultureInfo);
-            WageCategoryData = wageCategory.GetWageCategoryData(_cultureInfo);
-            WorkTypeData = workType.GetWorkTypeData(_cultureInfo);
-            WorkExpirationData = workExpiration.GetWorkExpirationData(_cultureInfo);
-            WorkHoursData = workHours.GetWorkHoursData(_cultureInfo);
-            WorkPositionData = workPosition.GetWorkPositionData(_cultureInfo);
-            DivisionData = division.GetDivisionData(_cultureInfo);
-            DepartmentData = department.GetDepartmentData(_cultureInfo);
+        {            
+            StateData = RepositoryManager.StateRepository.GetAllState(_cultureInfo);
+            HealthInsuranceData = RepositoryManager.HealthRepository.GetHealthInsuranceData(_cultureInfo);
+            RetirementData = RepositoryManager.RetirementRepository.GetRetirementData(_cultureInfo);
+            EducationLevelData = RepositoryManager.EducationLevelRepository.GetEducationLevelData(_cultureInfo);
+            WageCategoryData = RepositoryManager.WageCategoryRepository.GetWageCategoryData(_cultureInfo);
+            WorkTypeData = RepositoryManager.WorkTypeRepository.GetWorkTypeData(_cultureInfo);
+            WorkExpirationData = RepositoryManager.WorkExpirationRepository.GetWorkExpirationData(_cultureInfo);
+            WorkHoursData = RepositoryManager.WorkHoursRepository.GetWorkHoursData(_cultureInfo);
+            WorkPositionData = RepositoryManager.WorkPositionRepository.GetWorkPositionData(_cultureInfo);
+            DivisionData = RepositoryManager.DivisionRepository.GetDivisionData(_cultureInfo);
+            DepartmentData = RepositoryManager.DepartmentRepository.GetDepartmentData(_cultureInfo);
         }
         #endregion
 
