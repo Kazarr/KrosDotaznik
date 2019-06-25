@@ -35,6 +35,7 @@ namespace KrosDotaznik
         private string _stringWageCategory = string.Empty;
         //private BindingList<Child> _children = new BindingList<Child>();
         private Dictionary<int, bool> _showQuestionGroups;
+        private bool _visibleHoursPerWeek = false;
         #endregion
 
         #region Constructor
@@ -651,6 +652,7 @@ namespace KrosDotaznik
             {
                 _stringWorkHours = value;
                 WorkHours = SetPropertiesForCmbox<WorkHours>(WorkHoursData, _stringWorkHours);
+                VisibleHoursPerWeek = value == WorkHoursData[2];
                 OnPropertyChange();
             }
         }
@@ -812,6 +814,24 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
+        public bool VisibleHoursPerWeek
+        {
+            get => _visibleHoursPerWeek;
+            set
+            {
+                _visibleHoursPerWeek = value;
+                OnPropertyChange();
+            }
+        }
+        public int HoursPerWeek
+        {
+            get => _employee.JobSpecificationData.WorkHours.HoursPerWeek;
+            set
+            {
+                _employee.JobSpecificationData.WorkHours.HoursPerWeek = value;
+                OnPropertyChange();
+            }
+        }
         #endregion
         public BindingList<Child> Children
         {
@@ -834,6 +854,8 @@ namespace KrosDotaznik
                     {
                         property.SetValue(_employee,property.GetValue(value));
                     }
+                    VisibleHoursPerWeek = value.JobSpecificationData.WorkHours.NameOfHoursPerWeek == WorkHoursData[2];
+
                 }
             }
         }
@@ -905,6 +927,7 @@ namespace KrosDotaznik
         {
             FileService fs = new FileService();
             var file = fs.LoadJson<Questionare>(path);
+            LoadCombos();
             Employee = file.Employee;
             _showQuestionGroups = file.ShowQuestionGroups;
         }
