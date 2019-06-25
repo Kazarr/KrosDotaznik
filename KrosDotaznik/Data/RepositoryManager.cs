@@ -21,6 +21,7 @@ namespace Data
         public static WorkTypeRepository WorkTypeRepository = new WorkTypeRepository();
         public static DepartmentRepository DepartmentRepository = new DepartmentRepository();
         public static DivisionRepository DivisionRepository = new DivisionRepository();
+        public static CountryRepository CountryRepository = new CountryRepository();
         #endregion
     }
 }

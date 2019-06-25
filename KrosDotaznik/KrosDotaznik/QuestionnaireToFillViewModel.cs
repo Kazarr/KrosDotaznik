@@ -36,6 +36,8 @@ namespace KrosDotaznik
         private string _stringWageCategory = string.Empty;
         private Dictionary<int, bool> _showQuestionGroups;
         private bool _visibleHoursPerWeek = false;
+        private string _stringCountry = string.Empty;
+        private string _stringTempCountry = string.Empty;
         #endregion
 
         #region Constructor
@@ -345,6 +347,28 @@ namespace KrosDotaznik
             }
         }
 
+        public Country Country
+        {
+            get => _employee.AddressData.Country;
+            set
+            {
+                _employee.AddressData.Country = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringCountry
+        {
+            get => _employee.AddressData.Country == null
+                ? _stringCountry
+                : _employee.AddressData.Country.CountryName;
+            set
+            {
+                _stringCountry = value;
+                Country = SetPropertiesForCmbox<Country>(CountryData, _stringCountry);
+                OnPropertyChange();
+            }
+        }
+
         public string TempHouseNumber
         {
             get => _employee.TemporaryAdressDdata.HouseNumber;
@@ -381,6 +405,28 @@ namespace KrosDotaznik
             set
             {
                 _employee.TemporaryAdressDdata.PostalCode = value;
+                OnPropertyChange();
+            }
+        }
+
+        public Country TempCountry
+        {
+            get => _employee.AddressData.Country;
+            set
+            {
+                _employee.AddressData.Country = value;
+                OnPropertyChange();
+            }
+        }
+        public string StringTempCountry
+        {
+            get => _employee.AddressData.Country == null
+                ? _stringTempCountry
+                : _employee.AddressData.Country.CountryName;
+            set
+            {
+                _stringTempCountry = value;
+                TempCountry = SetPropertiesForCmbox<Country>(CountryData, _stringTempCountry);
                 OnPropertyChange();
             }
         }
@@ -900,6 +946,7 @@ namespace KrosDotaznik
             WorkPositionData = RepositoryManager.WorkPositionRepository.GetWorkPositionData(_cultureInfo);
             DivisionData = RepositoryManager.DivisionRepository.GetDivisionData(_cultureInfo);
             DepartmentData = RepositoryManager.DepartmentRepository.GetDepartmentData(_cultureInfo);
+            CountryData = RepositoryManager.CountryRepository.GetCountryData(_cultureInfo);
         }
         #endregion
 
