@@ -181,7 +181,7 @@ namespace KrosDotaznik
             BindDefaultControlProperty(cmbWorkPosition, nameof(_viewModel.StringWorkPosition));
             BindDefaultControlProperty(cmbWorkExpiration, nameof(_viewModel.StringWorkExpiration));
             BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
-            BindDefaultControlProperty(cmbDivision, nameof(_viewModel.StringDepartment)); // vyriešiť automatické dopĺňanie a filtrovanie comba
+            BindDefaultControlProperty(cmbDivision, nameof(_viewModel.StringDivision)); // vyriešiť automatické dopĺňanie a filtrovanie comba
             BindDefaultControlProperty(cmbTeam, nameof(_viewModel.StringDepartment));     // vyriešiť automatické dopĺňanie a filtrovanie comba
             //BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
             BindDefaultControlProperty(dtpHireDate, nameof(_viewModel.HireDate));
