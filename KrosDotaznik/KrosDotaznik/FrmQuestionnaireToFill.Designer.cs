@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -1432,9 +1432,9 @@
             // colBirthDate
             // 
             this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle5.Format = "d";
-            dataGridViewCellStyle5.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.Format = "d";
+            dataGridViewCellStyle7.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle7;
             resources.ApplyResources(this.colBirthDate, "colBirthDate");
             this.colBirthDate.Name = "colBirthDate";
             // 
@@ -1745,9 +1745,9 @@
             // calendarColumn1
             // 
             this.calendarColumn1.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle6.Format = "d";
-            dataGridViewCellStyle6.NullValue = "DateTime.Now";
-            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Format = "d";
+            dataGridViewCellStyle8.NullValue = "DateTime.Now";
+            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle8;
             resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
             this.calendarColumn1.Name = "calendarColumn1";
             // 
@@ -1804,6 +1804,7 @@
             this.btnSaveQsr.FlatAppearance.BorderSize = 3;
             this.btnSaveQsr.Name = "btnSaveQsr";
             this.btnSaveQsr.UseVisualStyleBackColor = false;
+            this.btnSaveQsr.Click += new System.EventHandler(this.btnSaveQsr_Click);
             // 
             // FrmQuestionnaireToFill
             // 

@@ -1965,26 +1965,410 @@
   <data name="tabCntrl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="&gt;&gt;tPagePersonalInfo.Name" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tPageContactAdress.Name" xml:space="preserve">
+    <value>tPageContactAdress</value>
+  </data>
+  <data name="&gt;&gt;tPageContactAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageContactAdress.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageContactAdress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.Name" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.Name" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.Name" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Name" xml:space="preserve">
+    <value>tPageChildInfo</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Name" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabCntrl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="tabCntrl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 180</value>
+  </data>
+  <data name="tabCntrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabCntrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 638</value>
+  </data>
+  <data name="tabCntrl.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;tabCntrl.Name" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tabCntrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCntrl.Parent" xml:space="preserve">
+    <value>panelTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabCntrl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel12.Name" xml:space="preserve">
+    <value>tableLayoutPanel12</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel12.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel12.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRetiredSince" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="datePickerRetiredSince" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel11.Name" xml:space="preserve">
+    <value>tableLayoutPanel11</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel11.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel11.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPensionRecipient" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbRetirement" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel10.Name" xml:space="preserve">
+    <value>tableLayoutPanel10</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel10.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel10.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHandicapInPercentage" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHndcpInPercentage" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel9.Name" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel9.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnSecondPilarNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnSecondPilarYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSecondPillar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,55346,Percent,31,44654,Absolute,119" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.Name" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnHndcpNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnHandcpYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHandicap" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,23899,Percent,31,76101,Absolute,119" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Name" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,62327,Percent,24,37673,Absolute,85" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHealthInsurance" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbHealthInsurance" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.Name" xml:space="preserve">
+    <value>tableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblIBAN" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIban" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtCitizenShip" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCitizenShip" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,32127,Percent,50,67873" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnFemale" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblGender" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnMale" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,66,06061,Percent,33,93939,Absolute,111" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPlaceOfBirth" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblNationality" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtNationality" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPlaceOfBirth" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbState" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblIdentityCard" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPersonalId" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIdentityCard" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtRegionOfBirth" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblState" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPersonalId" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRegionOfBirth" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,52,Percent,48,Absolute,35,Absolute,39" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.Name" xml:space="preserve">
+    <value>layoutPanelSurname</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="layoutPanelSurname.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtMaidenName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSurname" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMaidenName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSurname" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.Name" xml:space="preserve">
+    <value>layoutPaneltitle</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="layoutPaneltitle.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblTitle" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblBirthDate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtTitle" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="datePickerBirth" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.Name" xml:space="preserve">
+    <value>layoutPanelName</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="layoutPanelName.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPreviousName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPreviousName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tPagePersonalInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 4</value>
+  </data>
+  <data name="tPagePersonalInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tPagePersonalInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 630</value>
+  </data>
+  <data name="tPagePersonalInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tPagePersonalInfo.Text" xml:space="preserve">
+    <value>Employee data</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.Name" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPagePersonalInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel12.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="datePickerRetiredSince.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 3</value>
-  </data>
-  <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 27</value>
-  </data>
-  <data name="datePickerRetiredSince.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
   </data>
   <data name="&gt;&gt;datePickerRetiredSince.Name" xml:space="preserve">
     <value>datePickerRetiredSince</value>
@@ -2025,29 +2409,38 @@
   <data name="tableLayoutPanel12.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRetiredSince" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="datePickerRetiredSince" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="datePickerRetiredSince.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="datePickerRetiredSince.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 27</value>
+  </data>
+  <data name="datePickerRetiredSince.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;datePickerRetiredSince.Name" xml:space="preserve">
+    <value>datePickerRetiredSince</value>
+  </data>
+  <data name="&gt;&gt;datePickerRetiredSince.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datePickerRetiredSince.Parent" xml:space="preserve">
+    <value>tableLayoutPanel12</value>
+  </data>
+  <data name="&gt;&gt;datePickerRetiredSince.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="tableLayoutPanel11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel11.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="cmbRetirement.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="cmbRetirement.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="cmbRetirement.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="cmbRetirement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 3</value>
-  </data>
-  <data name="cmbRetirement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 29</value>
-  </data>
-  <data name="cmbRetirement.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
   </data>
   <data name="&gt;&gt;cmbRetirement.Name" xml:space="preserve">
     <value>cmbRetirement</value>
@@ -2088,26 +2481,41 @@
   <data name="tableLayoutPanel11.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPensionRecipient" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbRetirement" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="cmbRetirement.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbRetirement.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmbRetirement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="cmbRetirement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="cmbRetirement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 29</value>
+  </data>
+  <data name="cmbRetirement.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;cmbRetirement.Name" xml:space="preserve">
+    <value>cmbRetirement</value>
+  </data>
+  <data name="&gt;&gt;cmbRetirement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbRetirement.Parent" xml:space="preserve">
+    <value>tableLayoutPanel11</value>
+  </data>
+  <data name="&gt;&gt;cmbRetirement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="tableLayoutPanel10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="txtHndcpInPercentage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="txtHndcpInPercentage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="txtHndcpInPercentage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 3</value>
-  </data>
-  <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 24</value>
-  </data>
-  <data name="txtHndcpInPercentage.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
   </data>
   <data name="&gt;&gt;txtHndcpInPercentage.Name" xml:space="preserve">
     <value>txtHndcpInPercentage</value>
@@ -2147,6 +2555,33 @@
   </data>
   <data name="tableLayoutPanel10.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHandicapInPercentage" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHndcpInPercentage" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="txtHndcpInPercentage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtHndcpInPercentage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtHndcpInPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="txtHndcpInPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;txtHndcpInPercentage.Name" xml:space="preserve">
+    <value>txtHndcpInPercentage</value>
+  </data>
+  <data name="&gt;&gt;txtHndcpInPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHndcpInPercentage.Parent" xml:space="preserve">
+    <value>tableLayoutPanel10</value>
+  </data>
+  <data name="&gt;&gt;txtHndcpInPercentage.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="tableLayoutPanel9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2217,6 +2652,114 @@
   <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnSecondPilarNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnSecondPilarYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSecondPillar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,55346,Percent,31,44654,Absolute,119" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="radioBtnSecondPilarNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 3</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 31</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarNo.Name" xml:space="preserve">
+    <value>radioBtnSecondPilarNo</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarNo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 31</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarYes.Name" xml:space="preserve">
+    <value>radioBtnSecondPilarYes</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarYes.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;radioBtnSecondPilarYes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSecondPillar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSecondPillar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblSecondPillar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSecondPillar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="lblSecondPillar.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblSecondPillar.Text" xml:space="preserve">
+    <value>Second pillar</value>
+  </data>
+  <data name="lblSecondPillar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSecondPillar.Name" xml:space="preserve">
+    <value>lblSecondPillar</value>
+  </data>
+  <data name="&gt;&gt;lblSecondPillar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSecondPillar.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;lblSecondPillar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="tableLayoutPanel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -2286,11 +2829,182 @@
   <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnHndcpNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnHandcpYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHandicap" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,23899,Percent,31,76101,Absolute,119" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="radioBtnHndcpNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtnHndcpNo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioBtnHndcpNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="radioBtnHndcpNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 3</value>
+  </data>
+  <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 31</value>
+  </data>
+  <data name="radioBtnHndcpNo.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="radioBtnHndcpNo.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHndcpNo.Name" xml:space="preserve">
+    <value>radioBtnHndcpNo</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHndcpNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHndcpNo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHndcpNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioBtnHandcpYes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtnHandcpYes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioBtnHandcpYes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="radioBtnHandcpYes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 3</value>
+  </data>
+  <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 31</value>
+  </data>
+  <data name="radioBtnHandcpYes.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="radioBtnHandcpYes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHandcpYes.Name" xml:space="preserve">
+    <value>radioBtnHandcpYes</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHandcpYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHandcpYes.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;radioBtnHandcpYes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblHandicap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHandicap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHandicap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHandicap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 37</value>
+  </data>
+  <data name="lblHandicap.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblHandicap.Text" xml:space="preserve">
+    <value>Handicap</value>
+  </data>
+  <data name="lblHandicap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblHandicap.Name" xml:space="preserve">
+    <value>lblHandicap</value>
+  </data>
+  <data name="&gt;&gt;lblHandicap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHandicap.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;lblHandicap.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="tableLayoutPanel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="tableLayoutPanel7.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionYes.Name" xml:space="preserve">
+    <value>radioBtnExceptionYes</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionYes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionYes.Parent" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionYes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionNo.Name" xml:space="preserve">
+    <value>radioBtnExceptionNo</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionNo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;radioBtnExceptionNo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblInsuranceComapny.Name" xml:space="preserve">
+    <value>lblInsuranceComapny</value>
+  </data>
+  <data name="&gt;&gt;lblInsuranceComapny.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInsuranceComapny.Parent" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;lblInsuranceComapny.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 530</value>
+  </data>
+  <data name="tableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 37</value>
+  </data>
+  <data name="tableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Name" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,62327,Percent,24,37673,Absolute,85" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="radioBtnExceptionYes.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2391,33 +3105,6 @@
   <data name="&gt;&gt;lblInsuranceComapny.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 530</value>
-  </data>
-  <data name="tableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 37</value>
-  </data>
-  <data name="tableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel7.Name" xml:space="preserve">
-    <value>tableLayoutPanel7</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel7.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel7.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,62327,Percent,24,37673,Absolute,85" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="tableLayoutPanel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -2463,6 +3150,33 @@
   <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHealthInsurance" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbHealthInsurance" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="cmbHealthInsurance.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmbHealthInsurance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="cmbHealthInsurance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="cmbHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 29</value>
+  </data>
+  <data name="cmbHealthInsurance.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;cmbHealthInsurance.Name" xml:space="preserve">
+    <value>cmbHealthInsurance</value>
+  </data>
+  <data name="&gt;&gt;cmbHealthInsurance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHealthInsurance.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;cmbHealthInsurance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="panel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -2492,21 +3206,6 @@
   </data>
   <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="txtIban.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="txtIban.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="txtIban.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 3</value>
-  </data>
-  <data name="txtIban.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 20</value>
-  </data>
-  <data name="txtIban.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
   </data>
   <data name="&gt;&gt;txtIban.Name" xml:space="preserve">
     <value>txtIban</value>
@@ -2547,6 +3246,33 @@
   <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblIBAN" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIban" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="txtIban.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtIban.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="txtIban.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 3</value>
+  </data>
+  <data name="txtIban.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="txtIban.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtIban.Name" xml:space="preserve">
+    <value>txtIban</value>
+  </data>
+  <data name="&gt;&gt;txtIban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtIban.Parent" xml:space="preserve">
+    <value>tableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;txtIban.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -2576,21 +3302,6 @@
   </data>
   <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="txtCitizenShip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="txtCitizenShip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt</value>
-  </data>
-  <data name="txtCitizenShip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
-  </data>
-  <data name="txtCitizenShip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 24</value>
-  </data>
-  <data name="txtCitizenShip.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
   </data>
   <data name="&gt;&gt;txtCitizenShip.Name" xml:space="preserve">
     <value>txtCitizenShip</value>
@@ -2630,6 +3341,33 @@
   </data>
   <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtCitizenShip" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCitizenShip" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,32127,Percent,50,67873" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="txtCitizenShip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtCitizenShip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 14.25pt</value>
+  </data>
+  <data name="txtCitizenShip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 3</value>
+  </data>
+  <data name="txtCitizenShip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 24</value>
+  </data>
+  <data name="txtCitizenShip.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtCitizenShip.Name" xml:space="preserve">
+    <value>txtCitizenShip</value>
+  </data>
+  <data name="&gt;&gt;txtCitizenShip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCitizenShip.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;txtCitizenShip.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="tableLayoutPanel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2688,6 +3426,78 @@
   <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnFemale" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblGender" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnMale" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,66,06061,Percent,33,93939,Absolute,111" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="radioBtnFemale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtnFemale.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioBtnFemale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="radioBtnFemale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtnFemale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 3</value>
+  </data>
+  <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 32</value>
+  </data>
+  <data name="radioBtnFemale.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="radioBtnFemale.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="&gt;&gt;radioBtnFemale.Name" xml:space="preserve">
+    <value>radioBtnFemale</value>
+  </data>
+  <data name="&gt;&gt;radioBtnFemale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnFemale.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;radioBtnFemale.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioBtnMale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtnMale.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioBtnMale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="radioBtnMale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtnMale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 3</value>
+  </data>
+  <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 32</value>
+  </data>
+  <data name="radioBtnMale.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="radioBtnMale.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="&gt;&gt;radioBtnMale.Name" xml:space="preserve">
+    <value>radioBtnMale</value>
+  </data>
+  <data name="&gt;&gt;radioBtnMale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtnMale.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;radioBtnMale.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -2745,6 +3555,54 @@
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPlaceOfBirth" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblNationality" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtNationality" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPlaceOfBirth" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="txtNationality.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 14.25pt</value>
+  </data>
+  <data name="txtNationality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 40</value>
+  </data>
+  <data name="txtNationality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 24</value>
+  </data>
+  <data name="txtNationality.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtNationality.Name" xml:space="preserve">
+    <value>txtNationality</value>
+  </data>
+  <data name="&gt;&gt;txtNationality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNationality.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;txtNationality.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtPlaceOfBirth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 14.25pt</value>
+  </data>
+  <data name="txtPlaceOfBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 3</value>
+  </data>
+  <data name="txtPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 24</value>
+  </data>
+  <data name="txtPlaceOfBirth.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfBirth.Name" xml:space="preserve">
+    <value>txtPlaceOfBirth</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfBirth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfBirth.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;txtPlaceOfBirth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 98</value>
   </data>
@@ -2771,6 +3629,81 @@
   </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbState.Name" xml:space="preserve">
+    <value>cmbState</value>
+  </data>
+  <data name="&gt;&gt;cmbState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbState.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;cmbState.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtIdentityCard.Name" xml:space="preserve">
+    <value>txtIdentityCard</value>
+  </data>
+  <data name="&gt;&gt;txtIdentityCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtIdentityCard.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtIdentityCard.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtRegionOfBirth.Name" xml:space="preserve">
+    <value>txtRegionOfBirth</value>
+  </data>
+  <data name="&gt;&gt;txtRegionOfBirth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRegionOfBirth.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtRegionOfBirth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtPersonalId.Name" xml:space="preserve">
+    <value>txtPersonalId</value>
+  </data>
+  <data name="&gt;&gt;txtPersonalId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPersonalId.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtPersonalId.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 124</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 150</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbState" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblIdentityCard" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPersonalId" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIdentityCard" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtRegionOfBirth" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblState" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPersonalId" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRegionOfBirth" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,52,Percent,48,Absolute,35,Absolute,39" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="cmbState.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -2883,38 +3816,62 @@
   <data name="&gt;&gt;txtPersonalId.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 124</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 150</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbState" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblIdentityCard" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPersonalId" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtIdentityCard" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtRegionOfBirth" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblState" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPersonalId" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRegionOfBirth" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,52,Percent,48,Absolute,35,Absolute,39" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="layoutPanelSurname.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="layoutPanelSurname.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtMaidenName.Name" xml:space="preserve">
+    <value>txtMaidenName</value>
+  </data>
+  <data name="&gt;&gt;txtMaidenName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMaidenName.Parent" xml:space="preserve">
+    <value>layoutPanelSurname</value>
+  </data>
+  <data name="&gt;&gt;txtMaidenName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtSurname.Name" xml:space="preserve">
+    <value>txtSurname</value>
+  </data>
+  <data name="&gt;&gt;txtSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSurname.Parent" xml:space="preserve">
+    <value>layoutPanelSurname</value>
+  </data>
+  <data name="&gt;&gt;txtSurname.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="layoutPanelSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 19</value>
+  </data>
+  <data name="layoutPanelSurname.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layoutPanelSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 75</value>
+  </data>
+  <data name="layoutPanelSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.Name" xml:space="preserve">
+    <value>layoutPanelSurname</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelSurname.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="layoutPanelSurname.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtMaidenName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSurname" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMaidenName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSurname" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="txtMaidenName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -2970,38 +3927,62 @@
   <data name="&gt;&gt;txtSurname.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="layoutPanelSurname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 19</value>
-  </data>
-  <data name="layoutPanelSurname.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="layoutPanelSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 75</value>
-  </data>
-  <data name="layoutPanelSurname.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelSurname.Name" xml:space="preserve">
-    <value>layoutPanelSurname</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelSurname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelSurname.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelSurname.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="layoutPanelSurname.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtMaidenName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSurname" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblMaidenName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSurname" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="layoutPaneltitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="layoutPaneltitle.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Name" xml:space="preserve">
+    <value>txtTitle</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Parent" xml:space="preserve">
+    <value>layoutPaneltitle</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;datePickerBirth.Name" xml:space="preserve">
+    <value>datePickerBirth</value>
+  </data>
+  <data name="&gt;&gt;datePickerBirth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datePickerBirth.Parent" xml:space="preserve">
+    <value>layoutPaneltitle</value>
+  </data>
+  <data name="&gt;&gt;datePickerBirth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="layoutPaneltitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 124</value>
+  </data>
+  <data name="layoutPaneltitle.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layoutPaneltitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 75</value>
+  </data>
+  <data name="layoutPaneltitle.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.Name" xml:space="preserve">
+    <value>layoutPaneltitle</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutPaneltitle.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="layoutPaneltitle.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblTitle" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblBirthDate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtTitle" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="datePickerBirth" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="txtTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -3057,38 +4038,86 @@
   <data name="&gt;&gt;datePickerBirth.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="layoutPaneltitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 124</value>
-  </data>
-  <data name="layoutPaneltitle.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="layoutPaneltitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>442, 75</value>
-  </data>
-  <data name="layoutPaneltitle.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;layoutPaneltitle.Name" xml:space="preserve">
-    <value>layoutPaneltitle</value>
-  </data>
-  <data name="&gt;&gt;layoutPaneltitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;layoutPaneltitle.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;layoutPaneltitle.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="layoutPaneltitle.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblTitle" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblBirthDate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtTitle" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="datePickerBirth" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="layoutPanelName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="layoutPanelName.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>layoutPanelName</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousName.Name" xml:space="preserve">
+    <value>lblPreviousName</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousName.Parent" xml:space="preserve">
+    <value>layoutPanelName</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousName.Name" xml:space="preserve">
+    <value>txtPreviousName</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousName.Parent" xml:space="preserve">
+    <value>layoutPanelName</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>layoutPanelName</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="layoutPanelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 19</value>
+  </data>
+  <data name="layoutPanelName.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layoutPanelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 75</value>
+  </data>
+  <data name="layoutPanelName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.Name" xml:space="preserve">
+    <value>layoutPanelName</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.Parent" xml:space="preserve">
+    <value>tPagePersonalInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutPanelName.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="layoutPanelName.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPreviousName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPreviousName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3221,60 +4250,6 @@
   </data>
   <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="layoutPanelName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 19</value>
-  </data>
-  <data name="layoutPanelName.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="layoutPanelName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 75</value>
-  </data>
-  <data name="layoutPanelName.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelName.Name" xml:space="preserve">
-    <value>layoutPanelName</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelName.Parent" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;layoutPanelName.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="layoutPanelName.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPreviousName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPreviousName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,49,42529,Percent,50,57471" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="tPagePersonalInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 4</value>
-  </data>
-  <data name="tPagePersonalInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tPagePersonalInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>930, 630</value>
-  </data>
-  <data name="tPagePersonalInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tPagePersonalInfo.Text" xml:space="preserve">
-    <value>Employee data</value>
-  </data>
-  <data name="&gt;&gt;tPagePersonalInfo.Name" xml:space="preserve">
-    <value>tPagePersonalInfo</value>
-  </data>
-  <data name="&gt;&gt;tPagePersonalInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPagePersonalInfo.Parent" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tPagePersonalInfo.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel50.Name" xml:space="preserve">
     <value>tableLayoutPanel50</value>
@@ -3530,990 +4505,6 @@
   </data>
   <data name="&gt;&gt;tPageContactAdress.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel24.Name" xml:space="preserve">
-    <value>tableLayoutPanel24</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel24.Parent" xml:space="preserve">
-    <value>tPagePassword</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel24.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel24.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPin" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPinAlarm" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel23.Name" xml:space="preserve">
-    <value>tableLayoutPanel23</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel23.Parent" xml:space="preserve">
-    <value>tPagePassword</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel23.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel23.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPassword" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPassword" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="tPagePassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 4</value>
-  </data>
-  <data name="tPagePassword.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tPagePassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>930, 630</value>
-  </data>
-  <data name="tPagePassword.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tPagePassword.Text" xml:space="preserve">
-    <value>Password and access</value>
-  </data>
-  <data name="&gt;&gt;tPagePassword.Name" xml:space="preserve">
-    <value>tPagePassword</value>
-  </data>
-  <data name="&gt;&gt;tPagePassword.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPagePassword.Parent" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tPagePassword.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel29.Name" xml:space="preserve">
-    <value>tableLayoutPanel29</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel29.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel29.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel29.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbCurrentEduLevel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCurrEducationLevel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel30.Name" xml:space="preserve">
-    <value>tableLayoutPanel30</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel30.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel30.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel30.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrMajor" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchoolMajor" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel31.Name" xml:space="preserve">
-    <value>tableLayoutPanel31</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel31.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel31.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel31.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrEndYear" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchoolEndYear" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel32.Name" xml:space="preserve">
-    <value>tableLayoutPanel32</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel32.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel32.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel32.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel32.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrSchool" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchool" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel28.Name" xml:space="preserve">
-    <value>tableLayoutPanel28</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel28.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel28.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tableLayoutPanel28.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbEduLevel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEducationLevel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel27.Name" xml:space="preserve">
-    <value>tableLayoutPanel27</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel27.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel27.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tableLayoutPanel27.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblMajor" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHightestSchoolMajor" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel26.Name" xml:space="preserve">
-    <value>tableLayoutPanel26</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel26.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel26.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="tableLayoutPanel26.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblEndYear" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHighestSchoolEndYear" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel25.Name" xml:space="preserve">
-    <value>tableLayoutPanel25</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel25.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel25.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="tableLayoutPanel25.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSchool" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHighestSchool" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;lblCurrentEdu.Name" xml:space="preserve">
-    <value>lblCurrentEdu</value>
-  </data>
-  <data name="&gt;&gt;lblCurrentEdu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCurrentEdu.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;lblCurrentEdu.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;lblHighEdu.Name" xml:space="preserve">
-    <value>lblHighEdu</value>
-  </data>
-  <data name="&gt;&gt;lblHighEdu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblHighEdu.Parent" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;lblHighEdu.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="tPageEducation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 4</value>
-  </data>
-  <data name="tPageEducation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tPageEducation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>930, 630</value>
-  </data>
-  <data name="tPageEducation.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tPageEducation.Text" xml:space="preserve">
-    <value>Education data</value>
-  </data>
-  <data name="&gt;&gt;tPageEducation.Name" xml:space="preserve">
-    <value>tPageEducation</value>
-  </data>
-  <data name="&gt;&gt;tPageEducation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPageEducation.Parent" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tPageEducation.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel33.Name" xml:space="preserve">
-    <value>tableLayoutPanel33</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel33.Parent" xml:space="preserve">
-    <value>tPagePreviousJob</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel33.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel33.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dtpTo" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblJobTo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel34.Name" xml:space="preserve">
-    <value>tableLayoutPanel34</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel34.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel34.Parent" xml:space="preserve">
-    <value>tPagePreviousJob</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel34.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel34.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtWorkPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel35.Name" xml:space="preserve">
-    <value>tableLayoutPanel35</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel35.Parent" xml:space="preserve">
-    <value>tPagePreviousJob</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel35.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel35.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblJobFrom" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpFrom" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel36.Name" xml:space="preserve">
-    <value>tableLayoutPanel36</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel36.Parent" xml:space="preserve">
-    <value>tPagePreviousJob</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel36.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel36.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblEmployeer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtEmployeer" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="tPagePreviousJob.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 4</value>
-  </data>
-  <data name="tPagePreviousJob.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tPagePreviousJob.Size" type="System.Drawing.Size, System.Drawing">
-    <value>930, 630</value>
-  </data>
-  <data name="tPagePreviousJob.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tPagePreviousJob.Text" xml:space="preserve">
-    <value>Previous job</value>
-  </data>
-  <data name="&gt;&gt;tPagePreviousJob.Name" xml:space="preserve">
-    <value>tPagePreviousJob</value>
-  </data>
-  <data name="&gt;&gt;tPagePreviousJob.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPagePreviousJob.Parent" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tPagePreviousJob.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;dgvChildren.Name" xml:space="preserve">
-    <value>dgvChildren</value>
-  </data>
-  <data name="&gt;&gt;dgvChildren.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgvChildren.Parent" xml:space="preserve">
-    <value>tPageChildInfo</value>
-  </data>
-  <data name="&gt;&gt;dgvChildren.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tPageChildInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 4</value>
-  </data>
-  <data name="tPageChildInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tPageChildInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>930, 630</value>
-  </data>
-  <data name="tPageChildInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tPageChildInfo.Text" xml:space="preserve">
-    <value>Child Data</value>
-  </data>
-  <data name="&gt;&gt;tPageChildInfo.Name" xml:space="preserve">
-    <value>tPageChildInfo</value>
-  </data>
-  <data name="&gt;&gt;tPageChildInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPageChildInfo.Parent" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tPageChildInfo.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
-    <value>panel11</value>
-  </data>
-  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
-    <value>panel10</value>
-  </data>
-  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel48.Name" xml:space="preserve">
-    <value>tableLayoutPanel48</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel48.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel48.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel48.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel48.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStartDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpStartDate" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel47.Name" xml:space="preserve">
-    <value>tableLayoutPanel47</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel47.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel47.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel47.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel47.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dtpEndOfTrial" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEndOfTrial" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel46.Name" xml:space="preserve">
-    <value>tableLayoutPanel46</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel46.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel46.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel46.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="tableLayoutPanel46.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHiredDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpHireDate" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel45.Name" xml:space="preserve">
-    <value>tableLayoutPanel45</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel45.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel45.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel45.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tableLayoutPanel45.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbWageCategory" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblWageCategory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel44.Name" xml:space="preserve">
-    <value>tableLayoutPanel44</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel44.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel44.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel44.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tableLayoutPanel44.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSalary" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSalary" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel43.Name" xml:space="preserve">
-    <value>tableLayoutPanel43</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel43.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel43.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel43.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="tableLayoutPanel43.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbTeam" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTeam" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel42.Name" xml:space="preserve">
-    <value>tableLayoutPanel42</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel42.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel42.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel42.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="tableLayoutPanel42.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblDivision" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbDivision" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel41.Name" xml:space="preserve">
-    <value>tableLayoutPanel41</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel41.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel41.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel41.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="tableLayoutPanel41.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPlaceOfWork" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPlaceOfWork" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel40.Name" xml:space="preserve">
-    <value>tableLayoutPanel40</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel40.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel40.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel40.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="tableLayoutPanel40.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtHoursPerWeek" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblWorkHours" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkHours" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,02304,Percent,64,97696,Absolute,56" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel39.Name" xml:space="preserve">
-    <value>tableLayoutPanel39</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel39.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel39.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel39.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="tableLayoutPanel39.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkExpiration" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkExpiration" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel38.Name" xml:space="preserve">
-    <value>tableLayoutPanel38</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel38.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel38.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel38.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="tableLayoutPanel38.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewWorkPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel37.Name" xml:space="preserve">
-    <value>tableLayoutPanel37</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel37.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel37.Parent" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel37.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="tableLayoutPanel37.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkType" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkType" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="tPageJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 4</value>
-  </data>
-  <data name="tPageJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
-    <value>930, 630</value>
-  </data>
-  <data name="tPageJobSpecification.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="tPageJobSpecification.Text" xml:space="preserve">
-    <value>Job specification</value>
-  </data>
-  <data name="&gt;&gt;tPageJobSpecification.Name" xml:space="preserve">
-    <value>tPageJobSpecification</value>
-  </data>
-  <data name="&gt;&gt;tPageJobSpecification.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tPageJobSpecification.Parent" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tPageJobSpecification.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tabCntrl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="tabCntrl.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>90, 180</value>
-  </data>
-  <data name="tabCntrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tabCntrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1118, 638</value>
-  </data>
-  <data name="tabCntrl.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;tabCntrl.Name" xml:space="preserve">
-    <value>tabCntrl</value>
-  </data>
-  <data name="&gt;&gt;tabCntrl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabCntrl.Parent" xml:space="preserve">
-    <value>panelTabControl</value>
-  </data>
-  <data name="&gt;&gt;tabCntrl.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 3</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 31</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarNo.Name" xml:space="preserve">
-    <value>radioBtnSecondPilarNo</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarNo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarNo.Parent" xml:space="preserve">
-    <value>tableLayoutPanel9</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarNo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 3</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 31</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="radioBtnSecondPilarYes.Text" xml:space="preserve">
-    <value>Yes</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarYes.Name" xml:space="preserve">
-    <value>radioBtnSecondPilarYes</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarYes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarYes.Parent" xml:space="preserve">
-    <value>tableLayoutPanel9</value>
-  </data>
-  <data name="&gt;&gt;radioBtnSecondPilarYes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblSecondPillar.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSecondPillar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblSecondPillar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSecondPillar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 37</value>
-  </data>
-  <data name="lblSecondPillar.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="lblSecondPillar.Text" xml:space="preserve">
-    <value>Second pillar</value>
-  </data>
-  <data name="lblSecondPillar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;lblSecondPillar.Name" xml:space="preserve">
-    <value>lblSecondPillar</value>
-  </data>
-  <data name="&gt;&gt;lblSecondPillar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSecondPillar.Parent" xml:space="preserve">
-    <value>tableLayoutPanel9</value>
-  </data>
-  <data name="&gt;&gt;lblSecondPillar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="radioBtnHndcpNo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioBtnHndcpNo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioBtnHndcpNo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="radioBtnHndcpNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 3</value>
-  </data>
-  <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 31</value>
-  </data>
-  <data name="radioBtnHndcpNo.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="radioBtnHndcpNo.Text" xml:space="preserve">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHndcpNo.Name" xml:space="preserve">
-    <value>radioBtnHndcpNo</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHndcpNo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHndcpNo.Parent" xml:space="preserve">
-    <value>tableLayoutPanel8</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHndcpNo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioBtnHandcpYes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioBtnHandcpYes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioBtnHandcpYes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="radioBtnHandcpYes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 3</value>
-  </data>
-  <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 31</value>
-  </data>
-  <data name="radioBtnHandcpYes.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="radioBtnHandcpYes.Text" xml:space="preserve">
-    <value>Yes</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHandcpYes.Name" xml:space="preserve">
-    <value>radioBtnHandcpYes</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHandcpYes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHandcpYes.Parent" xml:space="preserve">
-    <value>tableLayoutPanel8</value>
-  </data>
-  <data name="&gt;&gt;radioBtnHandcpYes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblHandicap.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblHandicap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblHandicap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblHandicap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 37</value>
-  </data>
-  <data name="lblHandicap.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="lblHandicap.Text" xml:space="preserve">
-    <value>Handicap</value>
-  </data>
-  <data name="lblHandicap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;lblHandicap.Name" xml:space="preserve">
-    <value>lblHandicap</value>
-  </data>
-  <data name="&gt;&gt;lblHandicap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblHandicap.Parent" xml:space="preserve">
-    <value>tableLayoutPanel8</value>
-  </data>
-  <data name="&gt;&gt;lblHandicap.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cmbHealthInsurance.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="cmbHealthInsurance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="cmbHealthInsurance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 3</value>
-  </data>
-  <data name="cmbHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 29</value>
-  </data>
-  <data name="cmbHealthInsurance.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;cmbHealthInsurance.Name" xml:space="preserve">
-    <value>cmbHealthInsurance</value>
-  </data>
-  <data name="&gt;&gt;cmbHealthInsurance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbHealthInsurance.Parent" xml:space="preserve">
-    <value>tableLayoutPanel5</value>
-  </data>
-  <data name="&gt;&gt;cmbHealthInsurance.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radioBtnFemale.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioBtnFemale.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioBtnFemale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="radioBtnFemale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioBtnFemale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>333, 3</value>
-  </data>
-  <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 32</value>
-  </data>
-  <data name="radioBtnFemale.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="radioBtnFemale.Text" xml:space="preserve">
-    <value>Female</value>
-  </data>
-  <data name="&gt;&gt;radioBtnFemale.Name" xml:space="preserve">
-    <value>radioBtnFemale</value>
-  </data>
-  <data name="&gt;&gt;radioBtnFemale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioBtnFemale.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;radioBtnFemale.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioBtnMale.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioBtnMale.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioBtnMale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="radioBtnMale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioBtnMale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 3</value>
-  </data>
-  <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 32</value>
-  </data>
-  <data name="radioBtnMale.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="radioBtnMale.Text" xml:space="preserve">
-    <value>Male</value>
-  </data>
-  <data name="&gt;&gt;radioBtnMale.Name" xml:space="preserve">
-    <value>radioBtnMale</value>
-  </data>
-  <data name="&gt;&gt;radioBtnMale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioBtnMale.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;radioBtnMale.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtNationality.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt</value>
-  </data>
-  <data name="txtNationality.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 40</value>
-  </data>
-  <data name="txtNationality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
-  </data>
-  <data name="txtNationality.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;txtNationality.Name" xml:space="preserve">
-    <value>txtNationality</value>
-  </data>
-  <data name="&gt;&gt;txtNationality.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNationality.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;txtNationality.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtPlaceOfBirth.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt</value>
-  </data>
-  <data name="txtPlaceOfBirth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 3</value>
-  </data>
-  <data name="txtPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 24</value>
-  </data>
-  <data name="txtPlaceOfBirth.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;txtPlaceOfBirth.Name" xml:space="preserve">
-    <value>txtPlaceOfBirth</value>
-  </data>
-  <data name="&gt;&gt;txtPlaceOfBirth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPlaceOfBirth.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;txtPlaceOfBirth.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="tableLayoutPanel50.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -5370,6 +5361,63 @@
   <data name="&gt;&gt;txtPhoneNumber.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;tableLayoutPanel24.Name" xml:space="preserve">
+    <value>tableLayoutPanel24</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel24.Parent" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel24.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel24.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPin" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPinAlarm" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel23.Name" xml:space="preserve">
+    <value>tableLayoutPanel23</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel23.Parent" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel23.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPassword" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPassword" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tPagePassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 4</value>
+  </data>
+  <data name="tPagePassword.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tPagePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 630</value>
+  </data>
+  <data name="tPagePassword.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tPagePassword.Text" xml:space="preserve">
+    <value>Password and access</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.Name" xml:space="preserve">
+    <value>tPagePassword</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPagePassword.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="tableLayoutPanel24.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -5513,6 +5561,189 @@
   </data>
   <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel29.Name" xml:space="preserve">
+    <value>tableLayoutPanel29</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel29.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel29.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel29.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbCurrentEduLevel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCurrEducationLevel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel30.Name" xml:space="preserve">
+    <value>tableLayoutPanel30</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel30.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel30.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel30.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrMajor" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchoolMajor" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel31.Name" xml:space="preserve">
+    <value>tableLayoutPanel31</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel31.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel31.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel31.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrEndYear" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchoolEndYear" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel32.Name" xml:space="preserve">
+    <value>tableLayoutPanel32</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel32.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel32.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel32.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblCurrSchool" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtCurrentSchool" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel28.Name" xml:space="preserve">
+    <value>tableLayoutPanel28</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel28.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel28.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel28.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbEduLevel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEducationLevel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel27.Name" xml:space="preserve">
+    <value>tableLayoutPanel27</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel27.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel27.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel27.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblMajor" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHightestSchoolMajor" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel26.Name" xml:space="preserve">
+    <value>tableLayoutPanel26</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel26.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel26.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel26.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblEndYear" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHighestSchoolEndYear" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel25.Name" xml:space="preserve">
+    <value>tableLayoutPanel25</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel25.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel25.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel25.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSchool" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtHighestSchool" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentEdu.Name" xml:space="preserve">
+    <value>lblCurrentEdu</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentEdu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentEdu.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentEdu.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblHighEdu.Name" xml:space="preserve">
+    <value>lblHighEdu</value>
+  </data>
+  <data name="&gt;&gt;lblHighEdu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHighEdu.Parent" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;lblHighEdu.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tPageEducation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 4</value>
+  </data>
+  <data name="tPageEducation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tPageEducation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 630</value>
+  </data>
+  <data name="tPageEducation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tPageEducation.Text" xml:space="preserve">
+    <value>Education data</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.Name" xml:space="preserve">
+    <value>tPageEducation</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageEducation.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="tableLayoutPanel29.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -5915,6 +6146,93 @@
   </data>
   <data name="&gt;&gt;lblHighEdu.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel33.Name" xml:space="preserve">
+    <value>tableLayoutPanel33</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel33.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel33.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel33.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dtpTo" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblJobTo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel34.Name" xml:space="preserve">
+    <value>tableLayoutPanel34</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel34.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel34.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel34.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtWorkPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel35.Name" xml:space="preserve">
+    <value>tableLayoutPanel35</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel35.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel35.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel35.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblJobFrom" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpFrom" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel36.Name" xml:space="preserve">
+    <value>tableLayoutPanel36</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel36.Parent" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel36.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel36.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblEmployeer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtEmployeer" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tPagePreviousJob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 4</value>
+  </data>
+  <data name="tPagePreviousJob.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tPagePreviousJob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 630</value>
+  </data>
+  <data name="tPagePreviousJob.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tPagePreviousJob.Text" xml:space="preserve">
+    <value>Previous job</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.Name" xml:space="preserve">
+    <value>tPagePreviousJob</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPagePreviousJob.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="tableLayoutPanel33.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -6402,6 +6720,45 @@
   <data name="&gt;&gt;txtEmployeer.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;dgvChildren.Name" xml:space="preserve">
+    <value>dgvChildren</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.Parent" xml:space="preserve">
+    <value>tPageChildInfo</value>
+  </data>
+  <data name="&gt;&gt;dgvChildren.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tPageChildInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 4</value>
+  </data>
+  <data name="tPageChildInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tPageChildInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 630</value>
+  </data>
+  <data name="tPageChildInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tPageChildInfo.Text" xml:space="preserve">
+    <value>Child Data</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Name" xml:space="preserve">
+    <value>tPageChildInfo</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageChildInfo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="dgvChildren.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -6449,6 +6806,234 @@
   </data>
   <data name="colEmployeeId.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.Name" xml:space="preserve">
+    <value>tableLayoutPanel48</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel48.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel48.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStartDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpStartDate" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.Name" xml:space="preserve">
+    <value>tableLayoutPanel47</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel47.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel47.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dtpEndOfTrial" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEndOfTrial" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel46.Name" xml:space="preserve">
+    <value>tableLayoutPanel46</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel46.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel46.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel46.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblHiredDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="dtpHireDate" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.Name" xml:space="preserve">
+    <value>tableLayoutPanel45</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel45.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel45.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbWageCategory" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblWageCategory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel44.Name" xml:space="preserve">
+    <value>tableLayoutPanel44</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel44.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel44.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel44.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSalary" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtSalary" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.Name" xml:space="preserve">
+    <value>tableLayoutPanel43</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel43.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel43.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmbTeam" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTeam" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.Name" xml:space="preserve">
+    <value>tableLayoutPanel42</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel42.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel42.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblDivision" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbDivision" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel41.Name" xml:space="preserve">
+    <value>tableLayoutPanel41</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel41.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel41.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tableLayoutPanel41.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPlaceOfWork" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPlaceOfWork" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.Name" xml:space="preserve">
+    <value>tableLayoutPanel40</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel40.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel40.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtHoursPerWeek" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblWorkHours" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkHours" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,02304,Percent,64,97696,Absolute,56" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.Name" xml:space="preserve">
+    <value>tableLayoutPanel39</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel39.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tableLayoutPanel39.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkExpiration" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkExpiration" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.Name" xml:space="preserve">
+    <value>tableLayoutPanel38</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel38.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tableLayoutPanel38.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblNewWorkPosition" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkPosition" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel37.Name" xml:space="preserve">
+    <value>tableLayoutPanel37</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel37.Parent" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel37.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tableLayoutPanel37.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWorkType" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkType" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,94253,Percent,65,05747" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tPageJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 4</value>
+  </data>
+  <data name="tPageJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 630</value>
+  </data>
+  <data name="tPageJobSpecification.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tPageJobSpecification.Text" xml:space="preserve">
+    <value>Job specification</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Name" xml:space="preserve">
+    <value>tPageJobSpecification</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.Parent" xml:space="preserve">
+    <value>tabCntrl</value>
+  </data>
+  <data name="&gt;&gt;tPageJobSpecification.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="panel11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>

@@ -34,6 +34,7 @@ namespace KrosDotaznik
             if (allowCreate)
             {                
                 btnCreate.Visible = true;
+                this.Size = new Size(293,180);
             }
         }
         #endregion
