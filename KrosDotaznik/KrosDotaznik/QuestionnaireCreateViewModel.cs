@@ -113,6 +113,7 @@ namespace KrosDotaznik
 
         #endregion
 
+        #region FillData
         private void FillDictionary()
         {
             for (int i = 0; i < 7; i++)
@@ -120,6 +121,7 @@ namespace KrosDotaznik
                 _showQuestionGroups.Add(i, false);
             }
         }
+        #endregion
 
         #region Save method
         public void SaveQuestionnaire(string filePath)

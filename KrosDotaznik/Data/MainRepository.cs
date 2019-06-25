@@ -10,6 +10,7 @@ namespace Data
 {
     public class MainRepository
     {
+        #region Access method
         public Dictionary<TKey, TValue> GetAllAccessData<TKey, TValue>(string command,string cultureInfo)
         {
             try
@@ -45,5 +46,6 @@ namespace Data
                 throw;
             }            
         }
+        #endregion
     }
 }

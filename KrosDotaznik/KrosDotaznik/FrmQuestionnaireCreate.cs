@@ -15,12 +15,16 @@ namespace KrosDotaznik
         #region Fields
         private QuestionnaireCreateViewModel _viewModel;
         #endregion
+
+        #region Constructor
         public FrmQuestionnaireCreate()
         {
             InitializeComponent();
             _viewModel = new QuestionnaireCreateViewModel();
             BindingCheckBox();            
         }
+        #endregion
+
         #region Binding components
         private void BindCheckBoxControls(CheckBox checkBox, string memberData)
         {
@@ -42,7 +46,8 @@ namespace KrosDotaznik
             BindCheckBoxControls(chbxJobSpecification, nameof(_viewModel.JobSpecification));
         }
         #endregion
-        #region
+        
+        #region Button handlers
         private void btnCancel_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show(Resources.Questionnaire.msgQuestionCreate, Resources.Questionnaire.msgQuestionCreateTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -70,6 +75,5 @@ namespace KrosDotaznik
         }
 
         #endregion
-
     }
 }
