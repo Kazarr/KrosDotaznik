@@ -87,8 +87,8 @@
             // 
             // btnCancel
             // 
-            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Image = global::KrosDotaznik.Properties.Resources.cancelS;
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -96,8 +96,8 @@
             // 
             // btnSave
             // 
-            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Image = global::KrosDotaznik.Properties.Resources.okS;
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -105,7 +105,6 @@
             // 
             // panelQuestion
             // 
-            resources.ApplyResources(this.panelQuestion, "panelQuestion");
             this.panelQuestion.Controls.Add(this.chbxPrevious);
             this.panelQuestion.Controls.Add(this.chbxEmployeeData);
             this.panelQuestion.Controls.Add(this.chbxContacts);
@@ -113,6 +112,7 @@
             this.panelQuestion.Controls.Add(this.chbxPassword);
             this.panelQuestion.Controls.Add(this.chbxChild);
             this.panelQuestion.Controls.Add(this.chbxEducation);
+            resources.ApplyResources(this.panelQuestion, "panelQuestion");
             this.panelQuestion.Name = "panelQuestion";
             this.panelQuestion.TabStop = false;
             // 
