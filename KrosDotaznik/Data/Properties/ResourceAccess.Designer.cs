@@ -70,6 +70,24 @@ namespace Data.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select Id, DepartmentNameDepartmentName, DepartmentNameDepartmentNameEN FROM Department.
+        /// </summary>
+        internal static string DepartmentSelect {
+            get {
+                return ResourceManager.GetString("DepartmentSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Id, DivisionName, DivisionNameEN FROM Division.
+        /// </summary>
+        internal static string DivisionSelect {
+            get {
+                return ResourceManager.GetString("DivisionSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select  ID, EducationLevelName, EducationLevelNameEN FROM EducationLevel.
         /// </summary>
         internal static string EducationLevelSelect {
@@ -133,7 +151,7 @@ namespace Data.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select  ID, Position, PositionEN FROM WorkPosition.
+        ///   Looks up a localized string similar to Select  ID, [Position], PositionEN FROM WorkPosition.
         /// </summary>
         internal static string WorkPositionSelect {
             get {

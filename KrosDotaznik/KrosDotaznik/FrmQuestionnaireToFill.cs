@@ -70,6 +70,13 @@ namespace KrosDotaznik
             FillCombo(cmbRetirement, _viewModel.RetirementData);
             FillCombo(cmbEduLevel, _viewModel.EducationLevelData);
             FillCombo(cmbCurrentEduLevel, _viewModel.EducationLevelData);
+            FillCombo(cmbDivision, _viewModel.DivisionData);
+            FillCombo(cmbTeam, _viewModel.DepartmentData);
+            FillCombo(cmbWageCategory, _viewModel.WageCategoryData);
+            FillCombo(cmbWorkExpiration, _viewModel.WorkExpirationData);
+            FillCombo(cmbWorkHours, _viewModel.WorkHoursData);
+            FillCombo(cmbWorkPosition, _viewModel.WorkPositionData);
+            FillCombo(cmbWorkType, _viewModel.WorkTypeData);
         }
         /// <summary>
         /// Allows you to enter only a number
@@ -174,8 +181,8 @@ namespace KrosDotaznik
             BindDefaultControlProperty(cmbWorkPosition, nameof(_viewModel.StringWorkPosition));
             BindDefaultControlProperty(cmbWorkExpiration, nameof(_viewModel.StringWorkExpiration));
             BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
-            //BindDefaultControlProperty(cmbDivision, nameof(_viewModel.StringDepartment)); // vyriešiť automatické dopĺňanie a filtrovanie comba
-            //BindDefaultControlProperty(cmbTeam, nameof(_viewModel.StringDepartment));     // vyriešiť automatické dopĺňanie a filtrovanie comba
+            BindDefaultControlProperty(cmbDivision, nameof(_viewModel.StringDivision)); // vyriešiť automatické dopĺňanie a filtrovanie comba
+            BindDefaultControlProperty(cmbTeam, nameof(_viewModel.StringDepartment));     // vyriešiť automatické dopĺňanie a filtrovanie comba
             //BindDefaultControlProperty(txtPlaceOfWork, nameof(_viewModel.PlaceOfWork));
             BindDefaultControlProperty(dtpHireDate, nameof(_viewModel.HireDate));
             BindDefaultControlProperty(dtpStartDate, nameof(_viewModel.StartDate));
