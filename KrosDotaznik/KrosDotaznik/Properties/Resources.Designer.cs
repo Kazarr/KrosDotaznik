@@ -63,6 +63,16 @@ namespace KrosDotaznik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cancelS {
+            get {
+                object obj = ResourceManager.GetObject("cancelS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap createI {
             get {
                 object obj = ResourceManager.GetObject("createI", resourceCulture);
@@ -86,6 +96,16 @@ namespace KrosDotaznik.Properties {
         internal static System.Drawing.Bitmap fillI {
             get {
                 object obj = ResourceManager.GetObject("fillI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap okS {
+            get {
+                object obj = ResourceManager.GetObject("okS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

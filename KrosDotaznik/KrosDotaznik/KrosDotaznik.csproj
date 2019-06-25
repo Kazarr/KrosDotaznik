@@ -165,6 +165,8 @@
     <Content Include="KrosDotaznik.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\okS.png" />
+    <None Include="Resources\cancelS.png" />
     <None Include="Resources\fillI.png" />
     <None Include="Resources\createI.png" />
     <None Include="Resources\fill.png" />
