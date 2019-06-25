@@ -679,7 +679,6 @@ namespace KrosDotaznik
             }
         }
 
-        #region Nedoriesene
         public Division Division
         {
             get => _employee.JobSpecificationData.Division;
@@ -697,7 +696,7 @@ namespace KrosDotaznik
             set
             {
                 _stringDivision = value;
-                Division = SetPropertiesForCmbox<Division>(DepartmentData, _stringDivision);
+                Division = SetPropertiesForCmbox<Division>(DivisionData, _stringDivision);
                 OnPropertyChange();
             }
         }
@@ -723,7 +722,6 @@ namespace KrosDotaznik
                 OnPropertyChange();
             }
         }
-        #endregion
 
         public WorkExpiration WorkExpiration
         {
