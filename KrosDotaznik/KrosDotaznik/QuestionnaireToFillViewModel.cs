@@ -411,18 +411,18 @@ namespace KrosDotaznik
 
         public Country TempCountry
         {
-            get => _employee.AddressData.Country;
+            get => _employee.TemporaryAdressDdata.Country;
             set
             {
-                _employee.AddressData.Country = value;
+                _employee.TemporaryAdressDdata.Country = value;
                 OnPropertyChange();
             }
         }
         public string StringTempCountry
         {
-            get => _employee.AddressData.Country == null
+            get => _employee.TemporaryAdressDdata.Country == null
                 ? _stringTempCountry
-                : _employee.AddressData.Country.CountryName;
+                : _employee.TemporaryAdressDdata.Country.CountryName;
             set
             {
                 _stringTempCountry = value;

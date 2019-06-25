@@ -77,6 +77,8 @@ namespace KrosDotaznik
             FillCombo(cmbWorkHours, _viewModel.WorkHoursData);
             FillCombo(cmbWorkPosition, _viewModel.WorkPositionData);
             FillCombo(cmbWorkType, _viewModel.WorkTypeData);
+            FillCombo(cmbCountry, _viewModel.CountryData);
+            FillCombo(cmbTempCountry, _viewModel.CountryData);
         }
         /// <summary>
         /// Allows you to enter only a number
@@ -144,6 +146,8 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtTempHouseNumber, nameof(_viewModel.TempStreet));
             BindDefaultControlProperty(txtTempCity, nameof(_viewModel.TempCity));
             BindDefaultControlProperty(txtTempPostalCode, nameof(_viewModel.TempPostalCode));
+            BindDefaultControlProperty(cmbCountry, nameof(_viewModel.StringCountry));
+            BindDefaultControlProperty(cmbTempCountry, nameof(_viewModel.StringTempCountry));
         }
         private void BindCredentials()
         {
