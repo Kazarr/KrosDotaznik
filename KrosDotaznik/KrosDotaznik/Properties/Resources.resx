@@ -130,6 +130,9 @@
   <data name="fillI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fillI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="okL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\okL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="okS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\okS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

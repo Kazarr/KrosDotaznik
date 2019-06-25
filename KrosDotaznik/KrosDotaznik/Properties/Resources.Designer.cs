@@ -103,6 +103,16 @@ namespace KrosDotaznik.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap okL {
+            get {
+                object obj = ResourceManager.GetObject("okL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap okS {
             get {
                 object obj = ResourceManager.GetObject("okS", resourceCulture);
