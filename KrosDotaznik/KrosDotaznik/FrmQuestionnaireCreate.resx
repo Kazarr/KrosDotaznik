@@ -117,15 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 301</value>
-  </data>
   <data name="&gt;&gt;chbxEducation.Name" xml:space="preserve">
     <value>chbxEducation</value>
   </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 319</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="chbxPrevious.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -134,41 +131,42 @@
   <data name="chbxJobSpecification.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="chbxChild.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;chbxEducation.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="chbxEmployeeData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 24</value>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
   </data>
   <data name="chbxPrevious.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 24</value>
   </data>
-  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="chbxChild.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 24</value>
   </data>
-  <data name="&gt;&gt;chbxPrevious.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>383, 364</value>
-  </data>
-  <data name="&gt;&gt;chbxContacts.Parent" xml:space="preserve">
-    <value>panelQuestion</value>
+  <data name="chbxPrevious.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmQuestionnaireCreate</value>
   </data>
-  <data name="chbxEducation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 24</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="chbxPrevious.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 199</value>
+  <data name="panelQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
-  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;chbxPrevious.Parent" xml:space="preserve">
+    <value>panelQuestion</value>
   </data>
   <data name="chbxContacts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -176,7 +174,6 @@
   <data name="&gt;&gt;panelQuestion.Name" xml:space="preserve">
     <value>panelQuestion</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="chbxJobSpecification.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -189,8 +186,8 @@
   <data name="chbxJobSpecification.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;chbxChild.Name" xml:space="preserve">
-    <value>chbxChild</value>
+  <data name="&gt;&gt;chbxPrevious.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="chbxEmployeeData.Text" xml:space="preserve">
     <value>Employee Data</value>
@@ -210,14 +207,8 @@
   <data name="chbxPassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;saveFileData.Name" xml:space="preserve">
-    <value>saveFileData</value>
-  </data>
   <data name="chbxPassword.Text" xml:space="preserve">
     <value>Password and access</value>
-  </data>
-  <data name="&gt;&gt;chbxEmployeeData.Name" xml:space="preserve">
-    <value>chbxEmployeeData</value>
   </data>
   <data name="&gt;&gt;chbxJobSpecification.Name" xml:space="preserve">
     <value>chbxJobSpecification</value>
@@ -243,14 +234,11 @@
   <data name="&gt;&gt;chbxJobSpecification.Parent" xml:space="preserve">
     <value>panelQuestion</value>
   </data>
-  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
   <data name="chbxContacts.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="&gt;&gt;chbxPassword.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;chbxContacts.Parent" xml:space="preserve">
+    <value>panelQuestion</value>
   </data>
   <data name="&gt;&gt;chbxPrevious.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -282,11 +270,8 @@
   <data name="&gt;&gt;chbxJobSpecification.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;chbxEducation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chbxJobSpecification.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;chbxPassword.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -294,14 +279,14 @@
   <data name="&gt;&gt;panelQuestion.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="chbxPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
   <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
-    <value>btnCancel</value>
+  <data name="&gt;&gt;chbxEmployeeData.Parent" xml:space="preserve">
+    <value>panelQuestion</value>
   </data>
   <data name="chbxContacts.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 101</value>
@@ -315,11 +300,20 @@
   <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="chbxPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;saveFileData.Name" xml:space="preserve">
+    <value>saveFileData</value>
+  </data>
+  <data name="&gt;&gt;chbxChild.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chbxJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 24</value>
   </data>
   <data name="&gt;&gt;chbxContacts.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -333,20 +327,26 @@
   <data name="chbxPrevious.Text" xml:space="preserve">
     <value>Previous job</value>
   </data>
-  <data name="chbxEmployeeData.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 319</value>
   </data>
   <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="chbxEducation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="chbxEmployeeData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 33</value>
   </data>
-  <data name="chbxPassword.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+  <data name="panelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 301</value>
   </data>
-  <data name="chbxContacts.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="chbxEmployeeData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="chbxPassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 24</value>
@@ -360,17 +360,17 @@
   <data name="chbxEducation.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 166</value>
   </data>
-  <data name="&gt;&gt;chbxChild.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="chbxJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 263</value>
   </data>
-  <data name="chbxJobSpecification.Text" xml:space="preserve">
-    <value>Job specification</value>
+  <data name="chbxPrevious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 199</value>
   </data>
-  <data name="panelQuestion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="&gt;&gt;saveFileData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;chbxJobSpecification.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="chbxEmployeeData.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 66</value>
@@ -378,26 +378,20 @@
   <data name="chbxChild.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="panelQuestion.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="saveFileData.Title" xml:space="preserve">
-    <value>Save Questionare</value>
-  </data>
   <data name="&gt;&gt;chbxEducation.Parent" xml:space="preserve">
     <value>panelQuestion</value>
   </data>
-  <data name="chbxJobSpecification.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 263</value>
+  <data name="&gt;&gt;chbxPassword.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;chbxEmployeeData.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="chbxChild.Text" xml:space="preserve">
     <value>Child Data</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
   </data>
   <data name="chbxEmployeeData.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -411,17 +405,17 @@
   <data name="chbxEmployeeData.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;saveFileData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chbxEmployeeData.Name" xml:space="preserve">
+    <value>chbxEmployeeData</value>
   </data>
-  <data name="&gt;&gt;chbxPrevious.Parent" xml:space="preserve">
-    <value>panelQuestion</value>
+  <data name="chbxEducation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="chbxChild.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 33</value>
+  <data name="chbxContacts.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="panelQuestion.Text" xml:space="preserve">
     <value>Choose data groups to be filled in questionnaire</value>
@@ -432,40 +426,46 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Create questionnaire</value>
   </data>
-  <data name="&gt;&gt;chbxEmployeeData.Parent" xml:space="preserve">
-    <value>panelQuestion</value>
+  <data name="saveFileData.Title" xml:space="preserve">
+    <value>Save Questionare</value>
+  </data>
+  <data name="chbxPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="saveFileData.Filter" xml:space="preserve">
     <value>Questionare (*.kpq)|*.kpq</value>
   </data>
-  <data name="chbxEducation.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="chbxJobSpecification.Text" xml:space="preserve">
+    <value>Job specification</value>
   </data>
-  <data name="btnCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>383, 364</value>
   </data>
-  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="chbxChild.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;chbxEducation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="chbxJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 24</value>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 33</value>
   </data>
-  <data name="chbxPrevious.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+  <data name="&gt;&gt;chbxChild.Name" xml:space="preserve">
+    <value>chbxChild</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
   </data>
   <data name="&gt;&gt;chbxPassword.Name" xml:space="preserve">
     <value>chbxPassword</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sk</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="saveFileData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>sk</value>
   </metadata>
 </root>

@@ -115,6 +115,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Resources\GridResources.en.resx" />
     <EmbeddedResource Include="Resources\GridResources.resx">
@@ -164,6 +165,17 @@
     <Content Include="KrosDotaznik.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\okL.png" />
+    <None Include="Resources\okS.png" />
+    <None Include="Resources\cancelS.png" />
+    <None Include="Resources\fillI.png" />
+    <None Include="Resources\createI.png" />
+    <None Include="Resources\fill.png" />
+    <None Include="Resources\create.png" />
+    <None Include="Resources\englishFlag.png" />
+    <None Include="Resources\engFlag.png" />
+    <None Include="Resources\slovakFlag.png" />
+    <None Include="Resources\engFlag.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

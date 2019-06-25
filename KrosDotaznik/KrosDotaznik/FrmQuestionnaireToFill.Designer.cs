@@ -1800,9 +1800,12 @@
             // 
             resources.ApplyResources(this.btnSaveQsr, "btnSaveQsr");
             this.btnSaveQsr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnSaveQsr.FlatAppearance.BorderSize = 0;
+            this.btnSaveQsr.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnSaveQsr.FlatAppearance.BorderSize = 3;
+            this.btnSaveQsr.Image = global::KrosDotaznik.Properties.Resources.okL;
             this.btnSaveQsr.Name = "btnSaveQsr";
             this.btnSaveQsr.UseVisualStyleBackColor = false;
+            this.btnSaveQsr.Click += new System.EventHandler(this.btnSaveQsr_Click);
             // 
             // FrmQuestionnaireToFill
             // 
