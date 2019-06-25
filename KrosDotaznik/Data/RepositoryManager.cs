@@ -9,6 +9,7 @@ namespace Data
 {
     public static class RepositoryManager
     {
+        #region Properties
         public static StateRepository StateRepository = new StateRepository();
         public static HealthInsuranceRepository HealthRepository = new HealthInsuranceRepository();
         public static RetirementRepository RetirementRepository = new RetirementRepository();
@@ -20,5 +21,6 @@ namespace Data
         public static WorkTypeRepository WorkTypeRepository = new WorkTypeRepository();
         public static DepartmentRepository DepartmentRepository = new DepartmentRepository();
         public static DivisionRepository DivisionRepository = new DivisionRepository();
+        #endregion
     }
 }
