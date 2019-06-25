@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -135,6 +135,14 @@
             this.txtPreviousName = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.tPageContactAdress = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel50 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbTempCountry = new System.Windows.Forms.ComboBox();
+            this.lblTempCoutry = new System.Windows.Forms.Label();
+            this.tableLayoutPanel49 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbCountry = new System.Windows.Forms.ComboBox();
+            this.lblCountry = new System.Windows.Forms.Label();
             this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
@@ -191,31 +199,45 @@
             this.colId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEmployeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tPageJobSpecification = new System.Windows.Forms.TabPage();
-            this.dtpEndOfTrial = new System.Windows.Forms.DateTimePicker();
-            this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
-            this.dtpHireDate = new System.Windows.Forms.DateTimePicker();
-            this.lblEndOfTrial = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel48 = new System.Windows.Forms.TableLayoutPanel();
             this.lblStartDate = new System.Windows.Forms.Label();
+            this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
+            this.tableLayoutPanel47 = new System.Windows.Forms.TableLayoutPanel();
+            this.dtpEndOfTrial = new System.Windows.Forms.DateTimePicker();
+            this.lblEndOfTrial = new System.Windows.Forms.Label();
+            this.tableLayoutPanel46 = new System.Windows.Forms.TableLayoutPanel();
             this.lblHiredDate = new System.Windows.Forms.Label();
+            this.dtpHireDate = new System.Windows.Forms.DateTimePicker();
+            this.tableLayoutPanel45 = new System.Windows.Forms.TableLayoutPanel();
             this.cmbWageCategory = new System.Windows.Forms.ComboBox();
-            this.txtSalary = new System.Windows.Forms.TextBox();
-            this.lblSalary = new System.Windows.Forms.Label();
             this.lblWageCategory = new System.Windows.Forms.Label();
+            this.tableLayoutPanel44 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblSalary = new System.Windows.Forms.Label();
+            this.txtSalary = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel43 = new System.Windows.Forms.TableLayoutPanel();
             this.cmbTeam = new System.Windows.Forms.ComboBox();
-            this.cmbDivision = new System.Windows.Forms.ComboBox();
-            this.txtPlaceOfWork = new System.Windows.Forms.TextBox();
-            this.lblPlaceOfWork = new System.Windows.Forms.Label();
-            this.lblDivision = new System.Windows.Forms.Label();
             this.lblTeam = new System.Windows.Forms.Label();
+            this.tableLayoutPanel42 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblDivision = new System.Windows.Forms.Label();
+            this.cmbDivision = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel41 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblPlaceOfWork = new System.Windows.Forms.Label();
+            this.txtPlaceOfWork = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel40 = new System.Windows.Forms.TableLayoutPanel();
             this.txtHoursPerWeek = new System.Windows.Forms.TextBox();
-            this.cmbWorkExpiration = new System.Windows.Forms.ComboBox();
-            this.lblWorkType = new System.Windows.Forms.Label();
-            this.cmbWorkPosition = new System.Windows.Forms.ComboBox();
             this.lblWorkHours = new System.Windows.Forms.Label();
             this.cmbWorkHours = new System.Windows.Forms.ComboBox();
-            this.lblNewWorkPosition = new System.Windows.Forms.Label();
-            this.cmbWorkType = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel39 = new System.Windows.Forms.TableLayoutPanel();
             this.lblWorkExpiration = new System.Windows.Forms.Label();
+            this.cmbWorkExpiration = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel38 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblNewWorkPosition = new System.Windows.Forms.Label();
+            this.cmbWorkPosition = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel37 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblWorkType = new System.Windows.Forms.Label();
+            this.cmbWorkType = new System.Windows.Forms.ComboBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.saveFileData = new System.Windows.Forms.SaveFileDialog();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -226,29 +248,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel37 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel38 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel39 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel40 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel41 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel42 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel43 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel44 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel45 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel46 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel47 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel48 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.panelTabControl = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel49 = new System.Windows.Forms.TableLayoutPanel();
-            this.cmbCountry = new System.Windows.Forms.ComboBox();
-            this.lblCountry = new System.Windows.Forms.Label();
-            this.tableLayoutPanel50 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cmbTempCountry = new System.Windows.Forms.ComboBox();
-            this.lblTempCoutry = new System.Windows.Forms.Label();
+            this.btnSaveQsr = new System.Windows.Forms.Button();
             this.tabCntrl.SuspendLayout();
             this.tPagePersonalInfo.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
@@ -267,6 +268,8 @@
             this.layoutPaneltitle.SuspendLayout();
             this.layoutPanelName.SuspendLayout();
             this.tPageContactAdress.SuspendLayout();
+            this.tableLayoutPanel50.SuspendLayout();
+            this.tableLayoutPanel49.SuspendLayout();
             this.tableLayoutPanel22.SuspendLayout();
             this.tableLayoutPanel21.SuspendLayout();
             this.tableLayoutPanel20.SuspendLayout();
@@ -297,23 +300,21 @@
             this.tPageChildInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).BeginInit();
             this.tPageJobSpecification.SuspendLayout();
+            this.tableLayoutPanel48.SuspendLayout();
+            this.tableLayoutPanel47.SuspendLayout();
+            this.tableLayoutPanel46.SuspendLayout();
+            this.tableLayoutPanel45.SuspendLayout();
+            this.tableLayoutPanel44.SuspendLayout();
+            this.tableLayoutPanel43.SuspendLayout();
+            this.tableLayoutPanel42.SuspendLayout();
+            this.tableLayoutPanel41.SuspendLayout();
+            this.tableLayoutPanel40.SuspendLayout();
+            this.tableLayoutPanel39.SuspendLayout();
+            this.tableLayoutPanel38.SuspendLayout();
+            this.tableLayoutPanel37.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel9.SuspendLayout();
-            this.tableLayoutPanel37.SuspendLayout();
-            this.tableLayoutPanel38.SuspendLayout();
-            this.tableLayoutPanel39.SuspendLayout();
-            this.tableLayoutPanel40.SuspendLayout();
-            this.tableLayoutPanel41.SuspendLayout();
-            this.tableLayoutPanel42.SuspendLayout();
-            this.tableLayoutPanel43.SuspendLayout();
-            this.tableLayoutPanel44.SuspendLayout();
-            this.tableLayoutPanel45.SuspendLayout();
-            this.tableLayoutPanel46.SuspendLayout();
-            this.tableLayoutPanel47.SuspendLayout();
-            this.tableLayoutPanel48.SuspendLayout();
             this.panelTabControl.SuspendLayout();
-            this.tableLayoutPanel49.SuspendLayout();
-            this.tableLayoutPanel50.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblRetiredSince
@@ -1019,6 +1020,56 @@
             resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Name = "tPageContactAdress";
             // 
+            // tableLayoutPanel50
+            // 
+            resources.ApplyResources(this.tableLayoutPanel50, "tableLayoutPanel50");
+            this.tableLayoutPanel50.Controls.Add(this.label2, 0, 0);
+            this.tableLayoutPanel50.Controls.Add(this.cmbTempCountry, 1, 1);
+            this.tableLayoutPanel50.Controls.Add(this.lblTempCoutry, 0, 1);
+            this.tableLayoutPanel50.Name = "tableLayoutPanel50";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // cmbTempCountry
+            // 
+            this.cmbTempCountry.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbTempCountry, "cmbTempCountry");
+            this.cmbTempCountry.FormattingEnabled = true;
+            this.cmbTempCountry.Name = "cmbTempCountry";
+            // 
+            // lblTempCoutry
+            // 
+            resources.ApplyResources(this.lblTempCoutry, "lblTempCoutry");
+            this.lblTempCoutry.Name = "lblTempCoutry";
+            // 
+            // tableLayoutPanel49
+            // 
+            resources.ApplyResources(this.tableLayoutPanel49, "tableLayoutPanel49");
+            this.tableLayoutPanel49.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel49.Controls.Add(this.cmbCountry, 1, 1);
+            this.tableLayoutPanel49.Controls.Add(this.lblCountry, 0, 1);
+            this.tableLayoutPanel49.Name = "tableLayoutPanel49";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // cmbCountry
+            // 
+            this.cmbCountry.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbCountry, "cmbCountry");
+            this.cmbCountry.FormattingEnabled = true;
+            this.cmbCountry.Name = "cmbCountry";
+            // 
+            // lblCountry
+            // 
+            resources.ApplyResources(this.lblCountry, "lblCountry");
+            this.lblCountry.Name = "lblCountry";
+            // 
             // tableLayoutPanel22
             // 
             resources.ApplyResources(this.tableLayoutPanel22, "tableLayoutPanel22");
@@ -1381,9 +1432,9 @@
             // colBirthDate
             // 
             this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle1.Format = "d";
-            dataGridViewCellStyle1.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Format = "d";
+            dataGridViewCellStyle3.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle3;
             resources.ApplyResources(this.colBirthDate, "colBirthDate");
             this.colBirthDate.Name = "colBirthDate";
             // 
@@ -1419,35 +1470,78 @@
             resources.ApplyResources(this.tPageJobSpecification, "tPageJobSpecification");
             this.tPageJobSpecification.Name = "tPageJobSpecification";
             // 
-            // dtpEndOfTrial
+            // panel11
             // 
-            resources.ApplyResources(this.dtpEndOfTrial, "dtpEndOfTrial");
-            this.dtpEndOfTrial.Name = "dtpEndOfTrial";
+            resources.ApplyResources(this.panel11, "panel11");
+            this.panel11.BackColor = System.Drawing.Color.Silver;
+            this.panel11.Name = "panel11";
             // 
-            // dtpStartDate
+            // panel10
             // 
-            resources.ApplyResources(this.dtpStartDate, "dtpStartDate");
-            this.dtpStartDate.Name = "dtpStartDate";
+            resources.ApplyResources(this.panel10, "panel10");
+            this.panel10.BackColor = System.Drawing.Color.Silver;
+            this.panel10.Name = "panel10";
             // 
-            // dtpHireDate
+            // tableLayoutPanel48
             // 
-            resources.ApplyResources(this.dtpHireDate, "dtpHireDate");
-            this.dtpHireDate.Name = "dtpHireDate";
-            // 
-            // lblEndOfTrial
-            // 
-            resources.ApplyResources(this.lblEndOfTrial, "lblEndOfTrial");
-            this.lblEndOfTrial.Name = "lblEndOfTrial";
+            resources.ApplyResources(this.tableLayoutPanel48, "tableLayoutPanel48");
+            this.tableLayoutPanel48.Controls.Add(this.lblStartDate, 0, 0);
+            this.tableLayoutPanel48.Controls.Add(this.dtpStartDate, 1, 0);
+            this.tableLayoutPanel48.Name = "tableLayoutPanel48";
             // 
             // lblStartDate
             // 
             resources.ApplyResources(this.lblStartDate, "lblStartDate");
             this.lblStartDate.Name = "lblStartDate";
             // 
+            // dtpStartDate
+            // 
+            resources.ApplyResources(this.dtpStartDate, "dtpStartDate");
+            this.dtpStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpStartDate.Name = "dtpStartDate";
+            // 
+            // tableLayoutPanel47
+            // 
+            resources.ApplyResources(this.tableLayoutPanel47, "tableLayoutPanel47");
+            this.tableLayoutPanel47.Controls.Add(this.dtpEndOfTrial, 1, 0);
+            this.tableLayoutPanel47.Controls.Add(this.lblEndOfTrial, 0, 0);
+            this.tableLayoutPanel47.Name = "tableLayoutPanel47";
+            // 
+            // dtpEndOfTrial
+            // 
+            resources.ApplyResources(this.dtpEndOfTrial, "dtpEndOfTrial");
+            this.dtpEndOfTrial.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpEndOfTrial.Name = "dtpEndOfTrial";
+            // 
+            // lblEndOfTrial
+            // 
+            resources.ApplyResources(this.lblEndOfTrial, "lblEndOfTrial");
+            this.lblEndOfTrial.Name = "lblEndOfTrial";
+            // 
+            // tableLayoutPanel46
+            // 
+            resources.ApplyResources(this.tableLayoutPanel46, "tableLayoutPanel46");
+            this.tableLayoutPanel46.Controls.Add(this.lblHiredDate, 0, 0);
+            this.tableLayoutPanel46.Controls.Add(this.dtpHireDate, 1, 0);
+            this.tableLayoutPanel46.Name = "tableLayoutPanel46";
+            // 
             // lblHiredDate
             // 
             resources.ApplyResources(this.lblHiredDate, "lblHiredDate");
             this.lblHiredDate.Name = "lblHiredDate";
+            // 
+            // dtpHireDate
+            // 
+            resources.ApplyResources(this.dtpHireDate, "dtpHireDate");
+            this.dtpHireDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpHireDate.Name = "dtpHireDate";
+            // 
+            // tableLayoutPanel45
+            // 
+            resources.ApplyResources(this.tableLayoutPanel45, "tableLayoutPanel45");
+            this.tableLayoutPanel45.Controls.Add(this.cmbWageCategory, 1, 0);
+            this.tableLayoutPanel45.Controls.Add(this.lblWageCategory, 0, 0);
+            this.tableLayoutPanel45.Name = "tableLayoutPanel45";
             // 
             // cmbWageCategory
             // 
@@ -1456,6 +1550,23 @@
             this.cmbWageCategory.FormattingEnabled = true;
             this.cmbWageCategory.Name = "cmbWageCategory";
             // 
+            // lblWageCategory
+            // 
+            resources.ApplyResources(this.lblWageCategory, "lblWageCategory");
+            this.lblWageCategory.Name = "lblWageCategory";
+            // 
+            // tableLayoutPanel44
+            // 
+            resources.ApplyResources(this.tableLayoutPanel44, "tableLayoutPanel44");
+            this.tableLayoutPanel44.Controls.Add(this.lblSalary, 0, 0);
+            this.tableLayoutPanel44.Controls.Add(this.txtSalary, 1, 0);
+            this.tableLayoutPanel44.Name = "tableLayoutPanel44";
+            // 
+            // lblSalary
+            // 
+            resources.ApplyResources(this.lblSalary, "lblSalary");
+            this.lblSalary.Name = "lblSalary";
+            // 
             // txtSalary
             // 
             this.txtSalary.BackColor = System.Drawing.Color.Silver;
@@ -1463,15 +1574,12 @@
             resources.ApplyResources(this.txtSalary, "txtSalary");
             this.txtSalary.Name = "txtSalary";
             // 
-            // lblSalary
+            // tableLayoutPanel43
             // 
-            resources.ApplyResources(this.lblSalary, "lblSalary");
-            this.lblSalary.Name = "lblSalary";
-            // 
-            // lblWageCategory
-            // 
-            resources.ApplyResources(this.lblWageCategory, "lblWageCategory");
-            this.lblWageCategory.Name = "lblWageCategory";
+            resources.ApplyResources(this.tableLayoutPanel43, "tableLayoutPanel43");
+            this.tableLayoutPanel43.Controls.Add(this.cmbTeam, 1, 0);
+            this.tableLayoutPanel43.Controls.Add(this.lblTeam, 0, 0);
+            this.tableLayoutPanel43.Name = "tableLayoutPanel43";
             // 
             // cmbTeam
             // 
@@ -1480,12 +1588,41 @@
             this.cmbTeam.FormattingEnabled = true;
             this.cmbTeam.Name = "cmbTeam";
             // 
+            // lblTeam
+            // 
+            resources.ApplyResources(this.lblTeam, "lblTeam");
+            this.lblTeam.Name = "lblTeam";
+            // 
+            // tableLayoutPanel42
+            // 
+            resources.ApplyResources(this.tableLayoutPanel42, "tableLayoutPanel42");
+            this.tableLayoutPanel42.Controls.Add(this.lblDivision, 0, 0);
+            this.tableLayoutPanel42.Controls.Add(this.cmbDivision, 1, 0);
+            this.tableLayoutPanel42.Name = "tableLayoutPanel42";
+            // 
+            // lblDivision
+            // 
+            resources.ApplyResources(this.lblDivision, "lblDivision");
+            this.lblDivision.Name = "lblDivision";
+            // 
             // cmbDivision
             // 
             this.cmbDivision.BackColor = System.Drawing.Color.Silver;
             resources.ApplyResources(this.cmbDivision, "cmbDivision");
             this.cmbDivision.FormattingEnabled = true;
             this.cmbDivision.Name = "cmbDivision";
+            // 
+            // tableLayoutPanel41
+            // 
+            resources.ApplyResources(this.tableLayoutPanel41, "tableLayoutPanel41");
+            this.tableLayoutPanel41.Controls.Add(this.lblPlaceOfWork, 0, 0);
+            this.tableLayoutPanel41.Controls.Add(this.txtPlaceOfWork, 1, 0);
+            this.tableLayoutPanel41.Name = "tableLayoutPanel41";
+            // 
+            // lblPlaceOfWork
+            // 
+            resources.ApplyResources(this.lblPlaceOfWork, "lblPlaceOfWork");
+            this.lblPlaceOfWork.Name = "lblPlaceOfWork";
             // 
             // txtPlaceOfWork
             // 
@@ -1494,20 +1631,13 @@
             resources.ApplyResources(this.txtPlaceOfWork, "txtPlaceOfWork");
             this.txtPlaceOfWork.Name = "txtPlaceOfWork";
             // 
-            // lblPlaceOfWork
+            // tableLayoutPanel40
             // 
-            resources.ApplyResources(this.lblPlaceOfWork, "lblPlaceOfWork");
-            this.lblPlaceOfWork.Name = "lblPlaceOfWork";
-            // 
-            // lblDivision
-            // 
-            resources.ApplyResources(this.lblDivision, "lblDivision");
-            this.lblDivision.Name = "lblDivision";
-            // 
-            // lblTeam
-            // 
-            resources.ApplyResources(this.lblTeam, "lblTeam");
-            this.lblTeam.Name = "lblTeam";
+            resources.ApplyResources(this.tableLayoutPanel40, "tableLayoutPanel40");
+            this.tableLayoutPanel40.Controls.Add(this.txtHoursPerWeek, 2, 0);
+            this.tableLayoutPanel40.Controls.Add(this.lblWorkHours, 0, 0);
+            this.tableLayoutPanel40.Controls.Add(this.cmbWorkHours, 1, 0);
+            this.tableLayoutPanel40.Name = "tableLayoutPanel40";
             // 
             // txtHoursPerWeek
             // 
@@ -1515,25 +1645,6 @@
             this.txtHoursPerWeek.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.txtHoursPerWeek, "txtHoursPerWeek");
             this.txtHoursPerWeek.Name = "txtHoursPerWeek";
-            // 
-            // cmbWorkExpiration
-            // 
-            this.cmbWorkExpiration.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
-            this.cmbWorkExpiration.FormattingEnabled = true;
-            this.cmbWorkExpiration.Name = "cmbWorkExpiration";
-            // 
-            // lblWorkType
-            // 
-            resources.ApplyResources(this.lblWorkType, "lblWorkType");
-            this.lblWorkType.Name = "lblWorkType";
-            // 
-            // cmbWorkPosition
-            // 
-            this.cmbWorkPosition.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
-            this.cmbWorkPosition.FormattingEnabled = true;
-            this.cmbWorkPosition.Name = "cmbWorkPosition";
             // 
             // lblWorkHours
             // 
@@ -1547,10 +1658,55 @@
             this.cmbWorkHours.FormattingEnabled = true;
             this.cmbWorkHours.Name = "cmbWorkHours";
             // 
+            // tableLayoutPanel39
+            // 
+            resources.ApplyResources(this.tableLayoutPanel39, "tableLayoutPanel39");
+            this.tableLayoutPanel39.Controls.Add(this.lblWorkExpiration, 0, 0);
+            this.tableLayoutPanel39.Controls.Add(this.cmbWorkExpiration, 1, 0);
+            this.tableLayoutPanel39.Name = "tableLayoutPanel39";
+            // 
+            // lblWorkExpiration
+            // 
+            resources.ApplyResources(this.lblWorkExpiration, "lblWorkExpiration");
+            this.lblWorkExpiration.Name = "lblWorkExpiration";
+            // 
+            // cmbWorkExpiration
+            // 
+            this.cmbWorkExpiration.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
+            this.cmbWorkExpiration.FormattingEnabled = true;
+            this.cmbWorkExpiration.Name = "cmbWorkExpiration";
+            // 
+            // tableLayoutPanel38
+            // 
+            resources.ApplyResources(this.tableLayoutPanel38, "tableLayoutPanel38");
+            this.tableLayoutPanel38.Controls.Add(this.lblNewWorkPosition, 0, 0);
+            this.tableLayoutPanel38.Controls.Add(this.cmbWorkPosition, 1, 0);
+            this.tableLayoutPanel38.Name = "tableLayoutPanel38";
+            // 
             // lblNewWorkPosition
             // 
             resources.ApplyResources(this.lblNewWorkPosition, "lblNewWorkPosition");
             this.lblNewWorkPosition.Name = "lblNewWorkPosition";
+            // 
+            // cmbWorkPosition
+            // 
+            this.cmbWorkPosition.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
+            this.cmbWorkPosition.FormattingEnabled = true;
+            this.cmbWorkPosition.Name = "cmbWorkPosition";
+            // 
+            // tableLayoutPanel37
+            // 
+            resources.ApplyResources(this.tableLayoutPanel37, "tableLayoutPanel37");
+            this.tableLayoutPanel37.Controls.Add(this.lblWorkType, 0, 0);
+            this.tableLayoutPanel37.Controls.Add(this.cmbWorkType, 1, 0);
+            this.tableLayoutPanel37.Name = "tableLayoutPanel37";
+            // 
+            // lblWorkType
+            // 
+            resources.ApplyResources(this.lblWorkType, "lblWorkType");
+            this.lblWorkType.Name = "lblWorkType";
             // 
             // cmbWorkType
             // 
@@ -1558,11 +1714,6 @@
             resources.ApplyResources(this.cmbWorkType, "cmbWorkType");
             this.cmbWorkType.FormattingEnabled = true;
             this.cmbWorkType.Name = "cmbWorkType";
-            // 
-            // lblWorkExpiration
-            // 
-            resources.ApplyResources(this.lblWorkExpiration, "lblWorkExpiration");
-            this.lblWorkExpiration.Name = "lblWorkExpiration";
             // 
             // btnSave
             // 
@@ -1594,9 +1745,9 @@
             // calendarColumn1
             // 
             this.calendarColumn1.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = "DateTime.Now";
-            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Format = "d";
+            dataGridViewCellStyle4.NullValue = "DateTime.Now";
+            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle4;
             resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
             this.calendarColumn1.Name = "calendarColumn1";
             // 
@@ -1637,159 +1788,21 @@
             resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Name = "panel9";
             // 
-            // tableLayoutPanel37
-            // 
-            resources.ApplyResources(this.tableLayoutPanel37, "tableLayoutPanel37");
-            this.tableLayoutPanel37.Controls.Add(this.lblWorkType, 0, 0);
-            this.tableLayoutPanel37.Controls.Add(this.cmbWorkType, 1, 0);
-            this.tableLayoutPanel37.Name = "tableLayoutPanel37";
-            // 
-            // tableLayoutPanel38
-            // 
-            resources.ApplyResources(this.tableLayoutPanel38, "tableLayoutPanel38");
-            this.tableLayoutPanel38.Controls.Add(this.lblNewWorkPosition, 0, 0);
-            this.tableLayoutPanel38.Controls.Add(this.cmbWorkPosition, 1, 0);
-            this.tableLayoutPanel38.Name = "tableLayoutPanel38";
-            // 
-            // tableLayoutPanel39
-            // 
-            resources.ApplyResources(this.tableLayoutPanel39, "tableLayoutPanel39");
-            this.tableLayoutPanel39.Controls.Add(this.lblWorkExpiration, 0, 0);
-            this.tableLayoutPanel39.Controls.Add(this.cmbWorkExpiration, 1, 0);
-            this.tableLayoutPanel39.Name = "tableLayoutPanel39";
-            // 
-            // tableLayoutPanel40
-            // 
-            resources.ApplyResources(this.tableLayoutPanel40, "tableLayoutPanel40");
-            this.tableLayoutPanel40.Controls.Add(this.txtHoursPerWeek, 2, 0);
-            this.tableLayoutPanel40.Controls.Add(this.lblWorkHours, 0, 0);
-            this.tableLayoutPanel40.Controls.Add(this.cmbWorkHours, 1, 0);
-            this.tableLayoutPanel40.Name = "tableLayoutPanel40";
-            // 
-            // tableLayoutPanel41
-            // 
-            resources.ApplyResources(this.tableLayoutPanel41, "tableLayoutPanel41");
-            this.tableLayoutPanel41.Controls.Add(this.lblPlaceOfWork, 0, 0);
-            this.tableLayoutPanel41.Controls.Add(this.txtPlaceOfWork, 1, 0);
-            this.tableLayoutPanel41.Name = "tableLayoutPanel41";
-            // 
-            // tableLayoutPanel42
-            // 
-            resources.ApplyResources(this.tableLayoutPanel42, "tableLayoutPanel42");
-            this.tableLayoutPanel42.Controls.Add(this.lblDivision, 0, 0);
-            this.tableLayoutPanel42.Controls.Add(this.cmbDivision, 1, 0);
-            this.tableLayoutPanel42.Name = "tableLayoutPanel42";
-            // 
-            // tableLayoutPanel43
-            // 
-            resources.ApplyResources(this.tableLayoutPanel43, "tableLayoutPanel43");
-            this.tableLayoutPanel43.Controls.Add(this.cmbTeam, 1, 0);
-            this.tableLayoutPanel43.Controls.Add(this.lblTeam, 0, 0);
-            this.tableLayoutPanel43.Name = "tableLayoutPanel43";
-            // 
-            // tableLayoutPanel44
-            // 
-            resources.ApplyResources(this.tableLayoutPanel44, "tableLayoutPanel44");
-            this.tableLayoutPanel44.Controls.Add(this.lblSalary, 0, 0);
-            this.tableLayoutPanel44.Controls.Add(this.txtSalary, 1, 0);
-            this.tableLayoutPanel44.Name = "tableLayoutPanel44";
-            // 
-            // tableLayoutPanel45
-            // 
-            resources.ApplyResources(this.tableLayoutPanel45, "tableLayoutPanel45");
-            this.tableLayoutPanel45.Controls.Add(this.cmbWageCategory, 1, 0);
-            this.tableLayoutPanel45.Controls.Add(this.lblWageCategory, 0, 0);
-            this.tableLayoutPanel45.Name = "tableLayoutPanel45";
-            // 
-            // tableLayoutPanel46
-            // 
-            resources.ApplyResources(this.tableLayoutPanel46, "tableLayoutPanel46");
-            this.tableLayoutPanel46.Controls.Add(this.lblHiredDate, 0, 0);
-            this.tableLayoutPanel46.Controls.Add(this.dtpHireDate, 1, 0);
-            this.tableLayoutPanel46.Name = "tableLayoutPanel46";
-            // 
-            // tableLayoutPanel47
-            // 
-            resources.ApplyResources(this.tableLayoutPanel47, "tableLayoutPanel47");
-            this.tableLayoutPanel47.Controls.Add(this.dtpEndOfTrial, 1, 0);
-            this.tableLayoutPanel47.Controls.Add(this.lblEndOfTrial, 0, 0);
-            this.tableLayoutPanel47.Name = "tableLayoutPanel47";
-            // 
-            // tableLayoutPanel48
-            // 
-            resources.ApplyResources(this.tableLayoutPanel48, "tableLayoutPanel48");
-            this.tableLayoutPanel48.Controls.Add(this.lblStartDate, 0, 0);
-            this.tableLayoutPanel48.Controls.Add(this.dtpStartDate, 1, 0);
-            this.tableLayoutPanel48.Name = "tableLayoutPanel48";
-            // 
-            // panel10
-            // 
-            resources.ApplyResources(this.panel10, "panel10");
-            this.panel10.BackColor = System.Drawing.Color.Silver;
-            this.panel10.Name = "panel10";
-            // 
-            // panel11
-            // 
-            resources.ApplyResources(this.panel11, "panel11");
-            this.panel11.BackColor = System.Drawing.Color.Silver;
-            this.panel11.Name = "panel11";
-            // 
             // panelTabControl
             // 
             this.panelTabControl.BackColor = System.Drawing.Color.Gray;
+            this.panelTabControl.Controls.Add(this.btnSaveQsr);
             this.panelTabControl.Controls.Add(this.tabCntrl);
             resources.ApplyResources(this.panelTabControl, "panelTabControl");
             this.panelTabControl.Name = "panelTabControl";
             // 
-            // label1
+            // btnSaveQsr
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // tableLayoutPanel49
-            // 
-            resources.ApplyResources(this.tableLayoutPanel49, "tableLayoutPanel49");
-            this.tableLayoutPanel49.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel49.Controls.Add(this.cmbCountry, 1, 1);
-            this.tableLayoutPanel49.Controls.Add(this.lblCountry, 0, 1);
-            this.tableLayoutPanel49.Name = "tableLayoutPanel49";
-            // 
-            // cmbCountry
-            // 
-            this.cmbCountry.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.cmbCountry, "cmbCountry");
-            this.cmbCountry.FormattingEnabled = true;
-            this.cmbCountry.Name = "cmbCountry";
-            // 
-            // lblCountry
-            // 
-            resources.ApplyResources(this.lblCountry, "lblCountry");
-            this.lblCountry.Name = "lblCountry";
-            // 
-            // tableLayoutPanel50
-            // 
-            resources.ApplyResources(this.tableLayoutPanel50, "tableLayoutPanel50");
-            this.tableLayoutPanel50.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel50.Controls.Add(this.cmbTempCountry, 1, 1);
-            this.tableLayoutPanel50.Controls.Add(this.lblTempCoutry, 0, 1);
-            this.tableLayoutPanel50.Name = "tableLayoutPanel50";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // cmbTempCountry
-            // 
-            this.cmbTempCountry.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.cmbTempCountry, "cmbTempCountry");
-            this.cmbTempCountry.FormattingEnabled = true;
-            this.cmbTempCountry.Name = "cmbTempCountry";
-            // 
-            // lblTempCoutry
-            // 
-            resources.ApplyResources(this.lblTempCoutry, "lblTempCoutry");
-            this.lblTempCoutry.Name = "lblTempCoutry";
+            resources.ApplyResources(this.btnSaveQsr, "btnSaveQsr");
+            this.btnSaveQsr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSaveQsr.FlatAppearance.BorderSize = 0;
+            this.btnSaveQsr.Name = "btnSaveQsr";
+            this.btnSaveQsr.UseVisualStyleBackColor = false;
             // 
             // FrmQuestionnaireToFill
             // 
@@ -1834,6 +1847,10 @@
             this.layoutPanelName.PerformLayout();
             this.tPageContactAdress.ResumeLayout(false);
             this.tPageContactAdress.PerformLayout();
+            this.tableLayoutPanel50.ResumeLayout(false);
+            this.tableLayoutPanel50.PerformLayout();
+            this.tableLayoutPanel49.ResumeLayout(false);
+            this.tableLayoutPanel49.PerformLayout();
             this.tableLayoutPanel22.ResumeLayout(false);
             this.tableLayoutPanel22.PerformLayout();
             this.tableLayoutPanel21.ResumeLayout(false);
@@ -1889,28 +1906,24 @@
             this.tPageChildInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).EndInit();
             this.tPageJobSpecification.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.tableLayoutPanel37.ResumeLayout(false);
-            this.tableLayoutPanel38.ResumeLayout(false);
-            this.tableLayoutPanel39.ResumeLayout(false);
-            this.tableLayoutPanel40.ResumeLayout(false);
-            this.tableLayoutPanel40.PerformLayout();
-            this.tableLayoutPanel41.ResumeLayout(false);
-            this.tableLayoutPanel41.PerformLayout();
-            this.tableLayoutPanel42.ResumeLayout(false);
-            this.tableLayoutPanel43.ResumeLayout(false);
+            this.tableLayoutPanel48.ResumeLayout(false);
+            this.tableLayoutPanel47.ResumeLayout(false);
+            this.tableLayoutPanel46.ResumeLayout(false);
+            this.tableLayoutPanel45.ResumeLayout(false);
             this.tableLayoutPanel44.ResumeLayout(false);
             this.tableLayoutPanel44.PerformLayout();
-            this.tableLayoutPanel45.ResumeLayout(false);
-            this.tableLayoutPanel46.ResumeLayout(false);
-            this.tableLayoutPanel47.ResumeLayout(false);
-            this.tableLayoutPanel48.ResumeLayout(false);
+            this.tableLayoutPanel43.ResumeLayout(false);
+            this.tableLayoutPanel42.ResumeLayout(false);
+            this.tableLayoutPanel41.ResumeLayout(false);
+            this.tableLayoutPanel41.PerformLayout();
+            this.tableLayoutPanel40.ResumeLayout(false);
+            this.tableLayoutPanel40.PerformLayout();
+            this.tableLayoutPanel39.ResumeLayout(false);
+            this.tableLayoutPanel38.ResumeLayout(false);
+            this.tableLayoutPanel37.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
             this.panelTabControl.ResumeLayout(false);
-            this.tableLayoutPanel49.ResumeLayout(false);
-            this.tableLayoutPanel49.PerformLayout();
-            this.tableLayoutPanel50.ResumeLayout(false);
-            this.tableLayoutPanel50.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2134,5 +2147,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbCountry;
         private System.Windows.Forms.Label lblCountry;
+        private System.Windows.Forms.Button btnSaveQsr;
     }
 }
