@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -139,21 +139,53 @@
             this.txtPreviousName = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.tPageContactAdress = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblTempAddress = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.txtEmail = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.tPagePassword = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
             this.txtPinAlarm = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.tPageEducation = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel29 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel30 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblCurrMajor = new System.Windows.Forms.Label();
+            this.tableLayoutPanel31 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel32 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel28 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblCurrentEdu = new System.Windows.Forms.Label();
+            this.lblHighEdu = new System.Windows.Forms.Label();
             this.tPagePreviousJob = new System.Windows.Forms.TabPage();
-            this.txtWorkPosition = new System.Windows.Forms.TextBox();
-            this.txtEmployeer = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel33 = new System.Windows.Forms.TableLayoutPanel();
             this.dtpTo = new System.Windows.Forms.DateTimePicker();
-            this.dtpFrom = new System.Windows.Forms.DateTimePicker();
-            this.lblWorkPosition = new System.Windows.Forms.Label();
-            this.lblEmployeer = new System.Windows.Forms.Label();
             this.lblJobTo = new System.Windows.Forms.Label();
+            this.tableLayoutPanel34 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblWorkPosition = new System.Windows.Forms.Label();
+            this.txtWorkPosition = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel35 = new System.Windows.Forms.TableLayoutPanel();
             this.lblJobFrom = new System.Windows.Forms.Label();
+            this.dtpFrom = new System.Windows.Forms.DateTimePicker();
+            this.tableLayoutPanel36 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblEmployeer = new System.Windows.Forms.Label();
+            this.txtEmployeer = new System.Windows.Forms.TextBox();
             this.tPageChildInfo = new System.Windows.Forms.TabPage();
             this.dgvChildren = new System.Windows.Forms.DataGridView();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -201,38 +233,6 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lblAddress = new System.Windows.Forms.Label();
-            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.lblTempAddress = new System.Windows.Forms.Label();
-            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblHighEdu = new System.Windows.Forms.Label();
-            this.lblCurrentEdu = new System.Windows.Forms.Label();
-            this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel28 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel29 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel30 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel31 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel32 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblCurrMajor = new System.Windows.Forms.Label();
-            this.tableLayoutPanel33 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel34 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel35 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel36 = new System.Windows.Forms.TableLayoutPanel();
             this.tabCntrl.SuspendLayout();
             this.tPagePersonalInfo.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
@@ -253,9 +253,33 @@
             this.groupBox1.SuspendLayout();
             this.layoutPanelName.SuspendLayout();
             this.tPageContactAdress.SuspendLayout();
+            this.tableLayoutPanel22.SuspendLayout();
+            this.tableLayoutPanel21.SuspendLayout();
+            this.tableLayoutPanel20.SuspendLayout();
+            this.tableLayoutPanel19.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
             this.tPagePassword.SuspendLayout();
+            this.tableLayoutPanel24.SuspendLayout();
+            this.tableLayoutPanel23.SuspendLayout();
             this.tPageEducation.SuspendLayout();
+            this.tableLayoutPanel29.SuspendLayout();
+            this.tableLayoutPanel30.SuspendLayout();
+            this.tableLayoutPanel31.SuspendLayout();
+            this.tableLayoutPanel32.SuspendLayout();
+            this.tableLayoutPanel28.SuspendLayout();
+            this.tableLayoutPanel27.SuspendLayout();
+            this.tableLayoutPanel26.SuspendLayout();
+            this.tableLayoutPanel25.SuspendLayout();
             this.tPagePreviousJob.SuspendLayout();
+            this.tableLayoutPanel33.SuspendLayout();
+            this.tableLayoutPanel34.SuspendLayout();
+            this.tableLayoutPanel35.SuspendLayout();
+            this.tableLayoutPanel36.SuspendLayout();
             this.tPageChildInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).BeginInit();
             this.tPageJobSpecification.SuspendLayout();
@@ -264,30 +288,6 @@
             this.panelWorkEnviroment.SuspendLayout();
             this.panelWorkDescription.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.tableLayoutPanel13.SuspendLayout();
-            this.tableLayoutPanel14.SuspendLayout();
-            this.tableLayoutPanel15.SuspendLayout();
-            this.tableLayoutPanel16.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
-            this.tableLayoutPanel18.SuspendLayout();
-            this.tableLayoutPanel19.SuspendLayout();
-            this.tableLayoutPanel20.SuspendLayout();
-            this.tableLayoutPanel21.SuspendLayout();
-            this.tableLayoutPanel22.SuspendLayout();
-            this.tableLayoutPanel23.SuspendLayout();
-            this.tableLayoutPanel24.SuspendLayout();
-            this.tableLayoutPanel25.SuspendLayout();
-            this.tableLayoutPanel26.SuspendLayout();
-            this.tableLayoutPanel27.SuspendLayout();
-            this.tableLayoutPanel28.SuspendLayout();
-            this.tableLayoutPanel29.SuspendLayout();
-            this.tableLayoutPanel30.SuspendLayout();
-            this.tableLayoutPanel31.SuspendLayout();
-            this.tableLayoutPanel32.SuspendLayout();
-            this.tableLayoutPanel33.SuspendLayout();
-            this.tableLayoutPanel34.SuspendLayout();
-            this.tableLayoutPanel35.SuspendLayout();
-            this.tableLayoutPanel36.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblRetiredSince
@@ -1020,12 +1020,104 @@
             resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Name = "tPageContactAdress";
             // 
+            // tableLayoutPanel22
+            // 
+            resources.ApplyResources(this.tableLayoutPanel22, "tableLayoutPanel22");
+            this.tableLayoutPanel22.Controls.Add(this.txtTempPostalCode, 1, 0);
+            this.tableLayoutPanel22.Controls.Add(this.lblPostalCodeTemp, 0, 0);
+            this.tableLayoutPanel22.Name = "tableLayoutPanel22";
+            // 
+            // tableLayoutPanel21
+            // 
+            resources.ApplyResources(this.tableLayoutPanel21, "tableLayoutPanel21");
+            this.tableLayoutPanel21.Controls.Add(this.lblCityTemp, 0, 0);
+            this.tableLayoutPanel21.Controls.Add(this.txtTempCity, 1, 0);
+            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
+            // 
+            // tableLayoutPanel20
+            // 
+            resources.ApplyResources(this.tableLayoutPanel20, "tableLayoutPanel20");
+            this.tableLayoutPanel20.Controls.Add(this.txtTempHouseNumber, 1, 0);
+            this.tableLayoutPanel20.Controls.Add(this.lblTempHouseNumber, 0, 0);
+            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
+            // 
+            // tableLayoutPanel19
+            // 
+            resources.ApplyResources(this.tableLayoutPanel19, "tableLayoutPanel19");
+            this.tableLayoutPanel19.Controls.Add(this.lblStreetTemp, 0, 0);
+            this.tableLayoutPanel19.Controls.Add(this.txtTempStreet, 1, 0);
+            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
+            // 
+            // lblTempAddress
+            // 
+            resources.ApplyResources(this.lblTempAddress, "lblTempAddress");
+            this.lblTempAddress.Name = "lblTempAddress";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.panel7, "panel7");
+            this.panel7.Name = "panel7";
+            // 
+            // tableLayoutPanel18
+            // 
+            resources.ApplyResources(this.tableLayoutPanel18, "tableLayoutPanel18");
+            this.tableLayoutPanel18.Controls.Add(this.txtPostalCode, 1, 0);
+            this.tableLayoutPanel18.Controls.Add(this.lblPostalCode, 0, 0);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            // 
+            // tableLayoutPanel17
+            // 
+            resources.ApplyResources(this.tableLayoutPanel17, "tableLayoutPanel17");
+            this.tableLayoutPanel17.Controls.Add(this.lblCity, 0, 0);
+            this.tableLayoutPanel17.Controls.Add(this.txtCity, 1, 0);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            // 
+            // tableLayoutPanel16
+            // 
+            resources.ApplyResources(this.tableLayoutPanel16, "tableLayoutPanel16");
+            this.tableLayoutPanel16.Controls.Add(this.txtHouseNumber, 1, 0);
+            this.tableLayoutPanel16.Controls.Add(this.lblHouseNumber, 0, 0);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            // 
+            // tableLayoutPanel15
+            // 
+            resources.ApplyResources(this.tableLayoutPanel15, "tableLayoutPanel15");
+            this.tableLayoutPanel15.Controls.Add(this.lblStreet, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.txtStreet, 1, 0);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            // 
+            // lblAddress
+            // 
+            resources.ApplyResources(this.lblAddress, "lblAddress");
+            this.lblAddress.Name = "lblAddress";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
+            // 
+            // tableLayoutPanel14
+            // 
+            resources.ApplyResources(this.tableLayoutPanel14, "tableLayoutPanel14");
+            this.tableLayoutPanel14.Controls.Add(this.lblEmail, 0, 0);
+            this.tableLayoutPanel14.Controls.Add(this.txtEmail, 1, 0);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            // 
             // txtEmail
             // 
             this.txtEmail.BackColor = System.Drawing.Color.Silver;
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.Name = "txtEmail";
+            // 
+            // tableLayoutPanel13
+            // 
+            resources.ApplyResources(this.tableLayoutPanel13, "tableLayoutPanel13");
+            this.tableLayoutPanel13.Controls.Add(this.lblPhoneNumber, 0, 0);
+            this.tableLayoutPanel13.Controls.Add(this.txtPhoneNumber, 1, 0);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             // 
             // txtPhoneNumber
             // 
@@ -1042,11 +1134,25 @@
             resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Name = "tPagePassword";
             // 
+            // tableLayoutPanel24
+            // 
+            resources.ApplyResources(this.tableLayoutPanel24, "tableLayoutPanel24");
+            this.tableLayoutPanel24.Controls.Add(this.lblPin, 0, 0);
+            this.tableLayoutPanel24.Controls.Add(this.txtPinAlarm, 1, 0);
+            this.tableLayoutPanel24.Name = "tableLayoutPanel24";
+            // 
             // txtPinAlarm
             // 
             this.txtPinAlarm.BackColor = System.Drawing.Color.Silver;
             resources.ApplyResources(this.txtPinAlarm, "txtPinAlarm");
             this.txtPinAlarm.Name = "txtPinAlarm";
+            // 
+            // tableLayoutPanel23
+            // 
+            resources.ApplyResources(this.tableLayoutPanel23, "tableLayoutPanel23");
+            this.tableLayoutPanel23.Controls.Add(this.lblPassword, 0, 0);
+            this.tableLayoutPanel23.Controls.Add(this.txtPassword, 1, 0);
+            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
             // 
             // txtPassword
             // 
@@ -1071,6 +1177,83 @@
             resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Name = "tPageEducation";
             // 
+            // tableLayoutPanel29
+            // 
+            resources.ApplyResources(this.tableLayoutPanel29, "tableLayoutPanel29");
+            this.tableLayoutPanel29.Controls.Add(this.cmbCurrentEduLevel, 1, 0);
+            this.tableLayoutPanel29.Controls.Add(this.lblCurrEducationLevel, 0, 0);
+            this.tableLayoutPanel29.Name = "tableLayoutPanel29";
+            // 
+            // tableLayoutPanel30
+            // 
+            resources.ApplyResources(this.tableLayoutPanel30, "tableLayoutPanel30");
+            this.tableLayoutPanel30.Controls.Add(this.lblCurrMajor, 0, 0);
+            this.tableLayoutPanel30.Controls.Add(this.txtCurrentSchoolMajor, 1, 0);
+            this.tableLayoutPanel30.Name = "tableLayoutPanel30";
+            // 
+            // lblCurrMajor
+            // 
+            resources.ApplyResources(this.lblCurrMajor, "lblCurrMajor");
+            this.lblCurrMajor.Name = "lblCurrMajor";
+            // 
+            // tableLayoutPanel31
+            // 
+            resources.ApplyResources(this.tableLayoutPanel31, "tableLayoutPanel31");
+            this.tableLayoutPanel31.Controls.Add(this.lblCurrEndYear, 0, 0);
+            this.tableLayoutPanel31.Controls.Add(this.txtCurrentSchoolEndYear, 1, 0);
+            this.tableLayoutPanel31.Name = "tableLayoutPanel31";
+            // 
+            // tableLayoutPanel32
+            // 
+            resources.ApplyResources(this.tableLayoutPanel32, "tableLayoutPanel32");
+            this.tableLayoutPanel32.Controls.Add(this.lblCurrSchool, 0, 0);
+            this.tableLayoutPanel32.Controls.Add(this.txtCurrentSchool, 1, 0);
+            this.tableLayoutPanel32.Name = "tableLayoutPanel32";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.panel8, "panel8");
+            this.panel8.Name = "panel8";
+            // 
+            // tableLayoutPanel28
+            // 
+            resources.ApplyResources(this.tableLayoutPanel28, "tableLayoutPanel28");
+            this.tableLayoutPanel28.Controls.Add(this.cmbEduLevel, 1, 0);
+            this.tableLayoutPanel28.Controls.Add(this.lblEducationLevel, 0, 0);
+            this.tableLayoutPanel28.Name = "tableLayoutPanel28";
+            // 
+            // tableLayoutPanel27
+            // 
+            resources.ApplyResources(this.tableLayoutPanel27, "tableLayoutPanel27");
+            this.tableLayoutPanel27.Controls.Add(this.lblMajor, 0, 0);
+            this.tableLayoutPanel27.Controls.Add(this.txtHightestSchoolMajor, 1, 0);
+            this.tableLayoutPanel27.Name = "tableLayoutPanel27";
+            // 
+            // tableLayoutPanel26
+            // 
+            resources.ApplyResources(this.tableLayoutPanel26, "tableLayoutPanel26");
+            this.tableLayoutPanel26.Controls.Add(this.lblEndYear, 0, 0);
+            this.tableLayoutPanel26.Controls.Add(this.txtHighestSchoolEndYear, 1, 0);
+            this.tableLayoutPanel26.Name = "tableLayoutPanel26";
+            // 
+            // tableLayoutPanel25
+            // 
+            resources.ApplyResources(this.tableLayoutPanel25, "tableLayoutPanel25");
+            this.tableLayoutPanel25.Controls.Add(this.lblSchool, 0, 0);
+            this.tableLayoutPanel25.Controls.Add(this.txtHighestSchool, 1, 0);
+            this.tableLayoutPanel25.Name = "tableLayoutPanel25";
+            // 
+            // lblCurrentEdu
+            // 
+            resources.ApplyResources(this.lblCurrentEdu, "lblCurrentEdu");
+            this.lblCurrentEdu.Name = "lblCurrentEdu";
+            // 
+            // lblHighEdu
+            // 
+            resources.ApplyResources(this.lblHighEdu, "lblHighEdu");
+            this.lblHighEdu.Name = "lblHighEdu";
+            // 
             // tPagePreviousJob
             // 
             this.tPagePreviousJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1081,19 +1264,12 @@
             resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Name = "tPagePreviousJob";
             // 
-            // txtWorkPosition
+            // tableLayoutPanel33
             // 
-            this.txtWorkPosition.BackColor = System.Drawing.Color.Silver;
-            this.txtWorkPosition.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtWorkPosition, "txtWorkPosition");
-            this.txtWorkPosition.Name = "txtWorkPosition";
-            // 
-            // txtEmployeer
-            // 
-            this.txtEmployeer.BackColor = System.Drawing.Color.Silver;
-            this.txtEmployeer.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtEmployeer, "txtEmployeer");
-            this.txtEmployeer.Name = "txtEmployeer";
+            resources.ApplyResources(this.tableLayoutPanel33, "tableLayoutPanel33");
+            this.tableLayoutPanel33.Controls.Add(this.dtpTo, 1, 0);
+            this.tableLayoutPanel33.Controls.Add(this.lblJobTo, 0, 0);
+            this.tableLayoutPanel33.Name = "tableLayoutPanel33";
             // 
             // dtpTo
             // 
@@ -1101,31 +1277,66 @@
             this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpTo.Name = "dtpTo";
             // 
-            // dtpFrom
+            // lblJobTo
             // 
-            resources.ApplyResources(this.dtpFrom, "dtpFrom");
-            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFrom.Name = "dtpFrom";
+            resources.ApplyResources(this.lblJobTo, "lblJobTo");
+            this.lblJobTo.Name = "lblJobTo";
+            // 
+            // tableLayoutPanel34
+            // 
+            resources.ApplyResources(this.tableLayoutPanel34, "tableLayoutPanel34");
+            this.tableLayoutPanel34.Controls.Add(this.lblWorkPosition, 0, 0);
+            this.tableLayoutPanel34.Controls.Add(this.txtWorkPosition, 1, 0);
+            this.tableLayoutPanel34.Name = "tableLayoutPanel34";
             // 
             // lblWorkPosition
             // 
             resources.ApplyResources(this.lblWorkPosition, "lblWorkPosition");
             this.lblWorkPosition.Name = "lblWorkPosition";
             // 
-            // lblEmployeer
+            // txtWorkPosition
             // 
-            resources.ApplyResources(this.lblEmployeer, "lblEmployeer");
-            this.lblEmployeer.Name = "lblEmployeer";
+            this.txtWorkPosition.BackColor = System.Drawing.Color.Silver;
+            this.txtWorkPosition.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtWorkPosition, "txtWorkPosition");
+            this.txtWorkPosition.Name = "txtWorkPosition";
             // 
-            // lblJobTo
+            // tableLayoutPanel35
             // 
-            resources.ApplyResources(this.lblJobTo, "lblJobTo");
-            this.lblJobTo.Name = "lblJobTo";
+            resources.ApplyResources(this.tableLayoutPanel35, "tableLayoutPanel35");
+            this.tableLayoutPanel35.Controls.Add(this.lblJobFrom, 0, 0);
+            this.tableLayoutPanel35.Controls.Add(this.dtpFrom, 1, 0);
+            this.tableLayoutPanel35.Name = "tableLayoutPanel35";
             // 
             // lblJobFrom
             // 
             resources.ApplyResources(this.lblJobFrom, "lblJobFrom");
             this.lblJobFrom.Name = "lblJobFrom";
+            // 
+            // dtpFrom
+            // 
+            resources.ApplyResources(this.dtpFrom, "dtpFrom");
+            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFrom.Name = "dtpFrom";
+            // 
+            // tableLayoutPanel36
+            // 
+            resources.ApplyResources(this.tableLayoutPanel36, "tableLayoutPanel36");
+            this.tableLayoutPanel36.Controls.Add(this.lblEmployeer, 0, 0);
+            this.tableLayoutPanel36.Controls.Add(this.txtEmployeer, 1, 0);
+            this.tableLayoutPanel36.Name = "tableLayoutPanel36";
+            // 
+            // lblEmployeer
+            // 
+            resources.ApplyResources(this.lblEmployeer, "lblEmployeer");
+            this.lblEmployeer.Name = "lblEmployeer";
+            // 
+            // txtEmployeer
+            // 
+            this.txtEmployeer.BackColor = System.Drawing.Color.Silver;
+            this.txtEmployeer.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtEmployeer, "txtEmployeer");
+            this.txtEmployeer.Name = "txtEmployeer";
             // 
             // tPageChildInfo
             // 
@@ -1171,9 +1382,9 @@
             // colBirthDate
             // 
             this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle3.Format = "d";
-            dataGridViewCellStyle3.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.colBirthDate, "colBirthDate");
             this.colBirthDate.Name = "colBirthDate";
             // 
@@ -1406,9 +1617,9 @@
             // calendarColumn1
             // 
             this.calendarColumn1.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle4.Format = "d";
-            dataGridViewCellStyle4.NullValue = "DateTime.Now";
-            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Format = "d";
+            dataGridViewCellStyle2.NullValue = "DateTime.Now";
+            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
             this.calendarColumn1.Name = "calendarColumn1";
             // 
@@ -1441,217 +1652,6 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // tableLayoutPanel13
-            // 
-            resources.ApplyResources(this.tableLayoutPanel13, "tableLayoutPanel13");
-            this.tableLayoutPanel13.Controls.Add(this.lblPhoneNumber, 0, 0);
-            this.tableLayoutPanel13.Controls.Add(this.txtPhoneNumber, 1, 0);
-            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
-            // 
-            // tableLayoutPanel14
-            // 
-            resources.ApplyResources(this.tableLayoutPanel14, "tableLayoutPanel14");
-            this.tableLayoutPanel14.Controls.Add(this.lblEmail, 0, 0);
-            this.tableLayoutPanel14.Controls.Add(this.txtEmail, 1, 0);
-            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // lblAddress
-            // 
-            resources.ApplyResources(this.lblAddress, "lblAddress");
-            this.lblAddress.Name = "lblAddress";
-            // 
-            // tableLayoutPanel15
-            // 
-            resources.ApplyResources(this.tableLayoutPanel15, "tableLayoutPanel15");
-            this.tableLayoutPanel15.Controls.Add(this.lblStreet, 0, 0);
-            this.tableLayoutPanel15.Controls.Add(this.txtStreet, 1, 0);
-            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
-            // 
-            // tableLayoutPanel16
-            // 
-            resources.ApplyResources(this.tableLayoutPanel16, "tableLayoutPanel16");
-            this.tableLayoutPanel16.Controls.Add(this.txtHouseNumber, 1, 0);
-            this.tableLayoutPanel16.Controls.Add(this.lblHouseNumber, 0, 0);
-            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-            // 
-            // tableLayoutPanel17
-            // 
-            resources.ApplyResources(this.tableLayoutPanel17, "tableLayoutPanel17");
-            this.tableLayoutPanel17.Controls.Add(this.lblCity, 0, 0);
-            this.tableLayoutPanel17.Controls.Add(this.txtCity, 1, 0);
-            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
-            // 
-            // tableLayoutPanel18
-            // 
-            resources.ApplyResources(this.tableLayoutPanel18, "tableLayoutPanel18");
-            this.tableLayoutPanel18.Controls.Add(this.txtPostalCode, 1, 0);
-            this.tableLayoutPanel18.Controls.Add(this.lblPostalCode, 0, 0);
-            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.panel7, "panel7");
-            this.panel7.Name = "panel7";
-            // 
-            // lblTempAddress
-            // 
-            resources.ApplyResources(this.lblTempAddress, "lblTempAddress");
-            this.lblTempAddress.Name = "lblTempAddress";
-            // 
-            // tableLayoutPanel19
-            // 
-            resources.ApplyResources(this.tableLayoutPanel19, "tableLayoutPanel19");
-            this.tableLayoutPanel19.Controls.Add(this.lblStreetTemp, 0, 0);
-            this.tableLayoutPanel19.Controls.Add(this.txtTempStreet, 1, 0);
-            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
-            // 
-            // tableLayoutPanel20
-            // 
-            resources.ApplyResources(this.tableLayoutPanel20, "tableLayoutPanel20");
-            this.tableLayoutPanel20.Controls.Add(this.txtTempHouseNumber, 1, 0);
-            this.tableLayoutPanel20.Controls.Add(this.lblTempHouseNumber, 0, 0);
-            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
-            // 
-            // tableLayoutPanel21
-            // 
-            resources.ApplyResources(this.tableLayoutPanel21, "tableLayoutPanel21");
-            this.tableLayoutPanel21.Controls.Add(this.lblCityTemp, 0, 0);
-            this.tableLayoutPanel21.Controls.Add(this.txtTempCity, 1, 0);
-            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
-            // 
-            // tableLayoutPanel22
-            // 
-            resources.ApplyResources(this.tableLayoutPanel22, "tableLayoutPanel22");
-            this.tableLayoutPanel22.Controls.Add(this.txtTempPostalCode, 1, 0);
-            this.tableLayoutPanel22.Controls.Add(this.lblPostalCodeTemp, 0, 0);
-            this.tableLayoutPanel22.Name = "tableLayoutPanel22";
-            // 
-            // tableLayoutPanel23
-            // 
-            resources.ApplyResources(this.tableLayoutPanel23, "tableLayoutPanel23");
-            this.tableLayoutPanel23.Controls.Add(this.lblPassword, 0, 0);
-            this.tableLayoutPanel23.Controls.Add(this.txtPassword, 1, 0);
-            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
-            // 
-            // tableLayoutPanel24
-            // 
-            resources.ApplyResources(this.tableLayoutPanel24, "tableLayoutPanel24");
-            this.tableLayoutPanel24.Controls.Add(this.lblPin, 0, 0);
-            this.tableLayoutPanel24.Controls.Add(this.txtPinAlarm, 1, 0);
-            this.tableLayoutPanel24.Name = "tableLayoutPanel24";
-            // 
-            // lblHighEdu
-            // 
-            resources.ApplyResources(this.lblHighEdu, "lblHighEdu");
-            this.lblHighEdu.Name = "lblHighEdu";
-            // 
-            // lblCurrentEdu
-            // 
-            resources.ApplyResources(this.lblCurrentEdu, "lblCurrentEdu");
-            this.lblCurrentEdu.Name = "lblCurrentEdu";
-            // 
-            // tableLayoutPanel25
-            // 
-            resources.ApplyResources(this.tableLayoutPanel25, "tableLayoutPanel25");
-            this.tableLayoutPanel25.Controls.Add(this.lblSchool, 0, 0);
-            this.tableLayoutPanel25.Controls.Add(this.txtHighestSchool, 1, 0);
-            this.tableLayoutPanel25.Name = "tableLayoutPanel25";
-            // 
-            // tableLayoutPanel26
-            // 
-            resources.ApplyResources(this.tableLayoutPanel26, "tableLayoutPanel26");
-            this.tableLayoutPanel26.Controls.Add(this.lblEndYear, 0, 0);
-            this.tableLayoutPanel26.Controls.Add(this.txtHighestSchoolEndYear, 1, 0);
-            this.tableLayoutPanel26.Name = "tableLayoutPanel26";
-            // 
-            // tableLayoutPanel27
-            // 
-            resources.ApplyResources(this.tableLayoutPanel27, "tableLayoutPanel27");
-            this.tableLayoutPanel27.Controls.Add(this.lblMajor, 0, 0);
-            this.tableLayoutPanel27.Controls.Add(this.txtHightestSchoolMajor, 1, 0);
-            this.tableLayoutPanel27.Name = "tableLayoutPanel27";
-            // 
-            // tableLayoutPanel28
-            // 
-            resources.ApplyResources(this.tableLayoutPanel28, "tableLayoutPanel28");
-            this.tableLayoutPanel28.Controls.Add(this.cmbEduLevel, 1, 0);
-            this.tableLayoutPanel28.Controls.Add(this.lblEducationLevel, 0, 0);
-            this.tableLayoutPanel28.Name = "tableLayoutPanel28";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.panel8, "panel8");
-            this.panel8.Name = "panel8";
-            // 
-            // tableLayoutPanel29
-            // 
-            resources.ApplyResources(this.tableLayoutPanel29, "tableLayoutPanel29");
-            this.tableLayoutPanel29.Controls.Add(this.cmbCurrentEduLevel, 1, 0);
-            this.tableLayoutPanel29.Controls.Add(this.lblCurrEducationLevel, 0, 0);
-            this.tableLayoutPanel29.Name = "tableLayoutPanel29";
-            // 
-            // tableLayoutPanel30
-            // 
-            resources.ApplyResources(this.tableLayoutPanel30, "tableLayoutPanel30");
-            this.tableLayoutPanel30.Controls.Add(this.lblCurrMajor, 0, 0);
-            this.tableLayoutPanel30.Controls.Add(this.txtCurrentSchoolMajor, 1, 0);
-            this.tableLayoutPanel30.Name = "tableLayoutPanel30";
-            // 
-            // tableLayoutPanel31
-            // 
-            resources.ApplyResources(this.tableLayoutPanel31, "tableLayoutPanel31");
-            this.tableLayoutPanel31.Controls.Add(this.lblCurrEndYear, 0, 0);
-            this.tableLayoutPanel31.Controls.Add(this.txtCurrentSchoolEndYear, 1, 0);
-            this.tableLayoutPanel31.Name = "tableLayoutPanel31";
-            // 
-            // tableLayoutPanel32
-            // 
-            resources.ApplyResources(this.tableLayoutPanel32, "tableLayoutPanel32");
-            this.tableLayoutPanel32.Controls.Add(this.lblCurrSchool, 0, 0);
-            this.tableLayoutPanel32.Controls.Add(this.txtCurrentSchool, 1, 0);
-            this.tableLayoutPanel32.Name = "tableLayoutPanel32";
-            // 
-            // lblCurrMajor
-            // 
-            resources.ApplyResources(this.lblCurrMajor, "lblCurrMajor");
-            this.lblCurrMajor.Name = "lblCurrMajor";
-            // 
-            // tableLayoutPanel33
-            // 
-            resources.ApplyResources(this.tableLayoutPanel33, "tableLayoutPanel33");
-            this.tableLayoutPanel33.Controls.Add(this.dtpTo, 1, 0);
-            this.tableLayoutPanel33.Controls.Add(this.lblJobTo, 0, 0);
-            this.tableLayoutPanel33.Name = "tableLayoutPanel33";
-            // 
-            // tableLayoutPanel34
-            // 
-            resources.ApplyResources(this.tableLayoutPanel34, "tableLayoutPanel34");
-            this.tableLayoutPanel34.Controls.Add(this.lblWorkPosition, 0, 0);
-            this.tableLayoutPanel34.Controls.Add(this.txtWorkPosition, 1, 0);
-            this.tableLayoutPanel34.Name = "tableLayoutPanel34";
-            // 
-            // tableLayoutPanel35
-            // 
-            resources.ApplyResources(this.tableLayoutPanel35, "tableLayoutPanel35");
-            this.tableLayoutPanel35.Controls.Add(this.lblJobFrom, 0, 0);
-            this.tableLayoutPanel35.Controls.Add(this.dtpFrom, 1, 0);
-            this.tableLayoutPanel35.Name = "tableLayoutPanel35";
-            // 
-            // tableLayoutPanel36
-            // 
-            resources.ApplyResources(this.tableLayoutPanel36, "tableLayoutPanel36");
-            this.tableLayoutPanel36.Controls.Add(this.lblEmployeer, 0, 0);
-            this.tableLayoutPanel36.Controls.Add(this.txtEmployeer, 1, 0);
-            this.tableLayoutPanel36.Name = "tableLayoutPanel36";
             // 
             // FrmQuestionnaireToFill
             // 
@@ -1698,10 +1698,58 @@
             this.layoutPanelName.PerformLayout();
             this.tPageContactAdress.ResumeLayout(false);
             this.tPageContactAdress.PerformLayout();
+            this.tableLayoutPanel22.ResumeLayout(false);
+            this.tableLayoutPanel22.PerformLayout();
+            this.tableLayoutPanel21.ResumeLayout(false);
+            this.tableLayoutPanel21.PerformLayout();
+            this.tableLayoutPanel20.ResumeLayout(false);
+            this.tableLayoutPanel20.PerformLayout();
+            this.tableLayoutPanel19.ResumeLayout(false);
+            this.tableLayoutPanel19.PerformLayout();
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel18.PerformLayout();
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel17.PerformLayout();
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel16.PerformLayout();
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel15.PerformLayout();
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
+            this.tableLayoutPanel13.ResumeLayout(false);
+            this.tableLayoutPanel13.PerformLayout();
             this.tPagePassword.ResumeLayout(false);
+            this.tableLayoutPanel24.ResumeLayout(false);
+            this.tableLayoutPanel24.PerformLayout();
+            this.tableLayoutPanel23.ResumeLayout(false);
+            this.tableLayoutPanel23.PerformLayout();
             this.tPageEducation.ResumeLayout(false);
             this.tPageEducation.PerformLayout();
+            this.tableLayoutPanel29.ResumeLayout(false);
+            this.tableLayoutPanel29.PerformLayout();
+            this.tableLayoutPanel30.ResumeLayout(false);
+            this.tableLayoutPanel30.PerformLayout();
+            this.tableLayoutPanel31.ResumeLayout(false);
+            this.tableLayoutPanel31.PerformLayout();
+            this.tableLayoutPanel32.ResumeLayout(false);
+            this.tableLayoutPanel32.PerformLayout();
+            this.tableLayoutPanel28.ResumeLayout(false);
+            this.tableLayoutPanel28.PerformLayout();
+            this.tableLayoutPanel27.ResumeLayout(false);
+            this.tableLayoutPanel27.PerformLayout();
+            this.tableLayoutPanel26.ResumeLayout(false);
+            this.tableLayoutPanel26.PerformLayout();
+            this.tableLayoutPanel25.ResumeLayout(false);
+            this.tableLayoutPanel25.PerformLayout();
             this.tPagePreviousJob.ResumeLayout(false);
+            this.tableLayoutPanel33.ResumeLayout(false);
+            this.tableLayoutPanel33.PerformLayout();
+            this.tableLayoutPanel34.ResumeLayout(false);
+            this.tableLayoutPanel34.PerformLayout();
+            this.tableLayoutPanel35.ResumeLayout(false);
+            this.tableLayoutPanel35.PerformLayout();
+            this.tableLayoutPanel36.ResumeLayout(false);
+            this.tableLayoutPanel36.PerformLayout();
             this.tPageChildInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvChildren)).EndInit();
             this.tPageJobSpecification.ResumeLayout(false);
@@ -1713,54 +1761,6 @@
             this.panelWorkDescription.ResumeLayout(false);
             this.panelWorkDescription.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.tableLayoutPanel13.ResumeLayout(false);
-            this.tableLayoutPanel13.PerformLayout();
-            this.tableLayoutPanel14.ResumeLayout(false);
-            this.tableLayoutPanel14.PerformLayout();
-            this.tableLayoutPanel15.ResumeLayout(false);
-            this.tableLayoutPanel15.PerformLayout();
-            this.tableLayoutPanel16.ResumeLayout(false);
-            this.tableLayoutPanel16.PerformLayout();
-            this.tableLayoutPanel17.ResumeLayout(false);
-            this.tableLayoutPanel17.PerformLayout();
-            this.tableLayoutPanel18.ResumeLayout(false);
-            this.tableLayoutPanel18.PerformLayout();
-            this.tableLayoutPanel19.ResumeLayout(false);
-            this.tableLayoutPanel19.PerformLayout();
-            this.tableLayoutPanel20.ResumeLayout(false);
-            this.tableLayoutPanel20.PerformLayout();
-            this.tableLayoutPanel21.ResumeLayout(false);
-            this.tableLayoutPanel21.PerformLayout();
-            this.tableLayoutPanel22.ResumeLayout(false);
-            this.tableLayoutPanel22.PerformLayout();
-            this.tableLayoutPanel23.ResumeLayout(false);
-            this.tableLayoutPanel23.PerformLayout();
-            this.tableLayoutPanel24.ResumeLayout(false);
-            this.tableLayoutPanel24.PerformLayout();
-            this.tableLayoutPanel25.ResumeLayout(false);
-            this.tableLayoutPanel25.PerformLayout();
-            this.tableLayoutPanel26.ResumeLayout(false);
-            this.tableLayoutPanel26.PerformLayout();
-            this.tableLayoutPanel27.ResumeLayout(false);
-            this.tableLayoutPanel27.PerformLayout();
-            this.tableLayoutPanel28.ResumeLayout(false);
-            this.tableLayoutPanel28.PerformLayout();
-            this.tableLayoutPanel29.ResumeLayout(false);
-            this.tableLayoutPanel29.PerformLayout();
-            this.tableLayoutPanel30.ResumeLayout(false);
-            this.tableLayoutPanel30.PerformLayout();
-            this.tableLayoutPanel31.ResumeLayout(false);
-            this.tableLayoutPanel31.PerformLayout();
-            this.tableLayoutPanel32.ResumeLayout(false);
-            this.tableLayoutPanel32.PerformLayout();
-            this.tableLayoutPanel33.ResumeLayout(false);
-            this.tableLayoutPanel33.PerformLayout();
-            this.tableLayoutPanel34.ResumeLayout(false);
-            this.tableLayoutPanel34.PerformLayout();
-            this.tableLayoutPanel35.ResumeLayout(false);
-            this.tableLayoutPanel35.PerformLayout();
-            this.tableLayoutPanel36.ResumeLayout(false);
-            this.tableLayoutPanel36.PerformLayout();
             this.ResumeLayout(false);
 
         }
