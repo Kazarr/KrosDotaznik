@@ -113,7 +113,6 @@ namespace KrosDotaznik
             BindDefaultControlProperty(txtRegionOfBirth, nameof(_viewModel.RegionOfBirth));
             BindDefaultControlProperty(txtNationality, nameof(_viewModel.Nationality));
             BindDefaultControlProperty(txtCitizenShip, nameof(_viewModel.CitizenShip));
-            BindDefaultControlProperty(txtBankAcc, nameof(_viewModel.BankAccount));
             BindDefaultControlProperty(txtIban, nameof(_viewModel.Iban));
             BindDefaultControlProperty(datePickerBirth, nameof(_viewModel.BirthDate));
             BindDefaultControlProperty(cmbState, nameof(_viewModel.StringState));
@@ -220,6 +219,39 @@ namespace KrosDotaznik
                 tabCntrl.SelectedTab.Tag = true;
 
             }
+        }
+
+        private void tabCntrl_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            Brush _textBrush;
+
+            TabPage _tabPage = tabCntrl.TabPages[e.Index];
+
+            Rectangle _tabBounds = tabCntrl.GetTabRect(e.Index);
+
+            if (e.State == DrawItemState.Selected)
+            {
+                _textBrush = new SolidBrush(Color.White);
+                g.FillRectangle(Brushes.Gray, e.Bounds);
+            }
+            else
+            {
+                _textBrush = new System.Drawing.SolidBrush(e.ForeColor);
+                e.DrawBackground();
+            }
+
+            Font _tabFont = new Font("Arial", 18.0f, FontStyle.Bold, GraphicsUnit.Pixel);
+
+            StringFormat _stringFlags = new StringFormat();
+            _stringFlags.Alignment = StringAlignment.Center;
+            _stringFlags.LineAlignment = StringAlignment.Center;
+            g.DrawString(_tabPage.Text, _tabFont, _textBrush, _tabBounds, new StringFormat(_stringFlags));
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();    
         }
     }
 }
