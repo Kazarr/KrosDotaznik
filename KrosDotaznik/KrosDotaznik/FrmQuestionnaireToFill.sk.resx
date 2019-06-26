@@ -118,329 +118,395 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 190</value>
-  </data>
   <data name="lblRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblRetiredSince.Text" xml:space="preserve">
     <value>Poberateľ dôchodku od:</value>
   </data>
-  <data name="lblPensionRecipient.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 140</value>
-  </data>
   <data name="lblPensionRecipient.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblPensionRecipient.Text" xml:space="preserve">
     <value>Poberateľ dôchodku:</value>
   </data>
-  <data name="lblHandicapInPercentage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>556, 82</value>
-  </data>
   <data name="lblHandicapInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblHandicapInPercentage.Text" xml:space="preserve">
     <value>Miera postihnutia v %:</value>
   </data>
   <data name="lblHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblHealthInsurance.Text" xml:space="preserve">
     <value>Zdravotná poisťovňa:</value>
   </data>
-  <data name="lblBankAcc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="lblBankAcc.Text" xml:space="preserve">
-    <value>Bankový účet:</value>
+  <data name="lblIBAN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
   </data>
   <data name="lblState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
+    <value>180, 35</value>
   </data>
   <data name="lblState.Text" xml:space="preserve">
     <value>Stav:</value>
   </data>
   <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 21</value>
+    <value>166, 38</value>
   </data>
   <data name="lblGender.Text" xml:space="preserve">
     <value>Pohlavie:</value>
   </data>
   <data name="lblCitizenShip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 21</value>
+    <value>180, 38</value>
   </data>
   <data name="lblCitizenShip.Text" xml:space="preserve">
     <value>Štátna príslušnosť:</value>
   </data>
   <data name="lblNationality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 21</value>
+    <value>180, 38</value>
   </data>
   <data name="lblNationality.Text" xml:space="preserve">
     <value>Národnosť:</value>
   </data>
   <data name="lblRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 21</value>
+    <value>180, 40</value>
   </data>
   <data name="lblRegionOfBirth.Text" xml:space="preserve">
     <value>Okres narodenia:</value>
   </data>
   <data name="lblPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 21</value>
+    <value>180, 37</value>
   </data>
   <data name="lblPlaceOfBirth.Text" xml:space="preserve">
     <value>Miesto narodenia:</value>
   </data>
   <data name="lblPersonalId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 21</value>
+    <value>180, 36</value>
   </data>
   <data name="lblPersonalId.Text" xml:space="preserve">
     <value>Rodné číslo:</value>
   </data>
   <data name="lblBirthDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 21</value>
+    <value>180, 38</value>
   </data>
   <data name="lblBirthDate.Text" xml:space="preserve">
     <value>Dátum narodenia:</value>
   </data>
   <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 21</value>
+    <value>179, 37</value>
   </data>
   <data name="lblSurname.Text" xml:space="preserve">
     <value>Priezvisko:</value>
   </data>
-  <data name="lblPreviousName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 21</value>
-  </data>
-  <data name="lblPreviousName.Text" xml:space="preserve">
-    <value>Predošlé priezvisko:</value>
-  </data>
   <data name="lblMaidenName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 21</value>
+    <value>179, 38</value>
   </data>
   <data name="lblMaidenName.Text" xml:space="preserve">
     <value>Rodné priezvisko:</value>
   </data>
   <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 21</value>
+    <value>180, 37</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>Titul:</value>
   </data>
   <data name="lblIdentityCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 21</value>
+    <value>180, 39</value>
   </data>
   <data name="lblIdentityCard.Text" xml:space="preserve">
     <value>Číslo OP</value>
   </data>
-  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 21</value>
+  <data name="txtTempHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
   </data>
-  <data name="lblName.Text" xml:space="preserve">
-    <value>Meno:</value>
-  </data>
-  <data name="grBoxTemporaryAddress.Text" xml:space="preserve">
-    <value>Prechodné bydlisko</value>
+  <data name="txtTempHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="lblTempHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblTempHouseNumber.Text" xml:space="preserve">
     <value>Číslo :</value>
   </data>
   <data name="txtTempPostalCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>745, 20</value>
+    <value>192, 3</value>
+  </data>
+  <data name="txtTempPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="txtTempCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 21</value>
+    <value>192, 3</value>
   </data>
   <data name="txtTempCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 27</value>
+    <value>183, 24</value>
+  </data>
+  <data name="txtTempStreet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtTempStreet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="lblPostalCodeTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblPostalCodeTemp.Text" xml:space="preserve">
     <value>PSČ:</value>
   </data>
   <data name="lblCityTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblCityTemp.Text" xml:space="preserve">
     <value>Mesto:</value>
   </data>
   <data name="lblStreetTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblStreetTemp.Text" xml:space="preserve">
     <value>Ulica :</value>
   </data>
-  <data name="grBoxAddress.Text" xml:space="preserve">
-    <value>Adresa trvalého bydliska</value>
+  <data name="txtHouseNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="lblHouseNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblHouseNumber.Text" xml:space="preserve">
     <value>Číslo :</value>
   </data>
   <data name="txtPostalCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>745, 20</value>
+    <value>192, 3</value>
+  </data>
+  <data name="txtPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="txtCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>481, 21</value>
+    <value>192, 3</value>
   </data>
   <data name="txtCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 27</value>
+    <value>183, 24</value>
+  </data>
+  <data name="txtStreet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtStreet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
   </data>
   <data name="lblPostalCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblPostalCode.Text" xml:space="preserve">
     <value>PSČ:</value>
   </data>
   <data name="lblCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblCity.Text" xml:space="preserve">
     <value>Mesto:</value>
   </data>
   <data name="lblStreet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblStreet.Text" xml:space="preserve">
     <value>Ulica :</value>
   </data>
+  <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
   <data name="lblPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblPhoneNumber.Text" xml:space="preserve">
     <value>Telefón:</value>
   </data>
   <data name="lblPin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblPin.Text" xml:space="preserve">
     <value>PIN na alarm:</value>
   </data>
   <data name="lblPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Heslo k výplatnej páske:</value>
   </data>
-  <data name="grBoxCurrentEducation.Text" xml:space="preserve">
-    <value>Súčasné štúdium</value>
+  <data name="cmbCurrentEduLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="cmbCurrentEduLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
   </data>
   <data name="txtCurrentSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>572, 23</value>
+    <value>192, 3</value>
   </data>
   <data name="txtCurrentSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 27</value>
+    <value>183, 24</value>
   </data>
   <data name="txtCurrentSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 62</value>
+    <value>192, 3</value>
   </data>
   <data name="txtCurrentSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 27</value>
+    <value>183, 24</value>
   </data>
   <data name="txtCurrentSchool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 21</value>
+    <value>192, 3</value>
   </data>
   <data name="txtCurrentSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 27</value>
+    <value>183, 24</value>
   </data>
   <data name="lblCurrEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblCurrEducationLevel.Text" xml:space="preserve">
     <value>Úroveň vzdelania:</value>
   </data>
   <data name="lblCurrEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblCurrEndYear.Text" xml:space="preserve">
     <value>Rok ukončenia:</value>
   </data>
-  <data name="lblCurrMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 21</value>
-  </data>
-  <data name="lblCurrMajor.Text" xml:space="preserve">
-    <value>Odbor:</value>
-  </data>
   <data name="lblCurrSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblCurrSchool.Text" xml:space="preserve">
     <value>Škola:</value>
   </data>
-  <data name="grBoxHighEducation.Text" xml:space="preserve">
-    <value>Najvyššie ukončené vzdelanie</value>
+  <data name="cmbEduLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="cmbEduLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 31</value>
   </data>
   <data name="txtHightestSchoolMajor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>572, 23</value>
+    <value>192, 3</value>
   </data>
   <data name="txtHightestSchoolMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 27</value>
+    <value>183, 24</value>
   </data>
   <data name="txtHighestSchoolEndYear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 62</value>
+    <value>192, 3</value>
   </data>
   <data name="txtHighestSchoolEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 27</value>
+    <value>183, 24</value>
   </data>
   <data name="txtHighestSchool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 21</value>
+    <value>192, 3</value>
   </data>
   <data name="txtHighestSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 27</value>
+    <value>183, 24</value>
   </data>
   <data name="lblEducationLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblEducationLevel.Text" xml:space="preserve">
     <value>Úroveň vzdelania:</value>
   </data>
   <data name="lblEndYear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblEndYear.Text" xml:space="preserve">
     <value>Rok ukončenia:</value>
   </data>
   <data name="lblMajor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblMajor.Text" xml:space="preserve">
     <value>Odbor:</value>
   </data>
   <data name="lblSchool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblSchool.Text" xml:space="preserve">
     <value>Škola:</value>
   </data>
-  <data name="tPagePersonalInfo.Text" xml:space="preserve">
-    <value>Údaje o zamestnancovi</value>
+  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1013, 288</value>
+  <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="tableLayoutPanel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="cmbRetirement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="cmbRetirement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 29</value>
+  </data>
+  <data name="tableLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
   <data name="txtHndcpInPercentage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>762, 80</value>
+    <value>192, 3</value>
   </data>
   <data name="txtHndcpInPercentage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 27</value>
+    <value>183, 24</value>
   </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>627, 190</value>
+  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>345, 73</value>
+  <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 3</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Len dohody: výnimka z dôch. poist.</value>
+  <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 3</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 31</value>
+  </data>
+  <data name="radioBtnSecondPilarYes.Text" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 37</value>
+  </data>
+  <data name="lblSecondPillar.Text" xml:space="preserve">
+    <value>2. pilier SDS</value>
+  </data>
+  <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 3</value>
+  </data>
+  <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="radioBtnHndcpNo.Text" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 3</value>
+  </data>
+  <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 31</value>
+  </data>
+  <data name="radioBtnHandcpYes.Text" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 37</value>
+  </data>
+  <data name="lblHandicap.Text" xml:space="preserve">
+    <value>ZŤP</value>
+  </data>
+  <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="radioBtnExceptionYes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 3</value>
   </data>
   <data name="radioBtnExceptionYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 25</value>
@@ -448,128 +514,425 @@
   <data name="radioBtnExceptionYes.Text" xml:space="preserve">
     <value>Áno</value>
   </data>
+  <data name="radioBtnExceptionNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 3</value>
+  </data>
   <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 25</value>
   </data>
   <data name="radioBtnExceptionNo.Text" xml:space="preserve">
     <value>Nie</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 60</value>
+  <data name="lblInsuranceComapny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 37</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Zúčastnený v 2. piliery SDS:</value>
+  <data name="lblInsuranceComapny.Text" xml:space="preserve">
+    <value>Výnimka z poistenia</value>
   </data>
-  <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 26</value>
+  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
-  <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
+  <data name="cmbHealthInsurance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
   </data>
-  <data name="radioBtnSecondPilarYes.Text" xml:space="preserve">
-    <value>Áno</value>
+  <data name="cmbHealthInsurance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 29</value>
   </data>
-  <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 26</value>
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
-  <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 25</value>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
   </data>
-  <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
-    <value>Nie</value>
+  <data name="txtIban.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 60</value>
+  <data name="txtIban.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 20</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>ZŤP:</value>
+  <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
-  <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 26</value>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
   </data>
-  <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 25</value>
+  <data name="txtCitizenShip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 3</value>
   </data>
-  <data name="radioBtnHandcpYes.Text" xml:space="preserve">
-    <value>Áno</value>
+  <data name="txtCitizenShip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
   </data>
-  <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 26</value>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 38</value>
   </data>
-  <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 25</value>
-  </data>
-  <data name="radioBtnHndcpNo.Text" xml:space="preserve">
-    <value>Nie</value>
-  </data>
-  <data name="datePickerRetiredSince.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 190</value>
-  </data>
-  <data name="datePickerRetiredSince.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 27</value>
+  <data name="radioBtnFemale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 3</value>
   </data>
   <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 25</value>
+    <value>112, 32</value>
   </data>
   <data name="radioBtnFemale.Text" xml:space="preserve">
     <value>Žena</value>
   </data>
+  <data name="radioBtnMale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 3</value>
+  </data>
   <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 25</value>
+    <value>82, 32</value>
   </data>
   <data name="radioBtnMale.Text" xml:space="preserve">
     <value>Muž</value>
   </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 38</value>
+  </data>
+  <data name="txtNationality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 40</value>
+  </data>
+  <data name="txtNationality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="txtPlaceOfBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 3</value>
+  </data>
+  <data name="txtPlaceOfBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 75</value>
+  </data>
+  <data name="cmbState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 78</value>
+  </data>
+  <data name="cmbState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 29</value>
+  </data>
+  <data name="txtIdentityCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 3</value>
+  </data>
+  <data name="txtIdentityCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="txtRegionOfBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 113</value>
+  </data>
+  <data name="txtRegionOfBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="txtPersonalId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 42</value>
+  </data>
+  <data name="txtPersonalId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 150</value>
+  </data>
+  <data name="txtMaidenName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 40</value>
+  </data>
+  <data name="txtMaidenName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="txtSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 3</value>
+  </data>
+  <data name="txtSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="layoutPanelSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 75</value>
+  </data>
+  <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 3</value>
+  </data>
+  <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="datePickerBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 40</value>
+  </data>
+  <data name="datePickerBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 27</value>
+  </data>
+  <data name="layoutPaneltitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 75</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 37</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Meno:</value>
+  </data>
+  <data name="lblPreviousName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 38</value>
+  </data>
+  <data name="lblPreviousName.Text" xml:space="preserve">
+    <value>Predošlé priezvisko:</value>
+  </data>
+  <data name="txtPreviousName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 40</value>
+  </data>
+  <data name="txtPreviousName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 3</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="layoutPanelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 75</value>
+  </data>
+  <data name="tPagePersonalInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
+  </data>
+  <data name="tPagePersonalInfo.Text" xml:space="preserve">
+    <value>Údaje o zamestnancovi</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 1</value>
+  </data>
+  <data name="cmbTempCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="cmbTempCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="lblTempCoutry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="lblTempCoutry.Text" xml:space="preserve">
+    <value>Krajina</value>
+  </data>
+  <data name="tableLayoutPanel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 1</value>
+  </data>
+  <data name="cmbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="cmbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="lblCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="lblCountry.Text" xml:space="preserve">
+    <value>Krajina</value>
+  </data>
+  <data name="tableLayoutPanel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="lblTempAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 19</value>
+  </data>
+  <data name="lblTempAddress.Text" xml:space="preserve">
+    <value>Prechodné bydlisko</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
+  </data>
+  <data name="tableLayoutPanel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="lblAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 19</value>
+  </data>
+  <data name="lblAddress.Text" xml:space="preserve">
+    <value>Trvalé bydlisko</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
+  </data>
+  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
+  </data>
+  <data name="tableLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="txtPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
+  </data>
+  <data name="tableLayoutPanel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tPageContactAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
+  </data>
   <data name="tPageContactAdress.Text" xml:space="preserve">
     <value>Kontakty, adresy</value>
+  </data>
+  <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 31</value>
+  </data>
+  <data name="tableLayoutPanel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 31</value>
+  </data>
+  <data name="tableLayoutPanel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tPagePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
   </data>
   <data name="tPagePassword.Text" xml:space="preserve">
     <value>Heslá a prístupy</value>
   </data>
-  <data name="txtPinAlarm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>562, 18</value>
+  <data name="tableLayoutPanel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
-  <data name="txtPinAlarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 27</value>
+  <data name="lblCurrMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
   </data>
-  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 18</value>
+  <data name="lblCurrMajor.Text" xml:space="preserve">
+    <value>Odbor:</value>
   </data>
-  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 27</value>
+  <data name="tableLayoutPanel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
+  </data>
+  <data name="tableLayoutPanel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tableLayoutPanel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="lblCurrentEdu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 19</value>
+  </data>
+  <data name="lblCurrentEdu.Text" xml:space="preserve">
+    <value>Aktuálne štúdium</value>
+  </data>
+  <data name="lblHighEdu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 19</value>
+  </data>
+  <data name="lblHighEdu.Text" xml:space="preserve">
+    <value>Najvyššie ukončené vzdelanie</value>
+  </data>
+  <data name="tPageEducation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
   </data>
   <data name="tPageEducation.Text" xml:space="preserve">
     <value>Údaje o vzdelaní</value>
   </data>
-  <data name="tPagePreviousJob.Text" xml:space="preserve">
-    <value>Predchádzajúce zamestnanie</value>
+  <data name="dtpTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
   </data>
-  <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 21</value>
-  </data>
-  <data name="lblWorkPosition.Text" xml:space="preserve">
-    <value>Pracovná pozícia:</value>
-  </data>
-  <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 21</value>
-  </data>
-  <data name="lblEmployeer.Text" xml:space="preserve">
-    <value>Zamestnávateľ:</value>
+  <data name="dtpTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
   </data>
   <data name="lblJobTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblJobTo.Text" xml:space="preserve">
     <value>Do:</value>
   </data>
+  <data name="tableLayoutPanel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="lblWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="lblWorkPosition.Text" xml:space="preserve">
+    <value>Pracovná pozícia:</value>
+  </data>
+  <data name="txtWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
+  </data>
+  <data name="tableLayoutPanel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
   <data name="lblJobFrom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 21</value>
+    <value>183, 37</value>
   </data>
   <data name="lblJobFrom.Text" xml:space="preserve">
     <value>Od:</value>
   </data>
-  <data name="tPageChildInfo.Text" xml:space="preserve">
-    <value>Údaje o deťoch</value>
+  <data name="dtpFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="dtpFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="tableLayoutPanel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="lblEmployeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="lblEmployeer.Text" xml:space="preserve">
+    <value>Zamestnávateľ:</value>
+  </data>
+  <data name="txtEmployeer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtEmployeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
+  </data>
+  <data name="tableLayoutPanel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tPagePreviousJob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
+  </data>
+  <data name="tPagePreviousJob.Text" xml:space="preserve">
+    <value>Predchádzajúce zamestnanie</value>
   </data>
   <data name="colName.HeaderText" xml:space="preserve">
     <value>Meno</value>
@@ -583,98 +946,230 @@
   <data name="colBirthDate.HeaderText" xml:space="preserve">
     <value>Dátum narodenia</value>
   </data>
-  <data name="tPageJobSpecification.Text" xml:space="preserve">
-    <value>Údaje o pracovnom zaradení</value>
+  <data name="dgvChildren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 150</value>
   </data>
-  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 19</value>
+  <data name="tPageChildInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
   </data>
-  <data name="lblEndOfTrial.Text" xml:space="preserve">
-    <value>Skúšobná doba do</value>
+  <data name="tPageChildInfo.Text" xml:space="preserve">
+    <value>Údaje o deťoch</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 5</value>
   </data>
   <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 19</value>
+    <value>183, 37</value>
   </data>
   <data name="lblStartDate.Text" xml:space="preserve">
     <value>Dátum nástupu</value>
   </data>
+  <data name="dtpStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="dtpStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="tableLayoutPanel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="dtpEndOfTrial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="dtpEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="lblEndOfTrial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="lblEndOfTrial.Text" xml:space="preserve">
+    <value>Skúšobná doba do</value>
+  </data>
+  <data name="tableLayoutPanel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
   <data name="lblHiredDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 19</value>
+    <value>183, 37</value>
   </data>
   <data name="lblHiredDate.Text" xml:space="preserve">
     <value>Vznik PP</value>
   </data>
-  <data name="panelRating.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 75</value>
+  <data name="dtpHireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
   </data>
-  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 19</value>
+  <data name="dtpHireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
   </data>
-  <data name="lblSalary.Text" xml:space="preserve">
-    <value>Mzda</value>
+  <data name="tableLayoutPanel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="cmbWageCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="cmbWageCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
   </data>
   <data name="lblWageCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 19</value>
+    <value>183, 37</value>
   </data>
   <data name="lblWageCategory.Text" xml:space="preserve">
     <value>Platová kategória</value>
   </data>
-  <data name="panelWorkEnviroment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 147</value>
+  <data name="tableLayoutPanel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
-  <data name="panelWorkEnviroment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>372, 109</value>
+  <data name="lblSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 37</value>
+  </data>
+  <data name="lblSalary.Text" xml:space="preserve">
+    <value>Mzda</value>
+  </data>
+  <data name="txtSalary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="txtSalary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 20</value>
+  </data>
+  <data name="tableLayoutPanel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
   </data>
   <data name="cmbTeam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 70</value>
+    <value>169, 3</value>
   </data>
-  <data name="cmbDivision.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 37</value>
-  </data>
-  <data name="txtPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 4</value>
-  </data>
-  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 19</value>
-  </data>
-  <data name="lblPlaceOfWork.Text" xml:space="preserve">
-    <value>Miesto výkonu práce</value>
-  </data>
-  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 19</value>
-  </data>
-  <data name="lblDivision.Text" xml:space="preserve">
-    <value>Divízia</value>
+  <data name="cmbTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
   </data>
   <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 19</value>
+    <value>160, 37</value>
   </data>
   <data name="lblTeam.Text" xml:space="preserve">
     <value>Tím</value>
   </data>
-  <data name="lblWorkType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 19</value>
+  <data name="tableLayoutPanel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 37</value>
   </data>
-  <data name="lblWorkType.Text" xml:space="preserve">
-    <value>Druh vzťahu</value>
+  <data name="lblDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 37</value>
+  </data>
+  <data name="lblDivision.Text" xml:space="preserve">
+    <value>Divízia</value>
+  </data>
+  <data name="cmbDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 3</value>
+  </data>
+  <data name="cmbDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 27</value>
+  </data>
+  <data name="tableLayoutPanel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 37</value>
+  </data>
+  <data name="lblPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 37</value>
+  </data>
+  <data name="lblPlaceOfWork.Text" xml:space="preserve">
+    <value>Miesto výkonu práce</value>
+  </data>
+  <data name="txtPlaceOfWork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 3</value>
+  </data>
+  <data name="txtPlaceOfWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="tableLayoutPanel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 37</value>
+  </data>
+  <data name="txtHoursPerWeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 3</value>
+  </data>
+  <data name="txtHoursPerWeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
   </data>
   <data name="lblWorkHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 19</value>
+    <value>122, 37</value>
   </data>
   <data name="lblWorkHours.Text" xml:space="preserve">
     <value>Úväzok</value>
   </data>
+  <data name="cmbWorkHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 3</value>
+  </data>
+  <data name="cmbWorkHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 27</value>
+  </data>
+  <data name="tableLayoutPanel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 37</value>
+  </data>
+  <data name="lblWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 37</value>
+  </data>
+  <data name="lblWorkExpiration.Text" xml:space="preserve">
+    <value>Trvanie PP</value>
+  </data>
+  <data name="cmbWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 3</value>
+  </data>
+  <data name="cmbWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 27</value>
+  </data>
+  <data name="tableLayoutPanel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
   <data name="lblNewWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 19</value>
+    <value>126, 37</value>
   </data>
   <data name="lblNewWorkPosition.Text" xml:space="preserve">
     <value>Pracovná pozícia</value>
   </data>
-  <data name="lblWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 19</value>
+  <data name="cmbWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 3</value>
   </data>
-  <data name="lblWorkExpiration.Text" xml:space="preserve">
-    <value>Trvanie PP</value>
+  <data name="cmbWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 27</value>
+  </data>
+  <data name="tableLayoutPanel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="lblWorkType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 37</value>
+  </data>
+  <data name="lblWorkType.Text" xml:space="preserve">
+    <value>Druh vzťahu</value>
+  </data>
+  <data name="cmbWorkType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 3</value>
+  </data>
+  <data name="cmbWorkType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 27</value>
+  </data>
+  <data name="tableLayoutPanel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="tPageJobSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 702</value>
+  </data>
+  <data name="tPageJobSpecification.Text" xml:space="preserve">
+    <value>Údaje o pracovnom zaradení</value>
+  </data>
+  <data name="tabCntrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1054, 710</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>971, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1054, 58</value>
+  </data>
+  <data name="btnSaveQsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 705</value>
+  </data>
+  <data name="btnSaveQsr.Text" xml:space="preserve">
+    <value>Ulož</value>
+  </data>
+  <data name="panelTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1054, 797</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1054, 855</value>
