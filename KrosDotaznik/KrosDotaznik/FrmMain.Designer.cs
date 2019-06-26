@@ -33,12 +33,13 @@
             this.btnFill = new System.Windows.Forms.Button();
             this.btnEng = new System.Windows.Forms.Button();
             this.btnSvk = new System.Windows.Forms.Button();
+            this.openFileKpq = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // btnCreate
             // 
-            resources.ApplyResources(this.btnCreate, "btnCreate");
             this.btnCreate.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnCreate, "btnCreate");
             this.btnCreate.Image = global::KrosDotaznik.Properties.Resources.fillI;
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.UseVisualStyleBackColor = false;
@@ -46,8 +47,8 @@
             // 
             // btnFill
             // 
-            resources.ApplyResources(this.btnFill, "btnFill");
             this.btnFill.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnFill, "btnFill");
             this.btnFill.Image = global::KrosDotaznik.Properties.Resources.createI;
             this.btnFill.Name = "btnFill";
             this.btnFill.UseVisualStyleBackColor = false;
@@ -67,6 +68,11 @@
             this.btnSvk.Name = "btnSvk";
             this.btnSvk.UseVisualStyleBackColor = true;
             this.btnSvk.Click += new System.EventHandler(this.btnSvk_Click);
+            // 
+            // openFileKpq
+            // 
+            this.openFileKpq.FileName = "openFileDialog1";
+            this.openFileKpq.RestoreDirectory = true;
             // 
             // FrmMain
             // 
@@ -88,6 +94,7 @@
         private System.Windows.Forms.Button btnFill;
         private System.Windows.Forms.Button btnSvk;
         private System.Windows.Forms.Button btnEng;
+        private System.Windows.Forms.OpenFileDialog openFileKpq;
     }
 }
 
