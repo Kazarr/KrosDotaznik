@@ -52,7 +52,7 @@ namespace KrosDotaznik
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            using (this.saveFileData  = new SaveFileDialog())
+            using (saveFileData)
             {
                 saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
                 saveFileData.FileName = "NameSurname";
@@ -62,7 +62,7 @@ namespace KrosDotaznik
                     DialogResult result = MessageBox.Show(Resources.Questionnaire.msgQuestionSave, Resources.Questionnaire.msgQuestionSaveTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (DialogResult.No == result)
                     {
-                        this.Close();
+                        Close();
                     }
                 }
             }

@@ -247,7 +247,7 @@ namespace KrosDotaznik
 
         private void btnSaveQsr_Click(object sender, EventArgs e)
         {
-            using (this.saveFileData = new SaveFileDialog())
+            using (saveFileData)
             {
                 saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
                 saveFileData.FileName = _viewModel.Name + _viewModel.Surname;
