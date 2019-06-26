@@ -284,7 +284,7 @@
     <value>277, 231</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Dotazník</value>
+    <value>Questionnaire</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmMain</value>

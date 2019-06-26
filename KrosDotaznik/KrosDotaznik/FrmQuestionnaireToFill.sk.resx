@@ -152,7 +152,7 @@
     <value>Stav:</value>
   </data>
   <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 38</value>
+    <value>165, 38</value>
   </data>
   <data name="lblGender.Text" xml:space="preserve">
     <value>Pohlavie:</value>
@@ -452,16 +452,16 @@
     <value>378, 37</value>
   </data>
   <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 3</value>
+    <value>254, 3</value>
   </data>
   <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+    <value>121, 31</value>
   </data>
   <data name="radioBtnSecondPilarNo.Text" xml:space="preserve">
     <value>Nie</value>
   </data>
   <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 3</value>
+    <value>175, 3</value>
   </data>
   <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 31</value>
@@ -470,7 +470,7 @@
     <value>Áno</value>
   </data>
   <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 37</value>
+    <value>166, 37</value>
   </data>
   <data name="lblSecondPillar.Text" xml:space="preserve">
     <value>2. pilier SDS</value>
@@ -479,16 +479,16 @@
     <value>378, 37</value>
   </data>
   <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 3</value>
+    <value>254, 3</value>
   </data>
   <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+    <value>121, 31</value>
   </data>
   <data name="radioBtnHndcpNo.Text" xml:space="preserve">
     <value>Nie</value>
   </data>
   <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 3</value>
+    <value>174, 3</value>
   </data>
   <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 31</value>
@@ -497,7 +497,7 @@
     <value>Áno</value>
   </data>
   <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 37</value>
+    <value>165, 37</value>
   </data>
   <data name="lblHandicap.Text" xml:space="preserve">
     <value>ZŤP</value>
@@ -506,7 +506,7 @@
     <value>378, 37</value>
   </data>
   <data name="radioBtnExceptionYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
+    <value>219, 3</value>
   </data>
   <data name="radioBtnExceptionYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 25</value>
@@ -515,7 +515,7 @@
     <value>Áno</value>
   </data>
   <data name="radioBtnExceptionNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 3</value>
+    <value>288, 3</value>
   </data>
   <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 25</value>
@@ -524,7 +524,7 @@
     <value>Nie</value>
   </data>
   <data name="lblInsuranceComapny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 37</value>
+    <value>210, 37</value>
   </data>
   <data name="lblInsuranceComapny.Text" xml:space="preserve">
     <value>Výnimka z poistenia</value>
@@ -566,16 +566,16 @@
     <value>378, 38</value>
   </data>
   <data name="radioBtnFemale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 3</value>
+    <value>262, 3</value>
   </data>
   <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 32</value>
+    <value>113, 32</value>
   </data>
   <data name="radioBtnFemale.Text" xml:space="preserve">
     <value>Žena</value>
   </data>
   <data name="radioBtnMale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 3</value>
+    <value>174, 3</value>
   </data>
   <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 32</value>
@@ -1082,10 +1082,10 @@
     <value>332, 37</value>
   </data>
   <data name="txtHoursPerWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 3</value>
+    <value>369, 3</value>
   </data>
   <data name="txtHoursPerWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
+    <value>58, 20</value>
   </data>
   <data name="lblWorkHours.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 37</value>
@@ -1097,7 +1097,7 @@
     <value>131, 3</value>
   </data>
   <data name="cmbWorkHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 27</value>
+    <value>232, 27</value>
   </data>
   <data name="tableLayoutPanel40.Size" type="System.Drawing.Size, System.Drawing">
     <value>430, 37</value>
