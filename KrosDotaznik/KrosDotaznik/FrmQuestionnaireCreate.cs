@@ -55,16 +55,18 @@ namespace KrosDotaznik
             using (this.saveFileData  = new SaveFileDialog())
             {
                 saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
+                saveFileData.FileName = "NameSurname";
                 if (saveFileData.ShowDialog() == DialogResult.OK)
                 {
                     _viewModel.SaveQuestionnaire(saveFileData.FileName);
+                    DialogResult result = MessageBox.Show(Resources.Questionnaire.msgQuestionSave, Resources.Questionnaire.msgQuestionSaveTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (DialogResult.No == result)
+                    {
+                        this.Close();
+                    }
                 }
             }
-            DialogResult result = MessageBox.Show(Resources.Questionnaire.msgQuestionSave, Resources.Questionnaire.msgQuestionSaveTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (DialogResult.No == result)
-            {
-                this.Close();
-            }
+            
         }
 
         #endregion

@@ -250,6 +250,7 @@ namespace KrosDotaznik
             using (this.saveFileData = new SaveFileDialog())
             {
                 saveFileData.Filter = "Questionare (*.kpq)|*.kpq";
+                saveFileData.FileName = _viewModel.Name + _viewModel.Surname;
                 if (saveFileData.ShowDialog() == DialogResult.OK)
                 {
                     _viewModel.Save(saveFileData.FileName);
