@@ -370,7 +370,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 38</value>
+    <value>221, 38</value>
   </data>
   <data name="lblGender.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2167,10 +2167,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnSecondPilarNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 3</value>
+    <value>340, 3</value>
   </data>
   <data name="radioBtnSecondPilarNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 31</value>
+    <value>99, 31</value>
   </data>
   <data name="radioBtnSecondPilarNo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2203,10 +2203,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnSecondPilarYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 3</value>
+    <value>234, 3</value>
   </data>
   <data name="radioBtnSecondPilarYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 31</value>
+    <value>100, 31</value>
   </data>
   <data name="radioBtnSecondPilarYes.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2239,7 +2239,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblSecondPillar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 37</value>
+    <value>225, 37</value>
   </data>
   <data name="lblSecondPillar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2287,7 +2287,7 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnSecondPilarNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnSecondPilarYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSecondPillar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,55346,Percent,31,44654,Absolute,132" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnSecondPilarNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnSecondPilarYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblSecondPillar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,55346,Percent,31,44654,Absolute,104" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2308,10 +2308,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnHndcpNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 3</value>
+    <value>341, 3</value>
   </data>
   <data name="radioBtnHndcpNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 31</value>
+    <value>98, 31</value>
   </data>
   <data name="radioBtnHndcpNo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2344,10 +2344,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnHandcpYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 3</value>
+    <value>234, 3</value>
   </data>
   <data name="radioBtnHandcpYes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 31</value>
+    <value>101, 31</value>
   </data>
   <data name="radioBtnHandcpYes.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2380,7 +2380,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblHandicap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 37</value>
+    <value>225, 37</value>
   </data>
   <data name="lblHandicap.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2428,7 +2428,7 @@
     <value>4</value>
   </data>
   <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnHndcpNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnHandcpYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHandicap" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,23899,Percent,31,76101,Absolute,132" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnHndcpNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnHandcpYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblHandicap" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,23899,Percent,31,76101,Absolute,103" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2446,7 +2446,7 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnExceptionYes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 3</value>
+    <value>234, 3</value>
   </data>
   <data name="radioBtnExceptionYes.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 25</value>
@@ -2479,7 +2479,7 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnExceptionNo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>346, 3</value>
+    <value>340, 3</value>
   </data>
   <data name="radioBtnExceptionNo.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 25</value>
@@ -2512,7 +2512,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblInsuranceComapny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 37</value>
+    <value>225, 37</value>
   </data>
   <data name="lblInsuranceComapny.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2560,7 +2560,7 @@
     <value>5</value>
   </data>
   <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,62327,Percent,24,37673,Absolute,98" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnExceptionYes" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnExceptionNo" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblInsuranceComapny" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,59206,Percent,31,40794,Absolute,104" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2809,10 +2809,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnFemale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 3</value>
+    <value>344, 3</value>
   </data>
   <data name="radioBtnFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 32</value>
+    <value>95, 32</value>
   </data>
   <data name="radioBtnFemale.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2845,10 +2845,10 @@
     <value>NoControl</value>
   </data>
   <data name="radioBtnMale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>213, 3</value>
+    <value>230, 3</value>
   </data>
   <data name="radioBtnMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 32</value>
+    <value>108, 32</value>
   </data>
   <data name="radioBtnMale.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2893,7 +2893,7 @@
     <value>11</value>
   </data>
   <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnFemale" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblGender" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnMale" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,66,06061,Percent,33,93939,Absolute,124" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioBtnFemale" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblGender" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioBtnMale" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,66,54676,Percent,33,45324,Absolute,100" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -5679,11 +5679,14 @@
   <data name="cmbWageCategory.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbWageCategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbWageCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>224, 3</value>
   </data>
   <data name="cmbWageCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 27</value>
+    <value>215, 29</value>
   </data>
   <data name="cmbWageCategory.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5862,11 +5865,14 @@
   <data name="cmbTeam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbTeam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbTeam.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 3</value>
   </data>
   <data name="cmbTeam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 27</value>
+    <value>192, 29</value>
   </data>
   <data name="cmbTeam.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5988,11 +5994,14 @@
   <data name="cmbDivision.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbDivision.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbDivision.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 3</value>
   </data>
   <data name="cmbDivision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 27</value>
+    <value>192, 29</value>
   </data>
   <data name="cmbDivision.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6136,10 +6145,10 @@
     <value>Fill</value>
   </data>
   <data name="txtHoursPerWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 3</value>
+    <value>446, 3</value>
   </data>
   <data name="txtHoursPerWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 20</value>
+    <value>45, 20</value>
   </data>
   <data name="txtHoursPerWeek.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -6166,7 +6175,7 @@
     <value>3, 0</value>
   </data>
   <data name="lblWorkHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 37</value>
+    <value>149, 37</value>
   </data>
   <data name="lblWorkHours.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -6195,11 +6204,14 @@
   <data name="cmbWorkHours.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbWorkHours.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbWorkHours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 3</value>
+    <value>158, 3</value>
   </data>
   <data name="cmbWorkHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 27</value>
+    <value>282, 29</value>
   </data>
   <data name="cmbWorkHours.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -6241,7 +6253,7 @@
     <value>10</value>
   </data>
   <data name="tableLayoutPanel40.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtHoursPerWeek" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblWorkHours" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkHours" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,02304,Percent,64,97696,Absolute,56" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtHoursPerWeek" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblWorkHours" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cmbWorkHours" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,02304,Percent,64,97696,Absolute,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,37" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel39.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -6288,11 +6300,14 @@
   <data name="cmbWorkExpiration.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbWorkExpiration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbWorkExpiration.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 3</value>
   </data>
   <data name="cmbWorkExpiration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 27</value>
+    <value>282, 29</value>
   </data>
   <data name="cmbWorkExpiration.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6381,11 +6396,14 @@
   <data name="cmbWorkPosition.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbWorkPosition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbWorkPosition.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 3</value>
   </data>
   <data name="cmbWorkPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 27</value>
+    <value>282, 29</value>
   </data>
   <data name="cmbWorkPosition.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -6474,11 +6492,14 @@
   <data name="cmbWorkType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="cmbWorkType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
   <data name="cmbWorkType.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 3</value>
   </data>
   <data name="cmbWorkType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 27</value>
+    <value>282, 29</value>
   </data>
   <data name="cmbWorkType.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
