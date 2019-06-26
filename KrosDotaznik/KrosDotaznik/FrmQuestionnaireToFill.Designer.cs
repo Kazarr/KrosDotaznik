@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuestionnaireToFill));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRetiredSince = new System.Windows.Forms.Label();
             this.lblPensionRecipient = new System.Windows.Forms.Label();
             this.lblHandicapInPercentage = new System.Windows.Forms.Label();
@@ -404,9 +404,9 @@
             // 
             // txtTempHouseNumber
             // 
-            resources.ApplyResources(this.txtTempHouseNumber, "txtTempHouseNumber");
             this.txtTempHouseNumber.BackColor = System.Drawing.Color.Silver;
             this.txtTempHouseNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtTempHouseNumber, "txtTempHouseNumber");
             this.txtTempHouseNumber.Name = "txtTempHouseNumber";
             // 
             // lblTempHouseNumber
@@ -416,23 +416,23 @@
             // 
             // txtTempPostalCode
             // 
-            resources.ApplyResources(this.txtTempPostalCode, "txtTempPostalCode");
             this.txtTempPostalCode.BackColor = System.Drawing.Color.Silver;
             this.txtTempPostalCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtTempPostalCode, "txtTempPostalCode");
             this.txtTempPostalCode.Name = "txtTempPostalCode";
             // 
             // txtTempCity
             // 
-            resources.ApplyResources(this.txtTempCity, "txtTempCity");
             this.txtTempCity.BackColor = System.Drawing.Color.Silver;
             this.txtTempCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtTempCity, "txtTempCity");
             this.txtTempCity.Name = "txtTempCity";
             // 
             // txtTempStreet
             // 
-            resources.ApplyResources(this.txtTempStreet, "txtTempStreet");
             this.txtTempStreet.BackColor = System.Drawing.Color.Silver;
             this.txtTempStreet.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtTempStreet, "txtTempStreet");
             this.txtTempStreet.Name = "txtTempStreet";
             // 
             // lblPostalCodeTemp
@@ -452,9 +452,9 @@
             // 
             // txtHouseNumber
             // 
-            resources.ApplyResources(this.txtHouseNumber, "txtHouseNumber");
             this.txtHouseNumber.BackColor = System.Drawing.Color.Silver;
             this.txtHouseNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtHouseNumber, "txtHouseNumber");
             this.txtHouseNumber.Name = "txtHouseNumber";
             // 
             // lblHouseNumber
@@ -464,23 +464,23 @@
             // 
             // txtPostalCode
             // 
-            resources.ApplyResources(this.txtPostalCode, "txtPostalCode");
             this.txtPostalCode.BackColor = System.Drawing.Color.Silver;
             this.txtPostalCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtPostalCode, "txtPostalCode");
             this.txtPostalCode.Name = "txtPostalCode";
             // 
             // txtCity
             // 
-            resources.ApplyResources(this.txtCity, "txtCity");
             this.txtCity.BackColor = System.Drawing.Color.Silver;
             this.txtCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtCity, "txtCity");
             this.txtCity.Name = "txtCity";
             // 
             // txtStreet
             // 
-            resources.ApplyResources(this.txtStreet, "txtStreet");
             this.txtStreet.BackColor = System.Drawing.Color.Silver;
             this.txtStreet.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtStreet, "txtStreet");
             this.txtStreet.Name = "txtStreet";
             // 
             // lblPostalCode
@@ -520,30 +520,30 @@
             // 
             // cmbCurrentEduLevel
             // 
-            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
             this.cmbCurrentEduLevel.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbCurrentEduLevel, "cmbCurrentEduLevel");
             this.cmbCurrentEduLevel.FormattingEnabled = true;
             this.cmbCurrentEduLevel.Name = "cmbCurrentEduLevel";
             // 
             // txtCurrentSchoolMajor
             // 
-            resources.ApplyResources(this.txtCurrentSchoolMajor, "txtCurrentSchoolMajor");
             this.txtCurrentSchoolMajor.BackColor = System.Drawing.Color.Silver;
             this.txtCurrentSchoolMajor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtCurrentSchoolMajor, "txtCurrentSchoolMajor");
             this.txtCurrentSchoolMajor.Name = "txtCurrentSchoolMajor";
             // 
             // txtCurrentSchoolEndYear
             // 
-            resources.ApplyResources(this.txtCurrentSchoolEndYear, "txtCurrentSchoolEndYear");
             this.txtCurrentSchoolEndYear.BackColor = System.Drawing.Color.Silver;
             this.txtCurrentSchoolEndYear.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtCurrentSchoolEndYear, "txtCurrentSchoolEndYear");
             this.txtCurrentSchoolEndYear.Name = "txtCurrentSchoolEndYear";
             // 
             // txtCurrentSchool
             // 
-            resources.ApplyResources(this.txtCurrentSchool, "txtCurrentSchool");
             this.txtCurrentSchool.BackColor = System.Drawing.Color.Silver;
             this.txtCurrentSchool.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtCurrentSchool, "txtCurrentSchool");
             this.txtCurrentSchool.Name = "txtCurrentSchool";
             // 
             // lblCurrEducationLevel
@@ -563,30 +563,30 @@
             // 
             // cmbEduLevel
             // 
-            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
             this.cmbEduLevel.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbEduLevel, "cmbEduLevel");
             this.cmbEduLevel.FormattingEnabled = true;
             this.cmbEduLevel.Name = "cmbEduLevel";
             // 
             // txtHightestSchoolMajor
             // 
-            resources.ApplyResources(this.txtHightestSchoolMajor, "txtHightestSchoolMajor");
             this.txtHightestSchoolMajor.BackColor = System.Drawing.Color.Silver;
             this.txtHightestSchoolMajor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtHightestSchoolMajor, "txtHightestSchoolMajor");
             this.txtHightestSchoolMajor.Name = "txtHightestSchoolMajor";
             // 
             // txtHighestSchoolEndYear
             // 
-            resources.ApplyResources(this.txtHighestSchoolEndYear, "txtHighestSchoolEndYear");
             this.txtHighestSchoolEndYear.BackColor = System.Drawing.Color.Silver;
             this.txtHighestSchoolEndYear.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtHighestSchoolEndYear, "txtHighestSchoolEndYear");
             this.txtHighestSchoolEndYear.Name = "txtHighestSchoolEndYear";
             // 
             // txtHighestSchool
             // 
-            resources.ApplyResources(this.txtHighestSchool, "txtHighestSchool");
             this.txtHighestSchool.BackColor = System.Drawing.Color.Silver;
             this.txtHighestSchool.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtHighestSchool, "txtHighestSchool");
             this.txtHighestSchool.Name = "txtHighestSchool";
             // 
             // lblEducationLevel
@@ -629,7 +629,6 @@
             // 
             // tPagePersonalInfo
             // 
-            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tPagePersonalInfo.Controls.Add(this.tableLayoutPanel12);
             this.tPagePersonalInfo.Controls.Add(this.tableLayoutPanel11);
@@ -649,6 +648,7 @@
             this.tPagePersonalInfo.Controls.Add(this.layoutPanelSurname);
             this.tPagePersonalInfo.Controls.Add(this.layoutPaneltitle);
             this.tPagePersonalInfo.Controls.Add(this.layoutPanelName);
+            resources.ApplyResources(this.tPagePersonalInfo, "tPagePersonalInfo");
             this.tPagePersonalInfo.Name = "tPagePersonalInfo";
             // 
             // tableLayoutPanel12
@@ -673,8 +673,8 @@
             // 
             // cmbRetirement
             // 
-            resources.ApplyResources(this.cmbRetirement, "cmbRetirement");
             this.cmbRetirement.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbRetirement, "cmbRetirement");
             this.cmbRetirement.FormattingEnabled = true;
             this.cmbRetirement.Name = "cmbRetirement";
             // 
@@ -687,9 +687,9 @@
             // 
             // txtHndcpInPercentage
             // 
-            resources.ApplyResources(this.txtHndcpInPercentage, "txtHndcpInPercentage");
             this.txtHndcpInPercentage.BackColor = System.Drawing.Color.Silver;
             this.txtHndcpInPercentage.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtHndcpInPercentage, "txtHndcpInPercentage");
             this.txtHndcpInPercentage.Name = "txtHndcpInPercentage";
             this.txtHndcpInPercentage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHndcpInPercentage_KeyPress);
             // 
@@ -783,8 +783,8 @@
             // 
             // cmbHealthInsurance
             // 
-            resources.ApplyResources(this.cmbHealthInsurance, "cmbHealthInsurance");
             this.cmbHealthInsurance.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbHealthInsurance, "cmbHealthInsurance");
             this.cmbHealthInsurance.FormattingEnabled = true;
             this.cmbHealthInsurance.Name = "cmbHealthInsurance";
             // 
@@ -803,9 +803,9 @@
             // 
             // txtIban
             // 
-            resources.ApplyResources(this.txtIban, "txtIban");
             this.txtIban.BackColor = System.Drawing.Color.Silver;
             this.txtIban.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtIban, "txtIban");
             this.txtIban.Name = "txtIban";
             // 
             // panel5
@@ -823,9 +823,9 @@
             // 
             // txtCitizenShip
             // 
-            resources.ApplyResources(this.txtCitizenShip, "txtCitizenShip");
             this.txtCitizenShip.BackColor = System.Drawing.Color.Silver;
             this.txtCitizenShip.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtCitizenShip, "txtCitizenShip");
             this.txtCitizenShip.Name = "txtCitizenShip";
             // 
             // tableLayoutPanel3
@@ -861,22 +861,22 @@
             // 
             // txtNationality
             // 
-            resources.ApplyResources(this.txtNationality, "txtNationality");
             this.txtNationality.BackColor = System.Drawing.Color.Silver;
             this.txtNationality.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtNationality, "txtNationality");
             this.txtNationality.Name = "txtNationality";
             // 
             // txtPlaceOfBirth
             // 
-            resources.ApplyResources(this.txtPlaceOfBirth, "txtPlaceOfBirth");
             this.txtPlaceOfBirth.BackColor = System.Drawing.Color.Silver;
             this.txtPlaceOfBirth.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtPlaceOfBirth, "txtPlaceOfBirth");
             this.txtPlaceOfBirth.Name = "txtPlaceOfBirth";
             // 
             // panel4
             // 
-            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.Name = "panel4";
             // 
             // tableLayoutPanel1
@@ -894,30 +894,30 @@
             // 
             // cmbState
             // 
-            resources.ApplyResources(this.cmbState, "cmbState");
             this.cmbState.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbState, "cmbState");
             this.cmbState.FormattingEnabled = true;
             this.cmbState.Name = "cmbState";
             // 
             // txtIdentityCard
             // 
-            resources.ApplyResources(this.txtIdentityCard, "txtIdentityCard");
             this.txtIdentityCard.BackColor = System.Drawing.Color.Silver;
             this.txtIdentityCard.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtIdentityCard, "txtIdentityCard");
             this.txtIdentityCard.Name = "txtIdentityCard";
             // 
             // txtRegionOfBirth
             // 
-            resources.ApplyResources(this.txtRegionOfBirth, "txtRegionOfBirth");
             this.txtRegionOfBirth.BackColor = System.Drawing.Color.Silver;
             this.txtRegionOfBirth.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtRegionOfBirth, "txtRegionOfBirth");
             this.txtRegionOfBirth.Name = "txtRegionOfBirth";
             // 
             // txtPersonalId
             // 
-            resources.ApplyResources(this.txtPersonalId, "txtPersonalId");
             this.txtPersonalId.BackColor = System.Drawing.Color.Silver;
             this.txtPersonalId.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtPersonalId, "txtPersonalId");
             this.txtPersonalId.Name = "txtPersonalId";
             // 
             // layoutPanelSurname
@@ -931,16 +931,16 @@
             // 
             // txtMaidenName
             // 
-            resources.ApplyResources(this.txtMaidenName, "txtMaidenName");
             this.txtMaidenName.BackColor = System.Drawing.Color.Silver;
             this.txtMaidenName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtMaidenName, "txtMaidenName");
             this.txtMaidenName.Name = "txtMaidenName";
             // 
             // txtSurname
             // 
-            resources.ApplyResources(this.txtSurname, "txtSurname");
             this.txtSurname.BackColor = System.Drawing.Color.Silver;
             this.txtSurname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtSurname, "txtSurname");
             this.txtSurname.Name = "txtSurname";
             // 
             // layoutPaneltitle
@@ -954,9 +954,9 @@
             // 
             // txtTitle
             // 
-            resources.ApplyResources(this.txtTitle, "txtTitle");
             this.txtTitle.BackColor = System.Drawing.Color.Silver;
             this.txtTitle.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtTitle, "txtTitle");
             this.txtTitle.Name = "txtTitle";
             // 
             // datePickerBirth
@@ -986,21 +986,20 @@
             // 
             // txtPreviousName
             // 
-            resources.ApplyResources(this.txtPreviousName, "txtPreviousName");
             this.txtPreviousName.BackColor = System.Drawing.Color.Silver;
             this.txtPreviousName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtPreviousName, "txtPreviousName");
             this.txtPreviousName.Name = "txtPreviousName";
             // 
             // txtName
             // 
-            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.BackColor = System.Drawing.Color.Silver;
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
             // 
             // tPageContactAdress
             // 
-            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tPageContactAdress.Controls.Add(this.tableLayoutPanel50);
             this.tPageContactAdress.Controls.Add(this.tableLayoutPanel49);
@@ -1018,6 +1017,7 @@
             this.tPageContactAdress.Controls.Add(this.panel3);
             this.tPageContactAdress.Controls.Add(this.tableLayoutPanel14);
             this.tPageContactAdress.Controls.Add(this.tableLayoutPanel13);
+            resources.ApplyResources(this.tPageContactAdress, "tPageContactAdress");
             this.tPageContactAdress.Name = "tPageContactAdress";
             // 
             // tableLayoutPanel50
@@ -1035,8 +1035,8 @@
             // 
             // cmbTempCountry
             // 
-            resources.ApplyResources(this.cmbTempCountry, "cmbTempCountry");
             this.cmbTempCountry.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbTempCountry, "cmbTempCountry");
             this.cmbTempCountry.FormattingEnabled = true;
             this.cmbTempCountry.Name = "cmbTempCountry";
             // 
@@ -1060,8 +1060,8 @@
             // 
             // cmbCountry
             // 
-            resources.ApplyResources(this.cmbCountry, "cmbCountry");
             this.cmbCountry.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbCountry, "cmbCountry");
             this.cmbCountry.FormattingEnabled = true;
             this.cmbCountry.Name = "cmbCountry";
             // 
@@ -1157,9 +1157,9 @@
             // 
             // txtEmail
             // 
-            resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.BackColor = System.Drawing.Color.Silver;
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.Name = "txtEmail";
             // 
             // tableLayoutPanel13
@@ -1171,17 +1171,17 @@
             // 
             // txtPhoneNumber
             // 
-            resources.ApplyResources(this.txtPhoneNumber, "txtPhoneNumber");
             this.txtPhoneNumber.BackColor = System.Drawing.Color.Silver;
             this.txtPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtPhoneNumber, "txtPhoneNumber");
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             // 
             // tPagePassword
             // 
-            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tPagePassword.Controls.Add(this.tableLayoutPanel24);
             this.tPagePassword.Controls.Add(this.tableLayoutPanel23);
+            resources.ApplyResources(this.tPagePassword, "tPagePassword");
             this.tPagePassword.Name = "tPagePassword";
             // 
             // tableLayoutPanel24
@@ -1193,8 +1193,8 @@
             // 
             // txtPinAlarm
             // 
-            resources.ApplyResources(this.txtPinAlarm, "txtPinAlarm");
             this.txtPinAlarm.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.txtPinAlarm, "txtPinAlarm");
             this.txtPinAlarm.Name = "txtPinAlarm";
             // 
             // tableLayoutPanel23
@@ -1206,13 +1206,12 @@
             // 
             // txtPassword
             // 
-            resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.Name = "txtPassword";
             // 
             // tPageEducation
             // 
-            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tPageEducation.Controls.Add(this.tableLayoutPanel29);
             this.tPageEducation.Controls.Add(this.tableLayoutPanel30);
@@ -1225,6 +1224,7 @@
             this.tPageEducation.Controls.Add(this.tableLayoutPanel25);
             this.tPageEducation.Controls.Add(this.lblCurrentEdu);
             this.tPageEducation.Controls.Add(this.lblHighEdu);
+            resources.ApplyResources(this.tPageEducation, "tPageEducation");
             this.tPageEducation.Name = "tPageEducation";
             // 
             // tableLayoutPanel29
@@ -1306,12 +1306,12 @@
             // 
             // tPagePreviousJob
             // 
-            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tPagePreviousJob.Controls.Add(this.tableLayoutPanel33);
             this.tPagePreviousJob.Controls.Add(this.tableLayoutPanel34);
             this.tPagePreviousJob.Controls.Add(this.tableLayoutPanel35);
             this.tPagePreviousJob.Controls.Add(this.tableLayoutPanel36);
+            resources.ApplyResources(this.tPagePreviousJob, "tPagePreviousJob");
             this.tPagePreviousJob.Name = "tPagePreviousJob";
             // 
             // tableLayoutPanel33
@@ -1346,9 +1346,9 @@
             // 
             // txtWorkPosition
             // 
-            resources.ApplyResources(this.txtWorkPosition, "txtWorkPosition");
             this.txtWorkPosition.BackColor = System.Drawing.Color.Silver;
             this.txtWorkPosition.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtWorkPosition, "txtWorkPosition");
             this.txtWorkPosition.Name = "txtWorkPosition";
             // 
             // tableLayoutPanel35
@@ -1383,15 +1383,15 @@
             // 
             // txtEmployeer
             // 
-            resources.ApplyResources(this.txtEmployeer, "txtEmployeer");
             this.txtEmployeer.BackColor = System.Drawing.Color.Silver;
             this.txtEmployeer.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtEmployeer, "txtEmployeer");
             this.txtEmployeer.Name = "txtEmployeer";
             // 
             // tPageChildInfo
             // 
-            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Controls.Add(this.dgvChildren);
+            resources.ApplyResources(this.tPageChildInfo, "tPageChildInfo");
             this.tPageChildInfo.Name = "tPageChildInfo";
             this.tPageChildInfo.UseVisualStyleBackColor = true;
             // 
@@ -1432,9 +1432,9 @@
             // colBirthDate
             // 
             this.colBirthDate.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle1.Format = "d";
-            dataGridViewCellStyle1.NullValue = "DateTime.Now";
-            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Format = "d";
+            dataGridViewCellStyle3.NullValue = "DateTime.Now";
+            this.colBirthDate.DefaultCellStyle = dataGridViewCellStyle3;
             resources.ApplyResources(this.colBirthDate, "colBirthDate");
             this.colBirthDate.Name = "colBirthDate";
             // 
@@ -1452,7 +1452,6 @@
             // 
             // tPageJobSpecification
             // 
-            resources.ApplyResources(this.tPageJobSpecification, "tPageJobSpecification");
             this.tPageJobSpecification.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tPageJobSpecification.Controls.Add(this.panel11);
             this.tPageJobSpecification.Controls.Add(this.panel10);
@@ -1468,6 +1467,7 @@
             this.tPageJobSpecification.Controls.Add(this.tableLayoutPanel39);
             this.tPageJobSpecification.Controls.Add(this.tableLayoutPanel38);
             this.tPageJobSpecification.Controls.Add(this.tableLayoutPanel37);
+            resources.ApplyResources(this.tPageJobSpecification, "tPageJobSpecification");
             this.tPageJobSpecification.Name = "tPageJobSpecification";
             // 
             // panel11
@@ -1545,8 +1545,8 @@
             // 
             // cmbWageCategory
             // 
-            resources.ApplyResources(this.cmbWageCategory, "cmbWageCategory");
             this.cmbWageCategory.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWageCategory, "cmbWageCategory");
             this.cmbWageCategory.FormattingEnabled = true;
             this.cmbWageCategory.Name = "cmbWageCategory";
             // 
@@ -1569,9 +1569,9 @@
             // 
             // txtSalary
             // 
-            resources.ApplyResources(this.txtSalary, "txtSalary");
             this.txtSalary.BackColor = System.Drawing.Color.Silver;
             this.txtSalary.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtSalary, "txtSalary");
             this.txtSalary.Name = "txtSalary";
             // 
             // tableLayoutPanel43
@@ -1583,8 +1583,8 @@
             // 
             // cmbTeam
             // 
-            resources.ApplyResources(this.cmbTeam, "cmbTeam");
             this.cmbTeam.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbTeam, "cmbTeam");
             this.cmbTeam.FormattingEnabled = true;
             this.cmbTeam.Name = "cmbTeam";
             // 
@@ -1607,8 +1607,8 @@
             // 
             // cmbDivision
             // 
-            resources.ApplyResources(this.cmbDivision, "cmbDivision");
             this.cmbDivision.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbDivision, "cmbDivision");
             this.cmbDivision.FormattingEnabled = true;
             this.cmbDivision.Name = "cmbDivision";
             // 
@@ -1626,9 +1626,9 @@
             // 
             // txtPlaceOfWork
             // 
-            resources.ApplyResources(this.txtPlaceOfWork, "txtPlaceOfWork");
             this.txtPlaceOfWork.BackColor = System.Drawing.Color.Silver;
             this.txtPlaceOfWork.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtPlaceOfWork, "txtPlaceOfWork");
             this.txtPlaceOfWork.Name = "txtPlaceOfWork";
             // 
             // tableLayoutPanel40
@@ -1641,9 +1641,9 @@
             // 
             // txtHoursPerWeek
             // 
-            resources.ApplyResources(this.txtHoursPerWeek, "txtHoursPerWeek");
             this.txtHoursPerWeek.BackColor = System.Drawing.Color.Silver;
             this.txtHoursPerWeek.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtHoursPerWeek, "txtHoursPerWeek");
             this.txtHoursPerWeek.Name = "txtHoursPerWeek";
             // 
             // lblWorkHours
@@ -1653,8 +1653,8 @@
             // 
             // cmbWorkHours
             // 
-            resources.ApplyResources(this.cmbWorkHours, "cmbWorkHours");
             this.cmbWorkHours.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWorkHours, "cmbWorkHours");
             this.cmbWorkHours.FormattingEnabled = true;
             this.cmbWorkHours.Name = "cmbWorkHours";
             // 
@@ -1672,8 +1672,8 @@
             // 
             // cmbWorkExpiration
             // 
-            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
             this.cmbWorkExpiration.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWorkExpiration, "cmbWorkExpiration");
             this.cmbWorkExpiration.FormattingEnabled = true;
             this.cmbWorkExpiration.Name = "cmbWorkExpiration";
             // 
@@ -1691,8 +1691,8 @@
             // 
             // cmbWorkPosition
             // 
-            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
             this.cmbWorkPosition.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWorkPosition, "cmbWorkPosition");
             this.cmbWorkPosition.FormattingEnabled = true;
             this.cmbWorkPosition.Name = "cmbWorkPosition";
             // 
@@ -1710,17 +1710,17 @@
             // 
             // cmbWorkType
             // 
-            resources.ApplyResources(this.cmbWorkType, "cmbWorkType");
             this.cmbWorkType.BackColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.cmbWorkType, "cmbWorkType");
             this.cmbWorkType.FormattingEnabled = true;
             this.cmbWorkType.Name = "cmbWorkType";
             // 
             // btnSave
             // 
-            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.btnSave.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.ForeColor = System.Drawing.Color.Black;
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -1728,7 +1728,6 @@
             // 
             // saveFileData
             // 
-            resources.ApplyResources(this.saveFileData, "saveFileData");
             this.saveFileData.RestoreDirectory = true;
             // 
             // dataGridViewTextBoxColumn1
@@ -1746,9 +1745,9 @@
             // calendarColumn1
             // 
             this.calendarColumn1.DataPropertyName = "BirthDate";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = "DateTime.Now";
-            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Format = "d";
+            dataGridViewCellStyle4.NullValue = "DateTime.Now";
+            this.calendarColumn1.DefaultCellStyle = dataGridViewCellStyle4;
             resources.ApplyResources(this.calendarColumn1, "calendarColumn1");
             this.calendarColumn1.Name = "calendarColumn1";
             // 
@@ -1766,15 +1765,15 @@
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.Gray;
             this.panel2.Controls.Add(this.btnCancel);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // btnCancel
             // 
-            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.btnCancel.FlatAppearance.BorderSize = 0;
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
@@ -1784,17 +1783,17 @@
             // 
             // panel9
             // 
-            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.BackColor = System.Drawing.Color.Gray;
             this.panel9.Controls.Add(this.btnSave);
+            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Name = "panel9";
             // 
             // panelTabControl
             // 
-            resources.ApplyResources(this.panelTabControl, "panelTabControl");
             this.panelTabControl.BackColor = System.Drawing.Color.Gray;
             this.panelTabControl.Controls.Add(this.btnSaveQsr);
             this.panelTabControl.Controls.Add(this.tabCntrl);
+            resources.ApplyResources(this.panelTabControl, "panelTabControl");
             this.panelTabControl.Name = "panelTabControl";
             // 
             // btnSaveQsr

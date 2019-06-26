@@ -123,6 +123,9 @@
   <data name="btnFill" xml:space="preserve">
     <value>Vyplň dotazník</value>
   </data>
+  <data name="frmMain" xml:space="preserve">
+    <value>Dotazník</value>
+  </data>
   <data name="msgWarning" xml:space="preserve">
     <value>Poškodený súbor</value>
   </data>

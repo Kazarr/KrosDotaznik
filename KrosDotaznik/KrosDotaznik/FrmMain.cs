@@ -48,6 +48,7 @@ namespace KrosDotaznik
         {
             btnCreate.Text = Resources.MainForm.btnCreate;
             btnFill.Text = Resources.MainForm.btnFill;
+            this.Text = Resources.MainForm.frmMain;
         }
         #endregion
 

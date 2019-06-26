@@ -37,8 +37,8 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.btnCreate, "btnCreate");
+            this.btnCreate.BackColor = System.Drawing.Color.White;
             this.btnCreate.Image = global::KrosDotaznik.Properties.Resources.fillI;
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.UseVisualStyleBackColor = false;
@@ -46,8 +46,8 @@
             // 
             // btnFill
             // 
-            this.btnFill.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.btnFill, "btnFill");
+            this.btnFill.BackColor = System.Drawing.Color.White;
             this.btnFill.Image = global::KrosDotaznik.Properties.Resources.createI;
             this.btnFill.Name = "btnFill";
             this.btnFill.UseVisualStyleBackColor = false;
