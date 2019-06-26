@@ -123,6 +123,9 @@
   <data name="btnFill" xml:space="preserve">
     <value>Fill questionnaire</value>
   </data>
+  <data name="frmMain" xml:space="preserve">
+    <value>Questionnaire</value>
+  </data>
   <data name="msgWarning" xml:space="preserve">
     <value>Damaged file</value>
   </data>

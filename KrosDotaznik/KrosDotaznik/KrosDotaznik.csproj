@@ -95,6 +95,9 @@
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.sk.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmQuestionnaireCreate.resx">
       <DependentUpon>FrmQuestionnaireCreate.cs</DependentUpon>
     </EmbeddedResource>
