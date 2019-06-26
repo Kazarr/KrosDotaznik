@@ -60,21 +60,21 @@ namespace KrosDotaznik
 
         private void btnFill_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFile = new OpenFileDialog()
+            using (openFileKpq)
             {
-                Filter = "Questionare (*.kpq)|*.kpq",
-                Title = "Choose Questionare",
-                RestoreDirectory = true
-            };
-            if(openFile.ShowDialog() == DialogResult.OK)
-            {
-                try
+                openFileKpq.Filter = "Questionare (*.kpq)|*.kpq";
+                openFileKpq.Title = "Choose Questionare";
+                openFileKpq.FileName = "Default.kpq";
+                if (openFileKpq.ShowDialog() == DialogResult.OK)
                 {
-                    _mainViewModel.OpenQuestionnaireToFill(openFile.FileName);
-                }
-                catch (Newtonsoft.Json.JsonReaderException)
-                {
-                    MessageBox.Show(Resources.MainForm.msgWarningText, Resources.MainForm.msgWarning, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    try
+                    {
+                        _mainViewModel.OpenQuestionnaireToFill(openFileKpq.FileName);
+                    }
+                    catch (Newtonsoft.Json.JsonReaderException)
+                    {
+                        MessageBox.Show(Resources.MainForm.msgWarningText, Resources.MainForm.msgWarning, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
